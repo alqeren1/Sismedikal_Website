@@ -26,13 +26,14 @@ export default function Navbar() {
     router.push("/how");
   };
   return (
-    <div className="sticky top-0 p-4 flex flex-row bg-[#fffffd] rounded-b-3xl items-center">
+    <div className="sticky top-0 p-4 px-10 flex flex-row bg-[#ffffff]  rounded-b-lg items-center  ">
       <div className="flex   justify-between w-full items-center">
         <img src="/sismed.png" alt="Logo" className=" ml-10 w-[250px] mt-1" />
         <div className="flex mr-10">
           <div className="text-gray-700 text-lg p-2 hover:cursor-pointer rounded hover:text-blue-400 mr-4">
             Hakkımızda
           </div>
+
           <div className="text-gray-700 text-lg p-2 hover:cursor-pointer rounded  hover:text-blue-400 mr-4">
             Ürünlerimiz
           </div>
