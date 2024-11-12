@@ -26,7 +26,7 @@ export default function Bottombar() {
     router.push("/how");
   };
   return (
-    <div className="w-full h-auto bg-[#003a7a] drop-shadow-xl text-white flex items-center justify-center ">
+    <div className="w-full h-auto bg-[#003a7a]  text-white flex items-center justify-center ">
       <div className="p-8 mr-40">
         <div className="text-2xl mb-4">Ankara Ofis</div>
         <div>(0312) 426 0663 - Fax : (0312) 426 7401</div>
