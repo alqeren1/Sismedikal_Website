@@ -8,10 +8,6 @@ const nextConfig = {
         source: "/hakkimizda",
         destination: "/content/about", // Map /hakkimizda to the correct file
       },
-      {
-        source: "/urunlerimiz",
-        destination: "/content/products", // Map /hakkimizda to the correct file
-      },
     ];
   },
 };
