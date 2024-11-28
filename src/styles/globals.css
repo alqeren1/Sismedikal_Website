@@ -25,3 +25,50 @@ body {
     text-wrap: balance;
   }
 }
+/* Pen-style highlight */
+.highlight-pen {
+  position: relative;
+  display: inline-block;
+  color: #fff !important; /* Ensures the text color is white */
+  background: none !important; /* Removes any default highlight background */
+  padding: 0; /* Ensures no extra padding from default styles */
+  z-index: 0; /* Keeps the text above other content */
+}
+
+.highlight-pen::before {
+  content: "";
+  position: absolute;
+  z-index: -1; /* Puts the highlight on top of the text */
+  top: -12%; /* Aligns the highlight with the text */
+  left: -4%; /* Extends the highlight slightly to the left */
+  width: 110%; /* Extends the highlight slightly to the right */
+  height: 1.2em; /* Makes the highlight tall enough to fully cover the text */
+  background: linear-gradient(90deg, #5091fa, #3c82f5); /* Pen-like gradient */
+  border-radius: 2px; /* Smooth edges */
+  transform: rotate(-1deg); /* Slight angle for a natural look */
+  opacity: 0.9; /* Slight transparency */
+}
+
+/* Pen-style highlight */
+.highlight-pen2 {
+  position: relative;
+  display: inline-block;
+  color: #fff !important; /* Ensures the text color is white */
+  background: none !important; /* Removes any default highlight background */
+  padding: 0; /* Ensures no extra padding from default styles */
+  z-index: 0; /* Keeps the text above other content */
+}
+
+.highlight-pen2::before {
+  content: "";
+  position: absolute;
+  z-index: -1; /* Puts the highlight on top of the text */
+  top: -12%; /* Aligns the highlight with the text */
+  left: -5%; /* Extends the highlight slightly to the left */
+  width: 110%; /* Extends the highlight slightly to the right */
+  height: 1.2em; /* Makes the highlight tall enough to fully cover the text */
+  background: linear-gradient(90deg, #5091fa, #3c82f5); /* Pen-like gradient */
+  border-radius: 2px; /* Smooth edges */
+  transform: rotate(0deg); /* Slight angle for a natural look */
+  opacity: 0.9; /* Slight transparency */
+}
