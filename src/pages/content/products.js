@@ -66,14 +66,14 @@ export default function ProductsSection() {
               onMouseEnter={() => setHoveredCategory(idx)}
               onMouseLeave={() => setHoveredCategory(null)}
             >
-              <h3 className="text-xl font-semibold text-blue-600 mb-8 text-center">{category.title}</h3>
-              <ul className="space-y-6">
+              <h3 className="text-xl text-bl font-semibold text-blue-600 mb-8 text-center">{category.title}</h3>
+              <ul className="space-y-6  text-black">
                 {category.subcategories.map((sub, subIdx) => (
                   <li
                     key={subIdx}
                     className={`
                       flex items-center transition-all duration-500 cursor-pointer
-                      ${hoveredCategory === idx ? 'text-blue-500' : 'text-gray-700'}
+                      
                       hover:translate-x-2
                     `}
                   >
@@ -94,7 +94,7 @@ export default function ProductsSection() {
         {/* Features Section */}
         <div id="features-section" className="py-16">
           <h3 className="text-3xl font-bold text-blue-800 mb-12 text-center">
-            Neden Bizi Tercih Etmelisiniz?H
+            Neden Bizi Tercih Etmelisiniz?
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, idx) => (
