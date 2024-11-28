@@ -10,7 +10,11 @@ const nextConfig = {
       },
       {
         source: "/urunlerimiz",
-        destination: "/content/products", // Map /hakkimizda to the correct file
+        destination: "/content/products", 
+      },
+      {
+        source: "/urunlerimiz/g-serisi-kultur-medyumlari",
+        destination: "/content/products-detail/gseriesculturemed",
       },
     ];
   },

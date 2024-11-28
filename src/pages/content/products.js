@@ -1,18 +1,30 @@
 import { useState, useEffect } from 'react';
 import { ChevronRight, Activity, Shield, Clock, Zap } from 'lucide-react';
+import { useRouter } from "next/router";
 
 const categories = [
   {
     title: 'VITROLIFE SOLÜSYON',
-    subcategories: ['G-SERİSİ KÜLTÜR MEDYUMLARI', 'ALTERNATİF KÜLTÜR MEDYUMLARI', 'SPERM YIKAMA VE DONDURMA']
+    subcategories: [
+      { name: 'G-SERİSİ KÜLTÜR MEDYUMLARI', path: '/urunlerimiz/g-serisi-kultur-medyumlari' },
+      { name: 'ALTERNATİF KÜLTÜR MEDYUMLARI', path: '/products/solutions/alternative' },
+      { name: 'SPERM YIKAMA VE DONDURMA', path: '/products/solutions/sperm-processing' }
+    ]
   },
   {
     title: 'VITROLIFE SARF',
-    subcategories: ['OOSİT TOPLAMA İĞNELERİ', 'MANİPÜLASYON PİPETLERİ', 'VITROLIFE KÜLTÜR KAPLARI']
+    subcategories: [
+      { name: 'OOSİT TOPLAMA İĞNELERİ', path: '/products/consumables/oocyte-needles' },
+      { name: 'MANİPÜLASYON PİPETLERİ', path: '/products/consumables/pipettes' },
+      { name: 'VITROLIFE KÜLTÜR KAPLARI', path: '/products/consumables/culture-dishes' }
+    ]
   },
   {
     title: 'VITROLIFE CİHAZ',
-    subcategories: ['EMBRYOSCOPE', 'OCTAX LAZER']
+    subcategories: [
+      { name: 'EMBRYOSCOPE', path: '/products/devices/embryoscope' },
+      { name: 'OCTAX LAZER', path: '/products/devices/octax-laser' }
+    ]
   }
 ];
 
@@ -26,6 +38,7 @@ const features = [
 export default function ProductsSection() {
   const [hoveredCategory, setHoveredCategory] = useState(null);
   const [animateFeatures, setAnimateFeatures] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,6 +63,10 @@ export default function ProductsSection() {
     };
   }, []);
 
+  const handleSubcategoryClick = (path) => {
+    router.push(path);
+  };
+
   return (
     <div className="bg-gradient-to-b from-white to-blue-100">
       <div className="max-w-6xl mx-auto px-8 py-40">
@@ -62,18 +79,20 @@ export default function ProductsSection() {
           {categories.map((category, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-xl p-8 shadow-lg  "
+              className="bg-white rounded-xl p-8 shadow-lg"
               onMouseEnter={() => setHoveredCategory(idx)}
               onMouseLeave={() => setHoveredCategory(null)}
             >
-              <h3 className="text-xl text-bl font-semibold text-blue-600 mb-8 text-center">{category.title}</h3>
-              <ul className="space-y-6  text-black">
+              <h3 className="text-xl text-bl font-semibold text-blue-600 mb-8 text-center">
+                {category.title}
+              </h3>
+              <ul className="space-y-6 text-black">
                 {category.subcategories.map((sub, subIdx) => (
                   <li
                     key={subIdx}
+                    onClick={() => handleSubcategoryClick(sub.path)}
                     className={`
                       flex items-center transition-all duration-500 cursor-pointer
-                      
                       hover:translate-x-2
                     `}
                   >
@@ -83,7 +102,7 @@ export default function ProductsSection() {
                         ${hoveredCategory === idx ? 'translate-x-2 text-blue-500' : 'text-blue-300'}
                       `} 
                     />
-                    <span className="font-medium">{sub}</span>
+                    <span className="font-medium">{sub.name}</span>
                   </li>
                 ))}
               </ul>
@@ -105,7 +124,6 @@ export default function ProductsSection() {
                   ${animateFeatures ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}
                   hover:shadow-2xl hover:-translate-y-2 border border-blue-100
                 `}
-                
               >
                 <div className="flex flex-col items-center text-center">
                   <feature.icon className="h-12 w-12 text-blue-500 mb-4" />
