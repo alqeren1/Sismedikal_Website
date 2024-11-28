@@ -25,7 +25,7 @@ export default function Main() {
         {/* Overlay Text and Button */}
         <div className="absolute z-10 top-0 left-0 w-full h-full flex flex-col items-start justify-center text-white">
           <div className=" px-4 xl:px-20 bg-black/30  py-2 w-full sm:w-auto sm:bg-transparent sm:py-0">
-            <h1 className="text-4xl sm:text-5xl 2xl:text-7xl font-normal mb-[-4px] sm:mb-1 md:mb-2 text-left">
+            <h1 className="text-4xl sm:text-5xl 2xl:text-6xl font-normal mb-[-4px] sm:mb-1 md:mb-2 text-left">
               <Highlighter
                 highlightClassName="highlight-pen font-bold mt-1 md:mt-0 text-white "
                 searchWords={["LİDER"]}
@@ -34,12 +34,12 @@ export default function Main() {
               />
             </h1>
 
-            <h1 className="text-4xl sm:text-5xl 2xl:text-7xl  font-normal mb-4 sm:mb-8 2xl:mb-12 text-left">
+            <h1 className="text-4xl sm:text-5xl 2xl:text-6xl  font-normal mb-4 sm:mb-8 2xl:mb-12 text-left">
               çözüm ortağınız
             </h1>
             <button
               onClick={() => router.push("/contact")}
-              className="bg-blue-500 hover:bg-blue-600 text-white py-2 sm:py-3 2xl:py-5 w-full rounded-md text-sm sm:text-lg 2xl:text-2xl font-semibold"
+              className="bg-blue-500 hover:bg-blue-600 text-white py-2 sm:py-3  w-full rounded-md text-sm sm:text-lg 2xl:text-2xl font-semibold"
             >
               Bize Ulaşın
             </button>
