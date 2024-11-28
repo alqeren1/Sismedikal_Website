@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const menuRef = useRef(null);
   const hamburgerRef = useRef(null);
-
+  const isMainPage = router.pathname === "/";
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   // Close menu on outside click
@@ -38,20 +38,26 @@ export default function Navbar() {
   }, [isMenuOpen]);
 
   return (
-    <div className="absolute z-10 w-full top-0 p-4 px-4 xl:px-20 flex items-center bg-white">
-      <div className="flex justify-between w-full items-center">
+    <div
+      className={`w-full z-50 ${
+        isMainPage
+          ? "absolute top-0 bg-white" // Sticks to top of the main page with absolute positioning
+          : "sticky top-0 bg-white shadow-md" // Sticks to the top for other pages
+      }`}
+    >
+      <div className="flex justify-between w-full items-center px-4 xl:px-20 py-4">
         {/* Logo */}
         <Image
           src="/sismed.png"
           alt="Logo"
           width={250}
           height={50}
-          className="mt-1 cursor-pointer"
+          className="cursor-pointer"
           onClick={() => router.push("/")}
         />
         <div className="flex items-center">
           {/* Desktop Menu */}
-          <div className="hidden xl:flex ">
+          <div className="hidden xl:flex space-x-4">
             {[
               { label: "Hakkımızda", path: "/hakkimizda" },
               { label: "Ürünlerimiz", path: "/urunlerimiz" },
@@ -62,24 +68,25 @@ export default function Navbar() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="text-gray-700 text-md xl:text-lg px-2 xl:px-2 2xl:px-4 hover:cursor-pointer rounded hover:text-blue-400"
+                className="text-gray-700 text-md xl:text-lg px-4 hover:cursor-pointer hover:text-blue-500"
                 onClick={() => router.push(item.path)}
               >
                 {item.label}
               </div>
             ))}
           </div>
+
           {/* Language Switcher */}
-          <div className="relative ml-4 2xl:ml-8 hidden xl:flex">
+          <div className="relative hidden xl:flex ml-6">
             <button
-              className={`py-3 px-5 w-22 text-sm flex items-center font-bold ${
+              className={`py-3 px-5 text-sm flex items-center font-bold ${
                 isLanguageDropdownOpen
-                  ? "bg-white text-gray-800 rounded-t-lg border-l border-r border-t border-gray-200"
-                  : "rounded-lg border border-gray-400 text-gray-800 hover:bg-gray-100 "
+                  ? "bg-white text-gray-800 rounded-t-lg border-t border-l border-r border-gray-200"
+                  : "rounded-lg border border-gray-400 text-gray-800 hover:bg-gray-100"
               }`}
               onClick={() => setIsLanguageDropdownOpen((prev) => !prev)}
             >
-              EN {/* Change this to dynamically show the selected language */}
+              EN
               <FaChevronDown
                 className={`ml-2 transform transition-transform duration-200 ${
                   isLanguageDropdownOpen ? "rotate-180" : "rotate-0"
@@ -87,7 +94,7 @@ export default function Navbar() {
               />
             </button>
             {isLanguageDropdownOpen && (
-              <div className="absolute top-full mt-[-1px] w-full text-black text-sm bg-white border-l border-r border-b border-gray-200 shadow-lg rounded-b-lg">
+              <div className="absolute top-full mt-[-1px] w-full bg-white border border-gray-200 shadow-lg rounded-b-lg">
                 {[
                   { code: "tr", label: "TR", flag: "/turkey.png" },
                   { code: "en", label: "EN", flag: "/uk.png" },
@@ -96,7 +103,7 @@ export default function Navbar() {
                 ].map((lang, index) => (
                   <div
                     key={index}
-                    className="hover:bg-gray-100 flex items-center cursor-pointer rounded-lg"
+                    className="flex items-center cursor-pointer px-4 py-2 hover:bg-gray-100"
                     onClick={() => {
                       setIsLanguageDropdownOpen(false);
                       console.log(`Language set to: ${lang.label}`);
@@ -107,17 +114,16 @@ export default function Navbar() {
                       alt={`${lang.label} flag`}
                       width={20}
                       height={15}
-                      className="ml-4 mr-2"
+                      className="mr-2"
                     />
-                    <button className="block text-left py-2">
-                      {lang.label}
-                    </button>
+                    <span>{lang.label}</span>
                   </div>
                 ))}
               </div>
             )}
           </div>
         </div>
+
         {/* Mobile Menu Icon */}
         <div className="xl:hidden z-50" ref={hamburgerRef}>
           <Hamburger
@@ -130,19 +136,13 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      {/* Mobile Menu */}
       <div
         ref={menuRef}
-        className={`xl:hidden fixed top-0 right-0 h-full bg-gradient-to-l transform ${
+        className={`xl:hidden fixed top-0 right-0 h-full bg-gradient-to-l from-white via-white to-gray-100 transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out z-40 w-auto min-w-max`}
-        style={{
-          background:
-            "linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.9) 100%)",
-        }}
       >
         <div className="flex flex-col px-10 items-end text-gray-700 justify-start h-full space-y-4 xs:space-y-8 mt-20 xs:mt-36">
-          {/* Menu Links */}
           {[
             { label: "Anasayfa", path: "/" },
             { label: "Hakkımızda", path: "/hakkimizda" },
@@ -154,7 +154,7 @@ export default function Navbar() {
           ].map((item, index) => (
             <button
               key={index}
-              className={`text-2xl hover:text-blue-400 ${
+              className={`text-2xl ${
                 router.pathname === item.path
                   ? "font-black text-blue-500"
                   : "font-semibold"
@@ -167,55 +167,6 @@ export default function Navbar() {
               {item.label}
             </button>
           ))}
-
-          {/* Language Switcher */}
-          <div className="relative">
-            <button
-              className={`py-3 px-5 w-22 text-sm flex items-center font-bold ${
-                isLanguageDropdownOpen
-                  ? "bg-white text-gray-800 rounded-t-lg border-l border-r border-t border-gray-200"
-                  : "rounded-lg border border-gray-500"
-              }`}
-              onClick={() => setIsLanguageDropdownOpen((prev) => !prev)}
-            >
-              EN {/* Change this to dynamically show the selected language */}
-              <FaChevronDown
-                className={`ml-2 transform transition-transform duration-200 ${
-                  isLanguageDropdownOpen ? "rotate-180" : "rotate-0"
-                }`}
-              />
-            </button>
-            {isLanguageDropdownOpen && (
-              <div className="absolute top-full mt-[-1px] w-full text-black text-sm bg-white border-l border-r border-b border-gray-200 shadow-lg rounded-b-lg">
-                {[
-                  { code: "tr", label: "TR", flag: "/turkey.png" },
-                  { code: "en", label: "EN", flag: "/uk.png" },
-                  { code: "de", label: "DE", flag: "/de.png" },
-                  { code: "ru", label: "RU", flag: "/ru.png" },
-                ].map((lang, index) => (
-                  <div
-                    key={index}
-                    className="hover:bg-gray-100 flex items-center cursor-pointer rounded-lg"
-                    onClick={() => {
-                      setIsLanguageDropdownOpen(false);
-                      console.log(`Language set to: ${lang.label}`);
-                    }}
-                  >
-                    <Image
-                      src={lang.flag}
-                      alt={`${lang.label} flag`}
-                      width={20}
-                      height={15}
-                      className="ml-4 mr-2"
-                    />
-                    <button className="block text-left py-2">
-                      {lang.label}
-                    </button>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
         </div>
       </div>
     </div>

@@ -16,16 +16,10 @@ export default function Home() {
       </Head>
       <div className="bg-white flex flex-col min-h-screen">
         {/* Navbar */}
-        <div className="fixed top-0 left-0 w-full z-20">
-          <Navbar />
-        </div>
+
         {/* Content */}
         <div className="relative">
           <Main />
-        </div>
-        {/* Bottombar */}
-        <div className="relative">
-          <Bottombar />
         </div>
       </div>
     </>

@@ -6,7 +6,9 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Navbar /> {/* Navbar will be available on all pages */}
-      <Component {...pageProps} />
+      <main className="min-h-screen">
+        <Component {...pageProps} />
+      </main>
       <Bottombar /> {/* Navbar will be available on all pages */}
     </div>
   );
