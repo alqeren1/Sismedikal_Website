@@ -30,9 +30,9 @@ export default function About() {
   ];
 
   return (
-    <div className="pt-24 flex flex-col bg-blue-50 items-center w-full">
+    <div className=" flex flex-col bg-blue-50 items-center w-full">
       {/* Hero Section - Fixed */}
-      <div className="relative w-full bg-gradient-to-br from-blue-100 to-blue-200  h-[400px] flex flex-col justify-center items-center">
+      <div className="relative w-full bg-gradient-to-br from-blue-100 to-blue-200  h-[300px] flex flex-col justify-center items-center">
         <div className="text-gray-800 text-center z-10">
           <h1 className="text-5xl sm:text-7xl font-bold mb-6">Hakkımızda</h1>
           <p className="text-xl sm:text-2xl">
@@ -71,7 +71,7 @@ export default function About() {
           <h2 className="text-3xl text-gray-800 font-bold mb-6">
             {tabs[selectedTab].title}
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto text-lg">
+          <p className="text-gray-600 max-w-3xl min-h-[85px] mx-auto text-lg">
             {tabs[selectedTab].content}
           </p>
         </div>
@@ -101,19 +101,19 @@ export default function About() {
                 title: "Yüksek Kalite",
                 content:
                   "En yüksek kalite standartlarında ürün ve hizmet sağlayarak müşterilerimizin güvenini kazanmak.",
-                gradient: "from-blue-500 to-blue-600",
+                gradient: "from-blue-400 to-blue-500",
               },
               {
                 title: "Sürekli İyileştirme",
                 content:
                   "Süreçlerimizi sürekli gözden geçirerek ve iyileştirerek hizmet kalitemizi artırmak.",
-                gradient: "from-blue-600 to-blue-700",
+                gradient: "from-blue-400 to-blue-500",
               },
               {
                 title: "Müşteri Odaklılık",
                 content:
                   "Müşterilerimizin ihtiyaçlarını en iyi şekilde anlayarak, beklentilerinin ötesinde çözümler sunmak.",
-                gradient: "from-blue-700 to-blue-800",
+                gradient: "from-blue-400 to-blue-500",
               },
             ].map((item, index) => (
               <div

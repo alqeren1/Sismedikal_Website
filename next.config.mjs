@@ -9,6 +9,10 @@ const nextConfig = {
         destination: "/content/about", // Map /hakkimizda to the correct file
       },
       {
+        source: "/referanslarimiz",
+        destination: "/content/references", // Map /hakkimizda to the correct file
+      },
+      {
         source: "/urunlerimiz",
         destination: "/content/products", 
       },
