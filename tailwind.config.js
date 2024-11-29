@@ -16,9 +16,13 @@ module.exports = {
         mono: ["var(--font-geist-mono)"],
       },
       screens: {
-        xs: "370px", // Custom breakpoint below the 'sm' breakpoint (default: 640px)
+        xs: "370px",
+        xslg: "470px", // Custom breakpoint below the 'sm' breakpoint (default: 640px)
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    require("tailwind-scrollbar-hide"),
+  ],
 };
