@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ChevronRight, Activity, Shield, Clock, Zap } from 'lucide-react';
+import { ChevronRight, Activity, Shield, Clock, Zap, Award, Heart, Search } from 'lucide-react';
 import { useRouter } from "next/router";
 
 const categories = [
@@ -31,107 +31,97 @@ const categories = [
     }
 ];
 
-const features = [
-  { icon: Activity, title: 'Yüksek Performans', description: 'En son teknoloji ile güçlendirilmiş çözümler' },
-  { icon: Shield, title: 'Güvenilirlik', description: 'ISO sertifikalı kalite standartları' },
-  { icon: Clock, title: 'Hızlı Teslimat', description: '24 saat içinde sevkiyat garantisi' },
-  { icon: Zap, title: 'Teknik Destek', description: '7/24 uzman teknik destek hizmeti' }
+const productFeatures = [
+  { icon: Shield, title: 'Ürün Güvencesi', description: 'Vitrolife kalite standartları' },
+  { icon: Award, title: 'Sertifikalı Ürünler', description: 'Uluslararası kalite belgeleri' },
+  { icon: Heart, title: 'Klinik Başarı', description: 'Kanıtlanmış klinik sonuçlar' },
+  { icon: Search, title: 'Ürün Desteği', description: 'Teknik destek ve eğitim' }
 ];
 
 export default function ProductsSection() {
   const [hoveredCategory, setHoveredCategory] = useState(null);
+  const [activeCategory, setActiveCategory] = useState(0);
   const [animateFeatures, setAnimateFeatures] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
       const featuresSection = document.getElementById('features-section');
-      if (featuresSection) {
-        const rect = featuresSection.getBoundingClientRect();
-        if (rect.top < window.innerHeight) {
-          setAnimateFeatures(true);
-        }
+      if (featuresSection?.getBoundingClientRect().top < window.innerHeight * 0.75) {
+        setAnimateFeatures(true);
       }
     };
 
-    if (typeof window !== 'undefined') {
-      window.addEventListener('scroll', handleScroll);
-      handleScroll();
-    }
-
-    return () => {
-      if (typeof window !== 'undefined') {
-        window.removeEventListener('scroll', handleScroll);
-      }
-    };
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleSubcategoryClick = (path) => {
-    router.push(path);
-  };
-
   return (
-    <div className="bg-gradient-to-b from-white to-blue-100">
-      <div className="max-w-6xl mx-auto px-8 py-40">
-        <h2 className="text-4xl font-bold text-blue-800 mb-16 text-center">
-          Ürünlerimiz
-        </h2>
-        
-        {/* Products Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32">
-          {categories.map((category, idx) => (
-            <div
-              key={idx}
-              className="bg-white rounded-xl p-8 shadow-lg"
-              onMouseEnter={() => setHoveredCategory(idx)}
-              onMouseLeave={() => setHoveredCategory(null)}
-            >
-              <h3 className="text-xl text-bl font-semibold text-blue-600 mb-8 text-center">
-                {category.title}
-              </h3>
-              <ul className="space-y-6 text-black">
-                {category.subcategories.map((sub, subIdx) => (
-                  <li
-                    key={subIdx}
-                    onClick={() => handleSubcategoryClick(sub.path)}
-                    className={`
-                      flex items-center transition-all duration-500 cursor-pointer
-                      hover:translate-x-2
-                    `}
-                  >
-                    <ChevronRight 
-                      className={`
-                        h-5 w-5 mr-2 transition-all duration-500
-                        ${hoveredCategory === idx ? 'translate-x-2 text-blue-500' : 'text-blue-300'}
-                      `} 
-                    />
-                    <span className="font-medium">{sub.name}</span>
-                  </li>
-                ))}
-              </ul>
+    <div className="min-h-screen bg-gradient-to-b from-white to-blue-50">
+      <div className="max-w-7xl mx-auto px-4 py-20">
+        <h3 className="text-4xl mb-10 text-center text-blue-500">Ürünlerimiz</h3>
+        <div className="flex flex-col md:flex-row gap-8 mb-16">
+          {/* Category Navigation */}
+          <div className="md:w-1/4">
+            <div className="sticky top-24 bg-white rounded-xl shadow-lg p-6 text-black">
+              {categories.map((category, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setActiveCategory(idx)}
+                  className={`w-full text-left p-4 rounded-lg mb-2 transition-all ${
+                    activeCategory === idx ? 'bg-blue-100 text-blue-800' : 'hover:bg-gray-50'
+                  }`}
+                >
+                  {category.title}
+                </button>
+              ))}
             </div>
-          ))}
+          </div>
+
+          {/* Product Grid */}
+          <div className="md:w-3/4">
+            <div className="bg-white rounded-2xl shadow-xl p-8">
+              <h2 className="text-3xl font-bold text-blue-800 mb-8">
+                {categories[activeCategory].title}
+              </h2>
+              <div className="grid gap-6">
+                {categories[activeCategory].subcategories.map((sub, idx) => (
+                  <div
+                    key={idx}
+                    onClick={() => router.push(sub.path)}
+                    className="group bg-gray-50 hover:bg-blue-50 rounded-xl p-6 cursor-pointer transition-all"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="font-medium text-gray-800 group-hover:text-blue-800">
+                        {sub.name}
+                      </span>
+                      <ChevronRight className="h-5 w-5 text-blue-500 transform group-hover:translate-x-2 transition-all" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* Features Section */}
-        <div id="features-section" className="py-16">
-          <h3 className="text-3xl font-bold text-blue-800 mb-12 text-center">
-            Neden Bizi Tercih Etmelisiniz?
-          </h3>
+        {/* Product Features */}
+        <div id="features-section" className="mt-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {features.map((feature, idx) => (
+            {productFeatures.map((feature, idx) => (
               <div
                 key={idx}
                 className={`
-                  bg-white p-6 rounded-xl shadow-lg transform transition-all duration-800
+                  bg-white p-8 rounded-xl shadow-lg transform transition-all duration-500
                   ${animateFeatures ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}
-                  hover:shadow-2xl hover:-translate-y-2 border border-blue-100
+                  hover:shadow-2xl hover:-translate-y-2
                 `}
+                style={{ transitionDelay: `${idx * 100}ms` }}
               >
                 <div className="flex flex-col items-center text-center">
-                  <feature.icon className="h-12 w-12 text-blue-500 mb-4" />
-                  <h4 className="text-xl font-semibold text-blue-700 mb-2">{feature.title}</h4>
-                  <p className="text-blue-600">{feature.description}</p>
+                  <feature.icon className="h-12 w-12 text-blue-600 mb-4" />
+                  <h4 className="text-xl font-bold text-blue-800 mb-2">{feature.title}</h4>
+                  <p className="text-gray-600">{feature.description}</p>
                 </div>
               </div>
             ))}
