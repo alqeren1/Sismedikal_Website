@@ -17,8 +17,8 @@ const nextConfig = {
         destination: "/content/products", 
       },
       {
-        source: "/urunlerimiz/g-serisi-kultur-medyumlari",
-        destination: "/content/products-detail/gseriesculturemed",
+        source: "/urunlerimiz/:slug",
+        destination: "/content/products-detail/:slug/page",
       },
     ];
   },
