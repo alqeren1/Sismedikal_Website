@@ -32,25 +32,16 @@ export default function About() {
   return (
     <div className=" flex flex-col bg-blue-50 items-center w-full">
       {/* Hero Section - Fixed */}
-      <div className="relative w-full bg-gradient-to-br from-blue-100 to-blue-200  h-[300px] flex flex-col justify-center items-center">
-        <div className="text-gray-800 text-center z-10">
+      <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500  h-[200px] flex flex-col justify-center items-center">
+        <div className="text-white text-center z-10">
           <h1 className="text-5xl sm:text-7xl font-bold mb-6">Hakkımızda</h1>
-          <p className="text-xl sm:text-2xl">
-            25 yıldır IVF teknolojilerinde öncü çözümler
-          </p>
         </div>
-        <div
-          className="absolute inset-0 bg-gradient-to-br from-blue-50 to-blue-100 "
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h50v50H0z' fill='none' stroke='rgba(255,255,255,0.1)' stroke-width='1'/%3E%3C/svg%3E")`,
-          }}
-        />
       </div>
 
       {/* Content Section */}
       <div className="w-full max-w-7xl px-4 py-8">
         {/* Tabs Section - Keeping original */}
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-left xslg:justify-center mb-12  overflow-x-auto scrollbar-hide">
           {Object.entries(tabs).map(([key, { title }]) => (
             <button
               key={key}

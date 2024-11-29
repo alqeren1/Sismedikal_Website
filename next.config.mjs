@@ -20,6 +20,10 @@ const nextConfig = {
         source: "/referanslarimiz",
         destination: "/content/references", // Map /hakkimizda to the correct file
       },
+      {
+        source: "/iletisim",
+        destination: "/content/contact", // Map /hakkimizda to the correct file
+      },
     ];
   },
 };
