@@ -6,26 +6,29 @@ const categories = [
   {
     title: 'VITROLIFE SOLÜSYON',
     subcategories: [
-      { name: 'G-SERİSİ KÜLTÜR MEDYUMLARI', path: '/urunlerimiz/g-serisi-kultur-medyumlari' },
-      { name: 'ALTERNATİF KÜLTÜR MEDYUMLARI', path: '/products/solutions/alternative' },
-      { name: 'SPERM YIKAMA VE DONDURMA', path: '/products/solutions/sperm-processing' }
-    ]
-  },
-  {
+     { name: 'G-SERİSİ KÜLTÜR MEDYUMLARI', path: '/urunlerimiz/g-serisi-kultur-medyumlari' },
+     { name: 'ALTERNATİF KÜLTÜR MEDYUMLARI', path: '/urunlerimiz/alternatif-kultur-medyumlari' },
+     { name: 'SPERM YIKAMA VE DONDURMA', path: '/urunlerimiz/sperm-yikama-ve-dondurma' },
+     { name: 'OVOIL', path: '/urunlerimiz/ovoil' },
+     { name: 'MİKROMANİPÜLASYON MEDYUMLARI', path: '/urunlerimiz/mikromanipulasyon-medyumlari' },
+     { name: 'VİTRİFİKASYON', path: '/urunlerimiz/vitrifikasyon' },
+     ]
+    },
+    {
     title: 'VITROLIFE SARF',
     subcategories: [
-      { name: 'OOSİT TOPLAMA İĞNELERİ', path: '/products/consumables/oocyte-needles' },
-      { name: 'MANİPÜLASYON PİPETLERİ', path: '/products/consumables/pipettes' },
-      { name: 'VITROLIFE KÜLTÜR KAPLARI', path: '/products/consumables/culture-dishes' }
-    ]
-  },
-  {
+     { name: 'OOSİT TOPLAMA İĞNELERİ', path: '/urunlerimiz/oosit-toplama-igneleri' },
+     { name: 'MANİPÜLASYON PİPETLERİ', path: '/urunlerimiz/manipulasyon-pipetleri' },
+     { name: 'VITROLIFE KÜLTÜR KAPLARI', path: '/urunlerimiz/vitrolife-kultur-kaplari' }
+     ]
+    },
+    {
     title: 'VITROLIFE CİHAZ',
     subcategories: [
-      { name: 'EMBRYOSCOPE', path: '/products/devices/embryoscope' },
-      { name: 'OCTAX LAZER', path: '/products/devices/octax-laser' }
-    ]
-  }
+     { name: 'EMBRYOSCOPE', path: '/urunlerimiz/embryoscope' },
+     { name: 'OCTAX LAZER', path: '/urunlerimiz/octax-lazer' }
+     ]
+    }
 ];
 
 const features = [
