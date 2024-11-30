@@ -34,6 +34,27 @@ export default function Navbar() {
 
   // Prevent body scrolling when mobile menu is open
   useEffect(() => {
+    const handleBodyStyles = () => {
+      if (isMenuOpen) {
+        const scrollbarWidth =
+          window.innerWidth - document.documentElement.clientWidth;
+        document.body.style.overflow = "hidden";
+        document.body.style.paddingRight = `${scrollbarWidth}px`;
+      } else {
+        document.body.style.overflow = "auto";
+        document.body.style.paddingRight = "0";
+      }
+    };
+
+    handleBodyStyles();
+    return () => {
+      document.body.style.overflow = "auto";
+      document.body.style.paddingRight = "0";
+    };
+  }, [isMenuOpen]);
+
+  // Prevent body scrolling when mobile menu is open
+  useEffect(() => {
     document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
   }, [isMenuOpen]);
 
@@ -57,7 +78,7 @@ export default function Navbar() {
         />
         <div className="flex items-center">
           {/* Desktop Menu */}
-          <div className="hidden xl:flex space-x-4">
+          <div className="hidden xl:flex space-x-6">
             {[
               { label: "Hakkımızda", path: "/hakkimizda" },
               { label: "Ürünlerimiz", path: "/urunlerimiz" },
@@ -68,7 +89,7 @@ export default function Navbar() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="text-gray-700 text-md xl:text-lg px-4 hover:cursor-pointer hover:text-blue-500"
+                className="text-gray-700 text-md xl:text-lg  hover:cursor-pointer hover:text-blue-500"
                 onClick={() => router.push(item.path)}
               >
                 {item.label}
@@ -155,9 +176,9 @@ export default function Navbar() {
             <button
               key={index}
               className={`text-2xl ${
-                router.pathname === item.path
-                  ? "font-black text-blue-500"
-                  : "font-semibold"
+                router.asPath === item.path
+                  ? "font-bold text-blue-500"
+                  : "font-normal"
               }`}
               onClick={() => {
                 router.push(item.path);

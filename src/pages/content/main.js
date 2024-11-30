@@ -38,7 +38,7 @@ export default function Main() {
               çözüm ortağınız
             </h1>
             <button
-              onClick={() => router.push("/contact")}
+              onClick={() => router.push("/iletisim")}
               className="bg-blue-500 hover:bg-blue-600 text-white py-2 sm:py-3  w-full rounded-md text-sm sm:text-lg 2xl:text-2xl font-semibold"
             >
               Bize Ulaşın
