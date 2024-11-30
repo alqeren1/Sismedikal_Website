@@ -1,22 +1,29 @@
 import { useState } from "react";
 import Highlighter from "react-highlight-words";
+import Map from "./map";
+import Map2 from "./map2";
 
 export default function About() {
   return (
     <div className="flex flex-col bg-blue-50 items-center w-full">
       {/* Hero Section - Fixed */}
-      <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[200px] flex flex-col justify-center items-center">
+      <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
         <div className="text-white text-center z-10">
-          <h1 className="text-5xl sm:text-7xl font-bold">İletişim</h1>
+          <h1 className="text-4xl xl:text-7xl font-bold">İletişim</h1>
         </div>
       </div>
 
+      <div className="hidden md:flex relative w-full ">
+        <div className="  w-screen">
+          <Map />
+        </div>
+      </div>
       {/* Contact Table Section */}
       <div className="w-full px-4 xl:px-16 mt-16">
+        <h2 className="text-3xl xl:text-5xl text-gray-800 font-bold text-left mb-4 xl:mb-8">
+          Ankara Ofis
+        </h2>
         <div className="bg-white px-8 py-4 rounded-xl">
-          <h2 className="text-3xl xl:text-5xl text-gray-800 font-bold text-left mb-4 xl:mb-8">
-            Ankara Ofis
-          </h2>
           <div className="overflow-x-auto">
             <table className="w-full whitespace-nowrap border-2 border-gray-800 rounded-lg overflow-hidden">
               <thead>
@@ -129,11 +136,11 @@ export default function About() {
             </table>
           </div>
         </div>
+        <h2 className="text-3xl xl:text-5xl text-gray-800 font-bold text-left mb-4 xl:mb-8 mt-16">
+          İstanbul Ofis
+        </h2>
         {/* Contact Table Section */}
-        <div className="bg-white px-8 py-4 rounded-xl mt-16">
-          <h2 className="text-3xl xl:text-5xl text-gray-800 font-bold text-left mb-4 xl:mb-8">
-            İstanbul Ofis
-          </h2>
+        <div className="bg-white px-8 py-4 rounded-xl ">
           <div className="overflow-x-auto">
             <table className="w-full whitespace-nowrap  border-2 border-gray-800 rounded-lg overflow-hidden">
               <thead>
@@ -287,6 +294,11 @@ export default function About() {
               </tbody>
             </table>
           </div>
+        </div>
+      </div>
+      <div className="flex md:hidden relative w-full ">
+        <div className="  w-screen">
+          <Map2 />
         </div>
       </div>
     </div>

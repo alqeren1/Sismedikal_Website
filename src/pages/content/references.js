@@ -169,10 +169,10 @@ const ReferencesPage = () => {
         {/* Search Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-blue-600 mb-4">
-            Our References
+            Referanslarımız
           </h1>
           <p className="text-lg text-gray-600">
-            Trusted Healthcare Partners Across Turkey and Cyprus
+            Türkiye ve Kıbrıs Genelinde Güvenilir Partnerlerimiz
           </p>
         </div>
         <div className="relative max-w-xl mx-auto mb-12">
