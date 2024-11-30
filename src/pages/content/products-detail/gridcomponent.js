@@ -1,11 +1,11 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const ProductGrid = ({ 
-  products, 
-  title, 
-  subtitle, 
-  bgClass = "bg-gradient-to-b from-white to-blue-100" 
+const ProductGrid = ({
+  products,
+  title,
+  subtitle,
+  bgClass = "bg-gradient-to-b from-white to-blue-100"
 }) => {
   return (
     <div className={`${bgClass} min-h-screen`}>
@@ -19,7 +19,7 @@ const ProductGrid = ({
             <div
               key={product.id}
               onClick={() => router.push(product.path)}
-              className="bg-white rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 overflow-hidden group"
+              className="bg-white rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 overflow-hidden group flex flex-col"
             >
               <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-50">
                 <img
@@ -28,13 +28,16 @@ const ProductGrid = ({
                   className="w-full h-full object-contain object-center transform transition-transform duration-300 group-hover:scale-110"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-xl font-bold text-blue-800 mb-2">{product.name}</h3>
                 <p className="text-blue-600 mb-4">{product.brand}</p>
-                <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg flex items-center justify-center space-x-2 transition-colors duration-300 hover:bg-blue-700 group">
-                  <span>DAHA FAZLA</span>
-                  <ArrowRight className="h-4 w-4 transform transition-transform duration-300 group-hover:translate-x-1" />
-                </button>
+                <div className="flex-1 flex flex-col justify-end">
+                 
+                  <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg flex items-center justify-center space-x-2 transition-colors duration-300 hover:bg-blue-700 group">
+                    <span>DAHA FAZLA</span>
+                    <ArrowRight className="h-4 w-4 transform transition-transform duration-300 group-hover:translate-x-1" />
+                  </button>
+                </div>
               </div>
             </div>
           ))}
