@@ -80,10 +80,10 @@ export default function About() {
                     Ürün Müdürü
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
-                    Zafer YENİGÜN
+                    Yener TOPA
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
-                    (+90 532) 251 00 35
+                    (+90 533) 282 01 84
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     (+90 312) 426 74 01
@@ -107,10 +107,25 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
+                    Satış Destek
+                  </td>
+                  <td className="px-4 py-4 border-r-2 border-gray-300">
+                    Serhat İŞLEYEN
+                  </td>
+                  <td className="px-4 py-4 border-r-2 border-gray-300">
+                    (+90 532) 580 26 00
+                  </td>
+                  <td className="px-4 py-4 border-r-2 border-gray-300">
+                    (+90 312) 426 74 01
+                  </td>
+                  <td className="px-4 py-4">kubraozdemir@sismed.com</td>
+                </tr>
+                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                  <td className="px-0 py-4 border-r-2 border-gray-300">
                     Asistan
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
-                    Kübra ÖZDEMİR
+                    Buket AKKAYA
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     (+90 312) 426 06 63 – 64
@@ -258,24 +273,7 @@ export default function About() {
               </thead>
               <tbody className="text-lg">
                 {/* Ankara Office */}
-                <tr className="border-b-2 border-gray-300">
-                  <td className="px-0 py-4 border-r-2 text-lg xl:text-2xl font-bold text-gray-800 border-gray-300">
-                    İZMİR Bölge
-                  </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
-                    Barış KAHYAOĞLU
-                  </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
-                    (+90 507) 867 09 58
-                  </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
-                    (+90 232) 408 76 61
-                  </td>
-                  <td className="px-4 py-4 text-base xl:text-lg">
-                    {" "}
-                    baris@sismed.com
-                  </td>
-                </tr>
+
                 <tr className="border-b-2 border-gray-300">
                   <td className="px-0 py-4 border-r-2 pr-1 text-lg  xl:text-2xl font-bold text-gray-800 border-gray-300">
                     ADANA Bölge

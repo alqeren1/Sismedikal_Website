@@ -82,14 +82,18 @@ export default function Navbar() {
             {[
               { label: "Hakkımızda", path: "/hakkimizda" },
               { label: "Ürünlerimiz", path: "/urunlerimiz" },
-              { label: "Ürün Hesaplama", path: "/urunhesaplama" },
+
               { label: "Referanslarımız", path: "/referanslarimiz" },
               { label: "Protokoller", path: "/protokoller" },
               { label: "İletişim", path: "/iletisim" },
             ].map((item, index) => (
               <div
                 key={index}
-                className="text-gray-700 text-md xl:text-lg  hover:cursor-pointer hover:text-blue-500"
+                className={`text-md xl:text-lg hover:cursor-pointer ${
+                  router.asPath === item.path
+                    ? "text-blue-500  "
+                    : "text-gray-700 hover:text-blue-400"
+                }`}
                 onClick={() => router.push(item.path)}
               >
                 {item.label}
