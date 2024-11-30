@@ -1,1 +1,1 @@
-iletişim sayfasına harita ekle
+-ana sayfa yeniden yapılandır, ürünler olsun bebek resmi olmasın, solda aynı yazı, sağda alt alta 4 tane ürün animasyonlu olabilir.

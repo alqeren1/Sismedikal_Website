@@ -24,6 +24,10 @@ const nextConfig = {
         source: "/iletisim",
         destination: "/content/contact", // Map /hakkimizda to the correct file
       },
+      {
+        source: "/protokoller",
+        destination: "/content/protocols", // Map /hakkimizda to the correct file
+      },
     ];
   },
 };
