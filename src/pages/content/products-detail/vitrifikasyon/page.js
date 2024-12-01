@@ -3,13 +3,13 @@ import { ArrowRight } from 'lucide-react';
 import ProductGrid from '../gridcomponent';
 
 const products = [
-  { webpath: '/rapidwarm-omni', name: 'RAPIDWARM™ OMNI', brand: 'Vitrolife', path: '' },
-{ webpath: '/rapidwarm-cleave', name: 'RAPIDWARM™ CLEAVE', brand: 'Vitrolife', path: '' },
-{ webpath: '/rapidwarm-blast', name: 'RAPIDWARM™ BLAST', brand: 'Vitrolife', path: '' },
-{ webpath: '/rapid-i-vitrifikasyon-sistemi', name: 'RAPID-I™ VİTRİFİKASYON SİSTEMİ', brand: 'Vitrolife', path: '' },
-{ webpath: '/rapidvit-omni', name: 'RAPIDVIT™ OMNI', brand: 'Vitrolife', path: '' },
-{ webpath: '/rapidvit-cleave', name: 'RAPIDVIT™ CLEAVE', brand: 'Vitrolife', path: '' },
-{ webpath: '/rapidvit-blast', name: 'RAPIDVIT™ BLAST', brand: 'Vitrolife', path: '' }
+  { webpath: '/rapidwarm-omni', name: 'RAPIDWARM™ OMNI', brand: 'Vitrolife', path: 'rapidwarm-omni.png' },
+{ webpath: '/rapidwarm-cleave', name: 'RAPIDWARM™ CLEAVE', brand: 'Vitrolife', path: 'rapidwarm-cleave.png' },
+{ webpath: '/rapidwarm-blast', name: 'RAPIDWARM™ BLAST', brand: 'Vitrolife', path: 'rapidwarm-blast.png' },
+{ webpath: '/rapid-i-vitrifikasyon-sistemi', name: 'RAPID-I™ VİTRİFİKASYON SİSTEMİ', brand: 'Vitrolife', path: 'the-rapid-i-vitrification-system.jpg' },
+{ webpath: '/rapidvit-omni', name: 'RAPIDVIT™ OMNI', brand: 'Vitrolife', path: 'rapidvit-omni.png' },
+{ webpath: '/rapidvit-cleave', name: 'RAPIDVIT™ CLEAVE', brand: 'Vitrolife', path: 'rapidvit-cleave.png' },
+{ webpath: '/rapidvit-blast', name: 'RAPIDVIT™ BLAST', brand: 'Vitrolife', path: 'rapidvit-blast.png' }
 ];
 
 export default function Home() {
