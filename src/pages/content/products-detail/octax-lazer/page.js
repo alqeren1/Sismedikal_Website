@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import ProductGrid from '../gridcomponent';
 
 const products = [
-  { id: 1, name: 'OCTAX LAZER', brand: 'Vitrolife', path:'' },
+  { webpath: '/octax-lazer', name: 'OCTAX LAZER', brand: 'Vitrolife', path: '' }
 
 ];
 

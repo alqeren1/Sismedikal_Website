@@ -9,6 +9,7 @@ const ProductGrid = ({
   bgClass = "bg-gradient-to-b from-white to-blue-100"
 }) => {
   const router = useRouter();
+  const lastSegment = router.asPath.split('/').pop();
 
   return (
     <div className={`${bgClass} min-h-screen`}>
@@ -20,8 +21,8 @@ const ProductGrid = ({
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {products.map((product) => (
             <div
-              key={product.id}
-              onClick={() => router.push(`/products/${product.id}`)}
+              key={product.webpath}
+              onClick={() => router.push(`/urunlerimiz/${lastSegment}${product.webpath}`)}
               className="bg-white rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 overflow-hidden group flex flex-col cursor-pointer"
             >
               <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-50">

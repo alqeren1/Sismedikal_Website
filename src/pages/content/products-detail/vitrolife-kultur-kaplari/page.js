@@ -4,17 +4,17 @@ import ProductGrid from '../gridcomponent';
 
 const products = [
  
-    { id: 1, name: 'MICRO-DROPLET DISH', brand: 'Vitrolife', path: '' },
-    { id: 2, name: 'CENTRE-WELL DISH', brand: 'Vitrolife', path: '' }, 
-    { id: 3, name: 'CULTURE DISH 40 MM', brand: 'Vitrolife', path: '' },
-    { id: 4, name: 'COLLECTION DISH 90 MM', brand: 'Vitrolife', path: '' },
-    { id: 5, name: 'SEROLOGICAL PIPETTES', brand: 'Vitrolife', path: '' },
-    { id: 6, name: '5-WELL DISH', brand: 'Vitrolife', path: '' },
-    { id: 7, name: 'ICSI DISH', brand: 'Vitrolife', path: '' },
-    { id: 8, name: 'CULTURE DISH 60 MM', brand: 'Vitrolife', path: '' },
-    { id: 9, name: 'CENTRIFUGE TUBES', brand: 'Vitrolife', path: '' },
-    { id: 10, name: 'PASTEUR PIPETTES', brand: 'Vitrolife', path: '' },
-    { id: 11, name: 'OOCYTE COLLECTION TUBE', brand: 'Vitrolife', path: '' }
+  { webpath: '/micro-droplet-dish', name: 'MICRO-DROPLET DISH', brand: 'Vitrolife', path: '' },
+  { webpath: '/centre-well-dish', name: 'CENTRE-WELL DISH', brand: 'Vitrolife', path: '' },
+  { webpath: '/culture-dish-40-mm', name: 'CULTURE DISH 40 MM', brand: 'Vitrolife', path: '' },
+  { webpath: '/collection-dish-90-mm', name: 'COLLECTION DISH 90 MM', brand: 'Vitrolife', path: '' },
+  { webpath: '/serological-pipettes', name: 'SEROLOGICAL PIPETTES', brand: 'Vitrolife', path: '' },
+  { webpath: '/5-well-dish', name: '5-WELL DISH', brand: 'Vitrolife', path: '' },
+  { webpath: '/icsi-dish', name: 'ICSI DISH', brand: 'Vitrolife', path: '' },
+  { webpath: '/culture-dish-60-mm', name: 'CULTURE DISH 60 MM', brand: 'Vitrolife', path: '' },
+  { webpath: '/centrifuge-tubes', name: 'CENTRIFUGE TUBES', brand: 'Vitrolife', path: '' },
+  { webpath: '/pasteur-pipettes', name: 'PASTEUR PIPETTES', brand: 'Vitrolife', path: '' },
+  { webpath: '/oocyte-collection-tube', name: 'OOCYTE COLLECTION TUBE', brand: 'Vitrolife', path: '' }
    
 ];
 

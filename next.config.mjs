@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         source: "/referanslarimiz",
-        destination: "/content/references", // Map /hakkimizda to the correct file
+        destination: "/content/references", 
       },
       {
         source: "/urunlerimiz",
@@ -19,6 +19,10 @@ const nextConfig = {
       {
         source: "/urunlerimiz/:slug",
         destination: "/content/products-detail/:slug/page",
+      },
+      {
+        source: "/urunlerimiz/:slug/:Pslug",
+        destination: "/content/products-detail/individual-product",
       },
     ];
   },
