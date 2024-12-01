@@ -55,6 +55,146 @@ export default function Main() {
         />
       </div>
 
+      <div className="bg-blue-100 py-8 sm:py-16 w-full">
+        <div className="flex flex-col px-1 sm:px-8 lg:px-16 xl:px-48 items-center w-full">
+          <div className="hidden md:flex justify-center w-full items-top space-x-4 md:space-x-12">
+            <div className="hidden lg:flex flex-shrink-0">
+              <Image
+                src={"/octax_parca.png"}
+                alt={"lazer"}
+                width={300}
+                height={300}
+                layout="intrinsic" // Ensures the image does not shrink
+                className="object-contain"
+              />
+            </div>
+            <div className="flex flex-shrink-0">
+              <Image
+                src={"/octaxlazer.png"}
+                alt={"lazer"}
+                width={200}
+                height={200}
+                layout="intrinsic" // Ensures the image does not shrink
+                className="object-contain"
+              />
+            </div>
+            <div>
+              <div className="text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
+                Octax Lazer sistemleri
+              </div>
+              <div className="space-y-2 text-2xl text-gray-700 ml-1">
+                <div className=" ">Modüler ve Kullanıcı Dostu</div>
+                <div className=" ">Yüksek Performanslı Lazerler</div>
+                <div className=" ">Gelişmiş Uygulamalar </div>
+                <div className=" ">Üstün Görüntüleme Teknolojisi </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center md:hidden justify-center w-full items-top overflow-x-auto whitespace-nowrap ">
+            <div className="flex-col justify-left xslg:justify-center text-center space-x-4">
+              {" "}
+              <div className="flex justify-center flex-shrink-0 mb-4">
+                <Image
+                  src={"/octaxlazer.png"}
+                  alt={"lazer"}
+                  width={200}
+                  height={200}
+                  layout="intrinsic" // Ensures the image does not shrink
+                  className="object-contain"
+                />
+              </div>
+              <div>
+                <div className="sm:text-4xl text-3xl text-gray-800   font-bold">
+                  Octax Lazer sistemleri
+                </div>
+                <div className="space-y-0 sm:text-2xl text-xl text-gray-700 ">
+                  <div className=" ">Modüler ve Kullanıcı Dostu</div>
+                  <div className=" ">Yüksek Performanslı Lazerler</div>
+                  <div className=" ">Gelişmiş Uygulamalar </div>
+                  <div className=" ">Üstün Görüntüleme Teknolojisi </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-blue-50 py-8 sm:py-16 w-full">
+        <div className="flex flex-col px-1 sm:px-8 lg:px-16 xl:px-48 items-center w-full">
+          <div className="hidden md:flex  justify-center w-full text-right items-top space-x-4 md:space-x-12">
+            <div>
+              <div className="text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
+                Embryoscope+
+              </div>
+              <div className="text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
+                Time-lapse Sistemi
+              </div>
+              <div className="space-y-2 text-2xl text-gray-700 ml-1">
+                <div className=" ">Embriyo Gelişimi İçin Özel Tasarım</div>
+                <div className=" ">Time-Lapse Teknolojisi</div>
+                <div className=" ">Kesintisiz ve Güvenli Gözlem</div>
+                <div className=" ">
+                  Optimizasyon Sağlayan İnkübasyon Tasarımı
+                </div>
+              </div>
+            </div>
+            <div className="items-start flex">
+              <div className="flex flex-shrink-0 ">
+                <Image
+                  src={"/embryoscope.png"}
+                  alt={"lazer"}
+                  width={300}
+                  height={300}
+                  layout="intrinsic" // Ensures the image does not shrink
+                  className="object-contain"
+                />
+              </div>
+              <div className="xl:flex hidden flex-shrink-0  mt-[7px] ml-4">
+                <Image
+                  src={"/embryoscope1.png"}
+                  alt={"lazer"}
+                  width={290}
+                  height={290}
+                  layout="intrinsic" // Ensures the image does not shrink
+                  className="object-contain rounded-3xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center md:hidden justify-center w-full items-top overflow-x-auto whitespace-nowrap ">
+            <div className="flex w-full justify-center text-center">
+              <div className="flex-col justify-center space-x-4">
+                {" "}
+                <div className="flex justify-center flex-shrink-0 mb-4">
+                  <Image
+                    src={"/embryoscope.png"}
+                    alt={"lazer"}
+                    width={200}
+                    height={200}
+                    layout="intrinsic" // Ensures the image does not shrink
+                    className="object-contain"
+                  />
+                </div>
+                <div>
+                  <div className="text-3xl sm:text-4xl text-gray-800   font-bold">
+                    Embryoscope+
+                  </div>
+                  <div className="text-3xl sm:text-4xl text-gray-800  font-bold">
+                    Time-lapse Sistemi
+                  </div>
+                  <div className=" text-xl text-gray-700 ml-1">
+                    <div className=" ">Embriyo Gelişimi İçin Özel Tasarım</div>
+                    <div className=" ">Time-Lapse Teknolojisi</div>
+                    <div className=" ">Kesintisiz ve Güvenli Gözlem</div>
+                    <div className="whitespace-normal ">
+                      Optimizasyon Sağlayan İnkübasyon Tasarımı
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Steps Section */}
       <div className="bg-blue-100 py-8 sm:py-16 w-full">
         <div className="flex flex-col items-center w-full">
@@ -120,66 +260,6 @@ export default function Main() {
                 {/* Arrow Icon (except for the last step) */}
               </div>
             ))}
-          </div>
-        </div>
-      </div>
-      <div className="bg-blue-50 py-8 sm:py-16 w-full">
-        <div className="flex flex-col px-1 md:px-8 lg:px-16 xl:px-48 items-center w-full">
-          <div className="hidden sm:flex justify-left w-full items-top space-x-4 md:space-x-12">
-            <div className="hidden md:flex flex-shrink-0">
-              <Image
-                src={"/octaxlazer.png"}
-                alt={"lazer"}
-                width={200}
-                height={200}
-                layout="intrinsic" // Ensures the image does not shrink
-                className="object-contain"
-              />
-            </div>
-            <div className="flex md:hidden flex-shrink-0">
-              <Image
-                src={"/octaxlazer.png"}
-                alt={"lazer"}
-                width={140}
-                height={140}
-                layout="intrinsic" // Ensures the image does not shrink
-                className="object-contain"
-              />
-            </div>
-            <div>
-              <div className="text-3xl md:text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
-                Octax Lazer sistemleri
-              </div>
-              <div className="space-y-2 text-xl md:text-2xl text-gray-700 ml-1">
-                <div className=" ">Modüler ve Kullanıcı Dostu</div>
-                <div className=" ">Yüksek Performanslı Lazerler</div>
-                <div className=" ">Gelişmiş Uygulamalar </div>
-                <div className=" ">Üstün Görüntüleme Teknolojisi </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex-col items-center sm:hidden justify-center w-full items-top space-x-4 md:space-x-12">
-            <div className="flex flex-shrink-0">
-              <Image
-                src={"/octaxlazer.png"}
-                alt={"lazer"}
-                width={140}
-                height={140}
-                layout="intrinsic" // Ensures the image does not shrink
-                className="object-contain"
-              />
-            </div>
-            <div>
-              <div className="text-3xl md:text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
-                Octax Lazer sistemleri
-              </div>
-              <div className="space-y-2 text-xl md:text-2xl text-gray-700 ml-1">
-                <div className=" ">Modüler ve Kullanıcı Dostu</div>
-                <div className=" ">Yüksek Performanslı Lazerler</div>
-                <div className=" ">Gelişmiş Uygulamalar </div>
-                <div className=" ">Üstün Görüntüleme Teknolojisi </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
