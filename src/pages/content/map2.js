@@ -75,7 +75,7 @@ export default function Intro3() {
       <div
         style={{
           height: "40vh",
-          width: "100vw",
+          width: "97vw",
           position: "relative",
           zIndex: 0,
         }}

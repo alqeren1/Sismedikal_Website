@@ -11,6 +11,7 @@ export default function Navbar() {
   const menuRef = useRef(null);
   const hamburgerRef = useRef(null);
   const isMainPage = router.pathname === "/";
+
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   // Close menu on outside click
@@ -53,10 +54,10 @@ export default function Navbar() {
     };
   }, [isMenuOpen]);
 
-  // Prevent body scrolling when mobile menu is open
-  useEffect(() => {
-    document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
-  }, [isMenuOpen]);
+  // Wait until the router is ready to render paths
+  if (!router.isReady) {
+    return null;
+  }
 
   return (
     <div
@@ -82,7 +83,6 @@ export default function Navbar() {
             {[
               { label: "Hakkımızda", path: "/hakkimizda" },
               { label: "Ürünlerimiz", path: "/urunlerimiz" },
-
               { label: "Referanslarımız", path: "/referanslarimiz" },
               { label: "Protokoller", path: "/protokoller" },
               { label: "İletişim", path: "/iletisim" },
@@ -91,7 +91,7 @@ export default function Navbar() {
                 key={index}
                 className={`text-md xl:text-lg hover:cursor-pointer ${
                   router.asPath === item.path
-                    ? "text-blue-500  "
+                    ? "text-blue-500 "
                     : "text-gray-700 hover:text-blue-400"
                 }`}
                 onClick={() => router.push(item.path)}
@@ -181,8 +181,8 @@ export default function Navbar() {
               key={index}
               className={`text-2xl ${
                 router.asPath === item.path
-                  ? "font-bold text-blue-500"
-                  : "font-normal"
+                  ? " text-blue-500"
+                  : " text-gray-700"
               }`}
               onClick={() => {
                 router.push(item.path);
