@@ -3,8 +3,8 @@ import { ArrowRight } from 'lucide-react';
 import ProductGrid from '../gridcomponent';
 
 const products = [
-  { webpath: '/icsi', name: 'ICSI™', brand: 'Vitrolife', path: '' },
-{ webpath: '/hyase-10x', name: 'HYASE-10X™', brand: 'Vitrolife', path: '' }
+  { webpath: '/icsi', name: 'ICSI™', brand: 'Vitrolife', path: 'ICSI.png' },
+{ webpath: '/hyase-10x', name: 'HYASE-10X™', brand: 'Vitrolife', path: 'HYASE.png' }
 ];
 
 export default function Home() {

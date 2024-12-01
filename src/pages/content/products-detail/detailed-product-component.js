@@ -11,7 +11,7 @@ const ProductDisplay = ({ product }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="mt-8"
+          className="mt-8 text-black"
         >
           <h3 className="text-xl font-semibold mb-4">Components</h3>
           <div className="grid gap-4">
@@ -38,10 +38,10 @@ const ProductDisplay = ({ product }) => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
-        className="mt-8"
+        className="mt-8 text-black"
       >
-        <h3 className="text-xl font-semibold mb-4">Composition</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+        <h3 className="text-xl font-semibold mb-4">Kompozisyon</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 ">
           {composition.map((item, index) => (
             <motion.div 
               key={index}
@@ -67,7 +67,7 @@ const ProductDisplay = ({ product }) => {
         transition={{ delay: 0.3 }}
         className="mt-8"
       >
-        <h3 className="text-xl font-semibold mb-4">Specifications</h3>
+        <h3 className="text-xl font-semibold mb-4">Özellikler</h3>
         <div className="bg-white rounded-lg shadow-sm border border-gray-100">
           {Object.entries(specs).map(([key, value], index) => (
             <motion.div 
@@ -87,7 +87,7 @@ const ProductDisplay = ({ product }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gray-50 py-12 text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
@@ -124,7 +124,7 @@ const ProductDisplay = ({ product }) => {
             )}
           </div>
 
-          <div className="px-8 py-12">
+          <div className="px-8 py-12 ">
             {product.description && (
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -132,7 +132,7 @@ const ProductDisplay = ({ product }) => {
                 transition={{ delay: 0.2 }}
                 className="prose max-w-none"
               >
-                <h3 className="text-xl font-semibold mb-4">Description</h3>
+                <h3 className="text-xl font-semibold mb-4">Açıklama</h3>
                 <p className="text-gray-600 leading-relaxed">{product.description}</p>
               </motion.div>
             )}
