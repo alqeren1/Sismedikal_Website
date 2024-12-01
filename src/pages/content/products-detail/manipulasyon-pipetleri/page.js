@@ -3,14 +3,14 @@ import { ArrowRight } from 'lucide-react';
 import ProductGrid from '../gridcomponent';
 
 const products = [
-  { id: 1, name: 'DENUDASYON PİPETİ', brand: 'Vitrolife', path: '' },
- { id: 2, name: 'TRANSFER PİPETİ', brand: 'Vitrolife', path: '' },
- { id: 3, name: 'PZD PİPETİ', brand: 'Vitrolife', path: '' },
- { id: 4, name: 'PİPET AKSESUARLARI', brand: 'Vitrolife', path: '' },
- { id: 5, name: 'ICSI PİPETİ', brand: 'Vitrolife', path: '' },
- { id: 6, name: 'HOLDING PİPETİ', brand: 'Vitrolife', path: '' },
- { id: 7, name: 'BİYOPSİ PİPETİ', brand: 'Vitrolife', path: '' },
- { id: 8, name: 'HATCHING PİPETİ', brand: 'Vitrolife', path: '' }
+  { webpath: '/denudasyon-pipeti', name: 'DENUDASYON PİPETİ', brand: 'Vitrolife', path: '' },
+{ webpath: '/transfer-pipeti', name: 'TRANSFER PİPETİ', brand: 'Vitrolife', path: '' },
+{ webpath: '/pzd-pipeti', name: 'PZD PİPETİ', brand: 'Vitrolife', path: '' },
+{ webpath: '/pipet-aksesuarlari', name: 'PİPET AKSESUARLARI', brand: 'Vitrolife', path: '' },
+{ webpath: '/icsi-pipeti', name: 'ICSI PİPETİ', brand: 'Vitrolife', path: '' },
+{ webpath: '/holding-pipeti', name: 'HOLDING PİPETİ', brand: 'Vitrolife', path: '' },
+{ webpath: '/biyopsi-pipeti', name: 'BİYOPSİ PİPETİ', brand: 'Vitrolife', path: '' },
+{ webpath: '/hatching-pipeti', name: 'HATCHING PİPETİ', brand: 'Vitrolife', path: '' }
 
 ];
 
