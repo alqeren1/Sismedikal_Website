@@ -2,53 +2,49 @@ import { usePathname } from 'next/navigation';
 import ProductDisplay from './detailed-product-component';
 import productsData from './test.json';
 
-const flattenProducts = (data) => {
-  let flatProducts = [];
+const normalizeText = (text) => {
+  if (!text || typeof text !== 'string') return '';
   
-  // Recursive function to handle nested arrays and objects
-  const processItem = (item) => {
-    if (Array.isArray(item)) {
-      item.forEach(subItem => processItem(subItem));
-    } else if (item && typeof item === 'object') {
-      if (item.name) {
-        flatProducts.push(item);
-      }
-      // Check for nested products array
-      if (item.products) {
-        item.products.forEach(product => processItem(product));
-      }
-    }
+  const turkishMap = {
+    'ı': 'i', 'ğ': 'g', 'ü': 'u', 'ş': 's', 'ö': 'o', 'ç': 'c',
+    'İ': 'i', 'Ğ': 'g', 'Ü': 'u', 'Ş': 's', 'Ö': 'o', 'Ç': 'c'
   };
 
-  // Process the entire data structure
-  processItem(productsData);
-  
-  return flatProducts;
-};
-
-const createUrlFriendlyName = (name) => {
-  if (!name || typeof name !== 'string') return '';
-  
-  return name
+  return text
     .toLowerCase()
-    .replace(/[™®]/g, '') // Remove ™ and ® symbols
-    .replace(/\s+/g, '-') // Replace spaces with hyphens
-    .replace(/[^a-z0-9-]/g, ''); // Remove any other special characters
+    .replace(/[™®©℠]/g, '')
+    .replace(/[ığüşöçİĞÜŞÖÇ]/g, char => turkishMap[char] || char)
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
 };
 
 const ProductDetail = () => {
   const pathname = usePathname();
-  const productId = pathname.split('/').pop(); // Gets the last part of the URL
-  
-  // Flatten the nested product structure
-  const flattenedProducts = flattenProducts(productsData);
-  
-  // Find the product using case-insensitive comparison and URL-friendly format
-  const product = flattenedProducts.find(p => {
-    if (!p || !p.name) return false;
-    const urlFriendlyName = createUrlFriendlyName(p.name);
-    return urlFriendlyName === productId.toLowerCase();
-  });
+  const productId = pathname.split('/').pop();
+
+  const findProduct = (data) => {
+    const stack = [...(Array.isArray(data) ? data : [data])];
+    const normalizedProductId = normalizeText(productId);
+    
+    while (stack.length) {
+      const current = stack.pop();
+      
+      if (!current) continue;
+
+      if (current.name && normalizeText(current.name) === normalizedProductId) {
+        return current;
+      }
+
+      if (Array.isArray(current.products)) {
+        stack.push(...current.products);
+      }
+    }
+    return null;
+  };
+
+  const product = findProduct(productsData);
 
   if (!product) {
     return (

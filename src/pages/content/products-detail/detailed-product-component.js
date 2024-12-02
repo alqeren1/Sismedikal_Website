@@ -86,6 +86,36 @@ const ProductDisplay = ({ product }) => {
     );
   };
 
+  const renderProducts = (products) => {
+    if (!products || products.length === 0) return null;
+    return (
+      <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }}
+        className="mt-8"
+      >
+        <h3 className="text-xl font-semibold mb-4">Ürünler</h3>
+        <div className="grid gap-6">
+          {products.map((item, index) => (
+            <motion.div 
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 * index }}
+              className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+            >
+              <h4 className="font-medium text-xl text-blue-800">{item.name}</h4>
+              {item.description && (
+                <p className="text-gray-600 mt-3 leading-relaxed">{item.description}</p>
+              )}
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
+    );
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 py-12 text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -124,7 +154,7 @@ const ProductDisplay = ({ product }) => {
             )}
           </div>
 
-          <div className="px-8 py-12 ">
+          <div className="px-8 py-12">
             {product.description && (
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -139,6 +169,7 @@ const ProductDisplay = ({ product }) => {
 
             {renderSpecifications(product.specifications)}
             {renderComposition(product.composition)}
+            {renderProducts(product.products)}
 
             {product.product_url && (
               <motion.div 
@@ -147,8 +178,6 @@ const ProductDisplay = ({ product }) => {
                 transition={{ delay: 0.5 }}
                 className="mt-8"
               >
-                
-               
               </motion.div>
             )}
           </div>
