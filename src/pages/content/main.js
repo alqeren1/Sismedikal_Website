@@ -4,7 +4,7 @@ import Arrowdown from "../../../svgs/arrowdown";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Highlighter from "react-highlight-words";
-
+import Hero from "./hero";
 export default function Main() {
   const router = useRouter();
 
@@ -20,40 +20,8 @@ export default function Main() {
 
   return (
     <div className="flex flex-col items-center w-full">
+      <Hero></Hero>
       {/* Hero Image Section */}
-      <div className="relative w-full h-screen">
-        {/* Overlay Text and Button */}
-        <div className="absolute z-10 top-0 left-0 w-full h-full flex flex-col items-start justify-center text-white">
-          <div className=" px-4 xl:px-20 bg-black/30  py-2 w-full sm:w-auto sm:bg-transparent sm:py-0">
-            <h1 className="text-4xl sm:text-5xl 2xl:text-6xl font-normal mb-[-4px] sm:mb-1 md:mb-2 text-left">
-              <Highlighter
-                highlightClassName="highlight-pen font-bold mt-1 md:mt-0 text-white "
-                searchWords={["LİDER"]}
-                autoEscape={true}
-                textToHighlight="IVF sektöründe LİDER"
-              />
-            </h1>
-
-            <h1 className="text-4xl sm:text-5xl 2xl:text-6xl  font-normal mb-4 sm:mb-8 2xl:mb-12 text-left">
-              çözüm ortağınız
-            </h1>
-            <button
-              onClick={() => router.push("/iletisim")}
-              className="bg-blue-500 hover:bg-blue-600 text-white py-2 sm:py-3  w-full rounded-md text-sm sm:text-lg 2xl:text-2xl font-semibold"
-            >
-              Bize Ulaşın
-            </button>
-          </div>
-        </div>
-        {/* Hero Image */}
-        <Image
-          src="/main.png"
-          alt="main"
-          fill
-          className="object-cover "
-          style={{ objectPosition: "75% center" }}
-        />
-      </div>
 
       <div className="bg-blue-100 py-8 sm:py-16 w-full">
         <div className="flex flex-col px-1 sm:px-8 lg:px-16 xl:px-48 items-center w-full">
@@ -80,7 +48,7 @@ export default function Main() {
             </div>
             <div>
               <div className="text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
-                Octax Lazer sistemleri
+                Octax Lazer Sistemleri
               </div>
               <div className="space-y-2 text-2xl text-gray-700 ml-1">
                 <div className=" ">Modüler ve Kullanıcı Dostu</div>
@@ -105,7 +73,7 @@ export default function Main() {
               </div>
               <div>
                 <div className="sm:text-4xl text-3xl text-gray-800   font-bold">
-                  Octax Lazer sistemleri
+                  Octax Lazer Sistemleri
                 </div>
                 <div className="space-y-0 sm:text-2xl text-xl text-gray-700 ">
                   <div className=" ">Modüler ve Kullanıcı Dostu</div>
