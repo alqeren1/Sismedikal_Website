@@ -1551,7 +1551,7 @@
     "composition": []
   },
 
-  [
+  
     {
       "name": "EMBRYOSCOPE+ TIME-LAPSE SİSTEMİ",
       "brand": "",
@@ -1610,33 +1610,9 @@
     },
     
    
-    {
-      "name": "OCTAX LAZER & GÖRÜNTÜLEME SİSTEMİ",
-      "brand": "OCTAX",
-      "image_url": "",
-      "product_url": "",
-      "url": "",
-      "title": "OCTAX LAZER & GÖRÜNTÜLEME SİSTEMİ",
-      "subtitle": "",
-      "description": "Octax, sadece lazerden daha fazlasıdır; dijital görüntüleme, görüntü analizi ve yardımcı üremede gelişmiş uygulamalar için çok amaçlı bir platformdur. Modüler ve kullanımı son derece kolay olan Octax lazer ve görüntüleme sistemleri, günümüz IVF kliniklerinin ihtiyaçlarını karşılamak için ileri teknoloji donanım ve yazılım araçlarını gelişmiş işlevsellik ile birleştirir. Statik Octax LaserShot ve Dinamik Octax NaviLase mükemmel görüntü kalitesi ile güvenli işlem sağlar. Her iki lazer de kalibrasyon gerektirmez ve pilot lazer ışığına ihtiyaç duymaz. IVF işlemlerindeki tüm lazer uygulamaları için kullanılabilir: embriyo traşlama, trofektoderm, blastomer ve polar body biyopsisi, blastosist kollaps, sperm immobilizasyonu, sperm canlılık testi.",
-      "specifications": {},
-      "composition": [
-        {
-          "name": "Dinamik Lazer – Octax NaviLase",
-          "description": "NaviLase kullanımında, lazer seçilen hedef bölgeye yönlendirilirken embriyo sabit kalır. Düz veya kavisli bir çizgi boyunca birkaç atış yapabilirsiniz."
-        },
-        {
-          "name": "Statik Lazer – Octax LaserShot",
-          "description": "Octax LaserShot kullanımında, lazer hedef bölgesi sabittir ve embriyo lazer hedef bölgesine göre hizalanır."
-        },
-        {
-          "name": "Octax Lazer Parçaları",
-          "description": "NaviLase Dinamik Lazer kontrol cihazı, diyot lazer ve lazer adaptörü, ayak pedalı, USB dijital video kamera, görüntüleme ve arşivleme yazılımı, dikroik ayna ve hedef işaretleyici, lazer objektif 25X veya 40X."
-        }
-      ]
-    }
-  ],
-  [
+   
+  
+  
     {
       "name": "DEĞERLENDİRME ARAÇLARI",
       "brand": "",
@@ -1675,8 +1651,8 @@
         }
       ]
     }
-  ],
-  [
+  ,
+  
     {
       "name": "GÖRÜNTÜLEME SİSTEMİ KÜLTÜR KAPLARI",
       "brand": "",
@@ -1753,7 +1729,7 @@
       ]
     },
     {
-      "name": "OCTAX LAZER & GÖRÜNTÜLEME SİSTEMİ",
+      "name": "OCTAX LAZER",
       "brand": "OCTAX",
       "image_url": "",
       "product_url": "",
@@ -1780,7 +1756,7 @@
         }
       ]
     }
-  ]
+  
   
   
   

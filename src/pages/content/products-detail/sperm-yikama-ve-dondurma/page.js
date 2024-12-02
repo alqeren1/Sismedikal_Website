@@ -3,9 +3,9 @@ import { ArrowRight } from 'lucide-react';
 import ProductGrid from '../gridcomponent';
 
 const products = [
-  { webpath: '/spermgrad-30-125', name: 'SPERMGRAD™ 30/125', brand: 'Vitrolife', path: '' },
-{ webpath: '/spermrinse', name: 'SPERMRINSE™', brand: 'Vitrolife', path: '' },
-{ webpath: '/spermfreeze-solution', name: 'SPERMFREEZE SOLUTION™', brand: 'Vitrolife', path: '' }
+  { webpath: '/spermgrad-30-125', name: 'SPERMGRAD™ 30/125', brand: 'Vitrolife', path: 'spermgrad125.png' },
+{ webpath: '/spermrinse', name: 'SPERMRINSE™', brand: 'Vitrolife', path: 'SpermRinse.png' },
+{ webpath: '/spermfreeze-solution', name: 'SPERMFREEZE SOLUTION™', brand: 'Vitrolife', path: 'SpermFreeze_Solution.png' }
 ];
 
 export default function Home() {

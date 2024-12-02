@@ -2,21 +2,49 @@ import { usePathname } from 'next/navigation';
 import ProductDisplay from './detailed-product-component';
 import productsData from './test.json';
 
+const normalizeText = (text) => {
+  if (!text || typeof text !== 'string') return '';
+  
+  const turkishMap = {
+    'ı': 'i', 'ğ': 'g', 'ü': 'u', 'ş': 's', 'ö': 'o', 'ç': 'c',
+    'İ': 'i', 'Ğ': 'g', 'Ü': 'u', 'Ş': 's', 'Ö': 'o', 'Ç': 'c'
+  };
+
+  return text
+    .toLowerCase()
+    .replace(/[™®©℠]/g, '')
+    .replace(/[ığüşöçİĞÜŞÖÇ]/g, char => turkishMap[char] || char)
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+};
+
 const ProductDetail = () => {
   const pathname = usePathname();
-  const productId = pathname.split('/').pop(); // Gets the last part of the URL
+  const productId = pathname.split('/').pop();
 
-  // Find the product using case-insensitive comparison and URL-friendly format
-  const product = productsData.find(p => {
-    // Remove special characters and convert to lowercase for comparison
-    const urlFriendlyName = p.name
-      .toLowerCase()
-      .replace(/[™®]/g, '')  // Remove ™ and ® symbols
-      .replace(/\s+/g, '-')  // Replace spaces with hyphens
-      .replace(/[^a-z0-9-]/g, ''); // Remove any other special characters
+  const findProduct = (data) => {
+    const stack = [...(Array.isArray(data) ? data : [data])];
+    const normalizedProductId = normalizeText(productId);
     
-    return urlFriendlyName === productId.toLowerCase();
-  });
+    while (stack.length) {
+      const current = stack.pop();
+      
+      if (!current) continue;
+
+      if (current.name && normalizeText(current.name) === normalizedProductId) {
+        return current;
+      }
+
+      if (Array.isArray(current.products)) {
+        stack.push(...current.products);
+      }
+    }
+    return null;
+  };
+
+  const product = findProduct(productsData);
 
   if (!product) {
     return (

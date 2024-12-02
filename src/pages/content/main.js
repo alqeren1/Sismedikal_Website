@@ -231,66 +231,6 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className="bg-blue-50 py-8 sm:py-16 w-full">
-        <div className="flex flex-col px-1 md:px-8 lg:px-16 xl:px-48 items-center w-full">
-          <div className="hidden sm:flex justify-left w-full items-top space-x-4 md:space-x-12">
-            <div className="hidden md:flex flex-shrink-0">
-              <Image
-                src={"/octaxlazer.png"}
-                alt={"lazer"}
-                width={200}
-                height={200}
-                layout="intrinsic" // Ensures the image does not shrink
-                className="object-contain"
-              />
-            </div>
-            <div className="flex md:hidden flex-shrink-0">
-              <Image
-                src={"/octaxlazer.png"}
-                alt={"lazer"}
-                width={140}
-                height={140}
-                layout="intrinsic" // Ensures the image does not shrink
-                className="object-contain"
-              />
-            </div>
-            <div>
-              <div className="text-3xl md:text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
-                Octax Lazer sistemleri
-              </div>
-              <div className="space-y-2 text-xl md:text-2xl text-gray-700 ml-1">
-                <div className=" ">Modüler ve Kullanıcı Dostu</div>
-                <div className=" ">Yüksek Performanslı Lazerler</div>
-                <div className=" ">Gelişmiş Uygulamalar </div>
-                <div className=" ">Üstün Görüntüleme Teknolojisi </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex-col items-center sm:hidden justify-center w-full items-top space-x-4 md:space-x-12">
-            <div className="flex flex-shrink-0">
-              <Image
-                src={"/octaxlazer.png"}
-                alt={"lazer"}
-                width={140}
-                height={140}
-                layout="intrinsic" // Ensures the image does not shrink
-                className="object-contain"
-              />
-            </div>
-            <div>
-              <div className="text-3xl md:text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
-                Octax Lazer sistemleri
-              </div>
-              <div className="space-y-2 text-xl md:text-2xl text-gray-700 ml-1">
-                <div className=" ">Modüler ve Kullanıcı Dostu</div>
-                <div className=" ">Yüksek Performanslı Lazerler</div>
-                <div className=" ">Gelişmiş Uygulamalar </div>
-                <div className=" ">Üstün Görüntüleme Teknolojisi </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
