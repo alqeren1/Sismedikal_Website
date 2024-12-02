@@ -8,11 +8,24 @@ export default function Navbar() {
   const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef(null);
   const hamburgerRef = useRef(null);
   const isMainPage = router.pathname === "/";
 
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
+
+  // Scroll event listener to detect scrolling
+  useEffect(() => {
+    if (!isMainPage) return;
+
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isMainPage]);
 
   // Close menu on outside click
   useEffect(() => {
@@ -54,7 +67,6 @@ export default function Navbar() {
     };
   }, [isMenuOpen]);
 
-  // Wait until the router is ready to render paths
   if (!router.isReady) {
     return null;
   }
@@ -63,9 +75,11 @@ export default function Navbar() {
     <div
       className={`w-full z-50 ${
         isMainPage
-          ? "absolute top-0 bg-white" // Sticks to top of the main page with absolute positioning
-          : "sticky top-0 bg-white shadow-md" // Sticks to the top for other pages
-      }`}
+          ? isScrolled
+            ? "sticky top-0 bg-white shadow-md"
+            : "sticky  top-0 bg-gradient-to-br from-[#eff6ff] to-[#f7faff]"
+          : "sticky top-0 bg-white shadow-md"
+      } `}
     >
       <div className="flex justify-between w-full items-center px-4 xl:px-20 py-4">
         {/* Logo */}
@@ -91,7 +105,7 @@ export default function Navbar() {
                 key={index}
                 className={`text-md xl:text-lg hover:cursor-pointer ${
                   router.asPath === item.path
-                    ? "text-blue-500 "
+                    ? "text-blue-500"
                     : "text-gray-700 hover:text-blue-400"
                 }`}
                 onClick={() => router.push(item.path)}
@@ -181,8 +195,8 @@ export default function Navbar() {
               key={index}
               className={`text-2xl ${
                 router.asPath === item.path
-                  ? " text-blue-500"
-                  : " text-gray-700"
+                  ? "font-bold text-blue-500"
+                  : "font-normal text-gray-700"
               }`}
               onClick={() => {
                 router.push(item.path);
