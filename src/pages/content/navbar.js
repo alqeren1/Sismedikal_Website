@@ -8,10 +8,24 @@ export default function Navbar() {
   const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef(null);
   const hamburgerRef = useRef(null);
   const isMainPage = router.pathname === "/";
+
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
+
+  // Scroll event listener to detect scrolling
+  useEffect(() => {
+    if (!isMainPage) return;
+
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isMainPage]);
 
   // Close menu on outside click
   useEffect(() => {
@@ -34,16 +48,38 @@ export default function Navbar() {
 
   // Prevent body scrolling when mobile menu is open
   useEffect(() => {
-    document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
+    const handleBodyStyles = () => {
+      if (isMenuOpen) {
+        const scrollbarWidth =
+          window.innerWidth - document.documentElement.clientWidth;
+        document.body.style.overflow = "hidden";
+        document.body.style.paddingRight = `${scrollbarWidth}px`;
+      } else {
+        document.body.style.overflow = "auto";
+        document.body.style.paddingRight = "0";
+      }
+    };
+
+    handleBodyStyles();
+    return () => {
+      document.body.style.overflow = "auto";
+      document.body.style.paddingRight = "0";
+    };
   }, [isMenuOpen]);
+
+  if (!router.isReady) {
+    return null;
+  }
 
   return (
     <div
       className={`w-full z-50 ${
         isMainPage
-          ? "absolute top-0 bg-white" // Sticks to top of the main page with absolute positioning
-          : "sticky top-0 bg-white shadow-md" // Sticks to the top for other pages
-      }`}
+          ? isScrolled
+            ? "sticky top-0 bg-white shadow-md"
+            : "sticky  top-0 bg-gradient-to-br from-[#eff6ff] to-[#f7faff]"
+          : "sticky top-0 bg-white shadow-md"
+      } `}
     >
       <div className="flex justify-between w-full items-center px-4 xl:px-20 py-4">
         {/* Logo */}
@@ -61,14 +97,17 @@ export default function Navbar() {
             {[
               { label: "Hakkımızda", path: "/hakkimizda" },
               { label: "Ürünlerimiz", path: "/urunlerimiz" },
-              { label: "Ürün Hesaplama", path: "/urunhesaplama" },
               { label: "Referanslarımız", path: "/referanslarimiz" },
               { label: "Protokoller", path: "/protokoller" },
               { label: "İletişim", path: "/iletisim" },
             ].map((item, index) => (
               <div
                 key={index}
-                className="text-gray-700 text-md xl:text-lg px-4 hover:cursor-pointer hover:text-blue-500"
+                className={`text-md xl:text-lg hover:cursor-pointer ${
+                  router.asPath === item.path
+                    ? "text-blue-500"
+                    : "text-gray-700 hover:text-blue-400"
+                }`}
                 onClick={() => router.push(item.path)}
               >
                 {item.label}
@@ -155,9 +194,9 @@ export default function Navbar() {
             <button
               key={index}
               className={`text-2xl ${
-                router.pathname === item.path
-                  ? "font-black text-blue-500"
-                  : "font-semibold"
+                router.asPath === item.path
+                  ? "font-bold text-blue-500"
+                  : "font-normal text-gray-700"
               }`}
               onClick={() => {
                 router.push(item.path);
