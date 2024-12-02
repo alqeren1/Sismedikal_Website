@@ -164,21 +164,18 @@ const ReferencesPage = () => {
   );
 
   return (
-    <div className="min-h-screen bg-blue-50 ">
-      <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
-        <div className="text-white text-center z-10">
-          <h1 className="text-4xl xl:text-7xl font-bold md:mb-2 ">
-            Referanslarımız
+    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto">
+        {/* Search Section */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-blue-600 mb-4">
+            Our References
           </h1>
-          <p className="text-base md:text-lg xl:text-xl text-white">
-            Türkiye ve Kıbrıs Genelinde Güvenilir Partnerlerimiz
+          <p className="text-lg text-gray-600">
+            Trusted Healthcare Partners Across Turkey and Cyprus
           </p>
         </div>
-      </div>
-      <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        {/* Search Section */}
-
-        <div className="relative w-full px-8 mx-auto mb-4">
+        <div className="relative max-w-xl mx-auto mb-12">
           <div className="relative">
             <Search
               className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
@@ -186,7 +183,7 @@ const ReferencesPage = () => {
             />
             <input
               type="text"
-              placeholder="Şehir veya hastane adı ile ara..."
+              placeholder="Search by city or hospital name..."
               className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:outline-none"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -197,14 +194,17 @@ const ReferencesPage = () => {
         {/* References Section */}
         <div className="space-y-8">
           {Object.entries(filteredReferences).map(([city, hospitals]) => (
-            <div key={city} className="w-full px-10 mb-8 py-4 rounded-2xl  ">
+            <div
+              key={city}
+              className="w-full px-10 mb-8 py-4 rounded-2xl bg-white border"
+            >
               {/* City Name */}
               <h1 className="text-3xl sm:text-5xl text-blue-500 mb-2 font-bold">
                 {city}
               </h1>
               <div className="border border-b mb-4"></div>
               {/* Single Row of Hospitals */}
-              <div className="flex-col space-y-4 text-blue-900 text-md sm:text-xl">
+              <div className="flex-col space-y-4 text-md sm:text-xl">
                 {hospitals.map((hospital, index) => (
                   <div key={index}>{hospital}</div>
                 ))}

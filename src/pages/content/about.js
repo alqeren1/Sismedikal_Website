@@ -32,9 +32,12 @@ export default function About() {
   return (
     <div className=" flex flex-col bg-blue-50 items-center w-full">
       {/* Hero Section - Fixed */}
-      <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500  h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
-        <div className="text-white text-center z-10">
-          <h1 className="text-4xl xl:text-7xl font-bold ">Hakkımızda</h1>
+      <div className="relative w-full bg-gradient-to-br from-blue-100 to-blue-200  h-[300px] flex flex-col justify-center items-center">
+        <div className="text-gray-800 text-center z-10">
+          <h1 className="text-5xl sm:text-7xl font-bold mb-6">Hakkımızda</h1>
+          <p className="text-xl sm:text-2xl">
+            25 yıldır IVF teknolojilerinde öncü çözümler
+          </p>
         </div>
       </div>
 
@@ -93,17 +96,20 @@ export default function About() {
                 content:
                   "En yüksek kalite standartlarında ürün ve hizmet sağlayarak müşterilerimizin güvenini kazanmak.",
                 gradient: "from-blue-400 to-blue-500",
+                gradient: "from-blue-400 to-blue-500",
               },
               {
                 title: "Sürekli İyileştirme",
                 content:
                   "Süreçlerimizi sürekli gözden geçirerek ve iyileştirerek hizmet kalitemizi artırmak.",
                 gradient: "from-blue-400 to-blue-500",
+                gradient: "from-blue-400 to-blue-500",
               },
               {
                 title: "Müşteri Odaklılık",
                 content:
                   "Müşterilerimizin ihtiyaçlarını en iyi şekilde anlayarak, beklentilerinin ötesinde çözümler sunmak.",
+                gradient: "from-blue-400 to-blue-500",
                 gradient: "from-blue-400 to-blue-500",
               },
             ].map((item, index) => (

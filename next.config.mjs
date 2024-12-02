@@ -13,10 +13,20 @@ const nextConfig = {
         destination: "/content/references", 
       },
       {
+        source: "/referanslarimiz",
+        destination: "/content/references", 
+      },
+      {
         source: "/urunlerimiz",
         destination: "/content/products", 
       },
       {
+        source: "/urunlerimiz/:slug",
+        destination: "/content/products-detail/:slug/page",
+      },
+      {
+        source: "/urunlerimiz/:slug/:Pslug",
+        destination: "/content/products-detail/individual-product",
         source: "/urunlerimiz/:slug",
         destination: "/content/products-detail/:slug/page",
       },

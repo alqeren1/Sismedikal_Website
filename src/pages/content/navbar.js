@@ -93,7 +93,7 @@ export default function Navbar() {
         />
         <div className="flex items-center">
           {/* Desktop Menu */}
-          <div className="hidden xl:flex space-x-6">
+          <div className="hidden xl:flex space-x-4">
             {[
               { label: "Hakkımızda", path: "/hakkimizda" },
               { label: "Ürünlerimiz", path: "/urunlerimiz" },
