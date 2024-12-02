@@ -84,7 +84,7 @@ export default function Navbar() {
       <div className="flex justify-between w-full items-center px-4 xl:px-20 py-4">
         {/* Logo */}
         <Image
-          src="/sismed.png"
+          src="/sismed2.png"
           alt="Logo"
           width={250}
           height={50}
@@ -186,7 +186,7 @@ export default function Navbar() {
             { label: "Anasayfa", path: "/" },
             { label: "Hakkımızda", path: "/hakkimizda" },
             { label: "Ürünlerimiz", path: "/urunlerimiz" },
-            { label: "Ürün Hesaplama", path: "/urunhesaplama" },
+
             { label: "Referanslarımız", path: "/referanslarimiz" },
             { label: "Protokoller", path: "/protokoller" },
             { label: "İletişim", path: "/iletisim" },

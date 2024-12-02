@@ -39,7 +39,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div
-            className={`space-y-4 lg:space-y-8 transform transition-all duration-1000 ${
+            className={` transform transition-all duration-1000 ${
               isVisible
                 ? "translate-x-0 opacity-100"
                 : "-translate-x-20 opacity-0"
@@ -49,7 +49,7 @@ const HeroSection = () => {
               href="https://www.vitrolife.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center bg-blue-100 rounded-full px-4 py-2 mt-10 sm:mt-0"
+              className="inline-flex items-center bg-blue-100 rounded-full px-4 py-2 mt-10 sm:mt-0 mb-4"
             >
               <img
                 src="/vitrolife.svg"
@@ -63,12 +63,12 @@ const HeroSection = () => {
               </span>
             </a>
 
-            <h1 className="text-5xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-4 lg:mb-8">
               <span className="text-blue-600"> IVF Sektöründe Lider </span>
               Çözüm Ortağınız
             </h1>
 
-            <div className="space-y-4">
+            <div className="space-y-4 mb-4 lg:mb-8">
               <div className="flex items-center">
                 <Users className="w-6 h-6 text-blue-600 mr-3" />
                 <span className="text-xl text-gray-700">
