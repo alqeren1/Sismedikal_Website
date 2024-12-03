@@ -58,9 +58,6 @@ const HeroSection = () => {
                 height={100}
                 objectFit="contain"
               />
-              <span className="text-blue-800 font-medium ml-2">
-                Türkiye Ana Distribütörü
-              </span>
             </a>
 
             <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-4 lg:mb-8">

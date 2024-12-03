@@ -1,10 +1,12 @@
 import { useState, useRef } from "react";
-import Arrowleft from "../../../svgs/arrow";
-import Arrowdown from "../../../svgs/arrowdown";
+
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Highlighter from "react-highlight-words";
+import Arrowleft from "../../../svgs/arrow";
+import Arrowdown from "../../../svgs/arrowdown";
 import Hero from "./hero";
+import Hero2 from "./hero2";
 export default function Main() {
   const router = useRouter();
 
@@ -20,7 +22,7 @@ export default function Main() {
 
   return (
     <div className="flex flex-col items-center w-full">
-      <Hero></Hero>
+      <Hero2></Hero2>
       {/* Hero Image Section */}
 
       <div className="bg-blue-100 py-8 sm:py-16 w-full">

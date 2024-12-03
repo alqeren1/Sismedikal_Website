@@ -88,7 +88,7 @@ export default function Navbar() {
           alt="Logo"
           width={250}
           height={50}
-          className="cursor-pointer"
+          className="cursor-pointer  w-full max-w-[250px]"
           onClick={() => router.push("/")}
         />
         <div className="flex items-center">
@@ -162,6 +162,20 @@ export default function Navbar() {
             )}
           </div>
         </div>
+        <a
+          href="https://www.vitrolife.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center  "
+        >
+          <img
+            src="/vitrolife.svg"
+            alt="vitrolife"
+            width={200}
+            height={100}
+            objectFit="contain"
+          />
+        </a>
 
         {/* Mobile Menu Icon */}
         <div className="xl:hidden z-50" ref={hamburgerRef}>

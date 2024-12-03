@@ -18,6 +18,8 @@ module.exports = {
       screens: {
         xs: "370px",
         xslg: "470px", // Custom breakpoint below the 'sm' breakpoint (default: 640px)
+        xllg: "1350px",
+        ucxl: "1920px",
       },
     },
   },
