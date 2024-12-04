@@ -43,7 +43,7 @@ export default function About() {
                   <th className="px-4 py-4 text-left">Email</th>
                 </tr>
               </thead>
-              <tbody className="text-lg">
+              <tbody className="text-lg text-gray-700">
                 {/* Ankara Office */}
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
@@ -175,7 +175,7 @@ export default function About() {
                   <th className="px-4 py-4 text-left">Email</th>
                 </tr>
               </thead>
-              <tbody className="text-lg">
+              <tbody className="text-lg text-gray-700">
                 {/* Ankara Office */}
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
@@ -278,14 +278,14 @@ export default function About() {
                   <td className="px-0 py-4 border-r-2 pr-1 text-lg  xl:text-2xl font-bold text-gray-800 border-gray-300">
                     ADANA Bölge
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
+                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300 text-gray-700">
                     Murat Yalçın ŞEKER
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
+                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300  text-gray-700">
                     (+90 532) 228 24 77
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300"></td>
-                  <td className="px-4 text-base xl:text-lg py-4">
+                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300  text-gray-700"></td>
+                  <td className="px-4 text-base xl:text-lg py-4  text-gray-700">
                     murat@sismed.com
                   </td>
                 </tr>

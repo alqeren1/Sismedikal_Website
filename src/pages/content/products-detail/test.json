@@ -1532,8 +1532,9 @@
     },
     "composition": []
   },
+  
   {
-    "name": "CENTRIFUGE TUBE",
+    "name": "CENTRIFUGE TUBES",
     "brand": "",
     "image_url": "",
     "product_url": "",
@@ -1603,7 +1604,7 @@
 
   
     {
-      "name": "EMBRYOSCOPE+ TIME-LAPSE SİSTEMİ",
+      "name": "EMBRYOSCOPE+",
       "brand": "",
       "image_url": "",
       "product_url": "",

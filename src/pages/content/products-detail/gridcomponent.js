@@ -25,11 +25,11 @@ const ProductGrid = ({
               onClick={() => router.push(`/urunlerimiz/${lastSegment}${product.webpath}`)}
               className="bg-white rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 overflow-hidden group flex flex-col cursor-pointer"
             >
-              <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-50">
+              <div className="relative pt-[100%]">
                 <img
                   src={product.path ? `/${product.path}` : "/api/placeholder/300/300"}
                   alt={product.name}
-                  className="w-full h-full object-contain object-center transform transition-transform duration-300 group-hover:scale-110"
+                  className="absolute inset-0 w-full h-full object-cover object-center transform transition-transform duration-300 group-hover:scale-110"
                 />
               </div>
               <div className="p-6 flex-1 flex flex-col">

@@ -187,7 +187,7 @@ const ReferencesPage = () => {
             <input
               type="text"
               placeholder="Şehir veya hastane adı ile ara..."
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:outline-none"
+              className="w-full bg-white pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:outline-none"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
