@@ -61,23 +61,21 @@ export default function ProductsSection() {
       <div className="max-w-7xl mx-auto px-4 py-20">
         <h3 className="text-4xl mb-10 text-center text-blue-500">Ürünlerimiz</h3>
 
-        {/* Tabs */}
-        <div className="flex justify-center mb-8">
-          <div className="bg-white rounded-lg shadow-lg p-2 inline-flex">
-            {categories.map((category, idx) => (
-              <button
-                key={idx}
-                onClick={() => setActiveTab(idx)}
-                className={`px-6 py-3 rounded-lg font-medium transition-all whitespace-nowrap
-                  ${activeTab === idx 
-                    ? 'bg-blue-500 text-white shadow-md' 
-                    : 'text-gray-600 hover:bg-gray-100'
-                  }`}
-              >
-                {category.title}
-              </button>
-            ))}
-          </div>
+        {/* Updated Tabs */}
+        <div className="flex justify-center mb-8 overflow-x-auto scrollbar-hide">
+          {categories.map((category, idx) => (
+            <button
+              key={idx}
+              onClick={() => setActiveTab(idx)}
+              className={`px-6 py-3 font-semibold transition-colors duration-200 ${
+                activeTab === idx
+                  ? "text-blue-500 border-b-2 border-blue-500"
+                  : "text-gray-500 hover:text-blue-400"
+              }`}
+            >
+              {category.title}
+            </button>
+          ))}
         </div>
 
         {/* Product Grid */}
