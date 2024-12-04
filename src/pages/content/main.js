@@ -24,6 +24,74 @@ export default function Main() {
     <div className="flex flex-col items-center w-full">
       <Hero2></Hero2>
       {/* Hero Image Section */}
+      {/* Steps Section */}
+      <div className="block xllg:hidden bg-blue-50 py-8 sm:py-16 w-full">
+        <div className="flex flex-col items-center w-full">
+          {/* Title */}
+          <h2 className="text-gray-800 font-bold text-3xl sm:text-5xl mb-8 sm:mb-16 text-left px-4">
+            <Highlighter
+              highlightClassName="bg-blue-500 text-white  px-1 md:px-2  "
+              searchWords={["Sismedikal"]}
+              autoEscape={true}
+              textToHighlight="IVF yolculuğunu Sismedikal ile keşfedin"
+            />
+          </h2>
+
+          {/* Steps */}
+          <div className="block md:flex  justify-center flex-wrap gap-2 px-10">
+            {steps.map((step, index) => (
+              <div
+                key={index}
+                className="flex flex-col text-center text-gray-700 items-center"
+              >
+                {/* Step Image */}
+                <div className="flex  items-center">
+                  <div className="hidden 2xl:flex">
+                    <Image
+                      src={step.src}
+                      alt={step.label}
+                      width={160}
+                      height={160}
+                    />
+                  </div>
+                  <div className="flex 2xl:hidden">
+                    <Image
+                      src={step.src}
+                      alt={step.label}
+                      width={122}
+                      height={122}
+                    />
+                  </div>
+                  <div className="hidden md:flex">
+                    {index < steps.length - 1 && (
+                      <div className="ml-2  w-12">
+                        <Arrowleft />
+                      </div>
+                    )}{" "}
+                  </div>
+                </div>
+
+                {/* Step Label */}
+                <div className="flex justify-left w-full">
+                  <div className="flex justify-center  w-[122px] 2xl:w-[160px]  font-semibold mt-2">
+                    {step.label}
+                  </div>{" "}
+                </div>
+                {/* phone mode arrow */}
+                <div className="flex md:hidden">
+                  {index < steps.length - 1 && (
+                    <div className="  w-12">
+                      <Arrowdown />
+                    </div>
+                  )}{" "}
+                </div>
+
+                {/* Arrow Icon (except for the last step) */}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
 
       <div className="bg-blue-100 py-8 sm:py-16 w-full">
         <div className="flex flex-col px-1 sm:px-8 lg:px-16 xl:px-48 items-center w-full">
@@ -162,74 +230,6 @@ export default function Main() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      {/* Steps Section */}
-      <div className="bg-blue-100 py-8 sm:py-16 w-full">
-        <div className="flex flex-col items-center w-full">
-          {/* Title */}
-          <h2 className="text-gray-800 font-bold text-3xl sm:text-5xl mb-8 sm:mb-16 text-left px-4">
-            <Highlighter
-              highlightClassName="bg-blue-500 text-white  px-1 md:px-2  "
-              searchWords={["Sismedikal"]}
-              autoEscape={true}
-              textToHighlight="IVF yolculuğunu Sismedikal ile keşfedin"
-            />
-          </h2>
-
-          {/* Steps */}
-          <div className="block md:flex  justify-center flex-wrap gap-2 px-10">
-            {steps.map((step, index) => (
-              <div
-                key={index}
-                className="flex flex-col text-center text-gray-700 items-center"
-              >
-                {/* Step Image */}
-                <div className="flex  items-center">
-                  <div className="hidden 2xl:flex">
-                    <Image
-                      src={step.src}
-                      alt={step.label}
-                      width={160}
-                      height={160}
-                    />
-                  </div>
-                  <div className="flex 2xl:hidden">
-                    <Image
-                      src={step.src}
-                      alt={step.label}
-                      width={122}
-                      height={122}
-                    />
-                  </div>
-                  <div className="hidden md:flex">
-                    {index < steps.length - 1 && (
-                      <div className="ml-2  w-12">
-                        <Arrowleft />
-                      </div>
-                    )}{" "}
-                  </div>
-                </div>
-
-                {/* Step Label */}
-                <div className="flex justify-left w-full">
-                  <div className="flex justify-center  w-[122px] 2xl:w-[160px]  font-semibold mt-2">
-                    {step.label}
-                  </div>{" "}
-                </div>
-                {/* phone mode arrow */}
-                <div className="flex md:hidden">
-                  {index < steps.length - 1 && (
-                    <div className="  w-12">
-                      <Arrowdown />
-                    </div>
-                  )}{" "}
-                </div>
-
-                {/* Arrow Icon (except for the last step) */}
-              </div>
-            ))}
           </div>
         </div>
       </div>

@@ -72,3 +72,18 @@ body {
   transform: rotate(0deg); /* Slight angle for a natural look */
   opacity: 0.9; /* Slight transparency */
 }
+
+
+.custom-dots li button {
+  width: 16px!important; /* Adjust the size */
+  height: 16px!important; /* Adjust the size */
+}
+
+.custom-dots li button:before {
+  font-size: 16px!important; /* Adjust the dot size */
+  color: gray!important; /* Adjust the default dot color */
+}
+
+.custom-dots li.slick-active button:before {
+  color: black!important; /* Adjust the active dot color */
+}

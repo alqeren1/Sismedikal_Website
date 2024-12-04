@@ -166,7 +166,7 @@ export default function Navbar() {
           href="https://www.vitrolife.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center  "
+          className="hidden xllg:inline-flex items-center  "
         >
           <img
             src="/vitrolife.svg"
@@ -191,35 +191,51 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div
         ref={menuRef}
-        className={`xl:hidden fixed top-0 right-0 h-full bg-gradient-to-l from-white via-white to-gray-100 transform ${
+        className={`xl:hidden fixed top-0 right-0 h-full bg-gradient-to-l  from-white via-white to-gray-100 transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out z-40 w-auto min-w-max`}
       >
-        <div className="flex flex-col px-10 items-end text-gray-700 justify-start h-full space-y-4 xs:space-y-8 mt-20 xs:mt-36">
-          {[
-            { label: "Anasayfa", path: "/" },
-            { label: "Hakkımızda", path: "/hakkimizda" },
-            { label: "Ürünlerimiz", path: "/urunlerimiz" },
+        <div className="">
+          <div className="flex flex-col px-10 items-end text-gray-700 justify-start h-full space-y-4 xs:space-y-8 mt-20 xs:mt-36">
+            {[
+              { label: "Anasayfa", path: "/" },
+              { label: "Hakkımızda", path: "/hakkimizda" },
+              { label: "Ürünlerimiz", path: "/urunlerimiz" },
 
-            { label: "Referanslarımız", path: "/referanslarimiz" },
-            { label: "Protokoller", path: "/protokoller" },
-            { label: "İletişim", path: "/iletisim" },
-          ].map((item, index) => (
-            <button
-              key={index}
-              className={`text-2xl ${
-                router.asPath === item.path
-                  ? "font-bold text-blue-500"
-                  : "font-normal text-gray-700"
-              }`}
-              onClick={() => {
-                router.push(item.path);
-                toggleMenu();
-              }}
-            >
-              {item.label}
-            </button>
-          ))}
+              { label: "Referanslarımız", path: "/referanslarimiz" },
+              { label: "Protokoller", path: "/protokoller" },
+              { label: "İletişim", path: "/iletisim" },
+            ].map((item, index) => (
+              <button
+                key={index}
+                className={`text-2xl ${
+                  router.asPath === item.path
+                    ? "font-bold text-blue-500"
+                    : "font-normal text-gray-700"
+                }`}
+                onClick={() => {
+                  router.push(item.path);
+                  toggleMenu();
+                }}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+          <a
+            href="https://www.vitrolife.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center absolute bottom-10 w-full "
+          >
+            <img
+              src="/vitrolife.svg"
+              alt="vitrolife"
+              width={200}
+              height={100}
+              objectFit="contain"
+            />
+          </a>
         </div>
       </div>
     </div>

@@ -30,31 +30,6 @@ const HeroSection = () => {
     "Octax Laser",
   ];
 
-  // Custom Previous Arrow
-  const CustomPrevArrow = (props) => {
-    const { onClick } = props;
-    return (
-      <button
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-100"
-        onClick={onClick}
-      >
-        <ChevronLeft className="w-6 h-6 text-gray-700" />
-      </button>
-    );
-  };
-
-  // Custom Next Arrow
-  const CustomNextArrow = (props) => {
-    const { onClick } = props;
-    return (
-      <button
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-100"
-        onClick={onClick}
-      >
-        <ChevronRight className="w-6 h-6 text-gray-700" />
-      </button>
-    );
-  };
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -63,12 +38,11 @@ const HeroSection = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: true, // Enable arrows
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
+    arrows: false, // Enable arrows
+
     appendDots: (dots) => (
-      <div style={{ position: "absolute", bottom: "15px", width: "100%" }}>
-        <ul className="slick-dots">{dots}</ul>
+      <div style={{ position: "absolute", bottom: "30px", width: "100%" }}>
+        <ul className="slick-dots custom-dots">{dots}</ul>
       </div>
     ),
   };
@@ -87,20 +61,14 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="relative w-full [height:calc(100vh-85px)] bg-gradient-to-br from-blue-50 to-white items-center justify-center md:mb-96 lg:mb-0">
-      <div className="flex mb-4 justify-between px-8 xl:px-20 2xl:px-40 ucxl:px-72 mt-36 lg:mt-12 items-center ">
+    <div className="relative w-full min-h-[calc(100vh-85px)] bg-gradient-to-br from-blue-50 to-white flex flex-col items-center">
+      <div className="flex-grow w-full flex flex-col-reverse  lg:flex-row justify-center lg:justify-between px-0 md:px-8 xl:px-20 2xl:px-60 items-start md:items-center ">
         {/* Left Content */}
-        <div
-          className={`transform transition-all duration-1000 ${
-            isVisible
-              ? "translate-x-0 opacity-100"
-              : "-translate-x-20 opacity-0"
-          }`}
-        >
-          <h1 className="text-5xl font-bold text-gray-900 leading-tight">
+        <div className="flex flex-col justify-center items-start lg:items-start text-left lg:text-left px-4 md:px-0 mt-12 md:mt-8 lg:mt-12">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
             <span className="text-blue-600"> Sürecin Her Aşamasında </span>
           </h1>
-          <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-4 lg:mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4 lg:mb-8">
             Sismedikal Yanınızda
           </h1>
 
@@ -121,38 +89,8 @@ const HeroSection = () => {
         </div>
 
         {/* Right Content - Image Carousel */}
-        <div className="hidden lg:flex">
-          <div>
-            <div className="w-full max-w-md lg:max-w-lg lg:mt-0 ">
-              <Slider {...sliderSettings}>
-                {carouselImages.map((image, index) => (
-                  <div
-                    key={index}
-                    className="relative flex justify-center items-center w-full h-full"
-                    style={{ aspectRatio: "1 / 1" }}
-                  >
-                    {/* Description Label */}
-                    <div className="absolute bottom-4 left-4 bg-white text-gray-900 px-8 py-4 backdrop-blur-sm bg-opacity-70 font-semibold text-4xl leading-tight  ">
-                      {imageDescriptions[index]}
-                    </div>
-
-                    <img
-                      src={image}
-                      alt={imageDescriptions[index]}
-                      className="w-full h-full object-cover rounded-lg"
-                    />
-                  </div>
-                ))}
-              </Slider>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Right Content - Image Carousel */}
-      <div className="flex lg:hidden w-full justify-center mt-16">
-        <div>
-          <div className="w-full max-w-md lg:max-w-lg lg:mt-0 ">
+        <div className="w-full lg:w-auto flex justify-center items-center px-0 lg:mt-0">
+          <div className="w-full max-w-[500px] md:max-w-[560px] lg:max-w-[550px]">
             <Slider {...sliderSettings}>
               {carouselImages.map((image, index) => (
                 <div
@@ -161,14 +99,14 @@ const HeroSection = () => {
                   style={{ aspectRatio: "1 / 1" }}
                 >
                   {/* Description Label */}
-                  <div className="absolute bottom-4 left-4 bg-white text-gray-900 px-8 py-4 backdrop-blur-sm bg-opacity-70 font-semibold text-4xl leading-tight  ">
+                  <div className="absolute bottom-4 left-4 bg-white text-gray-900 md:px-8 px-4 py-2 md:py-4 backdrop-blur-sm bg-opacity-70 font-semibold text-2xl md:text-4xl leading-tight">
                     {imageDescriptions[index]}
                   </div>
 
                   <img
                     src={image}
                     alt={imageDescriptions[index]}
-                    className="w-full h-full object-cover rounded-lg"
+                    className="w-full h-full object-cover sm:rounded-lg"
                   />
                 </div>
               ))}
@@ -178,7 +116,7 @@ const HeroSection = () => {
       </div>
 
       {/* Steps Section */}
-      <div className="hidden xllg:flex py-8 sm:py-8 w-full">
+      <div className="hidden xllg:block  py-8 sm:py-4 w-full">
         <div className="flex flex-col items-center w-full">
           {/* Steps */}
           <div className="block md:flex justify-center flex-wrap gap-2 px-10">
@@ -193,8 +131,8 @@ const HeroSection = () => {
                     <Image
                       src={step.src}
                       alt={step.label}
-                      width={160}
-                      height={160}
+                      width={150}
+                      height={150}
                     />
                   </div>
                   <div className="flex ucxl:hidden">
@@ -216,7 +154,7 @@ const HeroSection = () => {
 
                 {/* Step Label */}
                 <div className="flex justify-left w-full">
-                  <div className="flex justify-center w-[122px] 2xl:w-[160px] font-semibold mt-2">
+                  <div className="flex justify-center w-[122px] ucxl:w-[150px] font-semibold mt-1">
                     {step.label}
                   </div>
                 </div>
