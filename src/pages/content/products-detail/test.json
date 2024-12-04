@@ -661,7 +661,7 @@
     ]
   },
   {
-    "name": "IVF™-30",
+    "name": "IVF™",
     "brand": "Vitrolife",
     "image_url": "",
     "product_url": "",
@@ -695,7 +695,7 @@
     ]
   },
   {
-    "name": "SPERMGRAD™",
+    "name": "SPERMGRAD™ 30/125",
     "brand": "Vitrolife",
     "image_url": "",
     "product_url": "",
@@ -728,7 +728,7 @@
     ]
   },
   {
-    "name": "SPERM RİNSE™-30",
+    "name": "SPERMRINSE™",
     "brand": "Vitrolife",
     "image_url": "",
     "product_url": "",
@@ -763,7 +763,7 @@
     ]
   },
   {
-    "name": "SPERM FREEZE SOLUTION™",
+    "name": "SPERMFREEZE SOLUTION™",
     "brand": "Vitrolife",
     "image_url": "",
     "product_url": "",
@@ -886,7 +886,7 @@
     ]
   },
   {
-    "name": "RAPID WARM™ CLEAVE",
+    "name": "RAPIDWARM™ CLEAVE",
     "brand": "Vitrolife",
     "image_url": "",
     "product_url": "",
@@ -1072,8 +1072,58 @@
       "Glisin"
     ]
   },
+
   {
-    "name": "RAPID WARM BLAST™",
+    "name": "RAPIDVIT™ BLAST",
+    "brand": "Vitrolife",
+    "image_url": "",
+    "product_url": "",
+    "url": "",
+    "title": "RAPİD VİT™ BLAST",
+    "subtitle": "Klivaj Vitrifikasyon Medyumu",
+    "description": "Bu medyum blastosist safhasındaki embryoları vitrifikasyon sırasında desteklemek ve canlılıklarını koruma amaçlı dizayn edilmiştir.",
+    "specifications": {
+        "REF": "10119",
+        "İçerik": "3 x 10 mL",
+        "Kullanım Amacı": "Blastosist safhası embryo vitrifikasyon medyumu",
+        "Tanım": "MOPS tamponlu medyum",
+        "Uygulama": "+37°C'de öndengeleme sonrası kullanıma uygundur.",
+        "Raf Ömrü": "Gönderim tarihinden itibaren minimum 5 hafta. Son kullanma tarihi için lütfen şişe etiketine bakınız.",
+        "Saklama Koşulu": "Karanlık, +2–8°C"
+    },
+    "composition": [
+        "Kalsiyum klorür",
+        "Sodyum klorür",
+        "Sukroz",
+        "Alanin",
+        "Potasyum klorür",
+        "Gentamisin",
+        "Alanil glutamin",
+        "Prolin",
+        "Etilen glikol",
+        "Glukoz",
+        "Sodyum dihidrojen fosfat",
+        "Fikoln",
+        "Asparagin",
+        "Serin",
+        "Propandiol",
+        "Aspartat",
+        "Sodyum bikarbonat",
+        "İnsan serum albümini",
+        "Magnezyum sülfat",
+        "Taurin",
+        "Hyaluronan",
+        "Glutamat",
+        "Sodyum laktat",
+        "Sodyum Hidroksit",
+        "MOPS",
+        "Enjeksiyon için su (WFI)",
+        "Sodyum pirüvat",
+        "Glisin"
+    ]
+},
+  {
+    "name": "RAPIDWARM BLAST™",
     "brand": "Vitrolife",
     "image_url": "",
     "product_url": "",
@@ -1127,30 +1177,30 @@
     "subtitle": "Zaman tasarruflu, kolay ve başarılı vitrifikasyon için tasarlanmış kapalı sistem",
     "description": "Rapid-I™ Vitrifikasyon Sistemi, embriyo vitrifikasyonunda güvenli ve etkili bir çözüm sunar. Kapalı sistem tasarımı sayesinde kontaminasyon riskini azaltır ve embriyo güvenliğini artırır.",
     "specifications": {},
-    "composition": [
+    "products": [
       {
         "name": "SmartBox™",
-        "ref": "14408",
+        "title": "14408",
         "description": "Rapid-i™ ile kullanılan sıvı azot kutusu"
       },
       {
         "name": "Rapid-i™ Sealer",
-        "ref": "14414",
+        "title": "14414",
         "description": "Rapid-i Kitleri kapatmak için kullanılan ultrasonik kapatıcı"
       },
       {
         "name": "Rapid-i™ Kit",
-        "ref": "14406",
+        "title": "14406",
         "description": "Vitrifikasyon çubuğu"
       },
       {
         "name": "Rapid-i™ Cutter",
-        "ref": "14413",
+        "title": "14413",
         "description": "Vitrifikasyon çubuğunu açmak için kullanılan makas"
       },
       {
         "name": "Rapid-i™ Forceps",
-        "ref": "14410",
+        "title": "14410",
         "description": "Açıldıktan sonra Rapid-i çubuğunu almak için kullanılan tutucu maşa"
       }
     ]
@@ -1755,7 +1805,57 @@
           "description": "NaviLase Dinamik Lazer kontrol cihazı, diyot lazer ve lazer adaptörü, ayak pedalı, USB dijital video kamera, görüntüleme ve arşivleme yazılımı, dikroik ayna ve hedef işaretleyici, lazer objektif 25X veya 40X."
         }
       ]
-    }
+    },
+
+    {
+      "name": "İĞNE AKSESUARLARI",
+      "brand": "Vitrolife",
+      "image_url": "",
+      "product_url": "",
+      "url": "",
+      "title": "İĞNE AKSESUARLARI",
+      "subtitle": "",
+      "description": "",
+      "specifications": {},
+      "products": [
+          {
+              "name": "VACUUM PUMP TUBING",
+              "brand": "Vitrolife",
+              "image_url": "",
+              "product_url": "",
+              "url": "",
+              "title": "VACUUM PUMP TUBING",
+              "subtitle": "Aspirasyon Pompası Hortumu",
+              "description": "Aspirasyon Pompası Hortumu, oosit toplama sırasında iğne ve aspirasyon pompası arasındaki bağlantı için tasarlanmıştır ve uzatma işlevi görür. Tüm aspirasyon pompası hortumları, iğneye bağlantı için tasarlanmış bir ucunda erkek luer kilit bağlantısı ile birlikte gelir. Karşı uç aşağıdakiler gibi olabilir; Erkek luer kilit bağlantısı Dişi luer kilit bağlantısı Açık uç",
+              "specifications": {},
+              "composition": []
+          },
+          {
+              "name": "ULTRASOUND TRANSMISSION GEL",
+              "brand": "Vitrolife",
+              "image_url": "",
+              "product_url": "",
+              "url": "",
+              "title": "ULTRASOUND TRANSMISSION GEL",
+              "subtitle": "Ultrason İletim Jeli",
+              "description": "Vitrolife jel, güvenlik, performans ve rahatlığın mükemmel birleşimidir. Jel sterildir ve her biri 20 g'lık 50 adet, hızlı kullanım sağlayan uygun bir saklama kutusu içinde gelir.",
+              "specifications": {},
+              "composition": []
+          },
+          {
+              "name": "TRANSDUCER COVER",
+              "brand": "Vitrolife",
+              "image_url": "",
+              "product_url": "",
+              "url": "",
+              "title": "TRANSDUCER COVER",
+              "subtitle": "Transdüser Kılıfı",
+              "description": "Tek tek sarılmış lateks içermeyen kılıflar. Polietilenden ürtilmiştir ve kazara kırılmayı önlemek için uzunlukları boyunca özel olarak tasarlanmıştır.",
+              "specifications": {},
+              "composition": []
+          }
+      ]
+  }
   
   
   
