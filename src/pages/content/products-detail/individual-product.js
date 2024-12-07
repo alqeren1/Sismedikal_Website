@@ -1,6 +1,6 @@
 import { usePathname } from 'next/navigation';
 import ProductDisplay from './detailed-product-component';
-import productsData from './test.json';
+import productsData from './sismed_products.json';
 
 const normalizeText = (text) => {
   if (!text || typeof text !== 'string') return '';
