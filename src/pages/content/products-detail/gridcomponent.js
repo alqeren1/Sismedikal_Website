@@ -16,7 +16,7 @@ const ProductGrid = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-40">
         <button
           onClick={() => router.back()}
-          className="absolute top-20 left-8 md:left-12 flex items-center space-x-3 bg-white px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 group"
+          className="absolute top-20 left-8 md:left-12 flex items-center space-x-3 bg-white px-6 py-3 rounded-xl hover:shadow-xl transition-all duration-300 hover:scale-105 group"
         >
           <ChevronLeft className="w-6 h-6 text-blue-600 group-hover:-translate-x-1 transition-transform duration-300" />
           <span className="text-lg font-semibold text-blue-600">Geri Dön</span>

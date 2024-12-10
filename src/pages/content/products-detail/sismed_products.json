@@ -1039,7 +1039,7 @@
     ]
   },
   {
-    "name": "EMBRYOSCOPE+",
+    "name": "EMBRYOSCOPE +",
     "brand": "",
     "image_url": "embryoscope+.png",
     "product_url": "",
@@ -1075,6 +1075,19 @@
     "description": "EmbryoScope Flex, embriyolar için güvenli ve sürekli bir gelişim ortamı sağlayarak, gebelik şansı en yüksek olan embriyonun seçimini sağlar.",
     "specifications": {
       "Kullanım Amacı": "Yumurta veya embriyoların gelişimi için kontrollü sıcaklık ve CO₂ seviyesine sahip bir ortam sağlamaktır. EmbryoScope Flex inkübatör kullanımı, döllenme sonrası gelişimin beşinci gününe kadar olan 120 saatlik süreyle sınırlıdır."
+    }
+  },
+  {
+    "name": "EMBRYOSCOPE TIME-LAPSE SİSTEMİ",
+    "brand": "Vitrolife",
+    "image_url": "EmbryoScope-system.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE TIME-LAPSE SİSTEMİ",
+    "subtitle": "",
+    "description": "Embriyoskop, embriyolar için güvenli ve sürekli bir gelişim ortamı sağlayarak detaylı embriyo gelişim takibi sayesinde, gebelik şansı en yüksek olan embriyonun seçimini sağlamaktadır. Bu teknoloji, embriyo hücre bölünmesinin gerçek zamanlı olarak kaydedilmesini ve görüntülenmesini sağlayarak yaşamın başlangıcından itibaren tüm gelişim Alınan kayıtlar sayesinde gelişimin her anı geçmişe dönük olarak detaylı şekilde incelenebilir. Görüntülenme sürecinde embriyolar cihaz dışına çıkarılmadıklarından embriyolar için dış ortamdan etkilenmeyecekleri güvenli bir ortam sağlanmış olur. Üçlü gaz inkübatörü, minimum gaz tüketimi ile CO2 and O2 konsantrasyonlarının hızlı ve doğru şekilde düzenlenmesini sağlanmış olur. Küçük inkübasyon odaları ile hasta eklerken veya çıkarırken kültür koşullarındaki değişim minimuma indirilmiş olur. EmbryoScope ile her biri 12 embriyoya sahip 6 hastadan aynı anda hızlandırılmış videolar alınabilir.",
+    "specifications": {
+      "Kullanım Amacı": "Vücut ısısı veya vücut ısısına yakın olan, yumurta veya embriyoların gelişimi için kontrollü sıcaklığa ve CO2 düzeyine sahip bir ortam sağlamaktır. EmbryoScope time-lapse inkübatör kullanımı, döllenme sonrasından gelişimin beşinci gününe kadar olan süreyi içeren beş günle (120 saat) sınırlıdır."
     }
   },
   {

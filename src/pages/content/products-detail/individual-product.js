@@ -10,14 +10,38 @@ const normalizeText = (text) => {
     'İ': 'i', 'Ğ': 'g', 'Ü': 'u', 'Ş': 's', 'Ö': 'o', 'Ç': 'c'
   };
 
-  return text
+  const specialCharMap = {
+    '+': 'plus',
+    '&': 'and',
+    '@': 'at',
+    '#': 'hash',
+  };
+
+  // Decode URI component first in case the input is URL-encoded
+  const decodedText = decodeURIComponent(text);
+  
+  const normalized = decodedText
     .toLowerCase()
+    // Replace special characters with their word equivalents
+    .replace(/[+&@#]/g, char => specialCharMap[char] ? `-${specialCharMap[char]}-` : char)
+    // Remove trademark symbols
     .replace(/[™®©℠]/g, '')
+    // Replace Turkish characters
     .replace(/[ığüşöçİĞÜŞÖÇ]/g, char => turkishMap[char] || char)
+    // Convert spaces to hyphens
     .replace(/\s+/g, '-')
+    // Remove any remaining non-alphanumeric characters except hyphens
     .replace(/[^a-z0-9-]/g, '')
+    // Replace multiple consecutive hyphens with a single hyphen
     .replace(/-+/g, '-')
+    // Remove leading and trailing hyphens
     .replace(/^-|-$/g, '');
+
+  console.log('Original:', text);
+  console.log('Decoded:', decodedText);
+  console.log('Normalized:', normalized);
+  
+  return normalized;
 };
 
 const ProductDetail = () => {
@@ -28,17 +52,27 @@ const ProductDetail = () => {
     const stack = [...(Array.isArray(data) ? data : [data])];
     const normalizedProductId = normalizeText(productId);
     
+    console.log('Searching for normalized product ID:', normalizedProductId);
+
     while (stack.length) {
       const current = stack.pop();
-      
       if (!current) continue;
 
-      if (current.name && normalizeText(current.name) === normalizedProductId) {
-        return current;
+      if (current.name) {
+        const normalizedName = normalizeText(current.name);
+        console.log('Comparing with:', current.name);
+        console.log('Normalized to:', normalizedName);
+        
+        if (normalizedName === normalizedProductId) {
+          return current;
+        }
       }
 
       if (Array.isArray(current.products)) {
         stack.push(...current.products);
+      }
+      if (Array.isArray(current.categories)) {
+        stack.push(...current.categories);
       }
     }
     return null;
