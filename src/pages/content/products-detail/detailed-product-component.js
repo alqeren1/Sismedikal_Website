@@ -1,15 +1,16 @@
 import React from 'react';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, ChevronLeft } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/router';
 
 const ProductDisplay = ({ product }) => {
+  const router = useRouter();
+
   const getImageUrl = (imageUrl) => {
     if (!imageUrl) return null;
-    // If the URL already starts with http, return as is
     if (imageUrl.startsWith('http')) {
       return imageUrl;
     }
-    // Otherwise, prepend just a forward slash to look in public folder
     return `/${imageUrl}`;
   };
 
@@ -125,7 +126,15 @@ const ProductDisplay = ({ product }) => {
           className="bg-white rounded-xl shadow-lg overflow-hidden"
         >
           <div className="relative bg-gradient-to-r from-blue-600 to-blue-800 px-8 py-8">
-            <div className="flex gap-8 items-start">
+            <button
+              onClick={() => router.back()}
+              className="absolute top-4 left-4 flex items-center space-x-2 text-white hover:text-blue-200 transition-colors"
+            >
+              <ChevronLeft className="w-5 h-5" />
+              <span>Geri</span>
+            </button>
+            
+            <div className="flex gap-8 items-start pt-8">
               {/* Product Image */}
               <div className="relative w-[200px] h-[200px] flex-shrink-0 bg-gray-100 rounded-lg overflow-hidden">
                 <ImageWithFallback

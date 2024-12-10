@@ -507,6 +507,87 @@
     ]
   },
   {
+    "name": "G-2™",
+    "brand": "Vitrolife",
+    "image_url": "G21.png",
+    "product_url": "http://sismed.com/g-2-v5/",
+    "url": "http://sismed.com/g-2-v5/",
+    "title": "G-2™ v5",
+    "subtitle": "Blastosist Geliştirme Medyumu",
+    "description": "Bu medyum embriyoları 8 hücreli evreden blastosist evresine kadar desteklemek için geliştirilmiştir. İleri safhadaki embriyo gelişimini desteklemek için karbonhidratlar, amino asitler ve birleştiriciler içerir.",
+    "specifications": {
+      "REF": "10131",
+      "İçerik": "1 x 30 mL",
+      "Kullanım Amacı": "Embriyoları 3. günden blastosist evresine kadar kültürlemek için medyum.",
+      "Tanım": "Hyaluronan içeren bikarbonat tamponlu medyum.",
+      "Uygulama": "+37°C ve %6 CO₂ ile öndengeleme yapıldıktan ve G-MM™ veya HSA-solution™ eklendikten sonra kullanılabilir.",
+      "Raf Ömrü": "Gönderim tarihinden itibaren minimum 5 hafta. Son kullanma tarihi için lütfen şişe etiketine bakınız.",
+      "Saklama Koşulu": "Karanlık, +2-8°C"
+    },
+    "composition": [
+      "Kalsiyum klorür",
+      "Sodyum klorür", 
+      "Histidin",
+      "Piridoksin",
+      "Alanin",
+      "Potasyum klorür",
+      "Gentamisin",
+      "Riboflavin",
+      "Alanil glutamin",
+      "Prolin",
+      "Methionin",
+      "Threonin",
+      "Glukoz",
+      "Sodyum dihidrojen fosfat",
+      "Fenilalanin",
+      "Tirozin",
+      "Asparagin",
+      "Serin",
+      "Hyaluronan",
+      "Valin",
+      "Aspartat",
+      "Sodyum bikarbonat",
+      "Arjinin",
+      "Enjeksiyon için su (WFI)",
+      "Magnezyum sülfat",
+      "Tiamin",
+      "Kalsiyum pantotenat",
+      "İsoleusin",
+      "Glutamat",
+      "Sodyum laktat",
+      "Sistin",
+      "Sodyum pirüvat",
+      "Glisin",
+      "Triptofan",
+      "Lösin",
+      "Sodyum sitrat"
+    ]
+  },
+  {
+    "name": "G-MM™",
+    "brand": "Vitrolife",
+    "image_url": "G-MM1.png",
+    "product_url": "http://sismed.com/g-mm/",
+    "url": "http://sismed.com/g-mm/",
+    "title": "G-MM™",
+    "subtitle": "Rekombinant İnsan Albümini Solüsyonu",
+    "description": "G-MM™ tüm embriyo kültür medyumları için bir katkıdır. Rekombinant insan albümininin sitrat içeren solüsyonudur. Tanımlanmış ve viral ve prion kontaminasyonları yok edilmiş bir katkıdır.",
+    "specifications": {
+      "REF": "10038",
+      "İçerik": "1 x 10 mL",
+      "Kullanım Amacı": "Gamet ve embriyolarla çalışılan yardımla üreme metotlarında kullanılmak üzere hazırlanmış rekombinant insan albümini (50 mg/mL) solüsyonu. Bu işlemlerde G-MM™ kültür medyumlarına bir katkı olarak kullanılır.",
+      "Tanım": "Rekombinant İnsan Albümini Solüsyonu (50 mg/mL).",
+      "Uygulama": "Gamet ve embriyo medyumlarına eklemek içindir.",
+      "Raf Ömrü": "Gönderim tarihinden itibaren minimum 5 hafta. Son kullanma tarihi için lütfen şişe etiketine bakınız.",
+      "Saklama Koşulu": "Karanlık, +2-8°C"
+    },
+    "composition": [
+      "Rekombinant insan albümini",
+      "Enjeksiyon için su (WFI)",
+      "Tri-sodyum sitrat"
+    ]
+  },
+  {
     "name": "G-PGD™",
     "brand": "Vitrolife",
     "image_url": "G-PGD1.png",
@@ -576,6 +657,73 @@
       "HEPES",
       "Sodyum bikarbonat",
       "Sodyum klorür",
+      "Enjeksiyon için su (WFI)"
+    ]
+  },
+  {
+    "name": "IVF™",
+    "brand": "Vitrolife",
+    "image_url": "IVF3020.png",
+    "product_url": "",
+    "url": "",
+    "title": "IVF™-30",
+    "subtitle": "In Vitro Fertilizasyon ve Bölünme Medyumu",
+    "description": "IVF™-30 fertilizasyon, embriyo kültürü ve embriyo transferi için geliştirilmiştir. IVF-ET için kültür medyumlarının düşük glikoz, düşük fosfat prensibine uygun olarak formüle edilmiştir. Hem büyük hacimlerde hem de yağ altındaki damlacıklarda kültür için kullanılabilir. 6-8 hücreli evreye kadar en iyi ortamı sağlayacak tam bir medyumdur. IVF™-30 farmasötik düzeyde penisilin G içerir ancak fenol kırmızısı içermez.",
+    "specifications": {
+      "REF": "10086",
+      "İçerik": "1 x 30 mL",
+      "Kullanım Amacı": "In vitro fertilizasyon, embriyo kültürü ve transferi için.",
+      "Tanım": "Bikarbonat tamponlu insan serum albümini içeren medyum.",
+      "Uygulama": "+37°C ve %5 CO₂ ile öndengeleme yapıldıktan sonra kullanılmalı.",
+      "Raf Ömrü": "Gönderim tarihinden itibaren minimum 5 hafta. Son kullanma tarihi için lütfen şişe etiketine bakınız.",
+      "Saklama Koşulu": "Karanlık, +2-8°C"
+    },
+    "composition": [
+      "Kalsiyum klorür",
+      "Sodyum klorür",
+      "EDTA",
+      "Sodyum pirüvat",
+      "Potasyum klorür",
+      "İnsan serum albümini",
+      "Glukoz",
+      "Penisilin G",
+      "Sodyum bikarbonat",
+      "Magnezyum sülfat",
+      "Potasyum dihidrojen fosfat",
+      "Enjeksiyon için su (WFI)",
+      "Sodyum laktat"
+    ]
+  },
+  {
+    "name": "ICSI™",
+    "brand": "Vitrolife",
+    "image_url": "ICSI.png",
+    "product_url": "",
+    "url": "",
+    "title": "ICSI™",
+    "subtitle": "Sperm Yakalama Solüsyonu",
+    "description": "ICSI™ spermin hareketsizleştirilmesini ve oositin içine enjekte edilmesini kolaylaştırmak için geliştirilmiş visköz taşıma çözeltisidir. Farmasötik düzeyde polivinilpirolidon (PVP) içerir. Antibiyotik içermez.",
+    "specifications": {
+      "REF": "10111",
+      "İçerik": "5 x 0,1 mL",
+      "Kullanım Amacı": "İntrasitoplazmik sperm enjeksiyonu (ICSI) öncesi spermin hareketsizleştirilmesi için.",
+      "Tanım": "PVP ve rekombinant insan albümini içeren visköz sperm solüsyonu.",
+      "Uygulama": "+20 ± 5°C'de öndengeleme yapıldıktan sonra kullanılmalı. En az 10 işlem için uygundur.",
+      "Raf Ömrü": "Gönderim tarihinden itibaren minimum 5 hafta. Son kullanma tarihi için lütfen şişe etiketine bakınız.", 
+      "Saklama Koşulu": "Karanlık, +2–8°C"
+    },
+    "composition": [
+      "Kalsiyum klorür",
+      "Potasyum dihidrojen fosfat",
+      "EDTA",
+      "Sodyum bikarbonat",
+      "Glukoz",
+      "Sodyum klorür",
+      "Rekombinant insan albümini",
+      "Sodyum laktat",
+      "Polivinilpirolidon (PVP)",
+      "Sodyum pirüvat",
+      "Potasyum klorür",
       "Enjeksiyon için su (WFI)"
     ]
   },
@@ -1546,6 +1694,87 @@
         "specifications": {
           "Medyum Kullanımı": "2 x 25 µL medyum, 1.4 mL yağ tabakası"
         }
+      }
+    ]
+  },
+  {
+    "name": "İĞNE AKSESUARLARI",
+    "brand": "Vitrolife",
+    "image_url": "aksesuar.png",
+    "product_url": "",
+    "url": "",
+    "title": "İĞNE AKSESUARLARI",
+    "subtitle": "",
+    "description": "",
+    "specifications": {},
+    "products": [
+      {
+        "name": "VACUUM PUMP TUBING",
+        "brand": "Vitrolife",
+        "image_url": "aksesuar.png",
+        "title": "VACUUM PUMP TUBING",
+        "subtitle": "Aspirasyon Pompası Hortumu",
+        "description": "Aspirasyon Pompası Hortumu, oosit toplama sırasında iğne ve aspirasyon pompası arasındaki bağlantı için tasarlanmıştır ve uzatma işlevi görür. Tüm aspirasyon pompası hortumları, iğneye bağlantı için tasarlanmış bir ucunda erkek luer kilit bağlantısı ile birlikte gelir. Karşı uç aşağıdakiler gibi olabilir; Erkek luer kilit bağlantısı Dişi luer kilit bağlantısı Açık uç"
+      },
+      {
+        "name": "ULTRASOUND TRANSMISSION GEL",
+        "brand": "Vitrolife",
+        "image_url": "gxmedia.png",
+        "title": "ULTRASOUND TRANSMISSION GEL",
+        "subtitle": "Ultrason İletim Jeli",
+        "description": "Vitrolife jel, güvenlik, performans ve rahatlığın mükemmel birleşimidir. Jel sterildir ve her biri 20 g'lık 50 adet, hızlı kullanım sağlayan uygun bir saklama kutusu içinde gelir."
+      },
+      {
+        "name": "TRANSDUCER COVER",
+        "brand": "Vitrolife",
+        "image_url": "imaging-system-culture.jpeg",
+        "title": "TRANSDUCER COVER",
+        "subtitle": "Transdüser Kılıfı",
+        "description": "Tek tek sarılmış lateks içermeyen kılıflar. Polietilenden ürtilmiştir ve kazara kırılmayı önlemek için uzunlukları boyunca özel olarak tasarlanmıştır."
+      }
+    ]
+  },
+  {
+    "name": "HATCHING PİPETİ™",
+    "brand": "",
+    "image_url": "hatching-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "HATCHING PİPETİ™",
+    "subtitle": "Hatching Pipeti",
+    "description": "",
+    "specifications": {
+      "Tanım": "Düz ve pürüzsüz uçlu pipet",
+      "Kullanım Amacı": "Assisted hatching veya embriyo biyopsisi için zona pellucida'da bir delik oluşturmak içindir",
+      "Uygulama": "Mikromanipülatör ile kullanım içindir",
+      "Saklama Koşulu": "Oda sıcaklığında saklayın"
+    }
+  }
+  ,
+  {
+    "name": "PİPET AKSESUARLARI",
+    "brand": "",
+    "image_url": "pipet-aksesuar.png",
+    "product_url": "",
+    "url": "",
+    "title": "PİPET AKSESUARLARI",
+    "subtitle": "Pipet Aksesuarları",
+    "description": "",
+    "specifications": {
+      "Kullanım Amacı": "Denudasyon ve transfer pipeti ile kullanım içindir"
+    },
+    "products": [
+      {
+        "name": "Pipet Tutucu",
+        "description": "Pipetleri güvenli şekilde tutmak ve kontrol etmek için kullanılır"
+      },
+      {
+        "name": "Silikon Puar",
+        "description": "Hassas sıvı kontrolü sağlamak için kullanılır"
+      },
+      {
+        "name": "Bağlantı Parçaları",
+        "description": "Farklı pipet tiplerini sistemle uyumlu hale getirmek için kullanılır"
       }
     ]
   }
