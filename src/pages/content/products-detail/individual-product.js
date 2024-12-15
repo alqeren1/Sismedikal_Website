@@ -1,6 +1,8 @@
 import { usePathname } from 'next/navigation';
 import ProductDisplay from './detailed-product-component';
 import GXDisplay from './g-serisi-kultur-medyumlari/gx-display-component';
+import EmbryoGlueDisplay from './g-serisi-kultur-medyumlari/embryoglue-display-component';
+import OVOILDisplay from './ovoil/ovoil-component';
 import productsData from './sismed_products.json';
 
 const normalizeText = (text) => {
@@ -75,6 +77,19 @@ const ProductDetail = () => {
 
   const product = findProduct(productsData);
 
+  const getProductDisplay = (product) => {
+    if (product.id === 'gx') {
+      return <GXDisplay />;
+    }
+    if (product.id === 'embryoglue') {
+      return <EmbryoGlueDisplay />;
+    }
+    if (product.id === 'ovoil') {
+      return <OVOILDisplay />;
+    }
+    return <ProductDisplay product={product} />;
+  };
+
   if (!product) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-8">
@@ -85,11 +100,7 @@ const ProductDetail = () => {
 
   return (
     <div className="bg-white w-full mx-auto px-4 py-8">
-      {product.id === 'gx' ? (
-        <GXDisplay  />
-      ) : (
-        <ProductDisplay product={product} />
-      )}
+      {getProductDisplay(product)}
     </div>
   );
 };

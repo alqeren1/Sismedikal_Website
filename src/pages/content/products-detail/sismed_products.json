@@ -127,6 +127,7 @@
   },
   {
     "name": "EmbryoGlue®",
+    "id":"embryoglue",
     "brand": "Vitrolife",
     "image_url": "eglue1.png",
     "product_url": "http://sismed.com/embryo-glue/",
@@ -839,6 +840,7 @@
   },
   {
     "name": "OVOIL™",
+    "id":"ovoil",
     "brand": "Vitrolife",
     "image_url": "ovoil-100.jpeg",
     "product_url": "",

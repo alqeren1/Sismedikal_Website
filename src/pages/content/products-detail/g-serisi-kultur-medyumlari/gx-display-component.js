@@ -241,9 +241,8 @@ const GXDisplay = () => {
         </div>
       </div>
 
-      {/* Usage Guidelines Section */}
-      // Previous code remains the same until Usage Guidelines section...
-
+      
+      
       {/* Usage Guidelines Section */}
       <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl p-8">
         <div className="flex items-center gap-3 mb-6">

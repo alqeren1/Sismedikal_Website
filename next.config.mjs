@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+
+  output: 'export',
+  // If you're using images, you'll need this
+  images: {
+    unoptimized: false,
+  },
   reactStrictMode: true,
   transpilePackages: ["geist"],
   async rewrites() {
@@ -22,15 +28,15 @@ const nextConfig = {
       },
       {
         source: "/referanslarimiz",
-        destination: "/content/references", // Map /hakkimizda to the correct file
+        destination: "/content/references", 
       },
       {
         source: "/iletisim",
-        destination: "/content/contact", // Map /hakkimizda to the correct file
+        destination: "/content/contact", 
       },
       {
         source: "/protokoller",
-        destination: "/content/protocols", // Map /hakkimizda to the correct file
+        destination: "/content/protocols", 
       },
       {
         source: "/urunlerimiz/:slug/:Pslug",
