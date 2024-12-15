@@ -7,7 +7,7 @@ const categories = [
     title: 'VITROLIFE SOLÜSYON',
     subcategories: [
       { name: 'G-SERİSİ KÜLTÜR MEDYUMLARI', path: '/urunlerimiz/g-serisi-kultur-medyumlari' },
-      { name: 'ALTERNATİF KÜLTÜR MEDYUMLARI', path: '/urunlerimiz/alternatif-kultur-medyumlari' },
+      { name: 'DİĞER KÜLTÜR MEDYUMLARI', path: '/urunlerimiz/diger-kultur-medyumlari' },
       { name: 'SPERM YIKAMA VE DONDURMA', path: '/urunlerimiz/sperm-yikama-ve-dondurma' },
       { name: 'OVOIL', path: '/urunlerimiz/ovoil' },
       { name: 'MİKROMANİPÜLASYON MEDYUMLARI', path: '/urunlerimiz/mikromanipulasyon-medyumlari' },

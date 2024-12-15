@@ -1,25 +1,23 @@
 import { usePathname } from 'next/navigation';
 import ProductDisplay from './detailed-product-component';
+import GXDisplay from './g-serisi-kultur-medyumlari/gx-display-component';
 import productsData from './sismed_products.json';
 
 const normalizeText = (text) => {
   if (!text || typeof text !== 'string') return '';
-  
   const turkishMap = {
     'ı': 'i', 'ğ': 'g', 'ü': 'u', 'ş': 's', 'ö': 'o', 'ç': 'c',
     'İ': 'i', 'Ğ': 'g', 'Ü': 'u', 'Ş': 's', 'Ö': 'o', 'Ç': 'c'
   };
-
   const specialCharMap = {
     '+': 'plus',
     '&': 'and',
     '@': 'at',
     '#': 'hash',
   };
-
+  
   // Decode URI component first in case the input is URL-encoded
   const decodedText = decodeURIComponent(text);
-  
   const normalized = decodedText
     .toLowerCase()
     // Replace special characters with their word equivalents
@@ -40,18 +38,16 @@ const normalizeText = (text) => {
   console.log('Original:', text);
   console.log('Decoded:', decodedText);
   console.log('Normalized:', normalized);
-  
   return normalized;
 };
 
 const ProductDetail = () => {
   const pathname = usePathname();
   const productId = pathname.split('/').pop();
-
+  
   const findProduct = (data) => {
     const stack = [...(Array.isArray(data) ? data : [data])];
     const normalizedProductId = normalizeText(productId);
-    
     console.log('Searching for normalized product ID:', normalizedProductId);
 
     while (stack.length) {
@@ -62,7 +58,6 @@ const ProductDetail = () => {
         const normalizedName = normalizeText(current.name);
         console.log('Comparing with:', current.name);
         console.log('Normalized to:', normalizedName);
-        
         if (normalizedName === normalizedProductId) {
           return current;
         }
@@ -90,7 +85,11 @@ const ProductDetail = () => {
 
   return (
     <div className="bg-white w-full mx-auto px-4 py-8">
-      <ProductDisplay product={product} />
+      {product.path === 'gx' ? (
+        <GXDisplay  />
+      ) : (
+        <ProductDisplay product={product} />
+      )}
     </div>
   );
 };
