@@ -85,7 +85,7 @@ const ProductDetail = () => {
 
   return (
     <div className="bg-white w-full mx-auto px-4 py-8">
-      {product.path === 'gx' ? (
+      {product.id === 'gx' ? (
         <GXDisplay  />
       ) : (
         <ProductDisplay product={product} />

@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import ProductGrid from '../gridcomponent';
 
 const products = [
-  { webpath: '/gx', name: 'Gx-MEDYUMLARI™', brand: 'Vitrolife', path: 'gx-mops-plus.png' },
+  { id:'gx', webpath: '/gx', name: 'Gx-MEDYUMLARI™', brand: 'Vitrolife', path: 'gx-mops-plus.png' },
   { webpath: '/g-rinse', name: 'G-RINSE™', brand: 'Vitrolife', path: 'G-RINSE1.png' },
   { webpath: '/g-ivf-plus', name: 'G-IVF™ PLUS', brand: 'Vitrolife', path: 'givf1.png' },
   { webpath: '/g-1-plus', name: 'G-1™ PLUS', brand: 'Vitrolife', path: 'G120PLUS1.png' },
