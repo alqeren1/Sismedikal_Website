@@ -40,6 +40,8 @@ const ProductGrid = ({
                 <Image
                   src={product.path ? `/${product.path}` : "/api/placeholder/300/300"}
                   alt={product.name}
+                  width={100}
+                  height={100}
                   className="absolute inset-0 w-full h-full object-cover object-center transform transition-transform duration-300 group-hover:scale-110"
                 />
               </div>

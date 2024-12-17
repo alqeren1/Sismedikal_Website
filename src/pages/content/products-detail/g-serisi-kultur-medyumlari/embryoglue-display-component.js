@@ -81,6 +81,7 @@ const EmbryoGlueDisplay = () => {
               <Image
                 src="/EmbryoGlue_10.png"
                 alt="EmbryoGlue 10mL"
+               
                 fill
                 className="object-contain rounded-lg"
               />
