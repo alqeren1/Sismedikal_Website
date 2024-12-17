@@ -4,7 +4,7 @@ const nextConfig = {
   output: 'export',
   // If you're using images, you'll need this
   images: {
-    unoptimized: false,
+    unoptimized: true,
   },
   reactStrictMode: true,
   transpilePackages: ["geist"],

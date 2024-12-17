@@ -2,6 +2,8 @@ import React from 'react';
 import { ExternalLink, ChevronLeft } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
+
 
 const ProductDisplay = ({ product }) => {
   const router = useRouter();
@@ -15,7 +17,7 @@ const ProductDisplay = ({ product }) => {
   };
 
   const ImageWithFallback = ({ src, alt, className }) => (
-    <img
+    <Image
       src={getImageUrl(src)}
       alt={alt}
       className={className}

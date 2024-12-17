@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle, Info, Check } from "lucide-react";
 
@@ -76,11 +77,12 @@ const EmbryoGlueDisplay = () => {
       <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
         <CardContent className="p-4">
           <div className="flex gap-4">
-            <div className="w-1/2">
-              <img
+            <div className="w-1/2 relative h-40">
+              <Image
                 src="/EmbryoGlue_10.png"
                 alt="EmbryoGlue 10mL"
-                className="object-contain w-full h-40 rounded-lg"
+                fill
+                className="object-contain rounded-lg"
               />
             </div>
             <div className="w-1/2 space-y-2">
@@ -96,11 +98,12 @@ const EmbryoGlueDisplay = () => {
       <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
         <CardContent className="p-4">
           <div className="flex gap-4">
-            <div className="w-1/2">
-              <img
+            <div className="w-1/2 relative h-40">
+              <Image
                 src="/embryoglue_patient.png"
                 alt="EmbryoGlue Patient Pack"
-                className="object-contain w-full h-40 rounded-lg"
+                fill
+                className="object-contain rounded-lg"
               />
             </div>
             <div className="w-1/2 space-y-2">
@@ -113,6 +116,7 @@ const EmbryoGlueDisplay = () => {
       </Card>
     </div>
 
+      {/* Rest of the component remains the same */}
       {/* Product Overview */}
       <Card className="bg-white shadow-lg">
         <CardContent className="p-6 space-y-6">

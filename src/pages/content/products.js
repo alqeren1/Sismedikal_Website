@@ -63,7 +63,7 @@ export default function ProductsSection() {
         <div className="text-center mb-16 opacity-0 animate-fade-in-down">
           <h3 className="text-5xl font-bold text-blue-600 mb-4">Ürünlerimiz</h3>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Vitrolife'ın yenilikçi çözümleri ile klinik başarınızı artırın
+            Vitrolife&apos;ın yenilikçi çözümleri ile klinik başarınızı artırın
           </p>
         </div>
 

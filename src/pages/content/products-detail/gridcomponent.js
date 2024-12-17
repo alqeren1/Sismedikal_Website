@@ -1,6 +1,8 @@
 import React from 'react';
 import { ArrowRight, ChevronLeft } from 'lucide-react';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
+
 
 const ProductGrid = ({
   products,
@@ -35,7 +37,7 @@ const ProductGrid = ({
               className="bg-white rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 overflow-hidden group flex flex-col cursor-pointer"
             >
               <div className="relative pt-[100%]">
-                <img
+                <Image
                   src={product.path ? `/${product.path}` : "/api/placeholder/300/300"}
                   alt={product.name}
                   className="absolute inset-0 w-full h-full object-cover object-center transform transition-transform duration-300 group-hover:scale-110"

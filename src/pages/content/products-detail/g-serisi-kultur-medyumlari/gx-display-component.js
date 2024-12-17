@@ -267,7 +267,7 @@ const GXDisplay = () => {
       <div className="bg-gray-50 rounded-xl p-8">
         <div className="text-center max-w-3xl mx-auto">
           <p className="text-sm text-gray-600">
-            LOT'a özel test sonuçları, her teslimatla birlikte verilen Analiz Sertifikası'nda mevcuttur. Ürünle ilgili herhangi bir ciddi olay meydana geldiğinde, kullanıcının ve/veya hastanın bulunduğu Üye Devletin yetkili makamına ve üreticiye bildirilmelidir.
+            LOT&apos;a özel test sonuçları, her teslimatla birlikte verilen Analiz Sertifikası&apos;nda mevcuttur. Ürünle ilgili herhangi bir ciddi olay meydana geldiğinde, kullanıcının ve/veya hastanın bulunduğu Üye Devletin yetkili makamına ve üreticiye bildirilmelidir.
           </p>
           <p className="text-sm text-gray-600 mt-4">
             Güvenlik ve klinik performans özeti www.vitrolife.com adresinde bulunabilir.
