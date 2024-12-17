@@ -20,7 +20,8 @@ export default function Bottombar() {
       city: "İstanbul Ofis",
       contact: "(0216) 492 4620 - 21 - Fax : (0216) 492 4642",
       email: "info@sismed.com",
-      address: "Cumhuriyet Caddesi No:131/2 Bağlarbaşı - İSTANBUL",
+      address:
+        "Murat Reis Mah. Selami Ali Efendi Cad. No:136/6 Üsküdar - İSTANBUL",
     },
   ];
 

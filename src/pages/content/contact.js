@@ -43,7 +43,7 @@ export default function About() {
                   <th className="px-4 py-4 text-left">Email</th>
                 </tr>
               </thead>
-              <tbody className="text-lg text-gray-700">
+              <tbody className="text-lg">
                 {/* Ankara Office */}
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
@@ -175,7 +175,7 @@ export default function About() {
                   <th className="px-4 py-4 text-left">Email</th>
                 </tr>
               </thead>
-              <tbody className="text-lg text-gray-700">
+              <tbody className="text-lg">
                 {/* Ankara Office */}
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
@@ -197,21 +197,6 @@ export default function About() {
                     Satış Destek
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
-                    Gökhan KESKİN
-                  </td>
-                  <td className="px-4 py-4 border-r-2 border-gray-300">
-                    (+90 533) 666 72 68
-                  </td>
-                  <td className="px-4 py-4 border-r-2 border-gray-300">
-                    (+90 216) 492 46 42
-                  </td>
-                  <td className="px-4 py-4">gokhankeskin@sismed.com</td>
-                </tr>
-                <tr className="border-b-2  text-base  xl:text-lg border-gray-300">
-                  <td className="px-0 py-4 pr-2 border-r-2 border-gray-300">
-                    Satış Destek
-                  </td>
-                  <td className="px-4 py-4 border-r-2 border-gray-300">
                     Samet AKAR
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
@@ -220,7 +205,22 @@ export default function About() {
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     (+90 216) 492 46 42
                   </td>
-                  <td className="px-4 py-4"> sametakar@sismed.com</td>
+                  <td className="px-4 py-4">sametakar@sismed.com</td>
+                </tr>
+                <tr className="border-b-2  text-base  xl:text-lg border-gray-300">
+                  <td className="px-0 py-4 pr-2 border-r-2 border-gray-300">
+                    Satış Destek
+                  </td>
+                  <td className="px-4 py-4 border-r-2 border-gray-300">
+                    Ufuk TEKAY
+                  </td>
+                  <td className="px-4 py-4 border-r-2 border-gray-300">
+                    (+90 533) 358 37 45
+                  </td>
+                  <td className="px-4 py-4 border-r-2 border-gray-300">
+                    (+90 216) 492 46 42
+                  </td>
+                  <td className="px-4 py-4"> ufuk@sismed.com</td>
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
@@ -246,7 +246,8 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2 font-bold text-base xl:text-lg border-gray-300">
                   <td className="px-4 py-4 text-center" colSpan="5">
-                    Cumhuriyet Caddesi No:131/2 Bağlarbaşı- İstanbul / Türkiye
+                    Murat Reis Mah. Selami Ali Efendi Cad. No:136/6 Üsküdar -
+                    İSTANBUL
                   </td>
                 </tr>
               </tbody>
@@ -278,14 +279,14 @@ export default function About() {
                   <td className="px-0 py-4 border-r-2 pr-1 text-lg  xl:text-2xl font-bold text-gray-800 border-gray-300">
                     ADANA Bölge
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300 text-gray-700">
+                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
                     Murat Yalçın ŞEKER
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300  text-gray-700">
+                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
                     (+90 532) 228 24 77
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300  text-gray-700"></td>
-                  <td className="px-4 text-base xl:text-lg py-4  text-gray-700">
+                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300"></td>
+                  <td className="px-4 text-base xl:text-lg py-4">
                     murat@sismed.com
                   </td>
                 </tr>

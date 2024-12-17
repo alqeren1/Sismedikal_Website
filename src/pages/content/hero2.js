@@ -90,12 +90,12 @@ const HeroSection = () => {
 
         {/* Right Content - Image Carousel */}
         <div className="w-full lg:w-auto flex justify-center items-center px-0 lg:mt-0">
-          <div className="w-full max-w-[500px] md:max-w-[560px] lg:max-w-[550px]">
+          <div className="w-full max-w-[500px] md:max-w-[560px] lg:max-w-[500px]">
             <Slider {...sliderSettings}>
               {carouselImages.map((image, index) => (
                 <div
                   key={index}
-                  className="relative flex justify-center items-center w-full h-full"
+                  className="relative flex justify-center items-center w-full h-full outline-none"
                   style={{ aspectRatio: "1 / 1" }}
                 >
                   {/* Description Label */}
@@ -106,7 +106,7 @@ const HeroSection = () => {
                   <img
                     src={image}
                     alt={imageDescriptions[index]}
-                    className="w-full h-full object-cover sm:rounded-lg"
+                    className="w-full h-full object-cover sm:rounded-lg pointer-events-none"
                   />
                 </div>
               ))}
