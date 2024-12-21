@@ -1,11 +1,131 @@
 import React from "react";
-import { ExternalLink, ArrowLeft, ChevronLeft } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
 const ProductDisplay = ({ product }) => {
   const router = useRouter();
+
+  // Pipette series data
+  const seriesData = [
+    {
+      name: "A-series",
+      wideImage: "/icsi_a_series.jpg", // Replace with actual image path
+      table: [
+        {
+          id: "4 - 5.5",
+          ref: "15405",
+          angle: "30",
+          tipLength: "11-16",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_a_series_tip.jpg", // Replace with actual image path
+      description: `Uçtan 500 μm mesafede bir eğim bulunur.
+Kısa ve keskin bir bevel ile kısa bir spike içerir.
+Oositlere daha az zarar verilmesini sağlamak için benzersiz bir daralma ile başlayıp genişleyen bir tasarıma sahiptir.`,
+    },
+    {
+      name: "B-series",
+      wideImage: "/icsi_b_series.jpg", // Replace with actual image path
+      table: [
+        {
+          id: "4 - 5.5",
+          ref: "15415",
+          angle: "30",
+          tipLength: "17-20",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_b_series_tip.jpg", // Replace with actual image path
+      description: `Uçtan 500 μm mesafede bir eğim bulunur.  
+Kısa ve keskin bir bevel ile daha uzun bir spike içerir.  
+Oositlere daha az zarar verilmesini sağlamak için benzersiz bir daralma ile başlayıp genişleyen bir tasarıma sahiptir.`,
+    },
+    {
+      name: "C-series",
+      wideImage: "/icsi_c_series.jpg", // Replace with actual image path
+      table: [
+        {
+          id: "5 - 6",
+          ref: "15409",
+          angle: "30",
+          tipLength: "12-15",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_c_series_tip.jpg", // Replace with actual image path
+      description: `Uçtan 400 μm mesafede bir eğim bulunur.
+Kısa bir bevel ve çok kısa bir spike içerir.
+Uçtan eğim yerine olan kısa mesafe nedeniyle PVP'de daha dayanıklı ve rijit bir kullanım sağlar.`,
+    },
+    {
+      name: "D-series",
+      wideImage: "/icsi_d_series.jpg", // Replace with actual image path
+      table: [
+        {
+          id: "4 - 5",
+          ref: "15430",
+          angle: "30",
+          tipLength: "13-16.5",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_d_series_tip.jpg", // Replace with actual image path
+      description: `Uçtan 1000 μm mesafede bir eğim bulunur.
+Yüklenen sperm üzerinde daha fazla kontrol sağlamak için paralel duvarlara sahiptir.`,
+    },
+    {
+      name: "E-series",
+      wideImage: "/icsi_e_series.jpg", // Replace with actual image path
+      table: [
+        {
+          id: "4 - 5",
+          ref: "15444",
+          angle: "30",
+          tipLength: "13-16",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_e_series_tip.jpg", // Replace with actual image path
+      description: `Uçtan 400 μm mesafede bir eğim bulunur.
+Orta uzunlukta bir bevel, kısa bir daralma ve paralel duvarlara sahiptir.`,
+    },
+    {
+      name: "F-series",
+      wideImage: "/icsi_f_series.jpg", // Replace with actual image path
+      table: [
+        {
+          id: "4.2 - 5.2",
+          ref: "15432",
+          angle: "30",
+          tipLength: "",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_f_series_tip.jpg", // Replace with actual image path
+      description: `
+Uçtan 700 μm mesafede bir eğim bulunur.
+Orta uzunlukta bir bevel, uzun bir daralma ve paralel duvarlara sahiptir.`,
+    },
+    {
+      name: "T-series",
+      wideImage: "/icsi_t_series.jpg", // Replace with actual image path
+      table: [
+        {
+          id: "6.5 - 8",
+          ref: "15451",
+          angle: "30",
+          tipLength: "15-20",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_t_series_tip.jpg", // Replace with actual image path
+      description: `Eğim, uçtan 500 μm mesafede bulunur.
+Spike ile spermatid ICSI için uygundur.`,
+    },
+  ];
 
   // Utility function to get the image URL or return a fallback
   const getImageUrl = (imageUrl) => {
@@ -32,33 +152,74 @@ const ProductDisplay = ({ product }) => {
     );
   };
 
+  // Render series data for pipettes
+  const renderSeries = (series) => {
+    return (
+      <div className="mt-12" key={series.name}>
+        <h2 className="text-xl font-bold text-gray-900 mb-6">{series.name}</h2>
+        <div className="grid grid-rows lg:grid-cols-2 gap-6">
+          {/* Wide Image */}
+          <div className="overflow-x-auto">
+            <div className="mb-6">
+              <Image
+                src={series.wideImage}
+                alt={`${series.name} wide image`}
+                width={800} // Adjust width and height as needed
+                height={200}
+                className="w-full object-cover rounded-lg"
+              />
+            </div>
+            {/* Table */}
+            <div>
+              <table className="w-full whitespace-nowrap text-left border-collapse">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="p-3 border-b">I.D. (μm)</th>
+                    <th className="p-3 border-b">REF</th>
+                    <th className="p-3 border-b">Angle</th>
+                    <th className="p-3 border-b">Tip Length (μm)</th>
+                    <th className="p-3 border-b">Package Size</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {series.table.map((row, index) => (
+                    <tr key={index} className="odd:bg-white even:bg-gray-50">
+                      <td className="p-3 border-b">{row.id}</td>
+                      <td className="p-3 border-b">{row.ref}</td>
+                      <td className="p-3 border-b">{row.angle}</td>
+                      <td className="p-3 border-b">{row.tipLength}</td>
+                      <td className="p-3 border-b">{row.packageSize}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          {/* Second Image */}
+          <div className="items-end">
+            <h1 className="font-semibold text-lg text-gray-900">Uç Şekli</h1>
+            <div className="flex justify-left items-center">
+              <Image
+                src={series.secondImage}
+                alt={`${series.name} tip image`}
+                width={300} // Adjust width and height as needed
+                height={300}
+                className="object-contain rounded-lg"
+              />
+            </div>
+            {/* Description */}
+            <div className="mt-6">
+              <p className="text-gray-700">{series.description}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   // Render composition details
   const renderComposition = (composition) => {
     if (!composition || composition.length === 0) return null;
-    if (typeof composition[0] === "object") {
-      return (
-        <div className="mt-8 text-black">
-          <h3 className="text-xl font-semibold mb-4">Components</h3>
-          <div className="grid gap-4">
-            {composition.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-              >
-                <h4 className="font-medium text-lg">{item.name}</h4>
-                {item.description && (
-                  <p className="text-gray-600 mt-2">{item.description}</p>
-                )}
-                {item.ref && (
-                  <p className="text-sm text-gray-500 mt-2">REF: {item.ref}</p>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      );
-    }
-
     return (
       <div className="mt-8 text-black">
         <h3 className="text-xl font-semibold mb-4">Kompozisyon</h3>
@@ -137,13 +298,13 @@ const ProductDisplay = ({ product }) => {
 
   return (
     <div className="min-h-screen py-8 text-black">
-      <div className="max-w-7xl mx-auto ">
+      <div className="max-w-7xl mx-auto">
         <button
           onClick={() => router.back()}
-          className=" mb-8 flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
+          className="mb-8 flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
         >
-          <ArrowLeft className="w-5 h-5 " />
-          <span className="">Geri Dön</span>
+          <ArrowLeft className="w-5 h-5" />
+          Geri Dön
         </button>
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -152,7 +313,6 @@ const ProductDisplay = ({ product }) => {
         >
           <div className="relative bg-gradient-to-r from-blue-600 to-blue-800 px-8 py-8">
             <div className="flex gap-8 items-start pt-8">
-              {/* Product Image */}
               <div className="relative w-[200px] h-[200px] flex-shrink-0 bg-gray-100 rounded-lg overflow-hidden">
                 <ImageWithFallback
                   src={product.image_url}
@@ -160,12 +320,10 @@ const ProductDisplay = ({ product }) => {
                   className="w-full h-full object-cover"
                 />
               </div>
-
-              {/* Product Info */}
               <div className="flex-grow text-white">
                 <motion.h1
                   initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
+                  animate={{ opacity: 1 }}
                   className="text-4xl font-bold"
                 >
                   {product.name}
@@ -193,13 +351,11 @@ const ProductDisplay = ({ product }) => {
               </div>
             </div>
           </div>
-
           <div className="px-8 py-12">
             {product.description && (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
+                animate={{ opacity: 1 }}
                 className="prose max-w-none"
               >
                 <h3 className="text-xl font-semibold mb-4">Açıklama</h3>
@@ -208,10 +364,22 @@ const ProductDisplay = ({ product }) => {
                 </p>
               </motion.div>
             )}
-
             {renderSpecifications(product.specifications)}
             {renderComposition(product.composition)}
             {renderProducts(product.products)}
+
+            {/* Render headers and series only for "ICSI PİPETİ™" */}
+            {product.name === "ICSI PİPETİ™" && (
+              <>
+                <h2 className="text-3xl font-bold text-center text-gray-900 mb-6 mt-8">
+                  Pipet Serileri
+                </h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-12">
+                  Çıkıntılı ICSI Pipetleri
+                </h2>
+                {seriesData.map((series) => renderSeries(series))}
+              </>
+            )}
           </div>
         </motion.div>
       </div>
