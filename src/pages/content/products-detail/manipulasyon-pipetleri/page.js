@@ -47,7 +47,7 @@ const products = [
   },
   {
     webpath: "/pipet-aksesuarlari",
-    name: "PİPET AKSESUARLARI",
+    name: "PİPET AKSESUARLARI (içerik bak)",
     brand: "Vitrolife",
     path: "pipet-aksesuar.png",
   },

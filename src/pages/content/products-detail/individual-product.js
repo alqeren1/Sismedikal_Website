@@ -1,6 +1,7 @@
 import { usePathname } from "next/navigation";
 import ProductDisplay from "./detailed-product-component";
 import GXDisplay from "./g-serisi-kultur-medyumlari/gx-display-component";
+import EvaluationDisplay from "./embryoscope/evaluation-display";
 import EmbryoGlueDisplay from "./g-serisi-kultur-medyumlari/embryoglue-display-component";
 import OVOILDisplay from "./ovoil/ovoil-component";
 import productsData from "./sismed_products.json";
@@ -90,6 +91,9 @@ const ProductDetail = () => {
     }
     if (product.id === "ovoil") {
       return <OVOILDisplay />;
+    }
+    if (product.id === "evaluation") {
+      return <EvaluationDisplay />;
     }
     return <ProductDisplay product={product} />;
   };

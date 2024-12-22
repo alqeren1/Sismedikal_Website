@@ -12,6 +12,7 @@ export default function Navbar() {
   const menuRef = useRef(null);
   const hamburgerRef = useRef(null);
   const isMainPage = router.pathname === "/";
+  const [selectedLanguage, setSelectedLanguage] = useState("TR"); // Default language
 
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
@@ -125,7 +126,7 @@ export default function Navbar() {
               }`}
               onClick={() => setIsLanguageDropdownOpen((prev) => !prev)}
             >
-              EN
+              {selectedLanguage}
               <FaChevronDown
                 className={`ml-2 transform transition-transform duration-200 ${
                   isLanguageDropdownOpen ? "rotate-180" : "rotate-0"
@@ -137,14 +138,13 @@ export default function Navbar() {
                 {[
                   { code: "tr", label: "TR", flag: "/turkey.png" },
                   { code: "en", label: "EN", flag: "/uk.png" },
-                  { code: "de", label: "DE", flag: "/de.png" },
-                  { code: "ru", label: "RU", flag: "/ru.png" },
                 ].map((lang, index) => (
                   <div
                     key={index}
                     className="flex items-center cursor-pointer px-4 py-2 hover:bg-gray-100"
                     onClick={() => {
-                      setIsLanguageDropdownOpen(false);
+                      setSelectedLanguage(lang.label); // Update selected language
+                      setIsLanguageDropdownOpen(false); // Close dropdown
                       console.log(`Language set to: ${lang.label}`);
                     }}
                   >

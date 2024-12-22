@@ -9,6 +9,11 @@ export default function Home() {
     <>
       <Head>
         <title>Sismedikal</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet"
+        />
+
         <meta
           name="description"
           content="IVF'de 25 yılı aşkın deneyimi ile, sektör lideri çözüm ortağınız."

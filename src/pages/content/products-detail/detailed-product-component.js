@@ -127,6 +127,87 @@ Spike ile spermatid ICSI için uygundur.`,
     },
   ];
 
+  const seriesData2 = [
+    {
+      wideImage: "/icsi_spikeless.jpg", // Replace with actual image path
+      table: [
+        {
+          name: "Biopsy pipette",
+          ref: "15133",
+          id: "23 fluted",
+
+          angle: "30",
+
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15112",
+          id: "20",
+
+          angle: "30",
+
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15115",
+          id: "25",
+
+          angle: "30",
+
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15116",
+          id: "30",
+
+          angle: "0",
+
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15117",
+          id: "30",
+
+          angle: "20",
+
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15149",
+          id: "30",
+
+          angle: "25",
+
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15118",
+          id: "30",
+
+          angle: "30",
+
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15119",
+          id: "30",
+
+          angle: "35",
+
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+
   // Utility function to get the image URL or return a fallback
   const getImageUrl = (imageUrl) => {
     if (!imageUrl) return "/placeholder.png"; // Fallback to placeholder
@@ -211,6 +292,95 @@ Spike ile spermatid ICSI için uygundur.`,
             <div className="mt-6">
               <p className="text-gray-700">{series.description}</p>
             </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const renderSeries2 = (series) => {
+    return (
+      <div className="mt-12" key={series.name}>
+        <h2 className="text-xl font-bold text-gray-900 mb-6">{series.name}</h2>
+        <div className="mb-6">
+          <Image
+            src={series.wideImage}
+            alt={`${series.name} wide image`}
+            width={800} // Adjust width and height as needed
+            height={200}
+            className="w-full object-cover rounded-lg"
+          />
+        </div>
+        <div className="flex flex-col space-x-0 lg:space-x-4 justify-between lg:flex-row gap-0 ">
+          {/* Wide Image */}
+          {/* Second Image */}
+          <div className="items-end">
+            <h1 className="font-semibold text-lg text-gray-900">Uç Şekli</h1>
+            <div className="flex justify-left items-center">
+              <Image
+                src={series.secondImage}
+                alt={`${series.name} tip image`}
+                width={300} // Adjust width and height as needed
+                height={300}
+                className="object-contain rounded-lg"
+              />
+            </div>
+          </div>
+          <div className="overflow-x-auto">
+            {/* Table */}
+            <div className="min-w-[400px] lg:min-w-[800px] w-full">
+              <table className="w-full whitespace-nowrap text-left border-collapse">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="p-3 border-b">I.D. (μm)</th>
+                    <th className="p-3 border-b">REF</th>
+                    <th className="p-3 border-b">Angle</th>
+                    <th className="p-3 border-b">Tip Length (μm)</th>
+                    <th className="p-3 border-b">Package Size</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {series.table.map((row, index) => (
+                    <tr key={index} className="odd:bg-white even:bg-gray-50">
+                      <td className="p-3 border-b">{row.id}</td>
+                      <td className="p-3 border-b">{row.ref}</td>
+                      <td className="p-3 border-b">{row.angle}</td>
+                      <td className="p-3 border-b">{row.tipLength}</td>
+                      <td className="p-3 border-b">{row.packageSize}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        {/* Table */}
+        <div className="overflow-x-auto whitespace-nowrap mt-8">
+          <div className="min-w-[400px] lg:min-w-[800px] w-full">
+            <table className="w-full whitespace-nowrap text-left border-collapse">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="p-3 border-b">Product</th>
+                  <th className="p-3 border-b">REF</th>
+
+                  <th className="p-3 border-b">I.D. (μm)</th>
+                  <th className="p-3 border-b">Angle</th>
+
+                  <th className="p-3 border-b">Package Size</th>
+                </tr>
+              </thead>
+              <tbody>
+                {series.table.map((row, index) => (
+                  <tr key={index} className="odd:bg-white even:bg-gray-50">
+                    <td className="p-3 border-b">{row.name}</td>
+                    <td className="p-3 border-b">{row.ref}</td>
+                    <td className="p-3 border-b">{row.id}</td>
+                    <td className="p-3 border-b">{row.angle}</td>
+                    <td className="p-3 border-b">{row.packageSize}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -312,7 +482,7 @@ Spike ile spermatid ICSI için uygundur.`,
           className="bg-white rounded-xl shadow-lg overflow-hidden"
         >
           <div className="relative bg-gradient-to-r from-blue-600 to-blue-800 px-8 py-8">
-            <div className="flex gap-8 items-start pt-8">
+            <div className="flex flex-col md:flex-row gap-8 items-center md:items-start pt-8">
               <div className="relative w-[200px] h-[200px] flex-shrink-0 bg-gray-100 rounded-lg overflow-hidden">
                 <ImageWithFallback
                   src={product.image_url}
@@ -371,13 +541,17 @@ Spike ile spermatid ICSI için uygundur.`,
             {/* Render headers and series only for "ICSI PİPETİ™" */}
             {product.name === "ICSI PİPETİ™" && (
               <>
-                <h2 className="text-3xl font-bold text-center text-gray-900 mb-6 mt-8">
+                <h2 className="text-3xl font-bold text-center text-gray-900 mb-6 mt-16">
                   Pipet Serileri
                 </h2>
                 <h2 className="text-2xl font-bold text-gray-900 mb-12">
-                  Çıkıntılı ICSI Pipetleri
+                  Spikelı ICSI Pipetleri
                 </h2>
                 {seriesData.map((series) => renderSeries(series))}
+                <h2 className="text-2xl font-bold text-gray-900 mb-12 mt-16">
+                  Spikesız ICSI Pipetleri
+                </h2>
+                {seriesData2.map((series) => renderSeries2(series))}
               </>
             )}
           </div>

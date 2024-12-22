@@ -13,14 +13,15 @@ import Arrowleft from "../../../svgs/arrow";
 import Arrowdown from "../../../svgs/arrowdown";
 import Slider from "react-slick";
 const HeroSection = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [sliderKey, setSliderKey] = useState(0); // Key for forcing re-initialization
   const router = useRouter();
+
   const carouselImages = [
     "/hero_images/ewitness.jpg",
-    "/embryoscope2.png",
+    "/embryoscope_hero.png",
     "/gxmedia.png",
-    "/EmbryoGlue_10.png",
-    "/octaxlaserhd.png",
+    "/EmbryoGlue_hero.png",
+    "/octaxlaserhd_hero.png",
   ];
   const imageDescriptions = [
     "e-Witness System",
@@ -38,14 +39,14 @@ const HeroSection = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: false, // Enable arrows
-
+    arrows: false,
     appendDots: (dots) => (
       <div style={{ position: "absolute", bottom: "30px", width: "100%" }}>
         <ul className="slick-dots custom-dots">{dots}</ul>
       </div>
     ),
   };
+
   const steps = [
     { src: "/ivf-1.png", label: "Oosit toplama" },
     { src: "/ivf-2.png", label: "Sperm hazırlama" },
@@ -57,21 +58,21 @@ const HeroSection = () => {
   ];
 
   useEffect(() => {
-    setIsVisible(true);
-  }, []);
+    // Reinitialize the slider on navigation
+    setSliderKey((prevKey) => prevKey + 1);
+  }, [router.asPath]);
 
   return (
     <div className="relative w-full min-h-[calc(100vh-85px)] bg-gradient-to-br from-blue-50 to-white flex flex-col items-center">
-      <div className="flex-grow w-full flex flex-col-reverse  lg:flex-row justify-center lg:justify-between px-0 md:px-8 xl:px-20 2xl:px-60 items-start md:items-center ">
+      <div className="flex-grow w-full flex flex-col-reverse lg:flex-row justify-center lg:justify-between px-0 md:px-8 xl:px-20 2xl:px-60 items-start md:items-center">
         {/* Left Content */}
-        <div className="flex flex-col justify-center items-start lg:items-start text-left lg:text-left px-4 md:px-0 mt-12 md:mt-8 lg:mt-12">
+        <div className="flex flex-col justify-center items-start text-left px-4 md:px-0 mt-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
             <span className="text-blue-600"> Sürecin Her Aşamasında </span>
           </h1>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4 lg:mb-8">
             Sismedikal Yanınızda
           </h1>
-
           <div className="flex space-x-4">
             <button
               className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
@@ -91,7 +92,7 @@ const HeroSection = () => {
         {/* Right Content - Image Carousel */}
         <div className="w-full lg:w-auto flex justify-center items-center px-0 lg:mt-0">
           <div className="w-full max-w-[500px] md:max-w-[560px] lg:max-w-[500px]">
-            <Slider {...sliderSettings}>
+            <Slider {...sliderSettings} key={sliderKey}>
               {carouselImages.map((image, index) => (
                 <div
                   key={index}
@@ -102,11 +103,10 @@ const HeroSection = () => {
                   <div className="absolute bottom-4 left-4 bg-white text-gray-900 md:px-8 px-4 py-2 md:py-4 backdrop-blur-sm bg-opacity-70 font-semibold text-2xl md:text-4xl leading-tight">
                     {imageDescriptions[index]}
                   </div>
-
                   <img
                     src={image}
                     alt={imageDescriptions[index]}
-                    className="w-full h-full object-cover sm:rounded-lg pointer-events-none"
+                    className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
               ))}
@@ -116,16 +116,14 @@ const HeroSection = () => {
       </div>
 
       {/* Steps Section */}
-      <div className="hidden xllg:block  py-8 sm:py-4 w-full">
+      <div className="hidden xllg:block py-8 sm:py-4 w-full">
         <div className="flex flex-col items-center w-full">
-          {/* Steps */}
           <div className="block md:flex justify-center flex-wrap gap-2 px-10">
             {steps.map((step, index) => (
               <div
                 key={index}
                 className="flex flex-col text-center text-gray-700 items-center"
               >
-                {/* Step Image */}
                 <div className="flex items-center">
                   <div className="hidden ucxl:flex">
                     <Image
@@ -151,15 +149,11 @@ const HeroSection = () => {
                     )}
                   </div>
                 </div>
-
-                {/* Step Label */}
                 <div className="flex justify-left w-full">
                   <div className="flex justify-center w-[122px] ucxl:w-[150px] font-semibold mt-1">
                     {step.label}
                   </div>
                 </div>
-
-                {/* phone mode arrow */}
                 <div className="flex md:hidden">
                   {index < steps.length - 1 && (
                     <div className="w-12">
