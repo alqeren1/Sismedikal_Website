@@ -85,7 +85,7 @@ export default function Navbar() {
       <div className="flex justify-between w-full items-center px-4 xl:px-20 py-4">
         {/* Logo */}
         <Image
-          src="/sismed2.png"
+          src="/sismed_logo.png"
           alt="Logo"
           width={250}
           height={50}

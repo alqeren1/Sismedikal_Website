@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Highlighter from "react-highlight-words";
 
 export default function About() {
   const [selectedTab, setSelectedTab] = useState("history");
@@ -8,40 +7,52 @@ export default function About() {
     history: {
       title: "Tarihçemiz",
       content:
-        "1997 yılından bu yana IVF sektörüne özel çözümler sunmaktayız. Kuruluşumuzdan bu yana, en yüksek kalite standartlarında ürün ve hizmet sağlayarak Türkiye'nin lider IVF ekipman tedarikçisi konumuna ulaştık.",
+        "Sis Medikal Ltd., Türkiye’de **IVF sektörünün ilk ve öncü firmasıdır**. IVF merkezlerinin ihtiyaçlarının karşılanmasına yönelik çalışmaları doğrultusunda, **Vitrolife ürünlerinin Türkiye yetkili distribütörlüğünü** sürdürmektedir. Sis Medikal Ltd. IVF sektöründe faaliyet gösteren hastane ve kliniklere hizmet vermek amacıyla **1994 yılında kurulmuştur**. Sektörün büyümesi ile birlikte yurt genelinde sayıları giderek artan IVF merkezlerine, Ankara ve İstanbul ofisleri ile hizmet vermektedir. Etik prensiplerden taviz vermeksizin sürdürdüğü hizmetleri ve işbirligi yaptığı kliniklerle **“çözüm ortağı”** anlayışını her an hissettiren yaklaşımı ile Sis Medikal Ltd, kurumsal kimliğini kısa zamanda tüm sektöre kabul ettirmiş ve IVF sahasının vazgeçilmez unsurları arasındaki yerini almıştır.",
     },
     mission: {
       title: "Misyonumuz",
       content:
-        "IVF laboratuvarlarına en yüksek kalitede ürün ve hizmet sağlayarak, başarı oranlarını artırmak ve hastaların hayallerine ulaşmalarına yardımcı olmak.",
+        "IVF sektöründe, **en yüksek kalite standartlarını** benimseyerek, etik değerlerden ödün vermeksizin, inovatif ürünler ve üstün hizmet anlayışıyla sektördeki tüm partnerlerimiz için en güvenilir çözüm ortağı olmak.",
     },
     vision: {
       title: "Vizyonumuz",
       content:
-        "Türkiye ve çevre ülkelerde IVF sektörünün güvenilir çözüm ortağı olmaya devam ederken, global pazarda da söz sahibi olmak.",
+        "Kalite, bilimsellik ve etik prensipleri temel alarak, sektördeki liderlik konumumuzu sürdürülebilir yeniliklerle pekiştirmek ve müşterilerimize en iyi hizmeti sunmak. Hedefimiz, IVF alanında ulusal ve uluslararası düzeyde güvenilir, saygın ve öncü bir marka olarak sektöre yön vermektir.",
     },
   };
 
   const stats = [
-    { number: "25+", label: "Yıllık Deneyim" },
+    { number: "30+", label: "Yıllık Deneyim" },
     { number: "200+", label: "Partner Klinik" },
-    { number: "1000+", label: "Başarılı Proje" },
+
     { number: "50+", label: "Ürün Çeşidi" },
   ];
 
+  // Function to process content with bold markers
+  const processContent = (content) => {
+    const parts = content.split(/(\*\*.*?\*\*)/); // Split on **...**
+    return parts.map((part, index) =>
+      part.startsWith("**") && part.endsWith("**") ? (
+        <strong key={index}>{part.slice(2, -2)}</strong>
+      ) : (
+        part
+      )
+    );
+  };
+
   return (
-    <div className=" flex flex-col bg-blue-50 items-center w-full">
+    <div className="flex flex-col bg-blue-50 items-center w-full">
       {/* Hero Section - Fixed */}
-      <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500  h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
+      <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
         <div className="text-white text-center z-10">
-          <h1 className="text-4xl xl:text-7xl font-bold ">Hakkımızda</h1>
+          <h1 className="text-4xl xl:text-7xl font-bold">Hakkımızda</h1>
         </div>
       </div>
 
       {/* Content Section */}
-      <div className="w-full max-w-7xl px-4 py-8">
-        {/* Tabs Section - Keeping original */}
-        <div className="flex justify-left xslg:justify-center mb-12  overflow-x-auto scrollbar-hide">
+      <div className="w-full  max-w-7xl px-4 py-8">
+        {/* Tabs Section */}
+        <div className="flex justify-left xslg:justify-center mb-12 overflow-x-auto scrollbar-hide">
           {Object.entries(tabs).map(([key, { title }]) => (
             <button
               key={key}
@@ -58,17 +69,17 @@ export default function About() {
         </div>
 
         {/* Tab Content */}
-        <div className="text-center mb-36">
+        <div className="text-center mb-20   min-h-[320px]">
           <h2 className="text-3xl text-gray-800 font-bold mb-6">
             {tabs[selectedTab].title}
           </h2>
-          <p className="text-gray-600 max-w-3xl min-h-[85px] mx-auto text-lg">
-            {tabs[selectedTab].content}
+          <p className="text-gray-600 max-w-3xl text-justify min-h-[85px] mx-auto text-lg">
+            {processContent(tabs[selectedTab].content)}
           </p>
         </div>
 
-        {/* Stats Section - Keeping original */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        {/* Stats Section */}
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 ">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-4xl font-bold text-blue-500 mb-2">

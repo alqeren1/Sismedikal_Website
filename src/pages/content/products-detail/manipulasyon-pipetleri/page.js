@@ -16,7 +16,7 @@ const products = [
     path: "holding-pipet.png",
   },
   {
-    webpath: "/transfer-pipeti",
+    webpath: "/denudasyon-pipeti",
     name: "DENUDASYON Pipeti",
     brand: "Vitrolife",
     path: "transfer-pipet.png",

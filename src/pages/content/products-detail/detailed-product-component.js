@@ -158,33 +158,7 @@ Spike ile spermatid ICSI için uygundur.`,
 
           packageSize: "10-pack",
         },
-        {
-          name: "",
-          ref: "15116",
-          id: "30",
 
-          angle: "0",
-
-          packageSize: "10-pack",
-        },
-        {
-          name: "",
-          ref: "15117",
-          id: "30",
-
-          angle: "20",
-
-          packageSize: "10-pack",
-        },
-        {
-          name: "",
-          ref: "15149",
-          id: "30",
-
-          angle: "25",
-
-          packageSize: "10-pack",
-        },
         {
           name: "",
           ref: "15118",
@@ -196,11 +170,468 @@ Spike ile spermatid ICSI için uygundur.`,
         },
         {
           name: "",
-          ref: "15119",
-          id: "30",
+          ref: "15123",
+          id: "35",
 
-          angle: "35",
+          angle: "30",
 
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15128",
+          id: "40",
+
+          angle: "30",
+
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+  const seriesData3 = [
+    {
+      table: [
+        {
+          name: "Pasteur pipette 1 mL",
+          ref: "16201",
+          id: "PE",
+
+          angle: "n/a",
+
+          packageSize: "500",
+        },
+        {
+          name: "Pasteur pipette 3 mL",
+          ref: "16202",
+          id: "PE",
+
+          angle: "n/a",
+
+          packageSize: "500",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+  const seriesData4 = [
+    {
+      table: [
+        {
+          name: "Serological pipette 1 mL",
+          ref: "16203",
+          id: "PS, plugged",
+
+          angle: "-0.2",
+
+          packageSize: "800",
+        },
+        {
+          name: "Serological pipette 2 mL",
+          ref: "16204",
+          id: "PS, plugged",
+
+          angle: "-0.3",
+
+          packageSize: "600",
+        },
+        {
+          name: "Serological pipette 5 mL",
+          ref: "16205",
+          id: "PS, plugged",
+
+          angle: "-2.0",
+
+          packageSize: "200",
+        },
+        {
+          name: "Serological pipette 10 mL",
+          ref: "16206",
+          id: "PS, plugged",
+
+          angle: "-3.0",
+
+          packageSize: "200",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+  const seriesData5 = [
+    {
+      table: [
+        {
+          name: "Single lumen, conventional tip",
+          ref: "17112",
+          desc: "Aspiration needle",
+
+          out_dia: "1.4",
+          gauge: "17.5",
+          in_dia: "1.0",
+          length: "300",
+          a_tubing: "900",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17130",
+          desc: "",
+
+          out_dia: "",
+          gauge: "",
+          in_dia: "",
+          length: "350",
+          a_tubing: "900",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "Single lumen, conventional tip",
+          ref: "17120",
+          desc: "Aspiration needle",
+
+          out_dia: "1.6",
+          gauge: "16.5",
+          in_dia: "1.1",
+          length: "300",
+          a_tubing: "900",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17104",
+          desc: "",
+
+          out_dia: "",
+          gauge: "",
+          in_dia: "",
+          length: "350",
+          a_tubing: "900",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "Single lumen, conventional tip",
+          ref: "17140",
+          desc: "Aspiration needle",
+
+          out_dia: "1.4",
+          gauge: "17.5",
+          in_dia: "1.2",
+          length: "300",
+          a_tubing: "900",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17137",
+          desc: "",
+
+          out_dia: "1.6",
+          gauge: "16.5",
+          in_dia: "1.3",
+          length: "350",
+          a_tubing: "",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "Single lumen, conventional tip",
+          ref: "17123",
+          desc: "Aspiration needle",
+
+          out_dia: "1.5",
+          gauge: "17",
+          in_dia: "1.2",
+          length: "300",
+          a_tubing: "600",
+          f_tubing: "1000",
+          size: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+  const seriesData6 = [
+    {
+      table: [
+        {
+          name: "Double lumen, conventional tip",
+          ref: "17102",
+          desc: "",
+
+          out_dia: "1.5",
+          gauge: "17",
+          in_dia: "0.9",
+          length: "350",
+          a_tubing: "1000",
+          f_tubing: "1000",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17105",
+          desc: "",
+
+          out_dia: "1.65",
+          gauge: "16",
+          in_dia: "1.0",
+          length: "300",
+          a_tubing: "900",
+          f_tubing: "900",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17168",
+          desc: "",
+
+          out_dia: "1.65",
+          gauge: "16",
+          in_dia: "1.0",
+          length: "350",
+          a_tubing: "1000",
+          f_tubing: "1000",
+          size: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+  const seriesData7 = [
+    {
+      table: [
+        {
+          name: "SenseTM Reduced Single Lumen",
+          ref: "17175",
+          desc: "Aspiration needle",
+
+          out_dia: "1.4/0.9",
+          gauge: "17.5/20",
+          in_dia: "1.2/0.6",
+          length: "300",
+          a_tubing: "600",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17176",
+          desc: "",
+
+          out_dia: "",
+          gauge: "",
+          in_dia: "",
+          length: "300",
+          a_tubing: "900",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17177",
+          desc: "",
+
+          out_dia: "",
+          gauge: "",
+          in_dia: "",
+          length: "350",
+          a_tubing: "600",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17178",
+          desc: "",
+
+          out_dia: "",
+          gauge: "",
+          in_dia: "",
+          length: "350",
+          a_tubing: "900",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "",
+          ref: "17188",
+          desc: "",
+
+          out_dia: "1.6/1.1",
+          gauge: "16.5/19",
+          in_dia: "1.4/0.8",
+          length: "350",
+          a_tubing: "900",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "SenseTM Reduced Single Lumen",
+          ref: "17179",
+          desc: "Luer connection",
+
+          out_dia: "1.4/0.9",
+          gauge: "17.5/20",
+          in_dia: "1.2/0.6",
+          length: "300",
+          a_tubing: "",
+          f_tubing: "",
+          size: "10-pack",
+        },
+        {
+          name: "SenseTM Reduced Double Lumen",
+          ref: "17187",
+          desc: "Aspiration needle",
+
+          out_dia: "1.6 /1.1",
+          gauge: "16.5/19",
+          in_dia: "1.4/0.8",
+          length: "350",
+          a_tubing: "1000",
+          f_tubing: "1000",
+          size: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+  const seriesData8 = [
+    {
+      table: [
+        {
+          name: "Handling pipette",
+          ref: "15536",
+          id: "50-60",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15530",
+          id: "122-124",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15531",
+          id: "127-129",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15532",
+          id: "130-133",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15533",
+          id: "134-145",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15534",
+          id: "146-155",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15535",
+          id: "156-190",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15537",
+          id: "190-210",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15538",
+          id: "290-310",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+  const seriesData9 = [
+    {
+      table: [
+        {
+          name: "Transfer pipette",
+          ref: "15537",
+          id: "190-210",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15538",
+          id: "290-310",
+          od: "",
+          angle: "",
+          length: "",
+          packageSize: "10-pack",
+        },
+      ],
+      secondImage: "/icsi_spikeless_tip.jpg", // Replace with actual image path
+    },
+  ];
+  const seriesData10 = [
+    {
+      table: [
+        {
+          name: "Holding pipette",
+          ref: "15305",
+          id: "20-30",
+          od: "110-130",
+          angle: "30",
+          length: "50-60",
+          packageSize: "10-pack",
+        },
+        {
+          name: "",
+          ref: "15308",
+          id: "20-30",
+          od: "140-160",
+          angle: "0",
+          length: "50-60",
           packageSize: "10-pack",
         },
       ],
@@ -354,6 +785,12 @@ Spike ile spermatid ICSI için uygundur.`,
             </div>
           </div>
         </div>
+      </div>
+    );
+  };
+  const renderSeries3 = (series) => {
+    return (
+      <div className="mt-12" key={series.name}>
         {/* Table */}
         <div className="overflow-x-auto whitespace-nowrap mt-8">
           <div className="min-w-[400px] lg:min-w-[800px] w-full">
@@ -376,6 +813,143 @@ Spike ile spermatid ICSI için uygundur.`,
                     <td className="p-3 border-b">{row.ref}</td>
                     <td className="p-3 border-b">{row.id}</td>
                     <td className="p-3 border-b">{row.angle}</td>
+                    <td className="p-3 border-b">{row.packageSize}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    );
+  };
+  const renderSeries4 = (series) => {
+    return (
+      <div className="mt-12" key={series.name}>
+        {/* Table */}
+        <div className="overflow-x-auto whitespace-nowrap mt-8">
+          <div className="min-w-[400px] lg:min-w-[800px] w-full">
+            <table className="w-full whitespace-nowrap text-left border-collapse">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="p-3 border-b">Product</th>
+                  <th className="p-3 border-b">REF</th>
+
+                  <th className="p-3 border-b">Material</th>
+                  <th className="p-3 border-b">Negative graduations [ mL]</th>
+
+                  <th className="p-3 border-b">Units/case</th>
+                </tr>
+              </thead>
+              <tbody>
+                {series.table.map((row, index) => (
+                  <tr key={index} className="odd:bg-white even:bg-gray-50">
+                    <td className="p-3 border-b">{row.name}</td>
+                    <td className="p-3 border-b">{row.ref}</td>
+                    <td className="p-3 border-b">{row.id}</td>
+                    <td className="p-3 border-b">{row.angle}</td>
+                    <td className="p-3 border-b">{row.packageSize}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    );
+  };
+  const renderSeries5 = (series) => {
+    return (
+      <div className="mt-12" key={series.name}>
+        {/* Table */}
+        <div className="overflow-x-auto whitespace-nowrap mt-8">
+          <div className="min-w-[400px] lg:min-w-[800px] w-full">
+            <table className="w-full whitespace-nowrap text-left border-collapse">
+              <thead className="bg-gray-100  ">
+                <tr>
+                  <th className="p-3 border-b align-top">Product</th>
+                  <th className="p-3 border-b align-top">REF</th>
+
+                  <th className="p-3 border-b align-top">Description</th>
+                  <th className="p-3 border-b align-top">
+                    Outer <p>diameter</p> <p>(mm)</p>{" "}
+                  </th>
+                  <th className="p-3 border-b align-bottom">(gauge)</th>
+                  <th className="p-3 border-b align-top">
+                    Inner <p>diameter</p>
+                  </th>
+                  <th className="p-3 border-b align-top">
+                    Needle <p>length</p>
+                    <p>(mm)</p>
+                  </th>
+                  <th className="p-3 border-b align-top">
+                    Aspiration <p>tubing</p>
+                    <p>(mm)</p>
+                  </th>
+                  <th className="p-3 border-b align-top">
+                    Flush <p>tubing</p>
+                    <p>(mm)</p>
+                  </th>
+                  <th className="p-3 border-b align-top">Size</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {series.table.map((row, index) => (
+                  <tr key={index} className="odd:bg-white even:bg-gray-50">
+                    <td className="p-3 border-b">{row.name}</td>
+                    <td className="p-3 border-b">{row.ref}</td>
+                    <td className="p-3 border-b">{row.desc}</td>
+                    <td className="p-3 border-b">{row.out_dia}</td>
+                    <td className="p-3 border-b">{row.gauge}</td>
+                    <td className="p-3 border-b">{row.in_dia}</td>
+                    <td className="p-3 border-b">{row.length}</td>
+                    <td className="p-3 border-b">{row.a_tubing}</td>
+                    <td className="p-3 border-b">{row.f_tubing}</td>
+                    <td className="p-3 border-b">{row.size}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    );
+  };
+  const renderSeries6 = (series) => {
+    return (
+      <div className="mt-12" key={series.name}>
+        {/* Table */}
+        <div className="overflow-x-auto whitespace-nowrap mt-8">
+          <div className="min-w-[400px] lg:min-w-[800px] w-full">
+            <table className="w-full whitespace-nowrap text-left border-collapse">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="p-3 border-b">Product</th>
+                  <th className="p-3 border-b">REF</th>
+
+                  <th className="p-3 border-b">I.D. (μm)</th>
+                  <th className="p-3 border-b">O.D. (μm)</th>
+
+                  <th className="p-3 border-b">Angle</th>
+                  <th className="p-3 border-b">
+                    Total length <p>(mm)</p>
+                  </th>
+                  <th className="p-3 border-b">
+                    Package
+                    <p>size</p>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {series.table.map((row, index) => (
+                  <tr key={index} className="odd:bg-white even:bg-gray-50">
+                    <td className="p-3 border-b">{row.name}</td>
+                    <td className="p-3 border-b">{row.ref}</td>
+                    <td className="p-3 border-b">{row.id}</td>
+                    <td className="p-3 border-b">{row.od}</td>
+                    <td className="p-3 border-b">{row.angle}</td>
+                    <td className="p-3 border-b">{row.length}</td>
                     <td className="p-3 border-b">{row.packageSize}</td>
                   </tr>
                 ))}
@@ -440,7 +1014,7 @@ Spike ile spermatid ICSI için uygundur.`,
               key={index}
               className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
             >
-              <div className="flex gap-6 items-start">
+              <div className="flex md:flex-row flex-col gap-6 items-start">
                 <div className="relative w-[200px] h-[200px] flex-shrink-0 bg-gray-100 rounded-lg overflow-hidden">
                   <ImageWithFallback
                     src={item.image_url}
@@ -452,11 +1026,24 @@ Spike ile spermatid ICSI için uygundur.`,
                   <h4 className="font-medium text-xl text-blue-800">
                     {item.name}
                   </h4>
+                  <h4 className="text-md text-gray-500 mt-2">{item.ref}</h4>
+
                   {item.description && (
-                    <p className="text-gray-600 mt-3 leading-relaxed">
+                    <p className="text-gray-600 mt-6 leading-relaxed">
                       {item.description}
                     </p>
                   )}
+                  {item.additional_details && (
+                    <div className="mt-4 text-gray-600">
+                      <ul className="list-disc pl-5">
+                        {item.additional_details.map((detail, detailIndex) => (
+                          <li key={detailIndex}>{detail}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  <h4 className="text-md text-gray-600 mt-8">{item.size}</h4>
+                  <h4 className="text-md text-gray-600 mt-1">{item.wells}</h4>
                 </div>
               </div>
             </div>
@@ -513,7 +1100,7 @@ Spike ile spermatid ICSI için uygundur.`,
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3 }}
-                    className="mt-2 text-blue-200"
+                    className="mt-4 text-blue-200"
                   >
                     Brand: {product.brand}
                   </motion.div>
@@ -553,6 +1140,33 @@ Spike ile spermatid ICSI için uygundur.`,
                 </h2>
                 {seriesData2.map((series) => renderSeries2(series))}
               </>
+            )}
+            {product.name === "BİYOPSİ PİPETİ™" && (
+              <>{seriesData2.map((series) => renderSeries3(series))}</>
+            )}
+            {product.name === "PASTEUR PIPETTES" && (
+              <>{seriesData3.map((series) => renderSeries4(series))}</>
+            )}
+            {product.name === "SEROLOGICAL PIPETTES" && (
+              <>{seriesData4.map((series) => renderSeries4(series))}</>
+            )}
+            {product.name === "SINGLE LUMEN™" && (
+              <>{seriesData5.map((series) => renderSeries5(series))}</>
+            )}
+            {product.name === "DOUBLE LUMEN™" && (
+              <>{seriesData6.map((series) => renderSeries5(series))}</>
+            )}
+            {product.name === "SENSE™" && (
+              <>{seriesData7.map((series) => renderSeries5(series))}</>
+            )}
+            {product.name === "DENUDASYON PİPETİ™" && (
+              <>{seriesData8.map((series) => renderSeries6(series))}</>
+            )}
+            {product.name === "TRANSFER PİPETİ™" && (
+              <>{seriesData9.map((series) => renderSeries6(series))}</>
+            )}
+            {product.name === "HOLDİNG PİPETİ™" && (
+              <>{seriesData10.map((series) => renderSeries6(series))}</>
             )}
           </div>
         </motion.div>

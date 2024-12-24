@@ -894,6 +894,22 @@
     ]
   },
   {
+    "name": "DENUDASYON PİPETİ™",
+    "brand": "",
+    "image_url": "transfer-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "DENUDASYON PİPETİ™",
+    "subtitle": "Denudasyon Pipeti",
+    "description": "",
+    "specifications": {
+      "Tanım": "Düz ve pürüzsüz uca sahip, önceden monte edilmiş balonlu pipet",
+      "Kullanım Amacı": "Kumulus hücre katmanlarının çıkarılması, oosit, embriyo ve blastosist transferi veya fertilizasyon kontrolü için kullanılır",
+      "Uygulama": "Silikon kauçuk balonlu bir pipet tutucu ile kullanım için uygundur",
+      "Saklama Koşulu": "+2 ila +30°C arasında saklayın"
+    }
+  },
+  {
     "name": "TRANSFER PİPETİ™",
     "brand": "",
     "image_url": "transfer-pipet.png",
@@ -1025,7 +1041,7 @@
   {
     "name": "OCTAX LAZER",
     "brand": "OCTAX",
-    "image_url": "octaxlazer.png",
+    "image_url": "octax-productimg.png",
     "product_url": "",
     "url": "",
     "title": "OCTAX LAZER & GÖRÜNTÜLEME SİSTEMİ",
@@ -1036,11 +1052,13 @@
       {
         "name": "Dinamik Lazer – Octax NaviLase",
         "title": "Dinamik Lazer – Octax NaviLase",
+        "image_url": "octax-productimg.png",
         "description": "NaviLase kullanımında, lazer seçilen hedef bölgeye yönlendirilirken embriyo sabit kalır. Düz veya kavisli bir çizgi boyunca birkaç atış yapabilirsiniz. Eğri bir çizgide çoklu atış, düz bir çizgide çoklu atış, ikili veya üçlü atışlı kesim."
       },
       {
         "name": "Statik Lazer – Octax LaserShot",
         "title": "Statik Lazer – Octax LaserShot",
+       "image_url": "octax-productimg.png",
         "description": "Octax LaserShot kullanımında, lazer hedef bölgesi sabittir ve embriyo lazer hedef bölgesine göre hizalanır."
       }
     ]
@@ -1692,31 +1710,57 @@
     "description": "EmbryoScope ve diğer time-lapse sistemleri için özel olarak tasarlanmış kültür kaplarıdır. Bu kaplar embriyo kültürü ve görüntüleme süreçlerini optimize eder.",
     "specifications": {},
     "products": [
-      {
-        "name": "EmbryoSlide+ ve EmbryoSlide 8 Kültür Kabı",
-        "title": "EmbryoSlide+ ve EmbryoSlide 8 Kültür Kabı",
-        "description": "16 embriyo alabilen kültür kuyuları, barkod etiketleme alanı, 2 ayrı yükleme alanı, 4 yıkama/durulama kuyusu, ayrı ayrı numaralandırılmış kuyular.",
-        "specifications": {
-          "Medyum Kullanımı": "2 x 180 µL medyum, 1.6 mL yağ tabakası"
-        }
-      },
-      {
-        "name": "EmbryoSlide Flex Kültür Kabı",
-        "title": "EmbryoSlide Flex Kültür Kabı",
-        "description": "6 embriyo alabilen kültür kuyuları, barkod etiketleme alanı, 2 yıkama/durulama kuyusu.",
-        "specifications": {
-          "Medyum Kullanımı": "210 µL medyum, 1.2 mL yağ tabakası"
-        }
-      },
-      {
-        "name": "EmbryoSlide Kültür Kabı",
-        "title": "EmbryoSlide Kültür Kabı",
-        "description": "12 embriyo alabilen kültür kuyuları, 4 yıkama/durulama kuyusu, ayrı ayrı numaralandırılmış kuyular, minimum buharlaşma sağlayan kapak, güvenli aktarım için kolay tutulabilen taşıma kanadı.",
-        "specifications": {
-          "Medyum Kullanımı": "2 x 25 µL medyum, 1.4 mL yağ tabakası"
-        }
-      }
+  {
+    "name": "pH Validasyon Kabı",
+    "ref": "16452",
+    "image_url": "ph-validation-dish.jpeg",
+    "description": "EmbriyoScope+, EmbriyoScope 8 veya CulturePro içinde pH ölçümleri gerçekleştirilmeden önce medyum örneklerini dengelemek için kullanılan silikon kapaklı steril olmayan kap.",
+    "specifications": {
+      "Medyum Kullanımı": "2 x 180 µL medyum, 1.6 mL yağ tabakası"
+    }
+  },
+  {
+    "name": "EmbryoSlide+ ic8 Kabı",
+    "ref": "16454",
+    "size": "Kap Boyutu (mm): 48 × 68",
+    "wells": "Kültür Kuyusu Sayısı: 8",
+    "image_url": "embryoslide-plus-ic8.jpeg",
+    "description": "EmbriyoScope+ ve EmbriyoScope 8 cihazlarında embriyo kültürü için kullanılır. Her Embryo Slide+ ic8 kap, 8 ayrı kültür kuyusu içerir.",
+    "specifications": {
+      "Medyum Kullanımı": "210 µL medyum, 1.2 mL yağ tabakası"
+    },
+    "additional_details": [
+      "8 embriyo/kap, 8 veya 15 kültür kabı/inkübatör",
+      "Barkod Etiketleme",
+      "8 embriyonun ayrı kültür kuyularında tutulması",
+      "Her kuyu için 8x 20 µL kültür medyası",
+      "1.6 mL yağ tabakası",
+      "4 durulama/çalkalama kuyusu, her biri 25 µL - 30 µL medyum içerir",
+      "Numaralandırılmış kuyular"
     ]
+  },
+  {
+    "name": "EmbryoSlide+® Kültür Kabı",
+    "ref": "16450",
+    "size": "Kap Boyutu (mm): 49 × 68",
+    "wells": "Kültür Kuyusu Sayısı: 16",
+    "image_url": "embryoslide-culture-dish_2c2.jpeg",
+    "description": "EmbriyoScope+ ve EmbriyoScope 8 cihazlarında embriyo kültürü için kullanılır. Her EmbryoSlide+ kültür kabı, 16 embriyonun inkübasyonu için 16 mikrokuyucuk içerir.",
+    "specifications": {
+      "Medyum Kullanımı": "2 x 25 µL medyum, 1.4 mL yağ tabakası"
+    },
+    "additional_details": [
+      "16 embriyo/kap, 8 veya 15 kültür kabı/inkübatör",
+      "Barkod Etiketleme",
+      "16 embriyonun ayrı kültür kuyularında, 2 rezervuarda tutulması",
+      "2 x 180 µL medyum",
+      "1.6 mL yağ tabakası",
+      "4 durulama/çalkalama kuyusu, her biri 25 µL - 30 µL medyum içerir",
+      "Numaralandırılmış kuyular"
+    ]
+  }
+]
+
   },
   {
     "name": "İĞNE AKSESUARLARI",
@@ -1740,7 +1784,7 @@
       {
         "name": "ULTRASOUND TRANSMISSION GEL",
         "brand": "Vitrolife",
-        "image_url": "gxmedia.png",
+        "image_url": "aksesuar.png",
         "title": "ULTRASOUND TRANSMISSION GEL",
         "subtitle": "Ultrason İletim Jeli",
         "description": "Vitrolife jel, güvenlik, performans ve rahatlığın mükemmel birleşimidir. Jel sterildir ve her biri 20 g'lık 50 adet, hızlı kullanım sağlayan uygun bir saklama kutusu içinde gelir."
@@ -1748,7 +1792,7 @@
       {
         "name": "TRANSDUCER COVER",
         "brand": "Vitrolife",
-        "image_url": "imaging-system-culture.jpeg",
+        "image_url": "aksesuar.png",
         "title": "TRANSDUCER COVER",
         "subtitle": "Transdüser Kılıfı",
         "description": "Tek tek sarılmış lateks içermeyen kılıflar. Polietilenden ürtilmiştir ve kazara kırılmayı önlemek için uzunlukları boyunca özel olarak tasarlanmıştır."

@@ -24,13 +24,15 @@ const HeroSection = () => {
     "/octaxlaserhd_hero.png",
   ];
   const imageDescriptions = [
-    "e-Witness System",
-    "Embryoscope+",
-    "Gx Media",
-    "EmbryoGlue",
-    "Octax Laser",
+    { label: "e-Witness System", route: "/" },
+    { label: "Embryoscope+", route: "/urunlerimiz/embryoscope" },
+    { label: "Gx Media", route: "/urunlerimiz/g-serisi-kultur-medyumlari/gx" },
+    {
+      label: "EmbryoGlue",
+      route: "/urunlerimiz/g-serisi-kultur-medyumlari/embryoglue",
+    },
+    { label: "Octax Laser", route: "/urunlerimiz/octax-lazer/octax-lazer" },
   ];
-
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -100,8 +102,11 @@ const HeroSection = () => {
                   style={{ aspectRatio: "1 / 1" }}
                 >
                   {/* Description Label */}
-                  <div className="absolute bottom-4 left-4 bg-white text-gray-900 md:px-8 px-4 py-2 md:py-4 backdrop-blur-sm bg-opacity-70 font-semibold text-2xl md:text-4xl leading-tight">
-                    {imageDescriptions[index]}
+                  <div
+                    className="absolute bottom-4 left-4 bg-white text-gray-900 md:px-8 px-4 py-2 md:py-4 backdrop-blur-sm bg-opacity-70 font-semibold text-2xl md:text-4xl leading-tight cursor-pointer"
+                    onClick={() => router.push(imageDescriptions[index].route)}
+                  >
+                    {imageDescriptions[index].label}
                   </div>
                   <img
                     src={image}

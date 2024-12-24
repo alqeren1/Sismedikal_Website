@@ -92,8 +92,80 @@ export default function Main() {
           </div>
         </div>
       </div>
-
       <div className="bg-blue-100 py-8 sm:py-16 w-full">
+        <div className="flex flex-col px-1 sm:px-8 lg:px-16 xl:px-48 items-center w-full">
+          <div className="hidden md:flex  justify-center w-full text-right items-top space-x-4 md:space-x-12">
+            <div>
+              <div className="text-5xl text-gray-800 mb-1 sm:mb-4 font-bold">
+                eWitness Sistemi
+              </div>
+
+              <div className="space-y-2 text-2xl text-gray-700 ml-1">
+                <div className=" ">Tüm iş akışının otomasyonu</div>
+                <div className=" ">Tüm işlemlerin takibi</div>
+                <div className=" ">
+                  Barkodlar ve yazdırılabilir etiketlerde RFID
+                </div>
+                <div className=" ">Elektronik çift kontrol</div>
+              </div>
+            </div>
+            <div className="items-center flex">
+              <div className="flex flex-shrink-0 ">
+                <Image
+                  src={"/ewitness2.png"}
+                  alt={"lazer"}
+                  width={250}
+                  height={250}
+                  layout="intrinsic" // Ensures the image does not shrink
+                  className="object-contain "
+                />
+              </div>
+              <div className="xl:flex hidden flex-shrink-0  mt-[7px] ml-4">
+                <Image
+                  src={"/hero_images/ewitness.jpg"}
+                  alt={"lazer"}
+                  width={250}
+                  height={250}
+                  layout="intrinsic" // Ensures the image does not shrink
+                  className="object-contain rounded-3xl"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center md:hidden justify-center w-full items-top overflow-x-auto whitespace-nowrap ">
+            <div className="flex w-full justify-center text-center">
+              <div className="flex-col justify-center space-x-4">
+                {" "}
+                <div className="flex justify-center flex-shrink-0 mb-4">
+                  <Image
+                    src={"/ewitness2.png"}
+                    alt={"lazer"}
+                    width={200}
+                    height={200}
+                    layout="intrinsic" // Ensures the image does not shrink
+                    className="object-contain"
+                  />
+                </div>
+                <div>
+                  <div className="text-3xl sm:text-4xl text-gray-800   font-bold">
+                    eWitness Sistemi
+                  </div>
+
+                  <div className=" text-xl text-gray-700 ml-1">
+                    <div className=" ">Tüm iş akışının otomasyonu</div>
+                    <div className=" ">Tüm işlemlerin takibi</div>
+                    <div className=" ">
+                      Barkodlar ve yazdırılabilir etiketlerde RFID
+                    </div>
+                    <div className=" ">Elektronik çift kontrol</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-blue-59 py-8 sm:py-16 w-full">
         <div className="flex flex-col px-1 sm:px-8 lg:px-16 xl:px-48 items-center w-full">
           <div className="hidden md:flex justify-center w-full items-top space-x-4 md:space-x-12">
             <div className="hidden lg:flex flex-shrink-0">
@@ -156,7 +228,7 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className="bg-blue-50 py-8 sm:py-16 w-full">
+      <div className="bg-blue-100 py-8 sm:py-16 w-full">
         <div className="flex flex-col px-1 sm:px-8 lg:px-16 xl:px-48 items-center w-full">
           <div className="hidden md:flex  justify-center w-full text-right items-top space-x-4 md:space-x-12">
             <div>
