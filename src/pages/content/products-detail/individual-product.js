@@ -4,8 +4,11 @@ import GXDisplay from "./g-serisi-kultur-medyumlari/gx-display-component";
 import EvaluationDisplay from "./embryoscope/evaluation-display";
 import EmbryoGlueDisplay from "./g-serisi-kultur-medyumlari/embryoglue-display-component";
 import OVOILDisplay from "./ovoil/ovoil-component";
-import productsData from "./sismed_products.json";
-
+import trProductsData from "./sismed_products.json";
+import enProductsData from "./sismed_products_en.json";
+import { useTranslation } from "react-i18next";
+import { useEffect, useRef } from "react";
+import { useRouter } from "next/router";
 const normalizeText = (text) => {
   if (!text || typeof text !== "string") return "";
   const turkishMap = {
@@ -42,20 +45,30 @@ const normalizeText = (text) => {
     .replace(/-+/g, "-") // Replace multiple hyphens with one
     .replace(/^-|-$/g, ""); // Trim hyphens
 
-  console.log("Original:", text);
-  console.log("Decoded:", decodedText);
   console.log("Normalized:", normalized);
   return normalized;
 };
 
 const ProductDetail = () => {
   const pathname = usePathname();
+  const router = useRouter();
+  const { i18n, t } = useTranslation();
   const productId = pathname.split("/").pop();
-
+  const previousPath = pathname.split("/").slice(0, -1).join("/");
+  const productsData = i18n.language === "en" ? enProductsData : trProductsData;
+  // Track the previous language
+  const prevLang = useRef(i18n.language);
+  // Navigate back only when language actually changes
+  useEffect(() => {
+    if (prevLang.current !== i18n.language) {
+      router.push(previousPath);
+    }
+    prevLang.current = i18n.language;
+  }, [i18n.language]);
   const findProduct = (data) => {
     const stack = [...(Array.isArray(data) ? data : [data])];
     const normalizedProductId = normalizeText(productId);
-    console.log("Searching for normalized product ID:", normalizedProductId);
+    // Select product data based on current language
 
     while (stack.length) {
       const current = stack.pop();
@@ -63,8 +76,7 @@ const ProductDetail = () => {
 
       if (current.name) {
         const normalizedName = normalizeText(current.name);
-        console.log("Comparing with:", current.name);
-        console.log("Normalized to:", normalizedName);
+
         if (normalizedName === normalizedProductId) {
           return current;
         }
@@ -101,7 +113,9 @@ const ProductDetail = () => {
   if (!product) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <h1 className="text-2xl font-bold text-red-600">Ürün bulunamadı</h1>
+        <h1 className="text-2xl font-bold text-gray-700">
+          {i18n.language === "en" ? "Product not found" : "Ürün bulunamadı"}
+        </h1>
       </div>
     );
   }

@@ -51,7 +51,7 @@ const HeroSection = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center bg-blue-100 rounded-full px-4 py-2 mt-10 sm:mt-0 mb-4"
             >
-              <img
+              <Image
                 src="/vitrolife.svg"
                 alt="vitrolife"
                 width={100}

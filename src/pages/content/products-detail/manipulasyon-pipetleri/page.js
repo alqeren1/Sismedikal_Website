@@ -1,64 +1,66 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import ProductGrid from "../gridcomponent";
-
-const products = [
-  {
-    webpath: "/icsi-pipeti",
-    name: "ICSI Pipeti",
-    brand: "Vitrolife",
-    path: "icsi-pipet.png",
-  },
-  {
-    webpath: "/holding-pipeti",
-    name: "HOLDING Pipeti",
-    brand: "Vitrolife",
-    path: "holding-pipet.png",
-  },
-  {
-    webpath: "/denudasyon-pipeti",
-    name: "DENUDASYON Pipeti",
-    brand: "Vitrolife",
-    path: "transfer-pipet.png",
-  },
-  {
-    webpath: "/transfer-pipeti",
-    name: "TRANSFER Pipeti",
-    brand: "Vitrolife",
-    path: "transfer-pipet.png",
-  },
-  {
-    webpath: "/pzd-pipeti",
-    name: "PZD Pipeti",
-    brand: "Vitrolife",
-    path: "pzd-pipet.png",
-  },
-  {
-    webpath: "/biyopsi-pipeti",
-    name: "BİYOPSİ Pipeti",
-    brand: "Vitrolife",
-    path: "biyopsi-pipet.png",
-  },
-  {
-    webpath: "/hatching-pipeti",
-    name: "HATCHING Pipeti",
-    brand: "Vitrolife",
-    path: "hatching-pipet.png",
-  },
-  {
-    webpath: "/pipet-aksesuarlari",
-    name: "PİPET AKSESUARLARI (içerik bak)",
-    brand: "Vitrolife",
-    path: "pipet-aksesuar.png",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t, i18n } = useTranslation();
+  const products = [
+    {
+      webpath: i18n.language === "en" ? "/icsi-pipette" : "/icsi-pipeti",
+      name: t("pipette.p.0"),
+      brand: "Vitrolife",
+      path: "icsi-pipet.png",
+    },
+    {
+      webpath: i18n.language === "en" ? "/holding-pipette" : "/holding-pipeti",
+      name: t("pipette.p.1"),
+      brand: "Vitrolife",
+      path: "holding-pipet.png",
+    },
+    {
+      webpath:
+        i18n.language === "en" ? "/handling-pipette" : "/denudasyon-pipeti",
+      name: t("pipette.p.2"),
+      brand: "Vitrolife",
+      path: "transfer-pipet.png",
+    },
+    {
+      webpath:
+        i18n.language === "en" ? "/transfer-pipette" : "/transfer-pipeti",
+      name: t("pipette.p.3"),
+      brand: "Vitrolife",
+      path: "transfer-pipet.png",
+    },
+    {
+      webpath: i18n.language === "en" ? "/pzd-pipette" : "/pzd-pipeti",
+      name: t("pipette.p.4"),
+      brand: "Vitrolife",
+      path: "pzd-pipet.png",
+    },
+    {
+      webpath: i18n.language === "en" ? "/biopsy-pipette" : "/biyopsi-pipeti",
+      name: t("pipette.p.5"),
+      brand: "Vitrolife",
+      path: "biyopsi-pipet.png",
+    },
+    {
+      webpath:
+        i18n.language === "en" ? "/hatching-pipette" : "/hatching-pipeti",
+      name: t("pipette.p.6"),
+      brand: "Vitrolife",
+      path: "hatching-pipet.png",
+    },
+    {
+      webpath:
+        i18n.language === "en" ? "/pipette-accessories" : "/pipet-aksesuarlari",
+      name: t("pipette.p.7"),
+      brand: "Vitrolife",
+      path: "pipet-aksesuar.png",
+    },
+  ];
+
   return (
-    <ProductGrid
-      products={products}
-      title="MANİPÜLASYON PİPETLERİ"
-      subtitle=""
-    />
+    <ProductGrid products={products} title={t("pipette.t1")} subtitle="" />
   );
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+
 import {
   ArrowRight,
   CheckCircle,
@@ -12,9 +13,11 @@ import Highlighter from "react-highlight-words";
 import Arrowleft from "../../../svgs/arrow";
 import Arrowdown from "../../../svgs/arrowdown";
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
 const HeroSection = () => {
   const [sliderKey, setSliderKey] = useState(0); // Key for forcing re-initialization
   const router = useRouter();
+  const { t } = useTranslation();
 
   const carouselImages = [
     "/hero_images/ewitness.jpg",
@@ -50,19 +53,20 @@ const HeroSection = () => {
   };
 
   const steps = [
-    { src: "/ivf-1.png", label: "Oosit toplama" },
-    { src: "/ivf-2.png", label: "Sperm hazırlama" },
-    { src: "/ivf-3.png", label: "Fertilizasyon" },
-    { src: "/ivf-4.png", label: "Kültür" },
-    { src: "/ivf-5.png", label: "Değerlendirme" },
-    { src: "/ivf-6.png", label: "Embriyo transferi" },
-    { src: "/ivf-7.png", label: "Dondurarak saklama" },
+    { src: "/ivf-1.png", label: t("main.steps.0") },
+    { src: "/ivf-2.png", label: t("main.steps.1") },
+    { src: "/ivf-3.png", label: t("main.steps.2") },
+    { src: "/ivf-4.png", label: t("main.steps.3") },
+    { src: "/ivf-5.png", label: t("main.steps.4") },
+    { src: "/ivf-6.png", label: t("main.steps.5") },
+    { src: "/ivf-7.png", label: t("main.steps.6") },
   ];
 
   useEffect(() => {
     // Reinitialize the slider on navigation
     setSliderKey((prevKey) => prevKey + 1);
   }, [router.asPath]);
+  // Manually set to Turkish
 
   return (
     <div className="relative w-full min-h-[calc(100vh-85px)] bg-gradient-to-br from-blue-50 to-white flex flex-col items-center">
@@ -70,23 +74,23 @@ const HeroSection = () => {
         {/* Left Content */}
         <div className="flex flex-col justify-center items-start text-left px-4 md:px-0 mt-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            <span className="text-blue-600"> Sürecin Her Aşamasında </span>
+            <span className="text-blue-600"> {t("hero2.title1")} </span>
           </h1>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4 lg:mb-8">
-            Sismedikal Yanınızda
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4 mt-1 lg:mb-8">
+            {t("hero2.title2")}
           </h1>
           <div className="flex space-x-4">
             <button
               className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               onClick={() => router.push("/iletisim")}
             >
-              Bize Ulaşın
+              {t("hero2.contact")}
             </button>
             <button
               className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
               onClick={() => router.push("/urunlerimiz")}
             >
-              Ürünleri İncele
+              {t("hero2.products")}
             </button>
           </div>
         </div>

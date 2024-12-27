@@ -1,22 +1,17 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import ProductGrid from "../gridcomponent";
-
-const products = [
-  {
-    webpath: "/octax-lazer",
-    name: "OCTAX LAZER",
-    brand: "Vitrolife",
-    path: "octax-productimg.png",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
-  return (
-    <ProductGrid
-      products={products}
-      title="OCTAX LAZER & GÖRÜNTÜLEME SİSTEMİ"
-      subtitle=""
-    />
-  );
+  const { t, i18n } = useTranslation();
+  const products = [
+    {
+      webpath: i18n.language === "en" ? "/octax-laser" : "/octax-lazer",
+      name: t("laser.p1"),
+      brand: "Vitrolife",
+      path: "octax-productimg.png",
+    },
+  ];
+  return <ProductGrid products={products} title={t("laser.t1")} subtitle="" />;
 }

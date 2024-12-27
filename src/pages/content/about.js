@@ -1,31 +1,28 @@
 import { useState } from "react";
-
+import { useTranslation } from "react-i18next";
 export default function About() {
   const [selectedTab, setSelectedTab] = useState("history");
-
+  const { t } = useTranslation();
   const tabs = {
     history: {
-      title: "Tarihçemiz",
-      content:
-        "Sis Medikal Ltd., Türkiye’de **IVF sektörünün ilk ve öncü firmasıdır**. IVF merkezlerinin ihtiyaçlarının karşılanmasına yönelik çalışmaları doğrultusunda, **Vitrolife ürünlerinin Türkiye yetkili distribütörlüğünü** sürdürmektedir. Sis Medikal Ltd. IVF sektöründe faaliyet gösteren hastane ve kliniklere hizmet vermek amacıyla **1994 yılında kurulmuştur**. Sektörün büyümesi ile birlikte yurt genelinde sayıları giderek artan IVF merkezlerine, Ankara ve İstanbul ofisleri ile hizmet vermektedir. Etik prensiplerden taviz vermeksizin sürdürdüğü hizmetleri ve işbirligi yaptığı kliniklerle **“çözüm ortağı”** anlayışını her an hissettiren yaklaşımı ile Sis Medikal Ltd, kurumsal kimliğini kısa zamanda tüm sektöre kabul ettirmiş ve IVF sahasının vazgeçilmez unsurları arasındaki yerini almıştır.",
+      title: t("about.tabs.0"),
+      content: t("about.content.0"),
     },
     mission: {
-      title: "Misyonumuz",
-      content:
-        "IVF sektöründe, **en yüksek kalite standartlarını** benimseyerek, etik değerlerden ödün vermeksizin, inovatif ürünler ve üstün hizmet anlayışıyla sektördeki tüm partnerlerimiz için en güvenilir çözüm ortağı olmak.",
+      title: t("about.tabs.1"),
+      content: t("about.content.1"),
     },
     vision: {
-      title: "Vizyonumuz",
-      content:
-        "Kalite, bilimsellik ve etik prensipleri temel alarak, sektördeki liderlik konumumuzu sürdürülebilir yeniliklerle pekiştirmek ve müşterilerimize en iyi hizmeti sunmak. Hedefimiz, IVF alanında ulusal ve uluslararası düzeyde güvenilir, saygın ve öncü bir marka olarak sektöre yön vermektir.",
+      title: t("about.tabs.2"),
+      content: t("about.content.2"),
     },
   };
 
   const stats = [
-    { number: "30+", label: "Yıllık Deneyim" },
-    { number: "200+", label: "Partner Klinik" },
+    { number: "30+", label: t("about.stats.0") },
+    { number: "200+", label: t("about.stats.1") },
 
-    { number: "50+", label: "Ürün Çeşidi" },
+    { number: "50+", label: t("about.stats.2") },
   ];
 
   // Function to process content with bold markers
@@ -45,7 +42,9 @@ export default function About() {
       {/* Hero Section - Fixed */}
       <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
         <div className="text-white text-center z-10">
-          <h1 className="text-4xl xl:text-7xl font-bold">Hakkımızda</h1>
+          <h1 className="text-4xl xl:text-7xl font-bold">
+            {t("navbar.labels.0")}
+          </h1>
         </div>
       </div>
 
@@ -95,26 +94,23 @@ export default function About() {
       <div className="w-full bg-gradient-to-br from-blue-50 to-blue-100 py-20">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl text-gray-800 font-bold text-center mb-16">
-            Kalite Politikamız
+            {t("about.quality.title")}
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Yüksek Kalite",
-                content:
-                  "En yüksek kalite standartlarında ürün ve hizmet sağlayarak müşterilerimizin güvenini kazanmak.",
+                title: t("about.quality.title1"),
+                content: t("about.quality.con1"),
                 gradient: "from-blue-400 to-blue-500",
               },
               {
-                title: "Sürekli İyileştirme",
-                content:
-                  "Süreçlerimizi sürekli gözden geçirerek ve iyileştirerek hizmet kalitemizi artırmak.",
+                title: t("about.quality.title2"),
+                content: t("about.quality.con2"),
                 gradient: "from-blue-400 to-blue-500",
               },
               {
-                title: "Müşteri Odaklılık",
-                content:
-                  "Müşterilerimizin ihtiyaçlarını en iyi şekilde anlayarak, beklentilerinin ötesinde çözümler sunmak.",
+                title: t("about.quality.title3"),
+                content: t("about.quality.con3"),
                 gradient: "from-blue-400 to-blue-500",
               },
             ].map((item, index) => (

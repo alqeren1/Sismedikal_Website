@@ -942,7 +942,7 @@
     }
   },
   {
-    "name": "HOLDİNG PİPETİ™",
+    "name": "HOLDING PİPETİ™",
     "brand": "",
     "image_url": "holding-pipet.png",
     "product_url": "",
@@ -1662,7 +1662,7 @@
   },
   {
     "id": "evaluation",
-    "name": "DEĞERLENDİRME ARAÇLARI",
+    "name": "eva",
     "brand": "",
     "image_url": "degerlendirme.png",
     "product_url": "",
@@ -1831,14 +1831,17 @@
     "products": [
       {
         "name": "Pipet Tutucu",
+        "image_url": "pipet-aksesuar.png",
         "description": "Pipetleri güvenli şekilde tutmak ve kontrol etmek için kullanılır"
       },
       {
         "name": "Silikon Puar",
+        "image_url": "pipet-aksesuar.png",
         "description": "Hassas sıvı kontrolü sağlamak için kullanılır"
       },
       {
         "name": "Bağlantı Parçaları",
+        "image_url": "pipet-aksesuar.png",
         "description": "Farklı pipet tiplerini sistemle uyumlu hale getirmek için kullanılır"
       }
     ]

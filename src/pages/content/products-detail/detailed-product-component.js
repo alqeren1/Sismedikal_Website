@@ -3,10 +3,18 @@ import { ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const ProductDisplay = ({ product }) => {
   const router = useRouter();
-
+  const { t } = useTranslation();
+  if (!product) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-gray-600">Product data is not available.</p>
+      </div>
+    );
+  }
   // Pipette series data
   const seriesData = [
     {
@@ -22,9 +30,7 @@ const ProductDisplay = ({ product }) => {
         },
       ],
       secondImage: "/icsi_a_series_tip.jpg", // Replace with actual image path
-      description: `Uçtan 500 μm mesafede bir eğim bulunur.
-Kısa ve keskin bir bevel ile kısa bir spike içerir.
-Oositlere daha az zarar verilmesini sağlamak için benzersiz bir daralma ile başlayıp genişleyen bir tasarıma sahiptir.`,
+      description: t("detailproduct.p8"),
     },
     {
       name: "B-series",
@@ -39,9 +45,7 @@ Oositlere daha az zarar verilmesini sağlamak için benzersiz bir daralma ile ba
         },
       ],
       secondImage: "/icsi_b_series_tip.jpg", // Replace with actual image path
-      description: `Uçtan 500 μm mesafede bir eğim bulunur.  
-Kısa ve keskin bir bevel ile daha uzun bir spike içerir.  
-Oositlere daha az zarar verilmesini sağlamak için benzersiz bir daralma ile başlayıp genişleyen bir tasarıma sahiptir.`,
+      description: t("detailproduct.p9"),
     },
     {
       name: "C-series",
@@ -56,9 +60,7 @@ Oositlere daha az zarar verilmesini sağlamak için benzersiz bir daralma ile ba
         },
       ],
       secondImage: "/icsi_c_series_tip.jpg", // Replace with actual image path
-      description: `Uçtan 400 μm mesafede bir eğim bulunur.
-Kısa bir bevel ve çok kısa bir spike içerir.
-Uçtan eğim yerine olan kısa mesafe nedeniyle PVP'de daha dayanıklı ve rijit bir kullanım sağlar.`,
+      description: t("detailproduct.p10"),
     },
     {
       name: "D-series",
@@ -73,8 +75,7 @@ Uçtan eğim yerine olan kısa mesafe nedeniyle PVP'de daha dayanıklı ve rijit
         },
       ],
       secondImage: "/icsi_d_series_tip.jpg", // Replace with actual image path
-      description: `Uçtan 1000 μm mesafede bir eğim bulunur.
-Yüklenen sperm üzerinde daha fazla kontrol sağlamak için paralel duvarlara sahiptir.`,
+      description: t("detailproduct.p11"),
     },
     {
       name: "E-series",
@@ -89,8 +90,7 @@ Yüklenen sperm üzerinde daha fazla kontrol sağlamak için paralel duvarlara s
         },
       ],
       secondImage: "/icsi_e_series_tip.jpg", // Replace with actual image path
-      description: `Uçtan 400 μm mesafede bir eğim bulunur.
-Orta uzunlukta bir bevel, kısa bir daralma ve paralel duvarlara sahiptir.`,
+      description: t("detailproduct.p12"),
     },
     {
       name: "F-series",
@@ -105,9 +105,7 @@ Orta uzunlukta bir bevel, kısa bir daralma ve paralel duvarlara sahiptir.`,
         },
       ],
       secondImage: "/icsi_f_series_tip.jpg", // Replace with actual image path
-      description: `
-Uçtan 700 μm mesafede bir eğim bulunur.
-Orta uzunlukta bir bevel, uzun bir daralma ve paralel duvarlara sahiptir.`,
+      description: t("detailproduct.p13"),
     },
     {
       name: "T-series",
@@ -122,8 +120,7 @@ Orta uzunlukta bir bevel, uzun bir daralma ve paralel duvarlara sahiptir.`,
         },
       ],
       secondImage: "/icsi_t_series_tip.jpg", // Replace with actual image path
-      description: `Eğim, uçtan 500 μm mesafede bulunur.
-Spike ile spermatid ICSI için uygundur.`,
+      description: t("detailproduct.p14"),
     },
   ];
 
@@ -641,7 +638,7 @@ Spike ile spermatid ICSI için uygundur.`,
 
   // Utility function to get the image URL or return a fallback
   const getImageUrl = (imageUrl) => {
-    if (!imageUrl) return "/placeholder.png"; // Fallback to placeholder
+    if (!imageUrl) return "/sislogo.png"; // Fallback to placeholder
     if (imageUrl.startsWith("http")) {
       return imageUrl; // Absolute URL
     }
@@ -657,7 +654,7 @@ Spike ile spermatid ICSI için uygundur.`,
         src={imgSrc}
         alt={alt || "Product Image"}
         className={className}
-        onError={() => setImgSrc("/placeholder.png")} // Fallback to placeholder
+        onError={() => setImgSrc("/sislogo.png")} // Fallback to placeholder
         layout="fill"
         objectFit="cover"
       />
@@ -709,7 +706,9 @@ Spike ile spermatid ICSI için uygundur.`,
           </div>
           {/* Second Image */}
           <div className="items-end">
-            <h1 className="font-semibold text-lg text-gray-900">Uç Şekli</h1>
+            <h1 className="font-semibold text-lg text-gray-900">
+              {t("detailproduct.p7")}
+            </h1>
             <div className="flex justify-left items-center">
               <Image
                 src={series.secondImage}
@@ -746,7 +745,9 @@ Spike ile spermatid ICSI için uygundur.`,
           {/* Wide Image */}
           {/* Second Image */}
           <div className="items-end">
-            <h1 className="font-semibold text-lg text-gray-900">Uç Şekli</h1>
+            <h1 className="font-semibold text-lg text-gray-900">
+              {t("detailproduct.p7")}
+            </h1>
             <div className="flex justify-left items-center">
               <Image
                 src={series.secondImage}
@@ -960,13 +961,56 @@ Spike ile spermatid ICSI için uygundur.`,
       </div>
     );
   };
+  const renderSeries7 = (series) => {
+    return (
+      <div className="mt-16" key={series.name}>
+        <h2 className="text-xl font-bold text-gray-900 mb-6">{series.name}</h2>
+        <div className="grid grid-rows lg:grid-cols-2 gap-6 text-justify">
+          {/* Wide Image */}
+          <div className="overflow-x-auto">
+            <div className="mb-6">
+              <Image
+                src={"/echo.png"}
+                alt={`${series.name} wide image`}
+                width={500} // Adjust width and height as needed
+                height={200}
+                className="  object-cover rounded-lg"
+              />
+              <h1 className="mt-4 text-xl font-medium">
+                {t("detailproduct.p15")}
+              </h1>
+              <h1 className="mt-2 max-w-[500px]">{t("detailproduct.p16")}</h1>
+            </div>
+          </div>
+          {/* Second Image */}
+          <div className="overflow-x-auto">
+            <div className="mb-6">
+              <Image
+                src={"/ultrasharp.png"}
+                alt={`${series.name} wide image`}
+                width={500} // Adjust width and height as needed
+                height={200}
+                className=" object-cover rounded-lg"
+              />
+              <h1 className="mt-4 text-xl font-medium">
+                {t("detailproduct.p17")}
+              </h1>
+              <h1 className="mt-2 max-w-[500px]">{t("detailproduct.p18")}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
 
   // Render composition details
   const renderComposition = (composition) => {
     if (!composition || composition.length === 0) return null;
     return (
       <div className="mt-8 text-black">
-        <h3 className="text-xl font-semibold mb-4">Kompozisyon</h3>
+        <h3 className="text-xl font-semibold mb-4">
+          {t("detailproduct.composition")}
+        </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {composition.map((item, index) => (
             <div
@@ -986,17 +1030,21 @@ Spike ile spermatid ICSI için uygundur.`,
     if (!specs || Object.keys(specs).length === 0) return null;
     return (
       <div className="mt-8">
-        <h3 className="text-xl font-semibold mb-4">Özellikler</h3>
-        <div className="bg-white rounded-lg shadow-sm border border-gray-100">
-          {Object.entries(specs).map(([key, value]) => (
-            <div
-              key={key}
-              className="flex p-4 border-b border-gray-100 last:border-b-0 hover:bg-gray-50 transition-colors"
-            >
-              <span className="font-medium w-1/3 text-gray-700">{key}</span>
-              <span className="text-gray-600 w-2/3">{value}</span>
+        <h3 className="text-xl font-semibold mb-4"> {t("detailproduct.p1")}</h3>
+        <div className="bg-white  rounded-lg shadow-sm border border-gray-100">
+          <div className="overflow-x-auto">
+            <div className="min-w-[400px]">
+              {Object.entries(specs).map(([key, value]) => (
+                <div
+                  key={key}
+                  className="flex p-4 border-b border-gray-100 last:border-b-0 hover:bg-gray-50 transition-colors"
+                >
+                  <span className="font-medium w-1/3 text-gray-700">{key}</span>
+                  <span className="text-gray-600 w-2/3">{value}</span>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
     );
@@ -1007,7 +1055,7 @@ Spike ile spermatid ICSI için uygundur.`,
     if (!products || products.length === 0) return null;
     return (
       <div className="mt-8">
-        <h3 className="text-xl font-semibold mb-4">Ürünler</h3>
+        <h3 className="text-xl font-semibold mb-4"> {t("detailproduct.p2")}</h3>
         <div className="grid gap-6">
           {products.map((item, index) => (
             <div
@@ -1061,7 +1109,7 @@ Spike ile spermatid ICSI için uygundur.`,
           className="mb-8 flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
-          Geri Dön
+          {t("grid.back")}
         </button>
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -1072,8 +1120,8 @@ Spike ile spermatid ICSI için uygundur.`,
             <div className="flex flex-col md:flex-row gap-8 items-center md:items-start pt-8">
               <div className="relative w-[200px] h-[200px] flex-shrink-0 bg-gray-100 rounded-lg overflow-hidden">
                 <ImageWithFallback
-                  src={product.image_url}
-                  alt={product.name}
+                  src={product?.image_url}
+                  alt={product?.name || "Product Image"}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -1115,7 +1163,9 @@ Spike ile spermatid ICSI için uygundur.`,
                 animate={{ opacity: 1 }}
                 className="prose max-w-none"
               >
-                <h3 className="text-xl font-semibold mb-4">Açıklama</h3>
+                <h3 className="text-xl font-semibold mb-4">
+                  {t("detailproduct.p3")}
+                </h3>
                 <p className="text-gray-600 leading-relaxed">
                   {product.description}
                 </p>
@@ -1129,19 +1179,37 @@ Spike ile spermatid ICSI için uygundur.`,
             {product.name === "ICSI PİPETİ™" && (
               <>
                 <h2 className="text-3xl font-bold text-center text-gray-900 mb-6 mt-16">
-                  Pipet Serileri
+                  {t("detailproduct.p4")}
                 </h2>
                 <h2 className="text-2xl font-bold text-gray-900 mb-12">
-                  Spikelı ICSI Pipetleri
+                  {t("detailproduct.p5")}
                 </h2>
                 {seriesData.map((series) => renderSeries(series))}
                 <h2 className="text-2xl font-bold text-gray-900 mb-12 mt-16">
-                  Spikesız ICSI Pipetleri
+                  {t("detailproduct.p6")}
+                </h2>
+                {seriesData2.map((series) => renderSeries2(series))}
+              </>
+            )}
+            {product.name === "ICSI PIPETTE™" && (
+              <>
+                <h2 className="text-3xl font-bold text-center text-gray-900 mb-6 mt-16">
+                  {t("detailproduct.p4")}
+                </h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-12">
+                  {t("detailproduct.p5")}
+                </h2>
+                {seriesData.map((series) => renderSeries(series))}
+                <h2 className="text-2xl font-bold text-gray-900 mb-12 mt-16">
+                  {t("detailproduct.p6")}
                 </h2>
                 {seriesData2.map((series) => renderSeries2(series))}
               </>
             )}
             {product.name === "BİYOPSİ PİPETİ™" && (
+              <>{seriesData2.map((series) => renderSeries3(series))}</>
+            )}
+            {product.name === "BIOPSY PIPETTE™" && (
               <>{seriesData2.map((series) => renderSeries3(series))}</>
             )}
             {product.name === "PASTEUR PIPETTES" && (
@@ -1151,10 +1219,16 @@ Spike ile spermatid ICSI için uygundur.`,
               <>{seriesData4.map((series) => renderSeries4(series))}</>
             )}
             {product.name === "SINGLE LUMEN™" && (
-              <>{seriesData5.map((series) => renderSeries5(series))}</>
+              <>
+                {seriesData2.map((series) => renderSeries7(series))}
+                {seriesData5.map((series) => renderSeries5(series))}{" "}
+              </>
             )}
             {product.name === "DOUBLE LUMEN™" && (
-              <>{seriesData6.map((series) => renderSeries5(series))}</>
+              <>
+                {seriesData2.map((series) => renderSeries7(series))}
+                {seriesData6.map((series) => renderSeries5(series))}
+              </>
             )}
             {product.name === "SENSE™" && (
               <>{seriesData7.map((series) => renderSeries5(series))}</>
@@ -1162,10 +1236,19 @@ Spike ile spermatid ICSI için uygundur.`,
             {product.name === "DENUDASYON PİPETİ™" && (
               <>{seriesData8.map((series) => renderSeries6(series))}</>
             )}
+            {product.name === "HANDLING PIPETTE™" && (
+              <>{seriesData8.map((series) => renderSeries6(series))}</>
+            )}
             {product.name === "TRANSFER PİPETİ™" && (
               <>{seriesData9.map((series) => renderSeries6(series))}</>
             )}
-            {product.name === "HOLDİNG PİPETİ™" && (
+            {product.name === "TRANSFER PIPETTE™" && (
+              <>{seriesData9.map((series) => renderSeries6(series))}</>
+            )}
+            {product.name === "HOLDING PİPETİ™" && (
+              <>{seriesData10.map((series) => renderSeries6(series))}</>
+            )}
+            {product.name === "HOLDING PIPETTE™" && (
               <>{seriesData10.map((series) => renderSeries6(series))}</>
             )}
           </div>

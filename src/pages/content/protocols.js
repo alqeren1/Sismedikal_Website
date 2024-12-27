@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Protocols() {
   const [data, setData] = useState([]);
   const [selectedTab, setSelectedTab] = useState("protocols");
-
+  const { t } = useTranslation();
   // Fetch the JSON data when the component mounts
   useEffect(() => {
     const fetchData = async () => {
@@ -20,29 +21,29 @@ export default function Protocols() {
   }, []);
 
   const tabs = {
-    protocols: { title: "Protokoller" },
-    links: { title: "Yararlı Linkler" },
+    protocols: { title: t("protocols.title") },
+    links: { title: t("protocols.tab") },
   };
 
   const pdfLinks = [
     {
-      name: "Sperm Hazırlama – swim up yöntemi",
+      name: t("protocols.con.0"),
       url: "/pdfs/swim_up.pdf", // Replace with actual path
     },
     {
-      name: "Sperm Hazırlama – yoğunluk gradyan sentrifügasyon yöntemi",
+      name: t("protocols.con.1"),
       url: "/pdfs/gradient.pdf", // Replace with actual path
     },
-    { name: "Yumurta Toplama", url: "/pdfs/yumurta_toplama.pdf" },
-    { name: "ICSI", url: "/pdfs/icsi.pdf" },
-    { name: "Embriyo Kültürü", url: "/pdfs/embriyo_kulturu.pdf" },
-    { name: "Embriyo Transfer", url: "/pdfs/embriyo_transfer.pdf" },
+    { name: t("protocols.con.2"), url: "/pdfs/yumurta_toplama.pdf" },
+    { name: t("protocols.con.3"), url: "/pdfs/icsi.pdf" },
+    { name: t("protocols.con.4"), url: "/pdfs/embriyo_kulturu.pdf" },
+    { name: t("protocols.con.5"), url: "/pdfs/embriyo_transfer.pdf" },
     {
-      name: "Kriyoprezervasyon – klivaj evresi",
+      name: t("protocols.con.6"),
       url: "/pdfs/kriyoprezervasyon_klivaj.pdf",
     },
     {
-      name: "Kriyoprezervasyon – blastokist evresi",
+      name: t("protocols.con.7"),
       url: "/pdfs/kriyoprezervasyon_blastokist.pdf",
     },
   ];
@@ -52,7 +53,9 @@ export default function Protocols() {
       {/* Hero Section */}
       <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
         <div className="text-white text-center z-10">
-          <h1 className="text-4xl xl:text-7xl font-bold">Protokoller</h1>
+          <h1 className="text-4xl xl:text-7xl font-bold">
+            {t("protocols.title")}
+          </h1>
         </div>
       </div>
 
@@ -78,7 +81,7 @@ export default function Protocols() {
         {selectedTab === "protocols" && (
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-4">
-              Protokoller
+              {t("protocols.title")}
             </h2>
             <ul className="space-y-4">
               {pdfLinks.map((pdf, index) => (

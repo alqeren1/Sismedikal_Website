@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
-  output: 'export',
-  // If you're using images, you'll need this
+  output: "export",
   images: {
-    unoptimized: true,
+    unoptimized: true, // Ensures images work in a static export
   },
   reactStrictMode: true,
   transpilePackages: ["geist"],
@@ -12,31 +10,27 @@ const nextConfig = {
     return [
       {
         source: "/hakkimizda",
-        destination: "/content/about", // Map /hakkimizda to the correct file
+        destination: "/content/about",
       },
       {
         source: "/referanslarimiz",
-        destination: "/content/references", 
+        destination: "/content/references",
       },
       {
         source: "/urunlerimiz",
-        destination: "/content/products", 
+        destination: "/content/products",
       },
       {
         source: "/urunlerimiz/:slug",
         destination: "/content/products-detail/:slug/page",
       },
       {
-        source: "/referanslarimiz",
-        destination: "/content/references", 
-      },
-      {
         source: "/iletisim",
-        destination: "/content/contact", 
+        destination: "/content/contact",
       },
       {
         source: "/protokoller",
-        destination: "/content/protocols", 
+        destination: "/content/protocols",
       },
       {
         source: "/urunlerimiz/:slug/:Pslug",

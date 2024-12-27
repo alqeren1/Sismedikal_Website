@@ -1,0 +1,405 @@
+{
+  "main": {
+    "highlight": "Discover your IVF journey with Sismedikal",
+    "steps": [
+      "Oocyte collection",
+      "Sperm preparation",
+      "Fertilization",
+      "Culture",
+      "Evaluation",
+      "Embryo transfer",
+      "Cryopreservation"
+    ],
+    "ewitness": {
+      "title": "eWitness System",
+      "details": [
+        "Automation of the entire workflow",
+        "Tracking of all procedures",
+        "Barcodes and RFID on printable labels",
+        "Electronic double-checking"
+      ]
+    },
+    "octax": {
+      "title": "Octax Laser Systems",
+      "details": [
+        "Modular and User-Friendly",
+        "High-Performance Lasers",
+        "Advanced Applications",
+        "Superior Imaging Technology"
+      ]
+    },
+    "embryoscope": {
+      "title1": "Embryoscope+",
+      "title2": "Time-lapse System",
+      "details": [
+        "Specially Designed for Embryo Development",
+        "Time-Lapse Technology",
+        "Continuous and Secure Observation",
+        "Incubation Design for Optimization"
+      ]
+    }
+  },
+  "hero2": {
+    "title1": "In Every Step of the Way",
+    "title2": "Sismedikal is by Your Side",
+    "contact": "Contact Us",
+    "products": "Explore Products"
+  },
+  "navbar": {
+    "labels": ["About us", "Products", "References", "Protocols", "Contact us","Home"]
+  },
+  "bottombar": { "office": "Ankara Office", "office2": "İstanbul Office" },
+
+  "about": {
+    "tabs": ["Our History", "Our Mission", "Our Vision"],
+    "content": [
+      "Sis Medikal Ltd. is **the first and pioneering company** in the IVF sector in Turkey. In line with its efforts to meet the needs of IVF centers, it continues to be the **authorized distributor of Vitrolife products in Turkey**. Sis Medikal Ltd. was established in **1994** to serve hospitals and clinics operating in the IVF sector. With the growth of the sector, it provides services to the increasing number of IVF centers across the country through its offices in Ankara and Istanbul. With its services, which are carried out without compromising ethical principles, and its **“solution partner”** approach that it demonstrates to the clinics it collaborates with, Sis Medikal Ltd. has established its corporate identity throughout the sector in a short time and has become one of the indispensable elements of the IVF field.",
+      "In the IVF sector, to become the most reliable solution partner for all our partners by adopting the **highest quality standards**, maintaining ethical values, and providing innovative products and exceptional services.",
+      "To strengthen our leadership position in the sector through sustainable innovations and to provide the best service to our customers by basing our operations on quality, scientific principles, and ethics. Our goal is to be a reliable, respected, and pioneering brand in the IVF field, shaping the sector at both national and international levels."
+    ],
+    "stats": ["Years of Experience", "Partner Clinics", "Product Variety"],
+    "quality": {
+      "title": "Our Quality Policy",
+      "title1": "High Quality",
+      "title2": "Continuous Improvement",
+      "title3": "Customer Focus",
+      "con1": "Earning the trust of our customers by providing products and services of the highest quality standards.",
+      "con2": "Enhancing our service quality by constantly reviewing and improving our processes.",
+      "con3": "Understanding our customers' needs in the best possible way and offering solutions that exceed their expectations."
+    }
+  },
+  "references": {
+    "title": "Our References",
+    "title2": "Our Trusted Partners Across Turkey and Cyprus",
+    "search": "Search by city or hospital name..."
+  },
+  "protocols": {
+    "title": "Protocols",
+    "tab": "Useful Links",
+    "con": [
+      "Sperm Preparation - Swim-up Method",
+      "Sperm Preparation - Density Gradient Centrifugation Method",
+      "Oocyte Retrieval",
+      "ICSI",
+      "Embryo Culture",
+      "Embryo Transfer",
+      "Cryopreservation - Cleavage Stage",
+      "Cryopreservation - Blastocyst Stage"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "title1": "Ankara Office",
+    "title2": "Istanbul Office",
+    "title3": "Adana Region",
+    "tableTitles": ["Position", "Name Surname", "Phone", "Fax", "Email"],
+    "tablePositions": [
+      "General Manager",
+      "Accounting Manager",
+      "Product Manager",
+      "Technical Support",
+      "Sales Support",
+      "Assistant"
+    ]
+  },
+  "products": {
+    "title": "Our Products",
+    "title2": "Enhance Your Clinical Success with Vitrolife's Innovative Solutions",
+    "tabs": ["VITROLIFE SOLUTIONS", "VITROLIFE SARF", "VITROLIFE DEVICES"],
+    "featurestitle": [
+      "Product Assurance",
+      "Certified Products",
+      "Clinical Success",
+      "Product Support"
+    ],
+    "featurescon": [
+      "Vitrolife quality standards",
+      "International quality certifications",
+      "Proven clinical outcomes",
+      "Technical support and training"
+    ],
+    "tab1": [
+      "G-SERIES CULTURE MEDIA",
+      "OTHER CULTURE MEDIA",
+      "SPERM WASHING AND FREEZING",
+      "OVOIL",
+      "MICROMANIPULATION MEDIA",
+      "VITRIFICATION"
+    ],
+    "tab2": [
+      "OOCYTE RETRIEVAL NEEDLES",
+      "MANIPULATION PIPETTES",
+      "VITROLIFE CULTURE DISHES"
+    ],
+    "tab3": ["EMBRYOSCOPE", "OCTAX LASER"]
+  },
+  "g-series": {
+    "t1": "G-SERIES CULTURE MEDIA",
+    "t2": "Vitrolife's Innovative Culture Media Solutions"
+  },
+  "grid": {
+    "back": "Back",
+    "more": "SEE MORE"
+  },
+  "otherculture": {
+    "t1": "OTHER CULTURE MEDIA",
+    "t2": "Vitrolife's Innovative Culture Media Solutions"
+  },
+  "sperm": {
+    "t1": "SPERM WASHING AND FREEZING"
+  },
+
+  "micromanupilation": {
+    "t1": "MICROMANIPULATION MEDIA"
+  },
+  "vitri": {
+    "t1": "VITRIFICATION"
+  },
+  "oosit": {
+    "t1": "OOSİT COLLECTION NEEDLES",
+    "p1": "NEEDLE ACCESSORIES"
+  },
+  "pipette": {
+    "t1": "MANIPULATION PIPETTES",
+    "p": [
+      "ICSI Pipette",
+      "HOLDING Pipette",
+      "HANDLING Pipette",
+      "TRANSFER Pipette",
+      "PZD Pipette",
+      "BIOPSY Pipette",
+      "HATCHING Pipette",
+      "Pipette Accessories"
+    ]
+  },
+  "cultureDishes": {
+    "t1": "VITROLIFE CULTURE DISHES"
+  },
+  
+  "embryoscope": {
+    "t1": "EMBRYO IMAGING SYSTEMS",
+    "t2": "EMBRYOSCOPE 8 IMAGING SYSTEM",
+    "t3":  "EMBRYOSCOPE FLEX IMAGING SYSTEM",
+    "t4": "EVALUATION TOOLS",
+    "t5": "IMAGING SYSTEM CULTURE DISHES",
+    "t6": "EMBRYOSCOPE +" 
+    
+  },
+  "laser": {
+    "t1": "OCTAX LASER & IMAGING SYSTEM",
+    "p1": "OCTAX LASER"
+  },
+  "detailproduct": {
+  "composition": "Composition",
+  "p1": "Features",
+  "p2": "Products",
+  "p3": "Description",
+  "p4": "Pipette Series",
+  "p5": "ICSI Pipettes with Spike",
+  "p6": "ICSI Pipettes without Spike",
+  "p7": "Tip Shape",
+  "p8": "There is a taper located 500 μm from the tip. It features a short and sharp bevel with a short spike. Designed with a unique constriction that starts narrow and widens to minimize damage to oocytes.",
+  "p9": "There is a taper located 500 μm from the tip. It features a short and sharp bevel with a longer spike. Designed with a unique constriction that starts narrow and widens to minimize damage to oocytes.",
+  "p10": "There is a taper located 400 μm from the tip. It features a short bevel and a very short spike. Due to the short distance between the tip and the taper, it provides a more durable and rigid operation in PVP.",
+  "p11": "There is a taper located 1000 μm from the tip. It has parallel walls to provide better control over the loaded sperm.",
+  "p12": "There is a taper located 400 μm from the tip. It features a medium-length bevel, a short constriction, and parallel walls.",
+  "p13": "There is a taper located 700 μm from the tip. It features a medium-length bevel, a long constriction, and parallel walls.",
+  "p14": "The taper is located 500 μm from the tip. Suitable for spermatid ICSI with a spike.",
+  "p15": "Echomarking for perfect control",
+  "p16": "Created through innovative laser etching, giving you the high visibility you need during oocyte retrieval.",
+  "p17": "Ultra-sharp design",
+  "p18": "For low penetration resistance and high precision. The needle tip is providing extraordinary sharpness, high precision and the utmost safety. The bevel grinding ensures low resistance penetration, while distinctive backpoint grinding prevents deviation." 
+}
+,
+  "gx": {
+    "products": {
+      "mops": {
+        "desc": "MOPS buffered medium containing human serum albumin, gentamicin, and antioxidants for manipulation and processing of oocytes and embryos in ambient atmosphere.",
+        "app": "For use after equilibration at +37°C."
+      },
+      "ivf": {
+        "desc": "Bicarbonate buffered medium containing human serum albumin, gentamicin, and antioxidants for gamete preparation and processing, in vitro fertilization, and intrauterine insemination.",
+        "app": "For use after equilibration at +37°C and 6% CO2."
+      },
+      "tl": {
+        "desc": "Bicarbonate buffered medium containing hyaluronan, human serum albumin, gentamicin, and antioxidants for embryo culture from fertilization to blastocyst stage and embryo transfer.",
+        "app": "For use after equilibration at +37°C and 6% CO2."
+      }
+    },
+    "research": [
+      "Acetyl-L-Carnitine, Alpha-Lipoic Acid, and N-Acetyl-L-Cysteine in combination have a highly beneficial effect on embryo development.",
+      "Enhanced embryo viability.",
+      "Benefits are highest at 20% oxygen but are also present at 5% oxygen.",
+      "The three antioxidants should be present in gamete handling media, IVF media, and culture media.",
+      "Improved ICSI fertilization rates when used for sperm preparation, oocyte collection, and subsequent ICSI fertilization.",
+      "Significantly increased pregnancy rates in women aged 35-40 years when used continuously throughout the IVF process."
+    ],
+    "usage": [
+      "Use after equilibration at +37°C and ambient atmosphere",
+      "Never place in CO2 incubator or cover with CO2 equilibrated oil",
+      "Can be used for processing and collection of cumulus-oocyte complexes, denudation, ICSI, embryo biopsy",
+      "Can be used for up to 6 hours after preparation with oil overlay",
+      "Use within 60 minutes without oil overlay in non-humidified environment",
+      "Oocytes or embryos should not remain in the medium for more than 30 minutes"
+    ],
+    "t1": "Gx Medium",
+    "t2": "Gx-MOPS™ PLUS, Gx-IVF™, and Gx-TL™ containing triple antioxidant combination represent the latest generation of Vitrolife media. Triple antioxidant protection for gamete and embryo handling, fertilization, and culture has a highly beneficial effect on embryo development.",
+    "t3": "Store in the dark between +2 and +8ºC",
+    "t4": "Description",
+    "t5": "Application",
+    "t6": "Oxidative Stress - Impact on Embryo Development",
+    "t7": "Gametes and embryos are highly sensitive to oxidative stress. When outside the body, they lack the natural detoxification system.",
+    "t8": "Additionally, manipulations during IVF are associated with various external risks such as:",
+    "t9": "Non-physiological high oxygen concentration throughout culture or during certain procedures (high oxygen alone is harmful)",
+    "t10": "Reactive oxygen species (ROS) produced as a byproduct of aerobic cellular metabolism",
+    "t11": "Quality of plastic materials and oil overlay that may lead to increased ROS synthesis",
+    "t12": "Shear stress, possible temperature fluctuations, and light exposure",
+    "t13": "These factors can reduce the developmental capacity and viability of resulting embryos. Importantly, when a gamete or embryo is exposed to a particular stressor, it usually becomes more sensitive to any additional burden, highlighting the critical importance of complex stress protection during IVF treatment.",
+    "t14": "Instructions for Use",
+    "t15": "LOT-specific test results are available in the Certificate of Analysis provided with each delivery. Any serious incident that occurs with the product should be reported to the competent authority of the Member State in which the user and/or patient is established and to the manufacturer.",
+    "t16": "Summary of safety and clinical performance can be found at www.vitrolife.com",
+    "t17": "Documents",
+    "t18": "Package Contents",
+    "t19": "Safety Information",
+    "t20": "Research Findings"
+  },
+  "embryoglue": {
+    "products": {
+      "regular": {
+        "code": "10085",
+        "volume": "1 x 10 mL",
+        "desc": "Bicarbonate buffered medium containing hyaluronan and recombinant human albumin.",
+        "purpose": "Medium for embryo transfer.",
+        "app": "For use after equilibration at +37°C and 6% CO2.",
+        "storage": "Store in the dark between +2 and +8°C."
+      },
+      "patient": {
+        "code": "10168",
+        "volume": "5 x 1.5 mL",
+        "desc": "Bicarbonate buffered medium containing hyaluronan and recombinant human albumin.",
+        "purpose": "Medium for embryo transfer.",
+        "app": "For use after equilibration at +37°C and 6% CO2.",
+        "storage": "Store in the dark between +2 and +8°C."
+      }
+    },
+    "t1": "EmbryoGlue",
+    "t2": "Advanced transfer medium to enhance implantation. Proven to increase clinical pregnancy rate and live birth rate when used in embryo transfer.",
+    "t3": "Store in the dark between +2 and +8°C",
+    "t4": "Description",
+    "t5": "Purpose",
+    "t6": "Application",
+    "t7": "Storage",
+    "t8": "What is EmbryoGlue?",
+    "t9": "EmbryoGlue is a medium specifically developed for embryo transfer and is the only available transfer medium with proven implantation-enhancing effects. EmbryoGlue has the basic composition of a rich blastocyst culture medium and contains recombinant albumin with high concentrations of hyaluronan. EmbryoGlue can be used for transfer at all embryo developmental stages. The use of EmbryoGlue can increase clinical pregnancy rates and live birth rates.",
+    "t10": "EmbryoGlue for Successful Transfer",
+    "t11": "Embryo transfer is one of the most sensitive and critical procedures in IVF treatment. EmbryoGlue®, a hyaluronan-rich transfer medium, is designed to promote embryo implantation. According to clinical evidence, there are few interventions that significantly increase success rates in embryo transfer as much as EmbryoGlue. EmbryoGlue has been proven to promote successful implantation and increase pregnancy and live birth rates.",
+    "t12": "Proven Effectiveness of EmbryoGlue",
+    "t13": "Since the introduction of EmbryoGlue in 2003, numerous studies have been published about its effectiveness. Three reviews on the effect of hyaluronan in transfer media were published by the Cochrane Library in 2010, 2014, and 2020.",
+    "t14": "The Cochrane Review titled \"Hyaluronic acid in embryo transfer media for assisted reproductive technologies\" by Heymann et al. in 2020 concluded:",
+    "t15": "\"Moderate quality evidence shows that clinical pregnancy and live birth rates are improved with the addition of hyaluronic acid as an adherence compound in embryo transfer media.\"",
+    "t16": "Miscarriage rates were reduced in some studies but did not reach statistical significance in the total data set. The review encompasses 26 randomized, prospective, controlled trials including a total of 6,704 patients undergoing IVF/ICSI treatment. Embryo transfers were performed using either a transfer medium with no or low hyaluronan or EmbryoGlue with high hyaluronan concentration.",
+    "t17": "How Does EmbryoGlue Work?",
+    "t18": "EmbryoGlue is a transfer medium containing hyaluronan, a macromolecule that promotes implantation. Hyaluronan is the main glycosaminoglycan found in follicular, oviductal, and uterine fluids and can significantly contribute to the high-viscosity environment of the female reproductive tract. Hyaluronan synthesis increases dramatically on the day implantation is initiated and is associated with the importance of this event.",
+    "t19": "EmbryoGlue is Easy to Use",
+    "t20": "It's important to pay attention to laboratory and transfer processes when using EmbryoGlue. As a well-studied transfer medium, EmbryoGlue has more data on transfer optimization compared to other products. Factors such as dish preparation for transfer protocols, embryo equilibration time, and catheter loading can affect results.",
+    "t21": "3 Things to Remember",
+    "t22": "Follow usage instructions to ensure stable osmolality, pH, and temperature. Below are three important laboratory procedure steps to follow. For clinical support, please contact your Vitrolife representative.",
+    "t23": "Dish volumes",
+    "t24": "Embryo equilibration",
+    "t25": "Catheter loading",
+    "t26": "Documents",
+    "t27": "Package Contents",
+    "t28": "Safety Information",
+    "t29": "Short Protocols",
+    "t30": "Scientific Results"
+  },"ovoil": {
+    "products": {
+        "ovoil": {
+            "desc": "OVOIL is a 100% paraffin oil designed for overlaying culture medium during in vitro fertilization (IVF) and micromanipulation procedures.",
+            "app": "Suitable for use after equilibration at +37°C in a CO₂ incubator or ambient atmosphere, depending on the intended purpose."
+        },
+        "ovoilHeavy": {
+            "desc": "OVOIL HEAVY is a high-viscosity oil offering enhanced handling ease and improved embryo viability.",
+            "app": "Suitable for use after equilibration at +37°C in a CO₂ incubator or ambient atmosphere, depending on the intended purpose."
+        }
+    },
+    "storage": "Store in the dark at +2 to +8°C. During transportation, the temperature may exceed +8°C but must not exceed +25°C or last longer than seven days.",
+    "usage": "OVOIL™ products are designed to cover culture surfaces and maintain a stable environment during embryo manipulation processes. Before use, they should be equilibrated under the recommended temperature and atmospheric conditions.",
+    "choice": {
+        "title": "The Choice is Yours",
+        "desc": "OVOIL™ is a light paraffin oil, whereas OVOIL HEAVY™ is a synthetic paraffin oil with higher viscosity. The latter is often regarded by users as offering better handling ease compared to lighter oils. Both oils are ideal for modern IVF procedures, allowing you to choose the most suitable oil for your needs without compromising on quality or performance."
+    },
+    "heavyDetails": {
+        "title": "OVOIL HEAVY is No Ordinary Oil",
+        "desc": "OVOIL HEAVY is the world’s first synthetically derived paraffin oil. It has been specifically developed, manufactured, tested, and certified for clinical IVF. With consistent batch quality, high viscosity, and rigorous testing, OVOIL HEAVY provides exceptional safety for your embryo cultures while enhancing handling ease in the laboratory."
+    },
+    "documents": {
+        "packageInserts": "Package Contents",
+        "safety": "Safety Information",
+        "scientific": "Scientific Findings"
+    },
+    "t1": "Usage Information",
+    "t2": "Culture Oil",
+    "t3": "Developed to overlay culture medium in tubes, wells, or droplets, OVOIL is a highly purified and adequately viscous light paraffin oil. OVOIL is 100% paraffin oil, while OVOIL HEAVY is a synthetic high-viscosity oil. Both products are manufactured under highly controlled processes using comprehensively tested and selected raw materials.",
+    "t4": "The Choice is Yours",
+    "t5": "OVOIL™ is a light paraffin oil, while OVOIL HEAVY™ is a synthetic paraffin oil with higher viscosity, often considered easier to handle by some users compared to lighter oils. While personal preference plays a role, we are pleased to offer both options to suit diverse needs.",
+    "t6": "OVOIL and OVOIL HEAVY have undergone the same rigorous quality testing, making both oils ideal for today’s IVF procedures. This allows you to select the oil that aligns best with your operational preferences without compromising quality or performance.",
+    "t7": "OVOIL HEAVY is No Ordinary Oil",
+    "t8": "OVOIL HEAVY is the world’s first synthetically derived paraffin oil. Specifically designed, manufactured, tested, and certified for clinical IVF, it ensures consistent high quality and increased viscosity on a batch-by-batch basis, providing exceptional safety for your embryo cultures while enhancing ease of use in the laboratory.",
+    "t9": ""
+},"gxmon": {
+    "back": "Go Back",
+    "header": {
+        "title": "Assessment Tools",
+        "desc": "Advanced decision support tools that guide users in the detailed evaluation of embryos by applying various criteria based on their statistical viability."
+    },
+    "storageInfo": "Embryo Analysis Software Tools",
+    "products": {
+        "idascore": {
+            "name": "iDAScore",
+            "desc": "AI-powered automated analysis",
+            "linkText": "Learn More"
+        },
+        "guidedAnnotation": {
+            "name": "Guided Annotation",
+            "desc": "Data analysis",
+            "linkText": "Learn More"
+        },
+        "kidscore": {
+            "name": "KIDScore",
+            "desc": "Decision assistance",
+            "linkText": "Learn More"
+        }
+    },
+    "idascore": {
+        "title": "iDAScore",
+        "desc": "iDAScore leverages deep learning technology to provide fully automated analyses of developing embryos. Obtain an objective ranking of a patient's embryos based on implantation likelihood at a single touch. The future of embryo evaluation begins here.",
+        "aiTitle": "Artificial Intelligence in Infertility Treatment",
+        "aiDesc": "In IVF treatment, time-lapse technology not only provides a platform that improves embryo culture and assessment but also enables greater insight into embryo development. Advances in AI methods for image analysis are taking embryo evaluation to the next level.",
+        "study": "A randomized controlled trial published in the journal demonstrated that iDAScore is 10 times faster than standard manual evaluation while achieving similar clinical outcomes."
+    },
+    "guidedAnnotation": {
+        "title": "Guided Annotation",
+        "desc": "Offered as an optional tool in the EmbryoViewer software, this feature is designed to provide a streamlined annotation workflow. Using this software, you can analyze the development of selected embryos obtained from EmbryoScope+, EmbryoScope 8, and EmbryoScope Flex devices, add notes, and compare data. The same EmbryoViewer software can be used for three different types of incubators. Operating conditions of the incubators are automatically recorded with patient data and can be displayed in the EmbryoViewer software for quality assurance.",
+        "evaluationTitle": "Consistent Evaluation of Embryos",
+        "evaluationDesc": "Thanks to the extensive image information obtained through the EmbryoScope time-lapse system, every stage of each embryo's development can be thoroughly observed. Guided Annotation allows you to collect exactly the amount and type of embryo development information you need to evaluate which embryos are most suitable for transfer and/or freezing.",
+        "smartTools": "Smart software tools and AI applications make Guided Annotation fast, efficient, and precise while allowing complete control over automation levels. Confidence estimation enables automatic annotation of high-confidence observations while prioritizing verification of low-confidence annotations."
+    },
+    "kidscore": {
+        "title": "KIDScore",
+        "desc": "KIDScore D3 & D5 offers a secure first model using avoidance criteria rather than selection criteria, allowing you to design and implement your own models. Guided Annotation works in synergy with KIDScore to best support consistent embryo evaluation.",
+        "synergyTitle": "Guided Annotation and KIDScore",
+        "synergyDesc": "Guided Annotation works in synergy with KIDScore to ensure the consistency of your embryo assessment process.",
+        "advantagesTitle": "Advantages of KIDScore:",
+        "advantages": [
+            "Improves decision-making",
+            "Increases consistency",
+            "Helps achieve better outcomes"
+        ]
+    }
+}
+
+
+
+
+}

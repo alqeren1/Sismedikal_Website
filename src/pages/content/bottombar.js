@@ -7,17 +7,18 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-
+import { useTranslation } from "react-i18next";
 export default function Bottombar() {
+  const { t } = useTranslation();
   const offices = [
     {
-      city: "Ankara Ofis",
+      city: t("bottombar.office"),
       contact: "(0312) 426 0663 - Fax : (0312) 426 7401",
       email: "info@sismed.com",
       address: "Cinnah Cad. Gelibolu Sk. No:3/7 Kavaklıdere - ANKARA",
     },
     {
-      city: "İstanbul Ofis",
+      city: t("bottombar.office2"),
       contact: "(0216) 492 4620 - 21 - Fax : (0216) 492 4642",
       email: "info@sismed.com",
       address:

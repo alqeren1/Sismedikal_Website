@@ -1,12 +1,12 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import ProductGrid from "../gridcomponent";
-
+import { useTranslation } from "react-i18next";
 const products = [
   {
     id: "gx",
     webpath: "/gx",
-    name: "Gx-MEDYUMLARI™",
+    name: "Gx-MEDIUM",
     brand: "Vitrolife",
     path: "gx-mops-plus2.png",
   },
@@ -76,11 +76,12 @@ const products = [
 ];
 
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <ProductGrid
       products={products}
-      title="G-SERİSİ KÜLTÜR MEDYUMLARI"
-      subtitle="Vitrolife'ın Yenilikçi Kültür Medyum Çözümleri"
+      title={t("g-series.t1")}
+      subtitle={t("g-series.t2")}
     />
   );
 }

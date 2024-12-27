@@ -3,9 +3,10 @@ import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle, Shield, Check, ArrowLeft, Download } from "lucide-react";
 import { useRouter } from "next/router";
-
+import { useTranslation } from "react-i18next";
 const EmbryoGlueDisplay = () => {
   const router = useRouter();
+  const { t } = useTranslation();
   const documents = [
     {
       title: "EmbryoGlue®",
@@ -81,7 +82,7 @@ const EmbryoGlueDisplay = () => {
           className="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
-          Geri Dön
+          {t("grid.back")}
         </button>
       </div>
 
@@ -89,18 +90,14 @@ const EmbryoGlueDisplay = () => {
       <div className="text-center space-y-4 mt-12">
         <h1 className="text-4xl font-bold text-gray-900">EmbryoGlue®</h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
-          İmplantasyonu artırmak için gelişmiş transfer medyumu. Embriyo
-          transferinde kullanıldığında klinik gebelik oranını ve canlı doğum
-          oranını artırdığı kanıtlanmıştır.
+          {t("embryoglue.t2")}
         </p>
       </div>
 
       {/* Saklama Bilgisi */}
       <div className="bg-blue-50 p-4 mt-12 rounded-lg flex items-center gap-3">
         <Shield className="text-blue-600 w-6 h-6" />
-        <p className="text-blue-800 font-medium">
-          +2 ile +8°C arasında karanlıkta saklayın
-        </p>
+        <p className="text-blue-800 font-medium">{t("embryoglue.t3")}</p>
       </div>
 
       {/* Ürünler */}
@@ -113,32 +110,41 @@ const EmbryoGlueDisplay = () => {
                 <h2 className="text-2xl font-bold text-gray-900">
                   EmbryoGlue®
                 </h2>
-                <p className="text-gray-500">Kod: 10085</p>
+                <p className="text-gray-500">10085</p>
                 <p className="text-gray-500">1 x 10 mL</p>
                 <div className="space-y-3 pt-4">
                   <div className="space-y-2">
-                    <h3 className="font-semibold text-gray-900">Açıklama</h3>
+                    <h3 className="font-semibold text-gray-900">
+                      {" "}
+                      {t("embryoglue.t4")}
+                    </h3>
                     <p className="text-gray-600 text-sm">
-                      Bikarbonat tamponlu medyum, hyaluronan ve rekombinant
-                      insan albümini içerir.
+                      {t("embryoglue.products.regular.desc")}
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h3 className="font-semibold text-gray-900">Amacı</h3>
+                    <h3 className="font-semibold text-gray-900">
+                      {t("embryoglue.t5")}
+                    </h3>
                     <p className="text-gray-600 text-sm">
-                      Embriyo transferi için medyum.
+                      {t("embryoglue.products.regular.purpose")}
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h3 className="font-semibold text-gray-900">Uygulama</h3>
+                    <h3 className="font-semibold text-gray-900">
+                      {t("embryoglue.t6")}
+                    </h3>
                     <p className="text-gray-600 text-sm">
-                      +37°C ve %6 CO2'de ön dengelemeden sonra kullanım için.
+                      {t("embryoglue.products.regular.app")}
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h3 className="font-semibold text-gray-900">Saklama</h3>
+                    <h3 className="font-semibold text-gray-900">
+                      {" "}
+                      {t("embryoglue.t7")}
+                    </h3>
                     <p className="text-gray-600 text-sm">
-                      Karanlıkta +2 ile +8°C arasında saklayın.
+                      {t("embryoglue.products.regular.storage")}
                     </p>
                   </div>
                 </div>
@@ -166,32 +172,39 @@ const EmbryoGlueDisplay = () => {
                   </a>
                 </h2>
 
-                <p className="text-gray-500">Kod: 10168</p>
+                <p className="text-gray-500">10168</p>
                 <p className="text-gray-500">5 x 1.5 mL</p>
                 <div className="space-y-3 pt-4">
                   <div className="space-y-2">
-                    <h3 className="font-semibold text-gray-900">Açıklama</h3>
+                    <h3 className="font-semibold text-gray-900">
+                      {t("embryoglue.t4")}
+                    </h3>
                     <p className="text-gray-600 text-sm">
-                      Bikarbonat tamponlu medyum, hyaluronan ve rekombinant
-                      insan albümini içerir.
+                      {t("embryoglue.products.patient.desc")}
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h3 className="font-semibold text-gray-900">Amacı</h3>
+                    <h3 className="font-semibold text-gray-900">
+                      {t("embryoglue.t5")}
+                    </h3>
                     <p className="text-gray-600 text-sm">
-                      Embriyo transferi için medyum.
+                      {t("embryoglue.products.patient.purpose")}
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h3 className="font-semibold text-gray-900">Uygulama</h3>
+                    <h3 className="font-semibold text-gray-900">
+                      {t("embryoglue.t6")}
+                    </h3>
                     <p className="text-gray-600 text-sm">
-                      +37°C ve %6 CO2'de ön dengelemeden sonra kullanım için.
+                      {t("embryoglue.products.patient.app")}
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h3 className="font-semibold text-gray-900">Saklama</h3>
+                    <h3 className="font-semibold text-gray-900">
+                      {t("embryoglue.t7")}
+                    </h3>
                     <p className="text-gray-600 text-sm">
-                      Karanlıkta +2 ile +8°C arasında saklayın.
+                      {t("embryoglue.products.patient.storage")}
                     </p>
                   </div>
                 </div>
@@ -213,70 +226,34 @@ const EmbryoGlueDisplay = () => {
         {/* EmbryoGlue Nedir? */}
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl shadow-lg p-8 ">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            EmbryoGlue Nedir?
+            {t("embryoglue.t8")}
           </h2>
-          <p className="text-gray-700 leading-relaxed">
-            EmbryoGlue, yalnızca embriyo transferi için geliştirilmiş bir
-            medyumdur ve kanıtlanmış implantasyon artırıcı etkisi olan tek
-            mevcut transfer medyumudur. EmbryoGlue, zengin bir blastosist kültür
-            medyumunun temel bileşimine sahiptir ve rekombinant albümin ile
-            yüksek konsantrasyonda hyaluronan içerir. EmbryoGlue, tüm embriyo
-            gelişim aşamalarının transferinde kullanılabilir. EmbryoGlue
-            kullanımı, klinik gebelik oranını ve canlı doğum oranını
-            artırabilir.
-          </p>
+          <p className="text-gray-700 leading-relaxed">{t("embryoglue.t9")}</p>
         </div>
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Başarılı Bir Transfer İçin EmbryoGlue
+            {t("embryoglue.t10")}
           </h2>
-          <p className="text-gray-700 leading-relaxed">
-            Embriyo transferi, tüp bebek tedavisinde en hassas ve kritik
-            işlemlerden biridir. Hyaluronan açısından zengin bir transfer
-            medyumu olan EmbryoGlue®, embriyo implantasyonunu teşvik etmek için
-            tasarlanmıştır. Klinik kanıtlara göre, embriyo transferinde
-            EmbryoGlue kadar başarı oranını önemli ölçüde artıran müdahaleler
-            azdır. EmbryoGlue, başarılı implantasyonu teşvik ettiği ve gebelik
-            ile canlı doğum oranını artırdığı kanıtlanmıştır.
-          </p>
+          <p className="text-gray-700 leading-relaxed">{t("embryoglue.t11")}</p>
         </div>
       </div>
 
       {/* EmbryoGlue'nun Kanıtlanmış Etkinliği */}
       <div className=" mt-20 lg:mt-36 px-2 lg:px-0">
         <h2 className="text-3xl text-center font-bold text-gray-900 mb-6 lg:mb-12">
-          EmbryoGlue'nun Kanıtlanmış Efektifliği
+          {t("embryoglue.t12")}
         </h2>
         <div className="justfiy-center text-xl">
           <div className="w-full  flex justify-center">
-            <p className="max-w-4xl text-justify ">
-              EmbryoGlue'ün 2003 yılında piyasaya sürülmesinden bu yana,
-              etkinliği hakkında birçok çalışma yayınlanmıştır. Transfer
-              medyumlarında hyaluronanın etkisine dair üç inceleme, Cochrane
-              Library tarafından 2010, 2014 ve 2020 yıllarında yayınlanmıştır.
-            </p>{" "}
+            <p className="max-w-4xl text-justify ">{t("embryoglue.t13")}</p>{" "}
           </div>
           <div className="grid lg:grid-cols-2 text-justify gap-6 mt-8">
             {" "}
             <p>
-              2020 yılında Heymann ve ekibi tarafından yapılan "Yardımlı üreme
-              teknolojileri için embriyo transfer medyumlarında hiyaluronik
-              asit" başlıklı Cochrane İncelemesi şu sonuca varmıştır:{" "}
-              <p className="mt-4 italic">
-                "Orta kalitede kanıtlar, hiyaluronik asidin embriyo transfer
-                medyumlarındaki yapışma bileşeni olarak eklenmesiyle klinik
-                gebelik ve canlı doğum oranlarının arttığını göstermektedir."
-              </p>
+              {t("embryoglue.t14")}
+              <p className="mt-4 italic">{t("embryoglue.t15")}</p>
             </p>{" "}
-            <p>
-              Düşük oranı bazı çalışmalarda azalmış ancak toplam veri setinde
-              istatistiksel olarak anlamlı bir seviyeye ulaşmamıştır. İnceleme,
-              IVF/ICSI tedavisi gören toplam 6704 hastayı içeren 26 randomize,
-              prospektif, kontrollü denemeyi kapsamaktadır. Embriyo transferleri
-              ya hiç ya da düşük hiyaluronan içeren bir transfer medyumunda veya
-              yüksek hiyaluronan konsantrasyonuna sahip EmbryoGlue kullanılarak
-              gerçekleştirilmiştir.
-            </p>
+            <p>{t("embryoglue.t16")}</p>
           </div>
         </div>
       </div>
@@ -285,15 +262,10 @@ const EmbryoGlueDisplay = () => {
       <div className="mt-20 lg:mt-36 flex flex-col lg:flex-row lg:space-x-28 items-center lg:items-start">
         <div className="text-center lg:text-left">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            EmbryoGlue Nasıl Çalışır?
+            {t("embryoglue.t17")}
           </h2>
           <p className="text-gray-700 text-xl leading-relaxed text-justify">
-            EmbryoGlue, implantasyonu teşvik eden bir makromolekül olan
-            hyaluronan içeren bir transfer medyumudur. Hyaluronan, foliküler,
-            oviduktal ve uterin sıvılarda bulunan ana glikozaminoglikandır ve
-            kadın üreme kanalının yüksek viskozite ortamına önemli ölçüde
-            katkıda bulunabilir. Hyaluronan sentezi, implantasyonun başlatıldığı
-            gün dramatik şekilde artar ve bu olayın önemi ile ilişkilidir.
+            {t("embryoglue.t18")}
           </p>
         </div>
 
@@ -309,25 +281,13 @@ const EmbryoGlueDisplay = () => {
       {/* EmbryoGlue Kullanımı Kolaydır */}
       <div className="mt-20 lg:mt-36  bg-gradient-to-r from-blue-50 to-white rounded-xl p-8">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          EmbryoGlue'nun Kullanımı Kolaydır
+          {t("embryoglue.t19")}
         </h2>
-        <p className="text-gray-700 leading-relaxed">
-          EmbryoGlue kullanırken laboratuvar ve transfer süreçlerine dikkat
-          etmek önemlidir. İyi çalışılmış bir transfer medyumu olan EmbryoGlue,
-          diğer ürünlere kıyasla transfer optimizasyonu hakkında daha fazla
-          veriye sahiptir. Transfer protokolleri için kapların hazırlanması,
-          embriyo dengeleme süresi ve kateter yükleme gibi faktörler, sonuçları
-          etkileyebilecek önemli unsurlardır.
-        </p>
+        <p className="text-gray-700 leading-relaxed">{t("embryoglue.t20")}</p>
         <p className="font-semibold text-2xl text-gray-900 mt-8">
-          Unutulmaması Gereken 3 Şey
+          {t("embryoglue.t21")}
         </p>
-        <p className=" text-gray-700 mt-4">
-          Kullanım talimatlarını takip ederek stabil ozmolalite, pH ve sıcaklığı
-          sağlayın. Aşağıda takip edilmesi gereken üç önemli laboratuvar
-          prosedür adımı bulunmaktadır. Klinik destek için lütfen Vitrolife
-          temsilcinizle iletişime geçin.
-        </p>
+        <p className=" text-gray-700 mt-4">{t("embryoglue.t22")}</p>
         <div className="flex justify-center">
           <div className="flex md:flex-row flex-col justify-between mt-8 w-full space-y-4 md:space-y-0">
             <div className="flex flex-row md:flex-col items-center justify-left ">
@@ -337,7 +297,7 @@ const EmbryoGlueDisplay = () => {
                 className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-lg"
               />
               <p className="w-full flex justify-left md:justify-center text-2xl ml-4 md:ml-0 md:text-base mt-2 font-semibold">
-                Kap hacimleri
+                {t("embryoglue.t23")}
               </p>
             </div>
             <div className="flex flex-row md:flex-col items-center justify-left">
@@ -347,7 +307,7 @@ const EmbryoGlueDisplay = () => {
                 className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-lg"
               />
               <p className="w-full flex justify-left md:justify-center text-2xl ml-4 md:ml-0 md:text-base mt-2 font-semibold">
-                Embriyo dengeleme
+                {t("embryoglue.t24")}
               </p>
             </div>
             <div className="flex flex-row md:flex-col items-center justify-left">
@@ -357,7 +317,7 @@ const EmbryoGlueDisplay = () => {
                 className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-lg"
               />
               <p className="w-full flex justify-left md:justify-center text-2xl ml-4 md:ml-0 md:text-base mt-2 font-semibold">
-                Kateter yükleme
+                {t("embryoglue.t25")}
               </p>
             </div>
           </div>
@@ -367,10 +327,10 @@ const EmbryoGlueDisplay = () => {
       {/* Documents Section */}
       <div>
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center mt-20 lg:mt-36">
-          Dökümanlar
+          {t("embryoglue.t26")}
         </h2>
         <h1 className="text-2xl font-bold text-gray-900 mb-2 text-left">
-          Paket İçerikleri
+          {t("embryoglue.t27")}
         </h1>
         <div className="space-y-4">
           {documents.map((doc, index) => (
@@ -414,7 +374,7 @@ const EmbryoGlueDisplay = () => {
           ))}
         </div>
         <h1 className="text-2xl font-bold text-gray-900 mt-8  mb-2 text-left">
-          Kısa Protokoller
+          {t("embryoglue.t29")}
         </h1>
         <div className="space-y-4">
           {documents4.map((doc, index) => (
@@ -458,7 +418,7 @@ const EmbryoGlueDisplay = () => {
           ))}
         </div>
         <h1 className="text-2xl font-bold text-gray-900 mt-8  mb-2 text-left">
-          Güvenlik Bilgileri
+          {t("embryoglue.t28")}
         </h1>
         <div className="space-y-4">
           {documents2.map((doc, index) => (
@@ -502,7 +462,7 @@ const EmbryoGlueDisplay = () => {
           ))}
         </div>
         <h1 className="text-2xl font-bold text-gray-900 mt-8  mb-2 text-left">
-          Bilimsel Sonuçlar
+          {t("embryoglue.t30")}
         </h1>
         <div className="space-y-4">
           {documents3.map((doc, index) => (

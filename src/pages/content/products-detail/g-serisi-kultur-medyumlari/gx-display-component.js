@@ -13,8 +13,9 @@ import {
   Check,
   Download,
 } from "lucide-react";
-
+import { useTranslation } from "react-i18next";
 const GXDisplay = () => {
+  const { t } = useTranslation();
   const router = useRouter(); // Initialize useRouter
 
   const handleBack = () => {
@@ -25,59 +26,56 @@ const GXDisplay = () => {
       name: "Gx-MOPS™ PLUS",
       code: "10173",
       volume: "1 x 125 mL",
-      description:
-        "Ortam atmosferinde oosit ve embriyoların manipülasyonu ve işlenmesi için insan serum albümini, gentamisin ve antioksidanlar içeren MOPS tamponlu medyum.",
-      application: "+37°C'de ekilibrasyondan sonra kullanım için.",
+      description: t("gx.products.mops.desc"),
+      application: t("gx.products.mops.app"),
       image: "/gx-mops-plus.png",
     },
     {
       name: "Gx-IVF™",
       code: "10171",
       volume: "1 x 60 mL",
-      description:
-        "Gametlerin hazırlanması ve işlenmesi, in vitro fertilizasyon ve intrauterin inseminasyon için insan serum albümini, gentamisin ve antioksidanlar içeren bikarbonat tamponlu medyum.",
-      application: "+37°C ve %6 CO2'de ekilibrasyondan sonra kullanım için.",
+      description: t("gx.products.ivf.desc"),
+      application: t("gx.products.ivf.app"),
       image: "/gx-ivf.png",
     },
     {
       name: "Gx-TL™",
       code: "10172",
       volume: "1 x 30 mL",
-      description:
-        "Fertilizasyondan blastosist aşamasına kadar embriyo kültürü ve embriyo transferi için hyaluronan, insan serum albümini, gentamisin ve antioksidanlar içeren bikarbonat tamponlu medyum.",
-      application: "+37°C ve %6 CO2'de ekilibrasyondan sonra kullanım için.",
+      description: t("gx.products.tl.desc"),
+      application: t("gx.products.tl.app"),
       image: "/gx-tl.png",
     },
   ];
 
   const researchPoints = [
     {
-      text: "Asetil-L-Karnitin, Alfa-Lipoik Asit ve N-Asetil-L-Sistein kombinasyon halinde embriyo gelişimi üzerinde oldukça faydalı bir etkiye sahiptir.",
+      text: t("gx.research.0"),
       references: "1, 2",
       image: "/arastirma_bulgulari1.png",
     },
     {
-      text: "Gelişmiş embriyo canlılığı.",
+      text: t("gx.research.1"),
       references: "3, 4",
       image: "/arastirma_bulgulari2.png",
     },
     {
-      text: "Faydalar %20 oksijende en yüksek seviyededir ancak %5 oksijende de mevcuttur.",
+      text: t("gx.research.2"),
       references: "1, 2",
       image: "/arastirma_bulgulari3.png",
     },
     {
-      text: "Üç antioksidan, gamet işleme medyumlarında, IVF medyumlarında ve kültür medyumlarında bulunmalıdır.",
+      text: t("gx.research.3"),
       references: "1, 2, 3, 4, 5",
       image: "/arastirma_bulgulari4.png",
     },
     {
-      text: "Sperm hazırlama, oosit toplama ve sonraki ICSI fertilizasyonu için kullanıldığında gelişmiş ICSI fertilizasyon oranları.",
+      text: t("gx.research.4"),
       references: "4, 6",
       image: "/arastirma_bulgulari5.png",
     },
     {
-      text: "IVF süreci boyunca sürekli kullanıldığında 35-40 yaş arası kadınlarda önemli ölçüde artmış gebelik oranları.",
+      text: t("gx.research.5"),
       references: "3, 6",
       image: "/arastirma_bulgulari6.png",
     },
@@ -174,30 +172,13 @@ const GXDisplay = () => {
     // Add more documents here...
   ];
 
-  const specifications = [
-    "Aseptik olarak filtrelenmiş",
-    "Fare Embriyo Testi: 96 saatte ≥%80 embriyo genişlemiş blastosiste gelişti",
-    "Bakteriyel endotoksinler (LAL testi) < 0.25 EU/mL",
-    "pH test edildi",
-    "Osmolalite test edildi",
-  ];
-
   const usageGuidelines = [
-    "+37°C ve ortam atmosferinde ekilibrasyondan sonra kullanın",
-    "Asla CO2 inkübatörüne koymayın veya CO2 ile ekilbre edilmiş yağ ile kapatmayın",
-    "Kumulus-oosit komplekslerinin işlenmesi ve toplanması, denüdasyon, ICSI, embriyo biyopsisi için kullanılabilir",
-    "Yağ örtüsü ile hazırlandıktan sonra 6 saate kadar kullanılabilir",
-    "Nemlendirilmemiş ortamda yağ örtüsü olmadan 60 dakika içinde kullanın",
-    "Oositler veya embriyolar medyumda 30 dakikadan fazla kalmamalıdır",
-  ];
-
-  const safetyInfo = [
-    "Gentamisin ve asetilsistein içerir - bilinen hipersensitivitesi olan hastalarda kullanmayın",
-    "Yalnızca IVF uzmanları tarafından kullanım içindir",
-    "Hedef grup, doğurganlık tedavisi gören yetişkin veya üreme çağındaki popülasyondur",
-    "Kontaminasyonu önlemek için aseptik teknik kullanın",
-    "Medyum şişeleri ilk açılıştan sonra iki haftaya kadar kullanılabilir",
-    "Şişe üzerine açılış tarihini kaydedin",
+    t("gx.usage.0"),
+    t("gx.usage.1"),
+    t("gx.usage.2"),
+    t("gx.usage.3"),
+    t("gx.usage.4"),
+    t("gx.usage.5"),
   ];
 
   const groupedResearchPoints = researchPoints.reduce(
@@ -221,26 +202,21 @@ const GXDisplay = () => {
           className="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
-          Geri Dön
+          {t("grid.back")}
         </button>
       </div>
       {/* Header Section */}
       <div className="text-center space-y-4 mt-12">
-        <h1 className="text-4xl font-bold text-gray-900">Gx Medyum</h1>
+        <h1 className="text-4xl font-bold text-gray-900">{t("gx.t1")}</h1>
         <p className="text-lg  text-justify text-gray-600 max-w-3xl mx-auto">
-          Üçlü antioksidan kombinasyonu içeren Gx-MOPS™ PLUS, Gx-IVF™ ve Gx-TL™,
-          Vitrolife medyumlarının en son neslini temsil eder. Gamet ve embriyo
-          işleme, fertilizasyon ve kültür için üçlü antioksidan koruması,
-          embriyo gelişimi üzerinde oldukça faydalı bir etkiye sahiptir.
+          {t("gx.t2")}
         </p>
       </div>
 
       {/* Storage Information */}
       <div className="bg-blue-50 p-4 rounded-lg flex items-center gap-3 mt-12">
         <Shield className="text-blue-600 w-6 h-6" />
-        <p className="text-blue-800 font-medium">
-          +2 ile +8ºC arasında karanlıkta saklayın
-        </p>
+        <p className="text-blue-800 font-medium">{t("gx.t3")}</p>
       </div>
 
       {/* Products Grid */}
@@ -256,7 +232,7 @@ const GXDisplay = () => {
                   <h2 className="text-2xl font-bold text-gray-900">
                     {product.name}
                   </h2>
-                  <p className="text-gray-500">Kod: {product.code}</p>
+                  <p className="text-gray-500">{product.code}</p>
                   <p className="text-gray-500">{product.volume}</p>
                 </div>
                 <div className="w-32 h-32 flex-shrink-0">
@@ -270,12 +246,12 @@ const GXDisplay = () => {
 
               <div className="space-y-3 pt-4">
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-gray-900">Açıklama</h3>
+                  <h3 className="font-semibold text-gray-900">{t("gx.t4")}</h3>
                   <p className="text-gray-600 text-sm">{product.description}</p>
                 </div>
 
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-gray-900">Uygulama</h3>
+                  <h3 className="font-semibold text-gray-900">{t("gx.t5")}</h3>
                   <p className="text-gray-600 text-sm">{product.application}</p>
                 </div>
               </div>
@@ -290,47 +266,18 @@ const GXDisplay = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3 mb-4">
               <Microscope className="w-8 h-8 text-blue-600" />
-              <h2 className="text-2xl font-bold text-gray-900">
-                Oksidatif Stres - Embriyo Gelişimi Üzerindeki Etkisi
-              </h2>
+              <h2 className="text-2xl font-bold text-gray-900">{t("gx.t6")}</h2>
             </div>
             <div className="prose text-gray-700">
-              <p className="mb-4">
-                Gametler ve embriyolar oksidatif strese karşı oldukça hassastır.
-                Vücut dışında olduklarında, doğal detoksifikasyon sisteminden
-                yoksundurlar.
-              </p>
-              <p className="mb-4">
-                Aynı zamanda, IVF sırasındaki manipülasyonlar aşağıdaki gibi
-                çeşitli dış risklerle ilişkilidir:
-              </p>
+              <p className="mb-4">{t("gx.t7")}</p>
+              <p className="mb-4">{t("gx.t8")}</p>
               <ul className="list-disc pl-5 space-y-2 mb-4">
-                <li>
-                  Tüm kültür süresi boyunca veya bazı prosedürler sırasında
-                  fizyolojik olmayan yüksek oksijen konsantrasyonu (yüksek
-                  oksijen tek başına zararlıdır)
-                </li>
-                <li>
-                  Aerobik hücresel metabolizmanın bir yan ürünü olarak üretilen
-                  reaktif oksijen türleri (ROS)
-                </li>
-                <li>
-                  ROS sentezinde artışa neden olabilecek plastik malzeme ve yağ
-                  örtüsünün kalitesi
-                </li>
-                <li>
-                  Kesme stresi, olası sıcaklık dalgalanmaları ve ışığa maruz
-                  kalma
-                </li>
+                <li>{t("gx.t9")}</li>
+                <li>{t("gx.t10")}</li>
+                <li>{t("gx.t11")}</li>
+                <li>{t("gx.t12")}</li>
               </ul>
-              <p className="mb-4">
-                Bu faktörler, oluşan embriyoların gelişimsel kapasitesini ve
-                canlılığını azaltabilir. Önemli olarak, bir gamet veya embriyo
-                belirli bir stresöre maruz kaldığında, genellikle herhangi bir
-                ek yüke karşı daha hassas hale gelir, bu da IVF tedavisi
-                sırasında karmaşık stres korumasının çok önemli olduğunu
-                vurgular.
-              </p>
+              <p className="mb-4">{t("gx.t13")}</p>
             </div>
           </div>
 
@@ -354,7 +301,7 @@ const GXDisplay = () => {
       {/* Research Findings Section */}
       <div>
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center mt-36">
-          Araştırma Bulguları
+          {t("gx.t20")}
         </h2>
         <div className="space-y-6">
           {groupedResearchPoints.map((group, groupIndex) => (
@@ -431,9 +378,7 @@ const GXDisplay = () => {
       <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl p-8 mt-36">
         <div className="flex items-center gap-3 mb-6">
           <Clock className="w-8 h-8 text-blue-600" />
-          <h2 className="text-2xl font-bold text-gray-900">
-            Kullanım Kılavuzu
-          </h2>
+          <h2 className="text-2xl font-bold text-gray-900">{t("gx.t14")}</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
           {usageGuidelines.map((guideline, index) => (
@@ -452,27 +397,18 @@ const GXDisplay = () => {
       {/* Additional Information */}
       <div className="bg-gray-50 rounded-xl p-8 mt-12">
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-sm text-gray-600">
-            LOT&apos;a özel test sonuçları, her teslimatla birlikte verilen
-            Analiz Sertifikası&apos;nda mevcuttur. Ürünle ilgili herhangi bir
-            ciddi olay meydana geldiğinde, kullanıcının ve/veya hastanın
-            bulunduğu Üye Devletin yetkili makamına ve üreticiye
-            bildirilmelidir.
-          </p>
-          <p className="text-sm text-gray-600 mt-4">
-            Güvenlik ve klinik performans özeti www.vitrolife.com adresinde
-            bulunabilir.
-          </p>
+          <p className="text-sm text-gray-600">{t("gx.t15")}</p>
+          <p className="text-sm text-gray-600 mt-4">{t("gx.t16")}</p>
         </div>
       </div>
 
       {/* Documents Section */}
       <div>
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center mt-36">
-          Dökümanlar
+          {t("gx.t17")}
         </h2>
         <h1 className="text-2xl font-bold text-gray-900 mb-2 text-left">
-          Paket İçerikleri
+          {t("gx.t18")}{" "}
         </h1>
         <div className="space-y-4">
           {documents.map((doc, index) => (
@@ -516,7 +452,7 @@ const GXDisplay = () => {
           ))}
         </div>
         <h1 className="text-2xl font-bold text-gray-900 mt-8  mb-2 text-left">
-          Güvenlik Bilgileri
+          {t("gx.t19")}
         </h1>
         <div className="space-y-4">
           {documents2.map((doc, index) => (

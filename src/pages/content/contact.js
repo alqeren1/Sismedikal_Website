@@ -2,14 +2,18 @@ import { useState } from "react";
 import Highlighter from "react-highlight-words";
 import Map from "./map";
 import Map2 from "./map2";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col bg-blue-50 items-center w-full">
       {/* Hero Section - Fixed */}
       <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
         <div className="text-white text-center z-10">
-          <h1 className="text-4xl xl:text-7xl font-bold">İletişim</h1>
+          <h1 className="text-4xl xl:text-7xl font-bold">
+            {t("contact.title")}
+          </h1>
         </div>
       </div>
 
@@ -21,7 +25,7 @@ export default function About() {
       {/* Contact Table Section */}
       <div className="w-full px-4 xl:px-16 mt-16">
         <h2 className="text-3xl xl:text-5xl text-gray-800 font-bold text-left mb-4 xl:mb-8">
-          Ankara Ofis
+          {t("contact.title1")}
         </h2>
         <div className="bg-white px-8 py-4 rounded-xl">
           <div className="overflow-x-auto">
@@ -29,25 +33,28 @@ export default function About() {
               <thead>
                 <tr className="text-gray-800 border-b-2 border-gray-300 text-lg xl:text-2xl">
                   <th className="px-0 py-4 text-left border-r-2 border-gray-300">
-                    Pozisyon
+                    {t("contact.tableTitles.0")}
                   </th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Ad Soyad
+                    {t("contact.tableTitles.1")}
                   </th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Telefon
+                    {t("contact.tableTitles.2")}
                   </th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Faks
+                    {t("contact.tableTitles.3")}
                   </th>
-                  <th className="px-4 py-4 text-left">Email</th>
+                  <th className="px-4 py-4 text-left">
+                    {" "}
+                    {t("contact.tableTitles.4")}
+                  </th>
                 </tr>
               </thead>
               <tbody className="text-lg">
                 {/* Ankara Office */}
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
-                    Genel Müdür
+                    {t("contact.tablePositions.0")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Fikret AYDIN
@@ -62,7 +69,7 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 pr-2 border-r-2 border-gray-300">
-                    Muhasebe Müdürü
+                    {t("contact.tablePositions.1")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Metin GÜLEÇ
@@ -77,7 +84,7 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
-                    Ürün Müdürü
+                    {t("contact.tablePositions.2")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Yener TOPA
@@ -88,11 +95,11 @@ export default function About() {
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     (+90 312) 426 74 01
                   </td>
-                  <td className="px-4 py-4">zaferyenigun@sismed.com</td>
+                  <td className="px-4 py-4">yenertopa@sismed.com</td>
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
-                    Teknik Destek
+                    {t("contact.tablePositions.3")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Hilal AKGÜN
@@ -107,7 +114,7 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
-                    Satış Destek
+                    {t("contact.tablePositions.4")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Serhat İŞLEYEN
@@ -118,11 +125,11 @@ export default function About() {
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     (+90 312) 426 74 01
                   </td>
-                  <td className="px-4 py-4">kubraozdemir@sismed.com</td>
+                  <td className="px-4 py-4"></td>
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
-                    Asistan
+                    {t("contact.tablePositions.5")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Buket AKKAYA
@@ -133,12 +140,12 @@ export default function About() {
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     (+90 312) 426 74 01
                   </td>
-                  <td className="px-4 py-4">kubraozdemir@sismed.com</td>
+                  <td className="px-4 py-4">buketakkaya@sismed.com</td>
                 </tr>
                 <tr className="border-b-2 text-base xl:text-lg font-bold border-gray-300">
                   <td className="px-4 py-4 text-center" colSpan="5">
-                    Telefon : (+90 312) 426 06 63 – 64 / Faks : (+90 312) 426 74
-                    01
+                    {t("contact.tableTitles.2")} : (+90 312) 426 06 63 – 64 /
+                    Faks : (+90 312) 426 74 01
                   </td>
                 </tr>
                 <tr className="border-b-2 font-bold text-base xl:text-lg border-gray-300">
@@ -152,7 +159,7 @@ export default function About() {
           </div>
         </div>
         <h2 className="text-3xl xl:text-5xl text-gray-800 font-bold text-left mb-4 xl:mb-8 mt-16">
-          İstanbul Ofis
+          {t("contact.title2")}
         </h2>
         {/* Contact Table Section */}
         <div className="bg-white px-8 py-4 rounded-xl ">
@@ -161,25 +168,28 @@ export default function About() {
               <thead>
                 <tr className="text-gray-800 border-b-2 border-gray-300 pr-1 text-lg  xl:text-2xl">
                   <th className="px-0 py-4 text-left border-r-2 border-gray-300">
-                    Pozisyon
+                    {t("contact.tableTitles.0")}
                   </th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Ad Soyad
+                    {t("contact.tableTitles.1")}
                   </th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Telefon
+                    {t("contact.tableTitles.2")}
                   </th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Faks
+                    {t("contact.tableTitles.3")}
                   </th>
-                  <th className="px-4 py-4 text-left">Email</th>
+                  <th className="px-4 py-4 text-left">
+                    {" "}
+                    {t("contact.tableTitles.4")}
+                  </th>
                 </tr>
               </thead>
               <tbody className="text-lg">
                 {/* Ankara Office */}
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
-                    Ürün Müdürü
+                    {t("contact.tablePositions.2")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Engin GEDİK
@@ -194,7 +204,7 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
-                    Satış Destek
+                    {t("contact.tablePositions.4")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Samet AKAR
@@ -209,7 +219,7 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2  text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 pr-2 border-r-2 border-gray-300">
-                    Satış Destek
+                    {t("contact.tablePositions.4")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Ufuk TEKAY
@@ -224,7 +234,7 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
-                    Asistan
+                    {t("contact.tablePositions.5")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     Saadet ÖZEN
@@ -240,8 +250,8 @@ export default function About() {
 
                 <tr className="border-b-2 font-bold text-base xl:text-lg border-gray-300">
                   <td className="px-4 py-4 text-center" colSpan="5">
-                    Telefon : (+90 216) 492 46 20 – 21 / Faks : (+90 216) 492 46
-                    42
+                    {t("contact.tableTitles.2")} : (+90 216) 492 46 20 – 21 /
+                    Faks : (+90 216) 492 46 42
                   </td>
                 </tr>
                 <tr className="border-b-2 font-bold text-base xl:text-lg border-gray-300">
@@ -261,15 +271,18 @@ export default function About() {
                 <tr className="text-gray-800 border-b-2 border-gray-300 text-lg xl:text-2xl">
                   <th className="px-0 py-4 text-left border-r-2 border-gray-300"></th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Ad Soyad
+                    {t("contact.tableTitles.1")}
                   </th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Telefon
+                    {t("contact.tableTitles.2")}
                   </th>
                   <th className="px-4 py-4 text-left border-r-2 border-gray-300">
-                    Faks
+                    {t("contact.tableTitles.3")}
                   </th>
-                  <th className="px-4 py-4 text-left">Email</th>
+                  <th className="px-4 py-4 text-left">
+                    {" "}
+                    {t("contact.tableTitles.4")}
+                  </th>
                 </tr>
               </thead>
               <tbody className="text-lg">
@@ -277,7 +290,7 @@ export default function About() {
 
                 <tr className="border-b-2 border-gray-300">
                   <td className="px-0 py-4 border-r-2 pr-1 text-lg  xl:text-2xl font-bold text-gray-800 border-gray-300">
-                    ADANA Bölge
+                    {t("contact.title3")}
                   </td>
                   <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
                     Murat Yalçın ŞEKER

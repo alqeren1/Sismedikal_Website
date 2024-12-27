@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useRouter } from "next/router";
 import { Shield, ArrowLeft, Info, Download } from "lucide-react";
 import Image from "next/image";
-
+import { useTranslation } from "react-i18next";
 const OVOILDisplay = () => {
   const router = useRouter();
-
+  const { t } = useTranslation();
   const handleBack = () => {
     router.back();
   };
@@ -16,20 +16,16 @@ const OVOILDisplay = () => {
       name: "OVOIL™",
       code: "10029",
       volume: "1 x 100 mL",
-      description:
-        "OVOIL, vitro fertilizasyon ve mikromanipülasyon işlemleri sırasında medyumun üzerini kaplamak için kullanılan %100 parafin yağıdır.",
-      application:
-        "Kullanım amacına bağlı olarak, CO₂ inkübatöründe veya ortam atmosferinde +37°C'de dengelendikten sonra kullanıma uygundur.",
+      description: t("ovoil.products.ovoil.desc"),
+      application: t("ovoil.products.ovoil.app"),
       image: "/ovoil-100-ml.png",
     },
     {
       name: "OVOIL HEAVY™",
       code: "10174",
       volume: "1 x 100 mL",
-      description:
-        "OVOIL HEAVY, yüksek viskoziteli bir yağ olup, daha iyi işlem kolaylığı ve embriyo canlılığı sağlama potansiyeline sahiptir.",
-      application:
-        "Kullanım amacına bağlı olarak, CO₂ inkübatöründe veya ortam atmosferinde +37°C'de dengelendikten sonra kullanıma uygundur.",
+      description: t("ovoil.products.ovoilHeavy.desc"),
+      application: t("ovoil.products.ovoilHeavy.app"),
       image: "/ovoil_heavy.jpeg",
     },
   ];
@@ -95,32 +91,25 @@ const OVOILDisplay = () => {
           className="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
-          Geri Dön
+          {t("grid.back")}
         </button>
       </div>
 
       {/* Header Section */}
       <div className="text-center  mt-12">
         <h1 className="text-4xl font-bold text-gray-900">OVOIL™</h1>
-        <p className="text-lg font-medium text-gray-500 mb-4">Kültür Yağı</p>
+        <p className="text-lg font-medium text-gray-500 mb-4">
+          {t("ovoil.t2")}
+        </p>
         <p className="text-lg text-justify text-gray-600 max-w-3xl mx-auto">
-          Kültür tüpleri, kuyuları veya damlacıklarındaki medyumların
-          yüzeylerini kaplamak için geliştirilmiştir. Uygun viskozitede ve
-          yüksek saflıkta hafif parafin yağıdır. OVOIL, %100 parafin yağıdır.
-          OVOIL HEAVY, sentetik yüksek viskoziteli bir yağdır. Her ikisi de,
-          kapsamlı bir şekilde test edilmiş ve seçilmiş LOT'lardan elde edilen
-          hammaddeler kullanılarak son derece kontrollü bir süreçte
-          üretilmektedir.
+          {t("ovoil.t3")}
         </p>
       </div>
 
       {/* Storage Information */}
       <div className="bg-blue-50 p-4 rounded-lg flex items-center gap-3 mt-12">
         <Shield className="text-blue-600 w-6 h-6" />
-        <p className="text-blue-800 font-medium">
-          Karanlıkta, +2 ile +8°C arasında saklayın. Taşıma sırasında sıcaklık
-          +8°C'yi aşabilir ancak maksimum +25°C'yi ve yedi günü geçmemelidir.
-        </p>
+        <p className="text-blue-800 font-medium">{t("ovoil.storage")}</p>
       </div>
 
       {/* Products Grid */}
@@ -136,7 +125,7 @@ const OVOILDisplay = () => {
                   <h2 className="text-2xl font-bold text-gray-900">
                     {product.name}
                   </h2>
-                  <p className="text-gray-500">Kod: {product.code}</p>
+                  <p className="text-gray-500">{product.code}</p>
                   <p className="text-gray-500">{product.volume}</p>
                 </div>
                 <div className="w-32 h-32 flex-shrink-0">
@@ -151,11 +140,16 @@ const OVOILDisplay = () => {
               </div>
               <div className="space-y-3 pt-4">
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-gray-900">Açıklama</h3>
+                  <h3 className="font-semibold text-gray-900">
+                    {t("embryoglue.t4")}
+                  </h3>
                   <p className="text-gray-600 text-sm">{product.description}</p>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-gray-900">Uygulama</h3>
+                  <h3 className="font-semibold text-gray-900">
+                    {" "}
+                    {t("embryoglue.t6")}
+                  </h3>
                   <p className="text-gray-600 text-sm">{product.application}</p>
                 </div>
               </div>
@@ -168,15 +162,9 @@ const OVOILDisplay = () => {
       <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl p-8 mt-8">
         <div className="flex items-center gap-3 mb-6">
           <Info className="w-8 h-8 text-blue-600" />
-          <h2 className="text-2xl font-bold text-gray-900">
-            Kullanım Bilgileri
-          </h2>
+          <h2 className="text-2xl font-bold text-gray-900">{t("ovoil.t1")}</h2>
         </div>
-        <p className="text-gray-700">
-          OVOIL™ ürünleri, kültür yüzeylerini kaplamak ve embriyo manipülasyon
-          süreçlerinde stabil bir ortam sağlamak için tasarlanmıştır. Kullanım
-          öncesi, önerilen sıcaklık ve atmosfer koşullarında dengelenmelidir.
-        </p>
+        <p className="text-gray-700">{t("ovoil.usage")}</p>
       </div>
 
       {/* Choice is yours Section */}
@@ -184,24 +172,14 @@ const OVOILDisplay = () => {
         <div className="  p-8">
           <div className="space-y-4">
             <div className="flex items-center gap-3 mb-4">
-              <h2 className="text-3xl font-bold text-gray-900">Karar Sizin</h2>
+              <h2 className="text-3xl font-bold text-gray-900">
+                {" "}
+                {t("ovoil.t4")}
+              </h2>
             </div>
             <div className="prose text-gray-700">
-              <p className="mb-4">
-                OVOIL™ hafif bir parafin yağı iken, OVOIL HEAVY™ sentetik bir
-                parafin yağıdır ve daha yüksek viskoziteye sahiptir; bu da bazı
-                kullanıcılar tarafından daha hafif yağlara göre daha iyi işlem
-                kolaylığı sunduğu şeklinde değerlendirilir. Bu elbette kişisel
-                bir tercih meselesi olsa da, artık her iki tercihe de hitap eden
-                iki kültür yağı sunmaktan memnuniyet duyuyoruz.
-              </p>
-              <p className="mb-4">
-                OVOIL ve OVOIL HEAVY, aynı titiz kalite testlerinden
-                geçirilmiştir ve her iki yağ da günümüzün IVF prosedürleri için
-                idealdir. Bu, kalite ve performanstan ödün vermek zorunda
-                kalmadan işlem tercihlerinizle en iyi örtüşen yağı
-                seçebileceğiniz anlamına gelir.
-              </p>
+              <p className="mb-4">{t("ovoil.t5")}</p>
+              <p className="mb-4">{t("ovoil.t6")}</p>
             </div>
           </div>
         </div>
@@ -213,18 +191,11 @@ const OVOILDisplay = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3 mb-4">
               <h2 className="text-3xl font-bold text-gray-900">
-                OVOIL HEAVY sıradan bir yağ değildir
+                {t("ovoil.t7")}
               </h2>
             </div>
             <div className="prose text-gray-700">
-              <p className="mb-4">
-                OVOIL HEAVY, dünyanın ilk sentetik olarak türetilmiş parafin
-                yağıdır. Klinik IVF için özel olarak geliştirilmiş, üretilmiş,
-                test edilmiş ve sertifikalandırılmıştır. Parti bazında tutarlı,
-                yüksek kalite ve artırılmış viskozitesiyle OVOIL HEAVY, embriyo
-                kültürünüz için olağanüstü güvenlik sağlarken laboratuvarda
-                işlem kolaylığını da artırır.
-              </p>
+              <p className="mb-4">{t("ovoil.t8")}</p>
             </div>
           </div>
         </div>
@@ -232,10 +203,10 @@ const OVOILDisplay = () => {
       {/* Documents Section */}
       <div>
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center mt-36">
-          Dökümanlar
+          {t("embryoglue.t26")}
         </h2>
         <h1 className="text-2xl font-bold text-gray-900 mb-2 text-left">
-          Paket İçerikleri
+          {t("embryoglue.t27")}
         </h1>
         <div className="space-y-4">
           {documents.map((doc, index) => (
@@ -279,7 +250,7 @@ const OVOILDisplay = () => {
           ))}
         </div>
         <h1 className="text-2xl font-bold text-gray-900 mt-8  mb-2 text-left">
-          Güvenlik Bilgileri
+          {t("embryoglue.t28")}
         </h1>
         <div className="space-y-4">
           {documents2.map((doc, index) => (
@@ -323,7 +294,7 @@ const OVOILDisplay = () => {
           ))}
         </div>
         <h1 className="text-2xl font-bold text-gray-900 mt-8  mb-2 text-left">
-          Bilimsel Sonuçlar
+          {t("embryoglue.t30")}
         </h1>
         <div className="space-y-4">
           {documents3.map((doc, index) => (

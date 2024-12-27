@@ -1,85 +1,87 @@
 import { useState, useEffect } from "react";
 import { Shield, Award, Heart, Search } from "lucide-react";
 import { useRouter } from "next/router";
-
-const categories = [
-  {
-    title: "VITROLIFE SOLÜSYON",
-    subcategories: [
-      {
-        name: "G-SERİSİ KÜLTÜR MEDYUMLARI",
-        path: "/urunlerimiz/g-serisi-kultur-medyumlari",
-      },
-      {
-        name: "DİĞER KÜLTÜR MEDYUMLARI",
-        path: "/urunlerimiz/diger-kultur-medyumlari",
-      },
-      {
-        name: "SPERM YIKAMA VE DONDURMA",
-        path: "/urunlerimiz/sperm-yikama-ve-dondurma",
-      },
-      { name: "OVOIL", path: "/urunlerimiz/ovoil" },
-      {
-        name: "MİKROMANİPÜLASYON MEDYUMLARI",
-        path: "/urunlerimiz/mikromanipulasyon-medyumlari",
-      },
-      { name: "VİTRİFİKASYON", path: "/urunlerimiz/vitrifikasyon" },
-    ],
-  },
-  {
-    title: "VITROLIFE SARF",
-    subcategories: [
-      {
-        name: "OOSİT TOPLAMA İĞNELERİ",
-        path: "/urunlerimiz/oosit-toplama-igneleri",
-      },
-      {
-        name: "MANİPÜLASYON PİPETLERİ",
-        path: "/urunlerimiz/manipulasyon-pipetleri",
-      },
-      {
-        name: "VITROLIFE KÜLTÜR KAPLARI",
-        path: "/urunlerimiz/vitrolife-kultur-kaplari",
-      },
-    ],
-  },
-  {
-    title: "VITROLIFE CİHAZ",
-    subcategories: [
-      { name: "EMBRYOSCOPE", path: "/urunlerimiz/embryoscope" },
-      { name: "OCTAX LAZER", path: "/urunlerimiz/octax-lazer" },
-    ],
-  },
-];
-
-const productFeatures = [
-  {
-    icon: Shield,
-    title: "Ürün Güvencesi",
-    description: "Vitrolife kalite standartları",
-  },
-  {
-    icon: Award,
-    title: "Sertifikalı Ürünler",
-    description: "Uluslararası kalite belgeleri",
-  },
-  {
-    icon: Heart,
-    title: "Klinik Başarı",
-    description: "Kanıtlanmış klinik sonuçlar",
-  },
-  {
-    icon: Search,
-    title: "Ürün Desteği",
-    description: "Teknik destek ve eğitim",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function ProductsSection() {
   const [activeTab, setActiveTab] = useState(0);
   const [animateFeatures, setAnimateFeatures] = useState(false);
   const [hoveredCard, setHoveredCard] = useState(null);
   const router = useRouter();
+  const { t } = useTranslation();
+
+  const categories = [
+    {
+      title: t("products.tabs.0"),
+      subcategories: [
+        {
+          name: t("products.tab1.0"),
+          path: "/urunlerimiz/g-serisi-kultur-medyumlari",
+        },
+        {
+          name: t("products.tab1.1"),
+          path: "/urunlerimiz/diger-kultur-medyumlari",
+        },
+        {
+          name: t("products.tab1.2"),
+          path: "/urunlerimiz/sperm-yikama-ve-dondurma",
+        },
+        { name: t("products.tab1.3"), path: "/urunlerimiz/ovoil" },
+        {
+          name: t("products.tab1.4"),
+          path: "/urunlerimiz/mikromanipulasyon-medyumlari",
+        },
+        { name: t("products.tab1.5"), path: "/urunlerimiz/vitrifikasyon" },
+      ],
+    },
+    {
+      title: t("products.tabs.1"),
+      subcategories: [
+        {
+          name: t("products.tab2.0"),
+          path: "/urunlerimiz/oosit-toplama-igneleri",
+        },
+        {
+          name: t("products.tab2.1"),
+          path: "/urunlerimiz/manipulasyon-pipetleri",
+        },
+        {
+          name: t("products.tab2.2"),
+          path: "/urunlerimiz/vitrolife-kultur-kaplari",
+        },
+      ],
+    },
+    {
+      title: t("products.tabs.2"),
+      subcategories: [
+        { name: t("products.tab3.0"), path: "/urunlerimiz/embryoscope" },
+        { name: t("products.tab3.1"), path: "/urunlerimiz/octax-lazer" },
+      ],
+    },
+  ];
+
+  const productFeatures = [
+    {
+      icon: Shield,
+      title: t("products.featurestitle.0"),
+      description: t("products.featurescon.0"),
+    },
+    {
+      icon: Award,
+      title: t("products.featurestitle.1"),
+      description: t("products.featurescon.1"),
+    },
+    {
+      icon: Heart,
+      title: t("products.featurestitle.2"),
+      description: t("products.featurescon.2"),
+    },
+    {
+      icon: Search,
+      title: t("products.featurestitle.3"),
+      description: t("products.featurescon.3"),
+    },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -102,10 +104,10 @@ export default function ProductsSection() {
       <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[100px] xl:h-[200px] flex flex-col justify-center items-center ">
         <div className="text-white text-center z-10">
           <h1 className="text-4xl xl:text-7xl font-bold md:mb-2 ">
-            Ürünlerimiz
+            {t("products.title")}
           </h1>
           <p className="text-base md:text-lg xl:text-xl text-white">
-            Vitrolife&apos;ın yenilikçi çözümleri ile klinik başarınızı artırın
+            {t("products.title2")}
           </p>
         </div>
       </div>

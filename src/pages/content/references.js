@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { Search } from "lucide-react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import { useTranslation } from "react-i18next";
 
 const ReferencesPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
-
+  const { t } = useTranslation();
   const references = {
     ANKARA: [
       "ANATOLIA TÜPBEBEK",
@@ -168,10 +169,10 @@ const ReferencesPage = () => {
       <div className="relative w-full bg-gradient-to-br from-blue-400 to-blue-500 h-[100px] xl:h-[200px] flex flex-col justify-center items-center">
         <div className="text-white text-center z-10">
           <h1 className="text-4xl xl:text-7xl font-bold md:mb-2 ">
-            Referanslarımız
+            {t("references.title")}
           </h1>
           <p className="text-base md:text-lg xl:text-xl text-white">
-            Türkiye ve Kıbrıs Genelinde Güvenilir Partnerlerimiz
+            {t("references.title2")}
           </p>
         </div>
       </div>
@@ -186,7 +187,7 @@ const ReferencesPage = () => {
             />
             <input
               type="text"
-              placeholder="Şehir veya hastane adı ile ara..."
+              placeholder={t("references.search")}
               className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:outline-none"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}

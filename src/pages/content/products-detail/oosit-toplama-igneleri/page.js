@@ -1,20 +1,36 @@
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
-import ProductGrid from '../gridcomponent';
-
-const products = [
-  { webpath: '/sense', name: 'SENSE', brand: 'Vitrolife', path: 'SENSE-2.png' },
-{ webpath: '/single-lumen', name: 'SINGLE LUMEN™', brand: 'Vitrolife', path: 'single-lumen.png' },
-{ webpath: '/double-lumen', name: 'DOUBLE LUMEN™', brand: 'Vitrolife', path: 'double-lumen.png' },
-{ webpath: '/igne-aksesuarlari', name: 'İĞNE AKSESUARLARI', brand: 'Vitrolife', path: 'aksesuar.png' }
-];
+import React from "react";
+import { ArrowRight } from "lucide-react";
+import ProductGrid from "../gridcomponent";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
-  return (
-    <ProductGrid
-    products={products}
-    title="OOSİT TOPLAMA İĞNELERİ"
-    subtitle=""
-  />
-  );
+  const { t, i18n } = useTranslation();
+  const products = [
+    {
+      webpath: "/sense",
+      name: "SENSE",
+      brand: "Vitrolife",
+      path: "SENSE-2.png",
+    },
+    {
+      webpath: "/single-lumen",
+      name: "SINGLE LUMEN™",
+      brand: "Vitrolife",
+      path: "single-lumen.png",
+    },
+    {
+      webpath: "/double-lumen",
+      name: "DOUBLE LUMEN™",
+      brand: "Vitrolife",
+      path: "double-lumen.png",
+    },
+    {
+      webpath:
+        i18n.language === "en" ? "/needle-accessories" : "/igne-aksesuarlari",
+      name: t("oosit.p1"),
+      brand: "Vitrolife",
+      path: "aksesuar.png",
+    },
+  ];
+  return <ProductGrid products={products} title={t("oosit.t1")} subtitle="" />;
 }

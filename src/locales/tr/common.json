@@ -1,0 +1,428 @@
+{
+  "main": {
+    "highlight": "IVF yolculuğunu Sismedikal ile keşfedin",
+    "steps": [
+      "Oosit toplama",
+      "Sperm hazırlama",
+      "Fertilizasyon",
+      "Kültür",
+      "Değerlendirme",
+      "Embriyo transferi",
+      "Dondurarak saklama"
+    ],
+    "ewitness": {
+      "title": "eWitness Sistemi",
+      "details": [
+        "Tüm iş akışının otomasyonu",
+        "Tüm işlemlerin takibi",
+        "Barkodlar ve yazdırılabilir etiketlerde RFID",
+        "Elektronik çift kontrol"
+      ]
+    },
+    "octax": {
+      "title": "Octax Lazer Sistemleri",
+      "details": [
+        "Modüler ve Kullanıcı Dostu",
+        "Yüksek Performanslı Lazerler",
+        "Gelişmiş Uygulamalar",
+        "Üstün Görüntüleme Teknolojisi"
+      ]
+    },
+    "embryoscope": {
+      "title1": "Embryoscope+",
+      "title2": "Time-lapse Sistemi",
+      "details": [
+        "Embriyo Gelişimi İçin Özel Tasarım",
+        "Time-Lapse Teknolojisi",
+        "Kesintisiz ve Güvenli Gözlem",
+        "Optimizasyon Sağlayan İnkübasyon Tasarımı"
+      ]
+    }
+  },
+  "hero2": {
+    "title1": "Sürecin Her Aşamasında",
+    "title2": "Sismedikal Yanınızda",
+    "contact": "Bize Ulaşın",
+    "products": "Ürünleri İncele"
+  },
+  "navbar": {
+    "labels": [
+      "Hakkımızda",
+      "Ürünlerimiz",
+      "Referanslarımız",
+      "Protokoller",
+      "İletişim",
+      "Anasayfa"
+    ]
+  },
+  "bottombar": { "office": "Ankara Ofis", "office2": "İstanbul Ofis" },
+  "about": {
+    "tabs": ["Tarihçemiz", "Misyonumuz", "Vizyonumuz"],
+    "content": [
+      "Sis Medikal Ltd., Türkiye’de **IVF sektörünün ilk ve öncü firmasıdır**. IVF merkezlerinin ihtiyaçlarının karşılanmasına yönelik çalışmaları doğrultusunda, **Vitrolife ürünlerinin Türkiye yetkili distribütörlüğünü** sürdürmektedir. Sis Medikal Ltd. IVF sektöründe faaliyet gösteren hastane ve kliniklere hizmet vermek amacıyla **1994 yılında kurulmuştur**. Sektörün büyümesi ile birlikte yurt genelinde sayıları giderek artan IVF merkezlerine, Ankara ve İstanbul ofisleri ile hizmet vermektedir. Etik prensiplerden taviz vermeksizin sürdürdüğü hizmetleri ve işbirligi yaptığı kliniklerle **“çözüm ortağı”** anlayışını her an hissettiren yaklaşımı ile Sis Medikal Ltd, kurumsal kimliğini kısa zamanda tüm sektöre kabul ettirmiş ve IVF sahasının vazgeçilmez unsurları arasındaki yerini almıştır.",
+      "IVF sektöründe, **en yüksek kalite standartlarını** benimseyerek, etik değerlerden ödün vermeksizin, inovatif ürünler ve üstün hizmet anlayışıyla sektördeki tüm partnerlerimiz için en güvenilir çözüm ortağı olmak.",
+      "Kalite, bilimsellik ve etik prensipleri temel alarak, sektördeki liderlik konumumuzu sürdürülebilir yeniliklerle pekiştirmek ve müşterilerimize en iyi hizmeti sunmak. Hedefimiz, IVF alanında ulusal ve uluslararası düzeyde güvenilir, saygın ve öncü bir marka olarak sektöre yön vermektir."
+    ],
+    "stats": ["Yıllık Deneyim", "Partner Klinik", "Ürün Çeşidi"],
+
+    "quality": {
+      "title": "Kalite Politikamız",
+      "title1": "Yüksek Kalite",
+      "title2": "Sürekli İyileştirme",
+      "title3": "Müşteri Odaklılık",
+      "con1": "En yüksek kalite standartlarında ürün ve hizmet sağlayarak müşterilerimizin güvenini kazanmak.",
+      "con2": "Süreçlerimizi sürekli gözden geçirerek ve iyileştirerek hizmet kalitemizi artırmak.",
+      "con3": "Müşterilerimizin ihtiyaçlarını en iyi şekilde anlayarak, beklentilerinin ötesinde çözümler sunmak."
+    }
+  },
+  "references": {
+    "title": "Referanslarımız",
+    "title2": "Türkiye ve Kıbrıs Genelinde Güvenilir Partnerlerimiz",
+    "search": "Şehir veya hastane adı ile ara..."
+  },
+  "protocols": {
+    "title": "Protokoller",
+    "tab": "Yararlı Linkler",
+    "con": [
+      "Sperm Hazırlama - Swim up yöntemi",
+      "Sperm Hazırlama – Yoğunluk gradyan sentrifügasyon yöntemi",
+      "Yumurta Toplama",
+      "ICSI",
+      "Embriyo Kültürü",
+      "Embriyo Transfer",
+      "Kriyoprezervasyon – Klivaj evresi",
+      "Kriyoprezervasyon – Blastokist evresi"
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "title1": "Ankara Ofis",
+    "title2": "İstanbul Ofis",
+    "title3": "ADANA Bölge",
+    "tableTitles": ["Pozisyon", "Ad Soyad", "Telefon", "Faks", "Email"],
+    "tablePositions": [
+      "Genel Müdür",
+      "Muhasebe Müdürü",
+      "Ürün Müdürü",
+      "Teknik Destek",
+      "Satış Destek",
+      "Asistan"
+    ]
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "title2": " Vitrolife'ın yenilikçi çözümleri ile klinik başarınızı artırın",
+    "tabs": ["VITROLIFE SOLÜSYON", "VITROLIFE SARF", "VITROLIFE CİHAZ"],
+    "featurestitle": [
+      "Ürün Güvencesi",
+      "Sertifikalı Ürünler",
+      "Klinik Başarı",
+      "Ürün Desteği"
+    ],
+    "featurescon": [
+      "Vitrolife kalite standartları",
+      "Uluslararası kalite belgeleri",
+      "Kanıtlanmış klinik sonuçlar",
+      "Teknik destek ve eğitim"
+    ],
+    "tab1": [
+      "G-SERİSİ KÜLTÜR MEDYUMLARI",
+      "DİĞER KÜLTÜR MEDYUMLARI",
+      "SPERM YIKAMA VE DONDURMA",
+      "OVOIL",
+      "MİKROMANİPÜLASYON MEDYUMLARI",
+      "VİTRİFİKASYON"
+    ],
+    "tab2": [
+      "OOSİT TOPLAMA İĞNELERİ",
+      "MANİPÜLASYON PİPETLERİ",
+      "VITROLIFE KÜLTÜR KAPLARI"
+    ],
+    "tab3": ["EMBRYOSCOPE", "OCTAX LAZER"]
+  },
+  "g-series": {
+    "t1": "G-SERİSİ KÜLTÜR MEDYUMLARI",
+    "t2": "Vitrolife'ın Yenilikçi Kültür Medyum Çözümleri"
+  },
+
+  "grid": {
+    "back": "Geri Dön",
+    "more": "DAHA FAZLA"
+  },
+  "otherculture": {
+    "t1": "DİĞER KÜLTÜR MEDYUMLARI",
+    "t2": "Vitrolife'ın Yenilikçi Kültür Medyum Çözümleri"
+  },
+  "sperm": {
+    "t1": "SPERM YIKAMA VE DONDURMA"
+  },
+  "micromanupilation": {
+    "t1": "MİKROMANİPÜLASYON MEDYUMLARI"
+  },
+
+  "vitri": {
+    "t1": "VİTRİFİKASYON"
+  },
+  "oosit": {
+    "t1": "OOSİT TOPLAMA İĞNELERİ",
+    "p1": "İĞNE AKSESUARLARI"
+  },
+  "pipette": {
+    "t1": "MANİPÜLASYON PİPETLERİ",
+    "p": [
+      "ICSI Pipeti",
+      "HOLDING Pipeti",
+      "DENUDASYON Pipeti",
+      "TRANSFER Pipeti",
+      "PZD Pipeti",
+      "BİYOPSİ Pipeti",
+      "HATCHING Pipeti",
+      "Pipet Aksesuarları"
+    ]
+  },
+  "cultureDishes": {
+    "t1": "VITROLIFE KÜLTÜR KAPLARI"
+  },
+  "embryoscrope1": {
+    "t1": "EMBRİYO GÖRÜNTÜLEME SİSTEMLERİ",
+    "con": [
+      "EMBRYOSCOPE 8 GÖRÜNTÜLEME SİSTEMİ",
+      "EMBRYOSCOPE FLEX GÖRÜNTÜLEME SİSTEMİ",
+      "DEĞERLENDİRME ARAÇLARI",
+      "GÖRÜNTÜLEME SİSTEMİ KÜLTÜR KAPLARI",
+      "EMBRYOSCOPE +"
+    ]
+  },
+  "embryoscope": {
+    "t1": "EMBRİYO GÖRÜNTÜLEME SİSTEMLERİ",
+    "t2": "EMBRYOSCOPE 8 GÖRÜNTÜLEME SİSTEMİ",
+    "t3": "EMBRYOSCOPE FLEX GÖRÜNTÜLEME SİSTEMİ",
+    "t4": "DEĞERLENDİRME ARAÇLARI",
+    "t5": "GÖRÜNTÜLEME SİSTEMİ KÜLTÜR KAPLARI",
+    "t6": "EMBRYOSCOPE +"},
+     
+  "laser": {
+    "t1": "OCTAX LAZER & GÖRÜNTÜLEME SİSTEMİ",
+    "p1": "OCTAX LAZER"
+  },
+  "detailproduct": {
+    "composition": "Kompozisyon",
+    "p1": "Özellikler",
+    "p2": "Ürünler",
+    "p3": "Açıklama",
+    "p4": "Pipet Serileri",
+    "p5": "Spikelı ICSI Pipetleri",
+    "p6": "Spikesız ICSI Pipetleri",
+    "p7": "Uç Şekli",
+    "p8": "Uçtan 500 μm mesafede bir eğim bulunur. Kısa ve keskin bir bevel ile kısa bir spike içerir. Oositlere daha az zarar verilmesini sağlamak için benzersiz bir daralma ile başlayıp genişleyen bir tasarıma sahiptir.",
+    "p9": "Uçtan 500 μm mesafede bir eğim bulunur. Kısa ve keskin bir bevel ile daha uzun bir spike içerir. Oositlere daha az zarar verilmesini sağlamak için benzersiz bir daralma ile başlayıp genişleyen bir tasarıma sahiptir.",
+    "p10": "Uçtan 400 μm mesafede bir eğim bulunur. Kısa bir bevel ve çok kısa bir spike içerir. Uçtan eğim yerine olan kısa mesafe nedeniyle PVP'de daha dayanıklı ve rijit bir kullanım sağlar.",
+    "p11": "Uçtan 1000 μm mesafede bir eğim bulunur. Yüklenen sperm üzerinde daha fazla kontrol sağlamak için paralel duvarlara sahiptir.",
+    "p12": "Uçtan 400 μm mesafede bir eğim bulunur. Orta uzunlukta bir bevel, kısa bir daralma ve paralel duvarlara sahiptir.",
+    "p13": "Uçtan 700 μm mesafede bir eğim bulunur. Orta uzunlukta bir bevel, uzun bir daralma ve paralel duvarlara sahiptir.",
+    "p14": "Eğim, uçtan 500 μm mesafede bulunur. Spike ile spermatid ICSI için uygundur.",
+    "p15": "Kusursuz kontrol için echomarking",
+"p16": "Yenilikçi lazer işleme ile oluşturulmuş, oosit toplama sırasında ihtiyaç duyduğunuz yüksek görünürlüğü sağlar.",
+"p17": "Ultra keskin tasarım",
+"p18": "Düşük penetrasyon direnci ve yüksek hassasiyet için. İğne ucu olağanüstü keskinlik, yüksek hassasiyet ve en üst düzeyde güvenlik sağlar. Bevel taşlama, düşük dirençli penetrasyon sağlarken, belirgin backpoint taşlama sapmayı önler."
+
+  },
+  "gx": {
+    "products": {
+      "mops": {
+        "desc": "Ortam atmosferinde oosit ve embriyoların manipülasyonu ve işlenmesi için insan serum albümini, gentamisin ve antioksidanlar içeren MOPS tamponlu medyum.",
+
+        "app": "+37°C'de ekilibrasyondan sonra kullanım için."
+      },
+      "ivf": {
+        "desc": "Gametlerin hazırlanması ve işlenmesi, in vitro fertilizasyon ve intrauterin inseminasyon için insan serum albümini, gentamisin ve antioksidanlar içeren bikarbonat tamponlu medyum.",
+
+        "app": "+37°C ve %6 CO2'de ekilibrasyondan sonra kullanım için."
+      },
+      "tl": {
+        "desc": "Fertilizasyondan blastosist aşamasına kadar embriyo kültürü ve embriyo transferi için hyaluronan, insan serum albümini, gentamisin ve antioksidanlar içeren bikarbonat tamponlu medyum.",
+
+        "app": "+37°C ve %6 CO2'de ekilibrasyondan sonra kullanım için."
+      }
+    },
+    "research": [
+      "Asetil-L-Karnitin, Alfa-Lipoik Asit ve N-Asetil-L-Sistein kombinasyon halinde embriyo gelişimi üzerinde oldukça faydalı bir etkiye sahiptir.",
+      "Gelişmiş embriyo canlılığı.",
+      "Faydalar %20 oksijende en yüksek seviyededir ancak %5 oksijende de mevcuttur.",
+      "Üç antioksidan, gamet işleme medyumlarında, IVF medyumlarında ve kültür medyumlarında bulunmalıdır.",
+      "Sperm hazırlama, oosit toplama ve sonraki ICSI fertilizasyonu için kullanıldığında gelişmiş ICSI fertilizasyon oranları.",
+      "IVF süreci boyunca sürekli kullanıldığında 35-40 yaş arası kadınlarda önemli ölçüde artmış gebelik oranları."
+    ],
+
+    "usage": [
+      "+37°C ve ortam atmosferinde ekilibrasyondan sonra kullanın",
+      "Asla CO2 inkübatörüne koymayın veya CO2 ile ekilbre edilmiş yağ ile kapatmayın",
+      "Kumulus-oosit komplekslerinin işlenmesi ve toplanması, denüdasyon, ICSI, embriyo biyopsisi için kullanılabilir",
+      "Yağ örtüsü ile hazırlandıktan sonra 6 saate kadar kullanılabilir",
+      "Nemlendirilmemiş ortamda yağ örtüsü olmadan 60 dakika içinde kullanın",
+      "Oositler veya embriyolar medyumda 30 dakikadan fazla kalmamalıdır"
+    ],
+    "t1": "Gx Medyum",
+    "t2": " Üçlü antioksidan kombinasyonu içeren Gx-MOPS™ PLUS, Gx-IVF™ ve Gx-TL™, Vitrolife medyumlarının en son neslini temsil eder. Gamet ve embriyo işleme, fertilizasyon ve kültür için üçlü antioksidan koruması, embriyo gelişimi üzerinde oldukça faydalı bir etkiye sahiptir.",
+
+    "t3": "+2 ile +8ºC arasında karanlıkta saklayın",
+    "t4": "Açıklama",
+    "t5": "Uygulama",
+    "t6": "Oksidatif Stres - Embriyo Gelişimi Üzerindeki Etkisi",
+    "t7": "Gametler ve embriyolar oksidatif strese karşı oldukça hassastır. Vücut dışında olduklarında, doğal detoksifikasyon sisteminden yoksundurlar.",
+
+    "t8": "Aynı zamanda, IVF sırasındaki manipülasyonlar aşağıdaki gibi   çeşitli dış risklerle ilişkilidir:",
+    "t9": "Tüm kültür süresi boyunca veya bazı prosedürler sırasında fizyolojik olmayan yüksek oksijen konsantrasyonu (yüksek oksijen tek başına zararlıdır)",
+    "t10": "Aerobik hücresel metabolizmanın bir yan ürünü olarak üretilen reaktif oksijen türleri (ROS)",
+    "t11": "ROS sentezinde artışa neden olabilecek plastik malzeme ve yağ örtüsünün kalitesi",
+    "t12": "Kesme stresi, olası sıcaklık dalgalanmaları ve ışığa maruz kalma",
+    "t13": "Bu faktörler, oluşan embriyoların gelişimsel kapasitesini ve canlılığını azaltabilir. Önemli olarak, bir gamet veya embriyo belirli bir stresöre maruz kaldığında, genellikle herhangi bir ek yüke karşı daha hassas hale gelir, bu da IVF tedavisi sırasında karmaşık stres korumasının çok önemli olduğunu vurgular.",
+    "t14": "Kullanım Kılavuzu",
+    "t15": "LOT'a özel test sonuçları, her teslimatla birlikte verilen Analiz Sertifikası'nda mevcuttur. Ürünle ilgili herhangi bir ciddi olay meydana geldiğinde, kullanıcının ve/veya hastanın bulunduğu Üye Devletin yetkili makamına ve üreticiye bildirilmelidir.",
+    "t16": "Güvenlik ve klinik performans özeti www.vitrolife.com adresinde bulunabilir.",
+    "t17": "Dökümanlar",
+    "t18": "Paket İçerikleri",
+
+    "t19": "Güvenlik Bilgileri",
+    "t20": "Araştırma Bulguları"
+  },
+  "embryoglue": {
+    "products": {
+      "regular": {
+        "code": "10085",
+        "volume": "1 x 10 mL",
+        "desc": "Bikarbonat tamponlu medyum, hyaluronan ve rekombinant insan albümini içerir.",
+        "purpose": "Embriyo transferi için medyum.",
+        "app": "+37°C ve %6 CO2'de ön dengelemeden sonra kullanım için.",
+        "storage": "Karanlıkta +2 ile +8°C arasında saklayın."
+      },
+      "patient": {
+        "code": "10168",
+        "volume": "5 x 1.5 mL",
+        "desc": "Bikarbonat tamponlu medyum, hyaluronan ve rekombinant insan albümini içerir.",
+        "purpose": "Embriyo transferi için medyum.",
+        "app": "+37°C ve %6 CO2'de ön dengelemeden sonra kullanım için.",
+        "storage": "Karanlıkta +2 ile +8°C arasında saklayın."
+      }
+    },
+    "t1": "EmbryoGlue",
+    "t2": "İmplantasyonu artırmak için gelişmiş transfer medyumu. Embriyo transferinde kullanıldığında klinik gebelik oranını ve canlı doğum oranını artırdığı kanıtlanmıştır.",
+    "t3": "+2 ile +8°C arasında karanlıkta saklayın",
+    "t4": "Açıklama",
+    "t5": "Amacı",
+    "t6": "Uygulama",
+    "t7": "Saklama",
+    "t8": "EmbryoGlue Nedir?",
+    "t9": "EmbryoGlue, yalnızca embriyo transferi için geliştirilmiş bir medyumdur ve kanıtlanmış implantasyon artırıcı etkisi olan tek mevcut transfer medyumudur. EmbryoGlue, zengin bir blastosist kültür medyumunun temel bileşimine sahiptir ve rekombinant albümin ile yüksek konsantrasyonda hyaluronan içerir. EmbryoGlue, tüm embriyo gelişim aşamalarının transferinde kullanılabilir. EmbryoGlue kullanımı, klinik gebelik oranını ve canlı doğum oranını artırabilir.",
+    "t10": "Başarılı Bir Transfer İçin EmbryoGlue",
+    "t11": "Embriyo transferi, tüp bebek tedavisinde en hassas ve kritik işlemlerden biridir. Hyaluronan açısından zengin bir transfer medyumu olan EmbryoGlue®, embriyo implantasyonunu teşvik etmek için tasarlanmıştır. Klinik kanıtlara göre, embriyo transferinde EmbryoGlue kadar başarı oranını önemli ölçüde artıran müdahaleler azdır. EmbryoGlue, başarılı implantasyonu teşvik ettiği ve gebelik ile canlı doğum oranını artırdığı kanıtlanmıştır.",
+    "t12": "EmbryoGlue'nun Kanıtlanmış Efektifliği",
+    "t13": "EmbryoGlue'ün 2003 yılında piyasaya sürülmesinden bu yana, etkinliği hakkında birçok çalışma yayınlanmıştır. Transfer medyumlarında hyaluronanın etkisine dair üç inceleme, Cochrane Library tarafından 2010, 2014 ve 2020 yıllarında yayınlanmıştır.",
+    "t14": "2020 yılında Heymann ve ekibi tarafından yapılan \"Yardımlı üreme teknolojileri için embriyo transfer medyumlarında hiyaluronik asit\" başlıklı Cochrane İncelemesi şu sonuca varmıştır:",
+    "t15": "\"Orta kalitede kanıtlar, hiyaluronik asidin embriyo transfer medyumlarındaki yapışma bileşeni olarak eklenmesiyle klinik gebelik ve canlı doğum oranlarının arttığını göstermektedir.\"",
+    "t16": "Düşük oranı bazı çalışmalarda azalmış ancak toplam veri setinde istatistiksel olarak anlamlı bir seviyeye ulaşmamıştır. İnceleme, IVF/ICSI tedavisi gören toplam 6704 hastayı içeren 26 randomize, prospektif, kontrollü denemeyi kapsamaktadır. Embriyo transferleri ya hiç ya da düşük hiyaluronan içeren bir transfer medyumunda veya yüksek hiyaluronan konsantrasyonuna sahip EmbryoGlue kullanılarak gerçekleştirilmiştir.",
+    "t17": "EmbryoGlue Nasıl Çalışır?",
+    "t18": "EmbryoGlue, implantasyonu teşvik eden bir makromolekül olan hyaluronan içeren bir transfer medyumudur. Hyaluronan, foliküler, oviduktal ve uterin sıvılarda bulunan ana glikozaminoglikandır ve kadın üreme kanalının yüksek viskozite ortamına önemli ölçüde katkıda bulunabilir. Hyaluronan sentezi, implantasyonun başlatıldığı gün dramatik şekilde artar ve bu olayın önemi ile ilişkilidir.",
+    "t19": "EmbryoGlue'nun Kullanımı Kolaydır",
+    "t20": "EmbryoGlue kullanırken laboratuvar ve transfer süreçlerine dikkat etmek önemlidir. İyi çalışılmış bir transfer medyumu olan EmbryoGlue, diğer ürünlere kıyasla transfer optimizasyonu hakkında daha fazla veriye sahiptir. Transfer protokolleri için kapların hazırlanması, embriyo dengeleme süresi ve kateter yükleme gibi faktörler, sonuçları etkileyebilecek önemli unsurlardır.",
+    "t21": "Unutulmaması Gereken 3 Şey",
+    "t22": "Kullanım talimatlarını takip ederek stabil ozmolalite, pH ve sıcaklığı sağlayın. Aşağıda takip edilmesi gereken üç önemli laboratuvar prosedür adımı bulunmaktadır. Klinik destek için lütfen Vitrolife temsilcinizle iletişime geçin.",
+    "t23": "Kap hacimleri",
+    "t24": "Embriyo dengeleme",
+    "t25": "Kateter yükleme",
+    "t26": "Dökümanlar",
+    "t27": "Paket İçerikleri",
+    "t28": "Güvenlik Bilgileri",
+    "t29": "Kısa Protokoller",
+    "t30": "Bilimsel Sonuçlar"
+  },
+  "ovoil": {
+    "products": {
+      "ovoil": {
+        "desc": "OVOIL, in vitro fertilizasyon ve mikromanipülasyon işlemleri sırasında medyumun üzerini kaplamak için kullanılan %100 parafin yağıdır.",
+        "app": "Kullanım amacına bağlı olarak, CO₂ inkübatöründe veya ortam atmosferinde +37°C'de dengelendikten sonra kullanıma uygundur."
+      },
+      "ovoilHeavy": {
+        "desc": "OVOIL HEAVY, yüksek viskoziteli bir yağ olup, daha iyi işlem kolaylığı ve embriyo canlılığı sağlama potansiyeline sahiptir.",
+        "app": "Kullanım amacına bağlı olarak, CO₂ inkübatöründe veya ortam atmosferinde +37°C'de dengelendikten sonra kullanıma uygundur."
+      }
+    },
+    "storage": "Karanlıkta, +2 ile +8°C arasında saklayın. Taşıma sırasında sıcaklık +8°C'yi aşabilir ancak maksimum +25°C'yi ve yedi günü geçmemelidir.",
+    "usage": "OVOIL™ ürünleri, kültür yüzeylerini kaplamak ve embriyo manipülasyon süreçlerinde stabil bir ortam sağlamak için tasarlanmıştır. Kullanım öncesi, önerilen sıcaklık ve atmosfer koşullarında dengelenmelidir.",
+    "choice": {
+      "title": "Karar Sizin",
+      "desc": "OVOIL™ hafif bir parafin yağı iken, OVOIL HEAVY™ sentetik bir parafin yağıdır ve daha yüksek viskoziteye sahiptir; bu da bazı kullanıcılar tarafından daha hafif yağlara göre daha iyi işlem kolaylığı sunduğu şeklinde değerlendirilir. Her iki yağ da günümüzün IVF prosedürleri için idealdir, kalite ve performanstan ödün vermeden ihtiyacınıza en uygun yağı seçebilirsiniz."
+    },
+    "heavyDetails": {
+      "title": "OVOIL HEAVY sıradan bir yağ değildir",
+      "desc": "OVOIL HEAVY, dünyanın ilk sentetik olarak türetilmiş parafin yağıdır. Klinik IVF için özel olarak geliştirilmiş, üretilmiş, test edilmiş ve sertifikalandırılmıştır. Parti bazında tutarlı, yüksek kalite ve artırılmış viskozitesiyle OVOIL HEAVY, embriyo kültürünüz için olağanüstü güvenlik sağlarken laboratuvarda işlem kolaylığını da artırır."
+    },
+    "documents": {
+      "packageInserts": "Paket İçerikleri",
+      "safety": "Güvenlik Bilgileri",
+      "scientific": "Bilimsel Sonuçlar"
+    },
+
+    "t1": "Kullanım Bilgileri",
+    "t2": "Kültür Yağı",
+
+    "t3": "Kültür tüpleri, kuyuları veya damlacıklarındaki medyumların yüzeylerini kaplamak için geliştirilmiştir. Uygun viskozitede ve yüksek saflıkta hafif parafin yağıdır. OVOIL, %100 parafin yağıdır. OVOIL HEAVY, sentetik yüksek viskoziteli bir yağdır. Her ikisi de, kapsamlı bir şekilde test edilmiş ve seçilmiş LOT'lardan elde edilen hammaddeler kullanılarak son derece kontrollü bir süreçte üretilmektedir.",
+    "t4": "Karar Sizin",
+    "t5": "OVOIL™ hafif bir parafin yağı iken, OVOIL HEAVY™ sentetik bir parafin yağıdır ve daha yüksek viskoziteye sahiptir; bu da bazı kullanıcılar tarafından daha hafif yağlara göre daha iyi işlem kolaylığı sunduğu şeklinde değerlendirilir. Bu elbette kişisel bir tercih meselesi olsa da, artık her iki tercihe de hitap eden iki kültür yağı sunmaktan memnuniyet duyuyoruz.",
+    "t6": "OVOIL ve OVOIL HEAVY, aynı titiz kalite testlerinden geçirilmiştir ve her iki yağ da günümüzün IVF prosedürleri için idealdir. Bu, kalite ve performanstan ödün vermek zorunda kalmadan işlem tercihlerinizle en iyi örtüşen yağı seçebileceğiniz anlamına gelir.",
+    "t7": "OVOIL HEAVY sıradan bir yağ değildir",
+    "t8": "OVOIL HEAVY, dünyanın ilk sentetik olarak türetilmiş parafin yağıdır. Klinik IVF için özel olarak geliştirilmiş, üretilmiş, test edilmiş ve sertifikalandırılmıştır. Parti bazında tutarlı, yüksek kalite ve artırılmış viskozitesiyle OVOIL HEAVY, embriyo kültürünüz için olağanüstü güvenlik sağlarken laboratuvarda işlem kolaylığını da artırır.",
+    "t9": ""
+  },
+  "gxmon": {
+    "back": "Geri Dön",
+    "header": {
+      "title": "Değerlendirme Araçları",
+      "desc": "Embriyoların istatistiksel canlılıklarına göre puanlanmasını sağlamak amacıyla, çeşitli kriterler uygulayarak embriyoları detaylı bir şekilde değerlendiren ve bu süreçte kullanıcıya rehberlik eden gelişmiş karar destek araçları."
+    },
+    "storageInfo": "Embriyo Analiz Yazılım Araçları",
+    "products": {
+      "idascore": {
+        "name": "iDAScore",
+        "desc": "Yapay zeka kaynaklı otomatik analiz",
+        "linkText": "Daha Fazlası"
+      },
+      "guidedAnnotation": {
+        "name": "Guided Annotation",
+        "desc": "Veri analizi",
+        "linkText": "Daha Fazlası"
+      },
+      "kidscore": {
+        "name": "KIDScore",
+        "desc": "Karar yardımı",
+        "linkText": "Daha Fazlası"
+      }
+    },
+    "idascore": {
+      "title": "iDAScore",
+      "desc": "iDAScore, gelişmekte olan embriyoların tamamen otomatik analizlerini sağlamak için deep learning teknolojisinden faydalanır. Artık bir hastanın embriyolarının her birinin implantasyon olasılığına dayalı olarak objektif bir sıralamayı, tek bir dokunuşla aynı anda elde edebilirsiniz. Embriyo değerlendirmesinin geleceği burada başlıyor.",
+      "aiTitle": "Kısırlık tedavisinde yapay zeka",
+      "aiDesc": "Tüp bebek (IVF) tedavisinde time-lapse teknolojisi, embriyo kültürü ve değerlendirmesini iyileştiren bir platform sunmanın yanı sıra embriyo gelişimi hakkında daha fazla bilgi edinilmesini sağlar. Görüntü analizi için yapay zeka (AI) yöntemlerindeki ilerlemeler, embriyo değerlendirmesini bir sonraki seviyeye taşımamıza olanak tanımaktadır.",
+      "study": "dergisinde yayımlanan RCT çalışması, iDAScore'un standart manuel değerlendirmeye göre 10 kat daha hızlı olduğunu ve benzer klinik sonuçlar sağladığını göstermektedir."
+    },
+    "guidedAnnotation": {
+      "title": "Guided Annotation",
+      "desc": "EmbryoViewer yazılımında isteğe bağlı bir araç olarak sunulan bu özellik, daha sade bir anotasyon iş akışı sağlamak üzere tasarlanmıştır. Bu yazılım sayesinde, EmbryoScope+, EmbryoScope 8 ve EmbryoScope Flex cihazlarından elde edilen verilerle seçilen embriyoların gelişimini inceleyebilir, notlar ekleyebilir ve karşılaştırabilirsiniz. Üç farklı inkübatör tipi için aynı EmbryoViewer yazılımı kullanılabilir. İnkübatörlerin çalışma koşulları hasta verileriyle birlikte otomatik olarak kaydedilir ve kalite güvencesi için EmbryoViewer yazılımında görüntülenebilir.",
+      "evaluationTitle": "Embriyoların tutarlı değerlendirilmesi",
+      "evaluationDesc": "EmbryoScope time-lapse sistemi tarafından elde edilen geniş kapsamlı görüntü bilgileri sayesinde, her bir embriyonun gelişiminin her aşaması ayrıntılı bir şekilde gözlemlenebilir. Guided Annotation, embriyoların transfer ve/veya dondurma için en uygun olanlarını değerlendirebilmeniz adına, tam olarak ihtiyaç duyduğunuz miktarda ve türde embriyo gelişim bilgisi toplamanızı sağlar.",
+      "smartTools": "Akıllı yazılım araçları ve yapay zeka uygulamalarıyla Guided Annotation, embriyo anotasyonunu hızlı, verimli ve hassas hale getirir ve otomasyon seviyesini tamamen kontrol etmenizi sağlar. Güven tahmini, yüksek güven seviyesine sahip anotasyonları otomatikleştirmenize ve düşük güven seviyesine sahip anotasyonların doğrulanmasını önceliklendirmenize olanak tanır."
+    },
+    "kidscore": {
+      "title": "KIDScore",
+      "desc": "KIDScore D3 & D5, seçim kriterlerinden ziyade kaçınma kriterlerini kullanarak güvenli bir ilk model sunar ve kendi modellerinizi tasarlayıp uygulamanıza olanak tanır. Guided Annotation, KIDScore ile sinerji içinde çalışarak embriyoların tutarlı bir şekilde değerlendirilme sürecini en iyi şekilde destekler.",
+      "synergyTitle": "Guided Annotation ve KIDScore",
+      "synergyDesc": "Guided Annotation, KIDScore ile sinerji içinde çalışarak embriyo değerlendirme sürecinizin tutarlılığını en iyi şekilde destekler.",
+      "advantagesTitle": "KIDScore'un avantajları:",
+      "advantages": [
+        "Karar verme sürecini geliştirir",
+        "Tutarlılığı artırır",
+        "Daha iyi sonuçlar elde etmenize yardımcı olur"
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import ProductGrid from "../gridcomponent";
-
+import { useTranslation } from "react-i18next";
 const products = [
   {
     webpath: "/micro-droplet-dish",
@@ -72,10 +72,11 @@ const products = [
 ];
 
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <ProductGrid
       products={products}
-      title="VITROLIFE KÜLTÜR KAPLARI"
+      title={t("cultureDishes.t1")}
       subtitle=""
     />
   );

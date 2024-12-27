@@ -14,89 +14,35 @@ import {
   Download,
   Brain,
 } from "lucide-react";
-
+import { useTranslation } from "react-i18next";
 const GXDisplay = () => {
   const router = useRouter(); // Initialize useRouter
-
+  const { t } = useTranslation();
   const handleBack = () => {
     router.back(); // Go back to the previous page
   };
   const products = [
     {
       name: "iDAScore",
-      description: "Yapay zeka kaynaklı otomatik analiz",
+      description: t("gxmon.products.idascore.desc"),
       image: "/idascore.jpeg",
       link: "https://www.vitrolife.com/products/time-lapse-systems/embryo-decision-support-tools#14931",
     },
     {
       name: "Guided Annotation",
 
-      description: "Veri analizi",
+      description: t("gxmon.products.guidedAnnotation.desc"),
       image: "/guided_annotation.jpeg",
       link: "https://www.vitrolife.com/products/time-lapse-systems/embryo-decision-support-tools#14936",
     },
     {
       name: "KIDScore",
 
-      description: "Karar yardımı",
+      description: t("gxmon.products.kidscore.desc"),
       image: "/kidscore.jpeg",
       link: "https://www.vitrolife.com/products/time-lapse-systems/embryo-decision-support-tools#14935",
     },
   ];
-
-  const researchPoints = [
-    {
-      text: "Asetil-L-Karnitin, Alfa-Lipoik Asit ve N-Asetil-L-Sistein kombinasyon halinde embriyo gelişimi üzerinde oldukça faydalı bir etkiye sahiptir.",
-      references: "1, 2",
-      image: "/arastirma_bulgulari1.png",
-    },
-    {
-      text: "Gelişmiş embriyo canlılığı.",
-      references: "3, 4",
-      image: "/arastirma_bulgulari2.png",
-    },
-    {
-      text: "Faydalar %20 oksijende en yüksek seviyededir ancak %5 oksijende de mevcuttur.",
-      references: "1, 2",
-      image: "/arastirma_bulgulari3.png",
-    },
-    {
-      text: "Üç antioksidan, gamet işleme medyumlarında, IVF medyumlarında ve kültür medyumlarında bulunmalıdır.",
-      references: "1, 2, 3, 4, 5",
-      image: "/arastirma_bulgulari4.png",
-    },
-    {
-      text: "Sperm hazırlama, oosit toplama ve sonraki ICSI fertilizasyonu için kullanıldığında gelişmiş ICSI fertilizasyon oranları.",
-      references: "4, 6",
-      image: "/arastirma_bulgulari5.png",
-    },
-    {
-      text: "IVF süreci boyunca sürekli kullanıldığında 35-40 yaş arası kadınlarda önemli ölçüde artmış gebelik oranları.",
-      references: "3, 6",
-      image: "/arastirma_bulgulari6.png",
-    },
-  ];
-
-  const usageGuidelines = [
-    "+37°C ve ortam atmosferinde ekilibrasyondan sonra kullanın",
-    "Asla CO2 inkübatörüne koymayın veya CO2 ile ekilbre edilmiş yağ ile kapatmayın",
-    "Kumulus-oosit komplekslerinin işlenmesi ve toplanması, denüdasyon, ICSI, embriyo biyopsisi için kullanılabilir",
-    "Yağ örtüsü ile hazırlandıktan sonra 6 saate kadar kullanılabilir",
-    "Nemlendirilmemiş ortamda yağ örtüsü olmadan 60 dakika içinde kullanın",
-    "Oositler veya embriyolar medyumda 30 dakikadan fazla kalmamalıdır",
-  ];
-
-  const groupedResearchPoints = researchPoints.reduce(
-    (resultArray, item, index) => {
-      const chunkIndex = Math.floor(index / 3);
-      if (!resultArray[chunkIndex]) {
-        resultArray[chunkIndex] = [];
-      }
-      resultArray[chunkIndex].push(item);
-      return resultArray;
-    },
-    []
-  );
 
   return (
     <div className="max-w-7xl mx-auto  py-8">
@@ -107,7 +53,7 @@ const GXDisplay = () => {
           className="flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
-          Geri Dön
+          {t("gxmon.back")}
         </button>
       </div>
       {/* Header Section */}
@@ -121,13 +67,10 @@ const GXDisplay = () => {
           />
           <div>
             <h1 className="text-4xl font-bold text-gray-900 text-left mb-4">
-              Değerlendirme Araçları
+              {t("gxmon.header.title")}
             </h1>
             <p className="text-lg  text-justify text-gray-600 max-w-3xl mx-auto">
-              Embriyoların istatistiksel canlılıklarına göre puanlanmasını
-              sağlamak amacıyla, çeşitli kriterler uygulayarak embriyoları
-              detaylı bir şekilde değerlendiren ve bu süreçte kullanıcıya
-              rehberlik eden gelişmiş karar destek araçları.
+              {t("gxmon.header.desc")}
             </p>
           </div>
         </div>
@@ -136,9 +79,7 @@ const GXDisplay = () => {
       {/* Storage Information */}
       <div className="bg-blue-50 p-4 rounded-lg flex items-center gap-3 mt-12">
         <Brain className="text-blue-600 w-6 h-6" />
-        <p className="text-blue-600 font-medium">
-          Embryo Analiz Yazılım Araçları
-        </p>
+        <p className="text-blue-600 font-medium">{t("gxmon.storageInfo")}</p>
       </div>
 
       {/* Products Grid */}
@@ -175,7 +116,7 @@ const GXDisplay = () => {
                   target="_blank"
                   className="px-4 py-2 bg-blue-200 text-gray-700 rounded-sm cursor-pointer "
                 >
-                  Daha Fazlası
+                  {t("gxmon.products.guidedAnnotation.linkText")}
                 </a>
               </div>
             </CardContent>
@@ -191,14 +132,7 @@ const GXDisplay = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-2">
                 iDAScore
               </h2>
-              <p className="mb-8">
-                iDAScore, gelişmekte olan embriyoların tamamen otomatik
-                analizlerini sağlamak için deep learning teknolojisinden
-                faydalanır. Artık bir hastanın embriyolarının her birinin
-                implantasyon olasılığına dayalı olarak objektif bir sıralamayı,
-                tek bir dokunuşla aynı anda elde edebilirsiniz. Embriyo
-                değerlendirmesinin geleceği burada başlıyor.
-              </p>
+              <p className="mb-8">{t("gxmon.idascore.desc")}</p>
             </div>
             <div className="hidden md:flex flex-shrink-0">
               <img
@@ -210,22 +144,13 @@ const GXDisplay = () => {
           </div>
           <div className=" text-gray-700 text-justify ">
             <h2 className="text-2xl font-bold text-left text-gray-900 mb-2">
-              Kısırlık tedavisinde yapay zeka
+              {t("gxmon.idascore.aiTitle")}
             </h2>
-            <p className="mb-4">
-              Tüp bebek (IVF) tedavisinde time-lapse teknolojisi, embriyo
-              kültürü ve değerlendirmesini iyileştiren bir platform sunmanın
-              yanı sıra embriyo gelişimi hakkında daha fazla bilgi edinilmesini
-              sağlar. Görüntü analizi için yapay zeka (AI) yöntemlerindeki
-              ilerlemeler, embriyo değerlendirmesini bir sonraki seviyeye
-              taşımamıza olanak tanımaktadır.
-            </p>
+            <p className="mb-4">{t("gxmon.idascore.aiDesc")}</p>
 
             <p className="">
-              <a className="italic">Nature Medicine</a> dergisinde yayımlanan
-              RCT çalışması, iDAScore'un standart manuel değerlendirmeye göre 10
-              kat daha hızlı olduğunu ve benzer klinik sonuçlar sağladığını
-              göstermektedir.
+              <a className="italic">Nature Medicine</a>{" "}
+              {t("gxmon.idascore.study")}
             </p>
           </div>
           <div className="md:hidden justify-center flex flex-shrink-0 w-full mt-8">
@@ -246,18 +171,7 @@ const GXDisplay = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-2">
                 Guided Annotation
               </h2>
-              <p className="mb-8">
-                EmbryoViewer yazılımında isteğe bağlı bir araç olarak sunulan bu
-                özellik, daha sade bir anotasyon iş akışı sağlamak üzere
-                tasarlanmıştır. Bu yazılım sayesinde, EmbryoScope+, EmbryoScope
-                8 ve EmbryoScope Flex cihazlarından elde edilen verilerle
-                seçilen embriyoların gelişimini inceleyebilir, notlar
-                ekleyebilir ve karşılaştırabilirsiniz. Üç farklı inkübatör tipi
-                için aynı EmbryoViewer yazılımı kullanılabilir. İnkübatörlerin
-                çalışma koşulları hasta verileriyle birlikte otomatik olarak
-                kaydedilir ve kalite güvencesi için EmbryoViewer yazılımında
-                görüntülenebilir.
-              </p>
+              <p className="mb-8">{t("gxmon.guidedAnnotation.desc")}</p>
             </div>
             <div className="hidden md:flex flex-shrink-0">
               <img
@@ -269,26 +183,11 @@ const GXDisplay = () => {
           </div>
           <div className=" text-gray-700 text-justify ">
             <h2 className="text-2xl text-left font-bold text-gray-900 mb-2">
-              Embriyoların tutarlı değerlendirilmesi
+              {t("gxmon.guidedAnnotation.evaluationTitle")}
             </h2>
-            <p className="mb-4">
-              EmbryoScope time-lapse sistemi tarafından elde edilen geniş
-              kapsamlı görüntü bilgileri sayesinde, her bir embriyonun
-              gelişiminin her aşaması ayrıntılı bir şekilde gözlemlenebilir.
-              Guided Annotation, embriyoların transfer ve/veya dondurma için en
-              uygun olanlarını değerlendirebilmeniz adına, tam olarak ihtiyaç
-              duyduğunuz miktarda ve türde embriyo gelişim bilgisi toplamanızı
-              sağlar.
-            </p>
+            <p className="mb-4">{t("gxmon.guidedAnnotation.evaluationDesc")}</p>
 
-            <p className="">
-              Akıllı yazılım araçları ve yapay zeka uygulamalarıyla Guided
-              Annotation, embriyo anotasyonunu hızlı, verimli ve hassas hale
-              getirir ve otomasyon seviyesini tamamen kontrol etmenizi sağlar.
-              Güven tahmini, yüksek güven seviyesine sahip anotasyonları
-              otomatikleştirmenize ve düşük güven seviyesine sahip
-              anotasyonların doğrulanmasını önceliklendirmenize olanak tanır.
-            </p>
+            <p className="">{t("gxmon.guidedAnnotation.smartTools")}</p>
           </div>
           <div className="md:hidden justify-center flex flex-shrink-0 w-full mt-8">
             <img
@@ -308,14 +207,7 @@ const GXDisplay = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-2">
                 KIDScore
               </h2>
-              <p className="mb-8">
-                KIDScore D3 & D5, seçim kriterlerinden ziyade kaçınma
-                kriterlerini kullanarak güvenli bir ilk model sunar ve kendi
-                modellerinizi tasarlayıp uygulamanıza olanak tanır. Guided
-                Annotation, KIDScore ile sinerji içinde çalışarak embriyoların
-                tutarlı bir şekilde değerlendirilme sürecini en iyi şekilde
-                destekler.
-              </p>
+              <p className="mb-8">{t("gxmon.kidscore.desc")}</p>
             </div>
             <div className="hidden md:flex flex-shrink-0">
               <img
@@ -327,18 +219,15 @@ const GXDisplay = () => {
           </div>
           <div className=" text-gray-700 text-justify ">
             <h2 className="text-2xl text-left font-bold text-gray-900 mb-2">
-              Guided Annotation ve KIDScore
+              {t("gxmon.kidscore.synergyTitle")}
             </h2>
-            <p className="mb-4">
-              Guided Annotation, KIDScore ile sinerji içinde çalışarak embriyo
-              değerlendirme sürecinizin tutarlılığını en iyi şekilde destekler.
-            </p>
+            <p className="mb-4">{t("gxmon.kidscore.synergyDesc")}</p>
 
-            <p className="mb-4">KIDScore'un avantajları:</p>
+            <p className="mb-4"> {t("gxmon.kidscore.advantagesTitle")}</p>
             <ul className="list-disc pl-5 space-y-2 mb-4">
-              <li>Karar verme sürecini geliştirir</li>
-              <li>Tutarlılığı artırır</li>
-              <li>Daha iyi sonuçlar elde etmenize yardımcı olur</li>
+              <li>{t("gxmon.kidscore.advantages.0")}</li>
+              <li>{t("gxmon.kidscore.advantages.1")}</li>
+              <li>{t("gxmon.kidscore.advantages.2")}</li>
             </ul>
           </div>
           <div className="md:hidden justify-center flex flex-shrink-0 w-full mt-8">

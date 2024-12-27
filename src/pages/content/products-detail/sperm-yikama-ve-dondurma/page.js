@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import ProductGrid from "../gridcomponent";
-
+import { useTranslation } from "react-i18next";
 const products = [
   {
     webpath: "/spermgrad-30-125",
@@ -24,11 +24,12 @@ const products = [
 ];
 
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <ProductGrid
       products={products}
-      title="SPERM YIKAMA VE DONDURMA"
-      subtitle="Vitrolife'ın Yenilikçi Kültür Medyum Çözümleri"
+      title={t("sperm.t1")}
+      subtitle={t("otherculture.t2")}
     />
   );
 }

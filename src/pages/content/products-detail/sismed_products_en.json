@@ -1,0 +1,1848 @@
+[
+  {
+    "name": "GX",
+    "id": "gx"
+  },
+  {
+    "name": "G-RINSE™",
+    "brand": "Vitrolife",
+    "image_url": "G-RINSE1.png",
+    "product_url": "http://www.sismed.com/g-rinse/",
+    "url": "http://www.sismed.com/g-rinse/",
+    "title": "G-RINSE™",
+    "subtitle": "Rinse Solution",
+    "description": "This solution is designed for rinsing all contacted materials and for washing the cervix before oocyte aspiration and embryo transfer.",
+    "specifications": {
+      "REF": "10069",
+      "Content": "1 x 125 mL",
+      "Purpose": "Solution for rinsing all contacted materials and washing the cervix. Not for culture use.",
+      "Definition": "Bicarbonate-buffered saline solution.",
+      "Application": "Ready for use after equilibration at +37°C.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Condition": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Gentamicin",
+      "Magnesium sulfate",
+      "Sodium bicarbonate",
+      "Water for injection (WFI)",
+      "Potassium chloride",
+      "Sodium pyruvate"
+    ]
+  },
+  {
+    "name": "G-IVF™ PLUS",
+    "brand": "Vitrolife",
+    "image_url": "givf1.png",
+    "product_url": "http://sismed.com/g-ivf-plus/",
+    "url": "http://sismed.com/g-ivf-plus/",
+    "title": "G-IVF™ PLUS",
+    "subtitle": "Fertilization Medium",
+    "description": "This medium is designed for the preparation of male and female gametes and in vitro fertilization. It contains carbohydrates and amino acids to support the function of male and female gametes.",
+    "specifications": {
+      "REF": "10136",
+      "Content": "1 x 30 mL",
+      "Purpose": "Medium for the preparation of male and female gametes and in vitro fertilization.",
+      "Definition": "Bicarbonate-buffered medium.",
+      "Application": "Can be used after equilibration at +37°C and %6 CO₂.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Condition": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Water for injection (WFI)",
+      "Alanine",
+      "Potassium chloride",
+      "Sodium pyruvate",
+      "Alanyl glutamine",
+      "Proline",
+      "Human serum albumin",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "EDTA",
+      "Asparagine",
+      "Serine",
+      "Gentamicin",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Fructose",
+      "Magnesium sulfate",
+      "Taurine",
+      "Sodium lactate",
+      "Glutamate",
+      "Sodium citrate",
+      "Glycine"
+    ]
+  },
+  {
+    "name": "G-1™ PLUS",
+    "brand": "Vitrolife",
+    "image_url": "G120PLUS1.png",
+    "product_url": "http://sismed.com/g-1-v5-plus/",
+    "url": "http://sismed.com/g-1-v5-plus/",
+    "title": "G-1™ v5 PLUS",
+    "subtitle": "Cleavage Medium",
+    "description": "This medium is developed to support embryos during the cleavage stage up to approximately the 8-cell stage. It contains carbohydrates, amino acids, and connectors to support early embryo development.",
+    "specifications": {
+      "REF": "10128",
+      "Content": "1 x 30 mL",
+      "Purpose": "Medium for culturing embryos from the pronuclear stage to day 2 or 3.",
+      "Definition": "Bicarbonate-buffered medium containing hyaluronan and human serum albumin.",
+      "Application": "Can be used after equilibration at +37°C and %6 CO₂.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Condition": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "EDTA",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Alanyl glutamine",
+      "Proline",
+      "Methionine",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Lipoic acid",
+      "Asparagine",
+      "Serine",
+      "Hyaluronan",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Human serum albumin",
+      "Magnesium sulfate",
+      "Taurine",
+      "Sodium pyruvate",
+      "Glutamate",
+      "Sodium lactate",
+      "Water for injection (WFI)",
+      "Glycine",
+      "Sodium citrate"
+    ]
+  },
+  {
+    "name": "EmbryoGlue®",
+    "id": "embryoglue",
+    "brand": "Vitrolife",
+    "image_url": "eglue1.png",
+    "product_url": "http://sismed.com/embryo-glue/",
+    "url": "http://sismed.com/embryo-glue/",
+    "title": "EmbryoGlue®",
+    "subtitle": "Specially designed medium to increase implantation rates for improving live birth outcomes.",
+    "description": "",
+    "specifications": {
+      "REF": "10085 / 10168",
+      "Content": "10 mL / 5×1.5 mL",
+      "Purpose": "For embryo transfer.",
+      "Definition": "Bicarbonate-buffered medium containing hyaluronan and recombinant human albumin.",
+      "Application": "Should be used after equilibration at +37°C and %6 CO₂.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Condition": "Dark, +2°C – +8°C"
+    },
+    "composition": []
+  },
+  {
+    "name": "G-MOPS™",
+    "brand": "Vitrolife",
+    "image_url": "G-MOPS1.png",
+    "product_url": "http://sismed.com/g-mops-2/",
+    "url": "http://sismed.com/g-mops-2/",
+    "title": "G-MOPS™",
+    "subtitle": "Handling Medium",
+    "description": "This medium is designed to support oocytes and embryos during handling under ambient atmospheric conditions. It contains carbohydrates and amino acids to support gametes and embryos, and a buffer to maintain correct pH under ambient air.",
+    "specifications": {
+      "REF": "10129",
+      "Content": "1 x 125 mL",
+      "Purpose": "Medium for transporting and handling oocytes and embryos under ambient conditions.",
+      "Definition": "MOPS-buffered medium.",
+      "Application": "Suitable for use after equilibration at +37°C under ambient conditions.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Condition": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "EDTA",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Alanyl glutamine",
+      "Proline",
+      "Lipoic acid",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Methionine",
+      "Asparagine",
+      "Serine",
+      "MOPS",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Sodium citrate",
+      "Magnesium sulfate",
+      "Taurine",
+      "Sodium pyruvate",
+      "Glutamate",
+      "Sodium lactate",
+      "Water for injection (WFI)",
+      "Glycine"
+    ]
+  },
+  {
+    "name": "G-GAMETE™",
+    "brand": "Vitrolife",
+    "image_url": "GGAMETE30202016_475X4921.png",
+    "product_url": "http://sismed.com/g-gamete/",
+    "url": "http://sismed.com/g-gamete/",
+    "title": "G-GAMETE™",
+    "subtitle": "Gamete Preparation Medium",
+    "description": "G-GAMETE™ is an incubatable medium designed to maintain pH stability in a CO₂-free environment.",
+    "specifications": {
+      "REF": "10126",
+      "Content": "1 x 30 mL",
+      "Intended Use": "For covering the medium in in vitro fertilization and micromanipulation procedures.",
+      "Description": "MOPS buffered medium.",
+      "Application": "Should be used after pre-equilibration at +37°C and 6% CO₂.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Sodium hydroxide",
+      "Alanine",
+      "Potassium chloride", 
+      "Gentamicin",
+      "Alanylal glutamine",
+      "Proline",
+      "Human serum albumin",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "MOPS",
+      "Asparagine",
+      "Serine",
+      "Sodium pyruvate",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Water for injection (WFI)",
+      "Magnesium sulfate",
+      "Taurine", 
+      "Sodium lactate",
+      "Glutamate",
+      "Glycine"
+    ]
+  },
+  {
+    "name": "HSA-solution™",
+    "brand": "Vitrolife",
+    "image_url": "HSA1.png",
+    "product_url": "http://sismed.com/hsa-solution/",
+    "url": "http://sismed.com/hsa-solution/",
+    "title": "HSA-solution™",
+    "subtitle": "Human Serum Albumin Solution",
+    "description": "HSA is an additive for all embryo culture media. It contains 100 mg/mL of Human Serum Albumin.",
+    "specifications": {
+      "REF": "10064",
+      "Content": "1 x 10 mL",
+      "Intended Use": "Human Serum Albumin (100 mg/mL) solution prepared for addition to gamete and embryo media.",
+      "Description": "Human Serum Albumin Solution (100 mg/mL).",
+      "Application": "To be added to gamete and embryo media.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Human serum albumin",
+      "Water for injection (WFI)"
+    ]
+  },
+  {
+    "name": "G-MOPS™ PLUS",
+    "brand": "Vitrolife",
+    "image_url": "G-MOPS20PLUS1.png",
+    "product_url": "http://sismed.com/g-mops-plus/",
+    "url": "http://sismed.com/g-mops-plus/",
+    "title": "G-MOPS™ PLUS",
+    "subtitle": "Transport Medium",
+    "description": "G-MOPS™ PLUS is designed to support the transport and handling of oocytes and embryos during processing.",
+    "specifications": {
+      "REF": "10130",
+      "Content": "1 x 125 mL",
+      "Intended Use": "Medium for transporting oocytes and embryos under atmospheric conditions.",
+      "Description": "MOPS buffered medium.",
+      "Application": "For use after pre-equilibration at +37°C under 6% CO₂ for oocyte aspiration and gamete/embryo handling.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "EDTA",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Alanylal glutamine",
+      "Proline",
+      "Lipoic acid",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Human serum albumin",
+      "Asparagine",
+      "Serine",
+      "Methionine",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Sodium citrate",
+      "Magnesium sulfate",
+      "Taurine",
+      "MOPS",
+      "Glutamate",
+      "Sodium lactate",
+      "Glycine",
+      "Water for injection (WFI)",
+      "Sodium pyruvate"
+    ]
+  },
+  {
+    "name": "G-TL™",
+    "brand": "Vitrolife",
+    "image_url": "G-TL_Product_page1.png",
+    "product_url": "http://sismed.com/g-tl-vitrolife/",
+    "url": "http://sismed.com/g-tl-vitrolife/",
+    "title": "G-TL™",
+    "subtitle": "One-Step Culture Medium",
+    "description": "G-TL™ is a continuous culture medium specifically designed for time-lapse imaging systems.",
+    "specifications": {
+      "REF": "10145",
+      "Content": "1 x 30 mL",
+      "Intended Use": "For embryo culture from fertilization to blastocyst stage.",
+      "Description": "Bicarbonate buffered medium containing hyaluronan and human serum albumin.",
+      "Application": "Should be used after pre-equilibration at +37°C and 6% CO₂.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Conditions": "Dark, +2°C – +8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Histidine",
+      "Pyridoxine",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Riboflavin",
+      "Alanylal glutamine",
+      "Proline",
+      "Methionine",
+      "Threonine",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Phenylalanine",
+      "Tyrosine",
+      "Asparagine",
+      "Serine",
+      "Hyaluronan",
+      "Valine",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Arginine",
+      "Water for injection (WFI)",
+      "Magnesium sulfate",
+      "Thiamine",
+      "Calcium pantothenate",
+      "Human serum albumin",
+      "Glutamate",
+      "Sodium lactate",
+      "Cysteine",
+      "Isoleucine",
+      "Glycine",
+      "Tryptophan",
+      "Leucine",
+      "Sodium pyruvate",
+      "Sodium citrate"
+    ]
+  },
+  {
+    "name": "G-2™ PLUS",
+    "brand": "Vitrolife",
+    "image_url": "G220PLUS1.png",
+    "product_url": "http://sismed.com/g-2-v5-plus/",
+    "url": "http://sismed.com/g-2-v5-plus/",
+    "title": "G-2™ v5 PLUS",
+    "subtitle": "Blastocyst Development Medium",
+    "description": "This medium is designed to support embryo development from the 8-cell stage to the blastocyst stage. It contains carbohydrates, amino acids, and integrators to support advanced embryo development.",
+    "specifications": {
+      "REF": "10132",
+      "Content": "1 x 30 mL",
+      "Intended Use": "For culturing embryos from day 3 to the blastocyst stage.",
+      "Description": "Bicarbonate buffered medium containing hyaluronan.",
+      "Application": "Can be used after pre-equilibration at +37°C and 6% CO₂.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Histidine",
+      "Pyridoxine",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Riboflavin",
+      "Alanylal glutamine",
+      "Proline",
+      "Methionine",
+      "Threonine",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Phenylalanine",
+      "Tyrosine",
+      "Asparagine",
+      "Serine",
+      "Hyaluronan",
+      "Valine",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Arginine",
+      "Water for injection (WFI)",
+      "Magnesium sulfate",
+      "Thiamine",
+      "Calcium pantothenate",
+      "Human serum albumin",
+      "Glutamate",
+      "Sodium lactate",
+      "Cysteine",
+      "Isoleucine",
+      "Glycine",
+      "Tryptophan",
+      "Leucine",
+      "Sodium pyruvate",
+      "Sodium citrate"
+    ]
+  },
+  {
+    "name": "G-IVF™",
+    "brand": "Vitrolife",
+    "image_url": "GIVF60202016_475X4921.png",
+    "product_url": "http://sismed.com/g-ivf/",
+    "url": "http://sismed.com/g-ivf/",
+    "title": "G-IVF™",
+    "subtitle": "Fertilization Medium",
+    "description": "This medium is designed for the preparation of male and female gametes and in vitro fertilization. It contains carbohydrates and amino acids to support the function of both male and female gametes.",
+    "specifications": {
+      "REF": "10135",
+      "Content": "1 x 60 mL",
+      "Intended Use": "For the preparation of male and female gametes and in vitro fertilization.",
+      "Description": "Bicarbonate buffered medium.",
+      "Application": "Can be used after pre-equilibration at +37°C and 6% CO₂, following the addition of G-MM™ or HSA-solution™.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "EDTA",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Alanylal glutamine",
+      "Proline",
+      "Fructose",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Sodium citrate",
+      "Asparagine",
+      "Serine",
+      "Sodium pyruvate",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Glycine",
+      "Magnesium sulfate",
+      "Taurine",
+      "Water for injection (WFI)",
+      "Glutamate",
+      "Sodium lactate"
+    ]
+  },
+  {
+    "name": "G-1™",
+    "brand": "Vitrolife",
+    "image_url": "G11.png",
+    "product_url": "http://sismed.com/g-1-v5/",
+    "url": "http://sismed.com/g-1-v5/",
+    "title": "G-1™ v5",
+    "subtitle": "Cleavage Medium",
+    "description": "This medium is designed to support embryos during the cleavage stage, up to the 8-cell stage. It contains carbohydrates, amino acids, and integrators to support early embryo development.",
+    "specifications": {
+      "REF": "10127",
+      "Content": "1 x 30 mL",
+      "Intended Use": "For culturing embryos from pronuclear stage to day 2 or 3.",
+      "Description": "Bicarbonate buffered medium containing hyaluronan.",
+      "Application": "Can be used after pre-equilibration at +37°C and 6% CO₂, following the addition of G-MM™ or HSA-solution™.",
+      "Shelf Life": "Minimum 5 weeks from shipment date. Please check the bottle label for the expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "EDTA",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Alanylal glutamine",
+      "Proline",
+      "Methionine",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Lipoic acid",
+      "Asparagine",
+      "Serine",
+      "Hyaluronan",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Sodium citrate",
+      "Magnesium sulfate",
+      "Taurine",
+      "Sodium pyruvate",
+      "Glutamate",
+      "Sodium lactate",
+      "Water for injection (WFI)",
+      "Glycine"
+    ]
+  },
+
+
+  {
+    "name": "G-2™",
+    "brand": "Vitrolife",
+    "image_url": "G21.png",
+    "product_url": "http://sismed.com/g-2-v5/",
+    "url": "http://sismed.com/g-2-v5/",
+    "title": "G-2™ v5",
+    "subtitle": "Blastocyst Development Medium",
+    "description": "This medium is developed to support embryos from the 8-cell stage to the blastocyst stage. It contains carbohydrates, amino acids, and conjugates to support advanced-stage embryo development.",
+    "specifications": {
+      "REF": "10131",
+      "Content": "1 x 30 mL",
+      "Intended Use": "Medium for culturing embryos from day 3 to blastocyst stage.",
+      "Description": "Bicarbonate buffered medium containing hyaluronan.",
+      "Application": "Can be used after pre-equilibration with +37°C and 6% CO₂ and addition of G-MM™ or HSA-solution™.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Histidine",
+      "Pyridoxine",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Riboflavin",
+      "Alanyl glutamine",
+      "Proline",
+      "Methionine",
+      "Threonine",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Phenylalanine",
+      "Tyrosine",
+      "Asparagine",
+      "Serine",
+      "Hyaluronan",
+      "Valine",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Arginine",
+      "Water for injection (WFI)",
+      "Magnesium sulfate",
+      "Thiamine",
+      "Calcium pantothenate",
+      "Isoleucine",
+      "Glutamate",
+      "Sodium lactate",
+      "Cystine",
+      "Sodium pyruvate",
+      "Glycine",
+      "Tryptophan",
+      "Leucine",
+      "Sodium citrate"
+    ]
+  },
+  {
+    "name": "G-MM™",
+    "brand": "Vitrolife",
+    "image_url": "G-MM1.png",
+    "product_url": "http://sismed.com/g-mm/",
+    "url": "http://sismed.com/g-mm/",
+    "title": "G-MM™",
+    "subtitle": "Recombinant Human Albumin Solution",
+    "description": "G-MM™ is a supplement for all embryo culture media. It is a citrated solution of recombinant human albumin. It is a defined supplement that has been cleared of viral and prion contaminations.",
+    "specifications": {
+      "REF": "10038",
+      "Content": "1 x 10 mL",
+      "Intended Use": "Recombinant human albumin solution (50 mg/mL) prepared for use in assisted reproductive procedures working with gametes and embryos. G-MM™ is used as a supplement to culture media in these procedures.",
+      "Description": "Recombinant Human Albumin Solution (50 mg/mL).",
+      "Application": "For addition to gamete and embryo media.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Recombinant human albumin",
+      "Water for injection (WFI)",
+      "Tri-sodium citrate"
+    ]
+  },
+  {
+    "name": "G-PGD™",
+    "brand": "Vitrolife",
+    "image_url": "G-PGD1.png",
+    "product_url": "http://sismed.com/g-pgd/",
+    "url": "http://sismed.com/g-pgd/",
+    "title": "G-PGD™",
+    "subtitle": "Embryo Biopsy Medium",
+    "description": "Medium developed for embryo biopsy.",
+    "specifications": {
+      "REF": "10074",
+      "Content": "1 x 10 mL",
+      "Intended Use": "Medium for embryo biopsy.",
+      "Description": "MOPS buffered medium without calcium and magnesium.",
+      "Application": "Can be used after pre-equilibration at +37°C under ambient atmosphere and addition of G-MM™ or HSA-solution™.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Alanine",
+      "Glutamate",
+      "Sodium pyruvate",
+      "Alanyl glutamine",
+      "MOPS",
+      "Water for injection (WFI)",
+      "Glucose",
+      "Glycine",
+      "Sodium lactate",
+      "Asparagine",
+      "Sodium chloride",
+      "Sodium dihydrogen phosphate",
+      "Aspartate",
+      "Potassium chloride",
+      "Serine",
+      "Gentamicin",
+      "Proline",
+      "Sodium bicarbonate"
+    ]
+  },
+  {
+    "name": "ASP™",
+    "brand": "Vitrolife",
+    "image_url": "ASP125.png",
+    "product_url": "",
+    "url": "",
+    "title": "ASP™",
+    "subtitle": "Oocyte Aspiration Medium",
+    "description": "ASP™ is developed for oocyte retrieval procedures. It is a modified HTF-medium, buffered with bicarbonate and HEPES to increase pH stability in room atmosphere. It contains pharmaceutical-grade heparin to reduce coagulation of follicular fluids and pharmaceutical-grade gentamicin as an antibiotic.",
+    "specifications": {
+      "REF": "10100",
+      "Content": "1 x 125 mL",
+      "Intended Use": "For oocyte collection and rinsing (follicle flushing).",
+      "Description": "Bicarbonate and HEPES buffered medium containing heparin and gentamicin.",
+      "Application": "Should be used after pre-equilibration with +37°C and 5% CO₂.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium lactate",
+      "Potassium dihydrogen phosphate",
+      "Heparin",
+      "Potassium chloride",
+      "EDTA",
+      "Glucose",
+      "Gentamicin",
+      "Magnesium sulfate",
+      "HEPES",
+      "Sodium bicarbonate",
+      "Sodium chloride",
+      "Water for injection (WFI)"
+    ]
+  },
+  {
+    "name": "IVF™",
+    "brand": "Vitrolife",
+    "image_url": "IVF3020.png",
+    "product_url": "",
+    "url": "",
+    "title": "IVF™-30",
+    "subtitle": "In Vitro Fertilization and Cleavage Medium",
+    "description": "IVF™-30 is developed for fertilization, embryo culture, and embryo transfer. It is formulated according to the low glucose, low phosphate principle for IVF-ET culture media. It can be used for culture in both large volumes and under oil droplets. It is a complete medium providing optimal conditions up to the 6-8 cell stage. IVF™-30 contains pharmaceutical-grade penicillin G but does not contain phenol red.",
+    "specifications": {
+      "REF": "10086",
+      "Content": "1 x 30 mL",
+      "Intended Use": "For in vitro fertilization, embryo culture, and transfer.",
+      "Description": "Bicarbonate buffered medium containing human serum albumin.",
+      "Application": "Should be used after pre-equilibration with +37°C and 5% CO₂.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "EDTA",
+      "Sodium pyruvate",
+      "Potassium chloride",
+      "Human serum albumin",
+      "Glucose",
+      "Penicillin G",
+      "Sodium bicarbonate",
+      "Magnesium sulfate",
+      "Potassium dihydrogen phosphate",
+      "Water for injection (WFI)",
+      "Sodium lactate"
+    ]
+  },
+  {
+    "name": "ICSI™",
+    "brand": "Vitrolife",
+    "image_url": "ICSI.png",
+    "product_url": "",
+    "url": "",
+    "title": "ICSI™",
+    "subtitle": "Sperm Capture Solution",
+    "description": "ICSI™ is a viscous transfer solution developed to facilitate sperm immobilization and injection into the oocyte. Contains pharmaceutical-grade polyvinylpyrrolidone (PVP). Does not contain antibiotics.",
+    "specifications": {
+      "REF": "10111",
+      "Content": "5 x 0.1 mL",
+      "Intended Use": "For sperm immobilization prior to intracytoplasmic sperm injection (ICSI).",
+      "Description": "Viscous sperm solution containing PVP and recombinant human albumin.",
+      "Application": "Should be used after pre-equilibration at +20 ± 5°C. Suitable for at least 10 procedures.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2–8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Potassium dihydrogen phosphate",
+      "EDTA",
+      "Sodium bicarbonate",
+      "Glucose",
+      "Sodium chloride",
+      "Recombinant human albumin",
+      "Sodium lactate",
+      "Polyvinylpyrrolidone (PVP)",
+      "Sodium pyruvate",
+      "Potassium chloride",
+      "Water for injection (WFI)"
+    ]
+  },
+  {
+    "name": "SPERMGRAD™ 30/125",
+    "brand": "Vitrolife",
+    "image_url": "spermgrad125.png",
+    "product_url": "",
+    "url": "",
+    "title": "SPERMGRAD™ 30/125",
+    "subtitle": "Sperm Preparation Medium",
+    "description": "This medium is developed to support sperm washing and purification. Contains carbohydrates to support sperm function.",
+    "specifications": {
+      "REF": "10102 / 10099",
+      "Content": "30 mL / 125 mL",
+      "Intended Use": "Medium for sperm separation using gradient method.",
+      "Description": "Bicarbonate and HEPES buffered medium containing silane-coated colloidal silica particles.",
+      "Application": "Suitable for use after addition of G-MM™ or HSA-solution™ supplemented G-IVF™ or SpermRinse™.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2–8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Potassium chloride",
+      "Glucose",
+      "Sodium pyruvate",
+      "HEPES",
+      "Water for injection (WFI)",
+      "Magnesium sulfate",
+      "Sodium bicarbonate",
+      "Monopotassium phosphate",
+      "Sodium chloride",
+      "Silane-coated colloidal silica particles",
+      "Sodium lactate"
+    ]
+  },
+  {
+    "name": "SPERMRINSE™",
+    "brand": "Vitrolife",
+    "image_url": "SpermRinse.png",
+    "product_url": "",
+    "url": "",
+    "title": "SPERM RINSE™-30",
+    "subtitle": "Sperm Preparation Medium",
+    "description": "Medium used for sperm preparation.",
+    "specifications": {
+      "REF": "10101",
+      "Content": "1 x 30 mL",
+      "Intended Use": "Medium for sperm preparation.",
+      "Description": "Bicarbonate and HEPES buffered medium containing human serum albumin.",
+      "Application": "Should be used after pre-equilibration with +37°C and 5% CO₂.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2–8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Potassium chloride",
+      "EDTA",
+      "Potassium dihydrogen phosphate",
+      "Gentamicin",
+      "Sodium bicarbonate",
+      "Glucose",
+      "Sodium chloride",
+      "HEPES",
+      "Sodium lactate",
+      "Human serum albumin",
+      "Sodium pyruvate",
+      "Magnesium sulfate",
+      "Water for injection (WFI)"
+    ]
+  },
+  {
+    "name": "SPERMFREEZE SOLUTION™",
+    "brand": "Vitrolife",
+    "image_url": "SpermFreeze_Solution.png",
+    "product_url": "",
+    "url": "",
+    "title": "SPERM FREEZE SOLUTION™",
+    "subtitle": "Sperm Cryopreservation Medium",
+    "description": "This medium is developed to maximize sperm survival and preserve DNA integrity and function after the freezing process.",
+    "specifications": {
+      "REF": "10137",
+      "Content": "4 x 10 mL",
+      "Intended Use": "Medium used for cryopreservation of human sperm.",
+      "Description": "MOPS buffered medium containing bicarbonate and human serum albumin.",
+      "Application": "Suitable for use after pre-equilibration under ambient atmosphere at +20°C ± 5°C.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2–8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Potassium chloride",
+      "Chemically defined lipid concentrate",
+      "Sodium hydroxide",
+      "Gentamicin",
+      "Sodium bicarbonate",
+      "Glucose",
+      "Sodium chloride",
+      "Glycerin",
+      "Sodium dihydrogen phosphate",
+      "Glycine",
+      "Sodium lactate",
+      "Human serum albumin",
+      "Sucrose",
+      "Magnesium chloride",
+      "Water for injection (WFI)"
+    ]
+  },
+  {
+    "name": "OVOIL™",
+    "id": "ovoil",
+    "brand": "Vitrolife",
+    "image_url": "ovoil-100.jpeg",
+    "product_url": "",
+    "url": "",
+    "title": "OVOIL™",
+    "subtitle": "Culture Oil",
+    "description": "Developed to cover the surface of media in culture tubes, wells, or droplets. It is a light paraffin oil of appropriate viscosity and high purity.",
+    "specifications": {
+      "REF": "10029",
+      "Content": "100 mL",
+      "Intended Use": "For covering media in in vitro fertilization and micromanipulation procedures.",
+      "Description": "Sterile light paraffin oil.",
+      "Application": "Should be used after pre-equilibration with +37°C and ambient atmosphere, 5% or 6% CO₂ according to intended use.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2-8°C"
+    },
+    "composition": [
+      "Light paraffin oil"
+    ]
+  },
+  {
+    "name": "HYASE™-10X",
+    "brand": "Vitrolife",
+    "image_url": "HYASE.png",
+    "product_url": "",
+    "url": "",
+    "title": "HYASE™-10X",
+    "subtitle": "Concentrated Hyaluronidase",
+    "description": "HYASE™-10X is concentrated 10-fold and is used after dilution for denudation of oocytes prior to ICSI procedures. HYASE™-10X contains hyaluronidase to assist in the removal of cumulus mass and corona using a proper borosilicate glass pipette during denudation. HYASE™-10X must be diluted in G-OOCYTE™ / supplemented G-MOPS™ / GAMETE™-30 before use. Both technical experience and hyaluronidase concentration are important factors in the procedure outcome. HYASE™-10X contains pharmaceutical-grade penicillin G.",
+    "specifications": {
+      "REF": "10017",
+      "Content": "5 x 1 mL",
+      "Intended Use": "For removal of cumulus cells.",
+      "Description": "Physiological saline buffer containing hyaluronidase and human serum albumin.",
+      "Application": "Can be used after 1:10 dilution. HYASE™-10X contains 800 IU/mL hyaluronidase.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2-7°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Potassium dihydrogen phosphate",
+      "Human serum albumin",
+      "Sodium chloride",
+      "Hyaluronidase",
+      "Disodium hydrogen phosphate",
+      "Magnesium sulfate",
+      "Water for injection (WFI)",
+      "Penicillin G",
+      "Potassium chloride"
+    ]
+  },
+  {
+    "name": "HANDLING PIPETTE™",
+    "brand": "",
+    "image_url": "transfer-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "DENUDATION PIPETTE™",
+    "subtitle": "Denudation Pipette",
+    "description": "",
+    "specifications": {
+      "Description": "Pre-assembled pipette with balloon featuring straight and smooth tip",
+      "Intended Use": "Used for removal of cumulus cell layers, transfer of oocytes, embryos and blastocysts, or fertilization check",
+      "Application": "Suitable for use with a pipette holder with silicone rubber balloon",
+      "Storage Conditions": "Store between +2 and +30°C"
+    }
+  },
+  {
+    "name": "TRANSFER PIPETTE™",
+    "brand": "",
+    "image_url": "transfer-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "TRANSFER PIPETTE™",
+    "subtitle": "Transfer Pipette",
+    "description": "",
+    "specifications": {
+      "Description": "Pipette with straight and smooth tip",
+      "Intended Use": "For transfer of oocytes, embryos and blastocysts, or checking fertilization",
+      "Application": "For use with a pipette holder and silicone bulb",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "ICSI PIPETTE™",
+    "brand": "",
+    "image_url": "icsi-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "ICSI PIPETTE™",
+    "subtitle": "ICSI Pipette",
+    "description": "",
+    "specifications": {
+      "Description": "Pipette with pointed tip, with or without spike",
+      "Intended Use": "For aspiration of single sperm and intracytoplasmic injection into oocyte",
+      "Application": "For use with micromanipulator",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "HOLDING PIPETTE™",
+    "brand": "",
+    "image_url": "holding-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "HOLDING PIPETTE™",
+    "subtitle": "Holding Pipette",
+    "description": "",
+    "specifications": {
+      "Description": "Pipette with polished and rounded tip",
+      "Intended Use": "For holding oocytes or embryos during ICSI or other micromanipulation procedures",
+      "Application": "For use with micromanipulator",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "PZD PIPETTE™",
+    "brand": "",
+    "image_url": "pzd-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "PZD PIPETTE™",
+    "subtitle": "PZD Pipette",
+    "description": "",
+    "specifications": {
+      "Description": "Pipette with sharp tip",
+      "Intended Use": "For creating a small slit in the zona pellucida for assisted hatching or embryo biopsy",
+      "Application": "For use with micromanipulator",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "BIOPSY PIPETTE™",
+    "brand": "",
+    "image_url": "biyopsi-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "BIOPSY PIPETTE™",
+    "subtitle": "Biopsy Pipette",
+    "description": "",
+    "specifications": {
+      "Description": "Pipette with straight and smooth tip",
+      "Intended Use": "For embryo biopsy",
+      "Application": "For use with micromanipulator",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "MICRO-DROPLET DISH",
+    "brand": "",
+    "image_url": "micro-droplet.png",
+    "product_url": "",
+    "url": "",
+    "title": "MICRO-DROPLET DISH",
+    "subtitle": "Micro-Droplet Culture Dish",
+    "description": "Our culture dishes, specially designed and approved for IVF, provide a reliable environment for your procedures. Ready to use. Stored at room temperature. Features a dedicated area for patient identification separate from the working area. Surface areas are designed specifically for embryo culture. Well edges are sloped to facilitate embryo imaging. The base surface is in contact with the heating plate, ensuring uniform temperature distribution. Consists of 12 micro-wells optimized for 25-35 µL droplets. Alphanumeric identification facilitates embryo identification both under and outside the microscope.",
+    "specifications": {
+      "Content": "12 micro wells",
+      "Intended Use": "Culture dish for IVF procedures",
+      "Description": "Micro-droplet culture dish",
+      "Application": "Optimized for 25-35 µL droplets",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "5-WELL DISH",
+    "brand": "",
+    "image_url": "5well.png",
+    "product_url": "",
+    "url": "",
+    "title": "5-WELL DISH",
+    "subtitle": "5-Well Culture Dish",
+    "description": "Our culture dishes, specially designed and approved for IVF, provide a reliable environment for your procedures. Ready to use. Stored at room temperature. Features a dedicated area for patient identification separate from the working area. Surface areas are designed specifically for embryo culture. Well edges are sloped to facilitate embryo imaging. The base surface is in contact with the heating plate, ensuring uniform temperature distribution. Consists of 5 wells.",
+    "specifications": {
+      "Content": "5 wells",
+      "Intended Use": "Culture dish for IVF procedures",
+      "Description": "5-well culture dish",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "CENTRE-WELL DISH",
+    "brand": "",
+    "image_url": "centre-well.png",
+    "product_url": "",
+    "url": "",
+    "title": "CENTRE-WELL DISH",
+    "subtitle": "Center-Well Culture Dish",
+    "description": "Our culture dishes, specially designed and approved for IVF, provide a reliable environment for your procedures. Ready to use. Stored at room temperature. Features a dedicated area for patient identification separate from the working area. Surface areas are designed specifically for embryo culture. Well edges are sloped to facilitate embryo imaging. The base surface is in contact with the heating plate, ensuring uniform temperature distribution. Offers multi-purpose functionality for fertilization, cryo-procedures, embryo culture, and embryo transfer. The oval center well facilitates embryo placement and access.",
+    "specifications": {
+      "Content": "Oval center well",
+      "Intended Use": "Multi-purpose culture dish for fertilization, cryo-procedures, embryo culture, and embryo transfer",
+      "Description": "Center-well culture dish",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "OCTAX LASER",
+    "brand": "OCTAX",
+    "image_url": "octax-productimg.png",
+    "product_url": "",
+    "url": "",
+    "title": "OCTAX LASER & IMAGING SYSTEM",
+    "subtitle": "",
+    "description": "Octax is more than just a laser; it is a multi-purpose platform for digital imaging, image analysis, and advanced applications in assisted reproduction. Modular and extremely user-friendly, Octax laser and imaging systems combine advanced technology hardware and software tools with enhanced functionality to meet the needs of modern IVF clinics. Static Octax LaserShot and Dynamic Octax NaviLase provide secure operation with excellent image quality. Both lasers require no calibration and no pilot laser light. Can be used for all laser applications in IVF procedures: embryo hatching, trophectoderm, blastomere and polar body biopsy, blastocyst collapse, sperm immobilization, sperm viability testing.",
+    "specifications": {},
+    "products": [
+      {
+        "name": "Dynamic Laser - Octax NaviLase",
+        "title": "Dynamic Laser - Octax NaviLase",
+        "image_url": "octax-productimg.png",
+        "description": "With NaviLase, the embryo remains stationary while the laser is directed to the selected target area. You can make multiple shots along a straight or curved line. Curved line multiple shots, straight line multiple shots, double or triple shot cutting."
+      },
+      {
+        "name": "Static Laser - Octax LaserShot",
+        "title": "Static Laser - Octax LaserShot",
+        "image_url": "octax-productimg.png",
+        "description": "With Octax LaserShot, the laser target area is fixed and the embryo is aligned relative to the laser target area."
+      }
+    ]
+  },
+  {
+    "name": "EMBRYOSCOPE +",
+    "brand": "",
+    "image_url": "embryoscope+.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE+ TIME-LAPSE SYSTEM",
+    "subtitle": "",
+    "description": "EmbryoScope+ provides a safe and continuous development environment for embryos, enabling the selection of embryos with the highest pregnancy potential. This technology allows real-time recording and visualization of embryo cell division, making it possible to monitor all developmental stages from the beginning of life.",
+    "specifications": {
+      "Intended Use": "To provide an environment with controlled temperature and CO₂ levels at or near body temperature for the development of eggs or embryos. EmbryoScope+ Time-lapse incubator use is limited to 120 hours from post-fertilization to day five of development."
+    }
+  },
+  {
+    "name": "EMBRYOSCOPE 8",
+    "brand": "",
+    "image_url": "embryoscope8.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE 8",
+    "subtitle": "",
+    "description": "EmbryoScope 8 provides a safe and continuous development environment for embryos, enabling the selection of embryos with the highest pregnancy potential.",
+    "specifications": {
+      "Intended Use": "To provide an environment with controlled temperature and CO₂ levels for the development of eggs or embryos. EmbryoScope 8 incubator use is limited to 120 hours from post-fertilization to day five of development."
+    }
+  },
+  {
+    "name": "EMBRYOSCOPE FLEX",
+    "brand": "",
+    "image_url": "embryoscope-flex.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE FLEX",
+    "subtitle": "",
+    "description": "EmbryoScope Flex provides a safe and continuous development environment for embryos, enabling the selection of embryos with the highest pregnancy potential.",
+    "specifications": {
+      "Intended Use": "To provide an environment with controlled temperature and CO₂ levels for the development of eggs or embryos. EmbryoScope Flex incubator use is limited to 120 hours from post-fertilization to day five of development."
+    }
+  },
+  {
+    "name": "EMBRYOSCOPE TIME-LAPSE SYSTEM",
+    "brand": "Vitrolife",
+    "image_url": "EmbryoScope-system.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE TIME-LAPSE SYSTEM",
+    "subtitle": "",
+    "description": "EmbryoScope provides a safe and continuous development environment for embryos, enabling detailed embryo development monitoring for selecting embryos with the highest pregnancy potential. This technology allows real-time recording and visualization of embryo cell division, monitoring all developmental stages from the beginning of life. The recordings enable detailed retrospective analysis of development at any point. Since embryos are not removed from the device during imaging, a safe environment is provided where they won't be affected by external conditions. The triple gas incubator ensures rapid and accurate regulation of CO2 and O2 concentrations with minimal gas consumption. Small incubation chambers minimize changes in culture conditions when adding or removing patients. EmbryoScope can simultaneously capture time-lapse videos from 6 patients with 12 embryos each.",
+    "specifications": {
+      "Intended Use": "To provide an environment with controlled temperature and CO2 levels at or near body temperature for the development of eggs or embryos. EmbryoScope time-lapse incubator use is limited to five days (120 hours) from post-fertilization to day five of development."
+    }
+  },
+  {
+    "name": "RAPIDWARM™ CLEAVE",
+    "brand": "Vitrolife",
+    "image_url": "rapidwarm-cleave.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPID WARM™ CLEAVE",
+    "subtitle": "Cleavage Stage Vitrification Warming Medium",
+    "description": "This medium is designed to support vitrified cleavage stage embryos during warming and maintain their viability.",
+    "specifications": {
+      "REF": "10118",
+      "Content": "4 x 10 mL",
+      "Intended Use": "Warming medium for vitrified cleavage stage embryos.",
+      "Description": "MOPS buffered medium.",
+      "Application": "Suitable for use after pre-equilibration at +37°C.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2–8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Glycine",
+      "Sodium lactate",
+      "Alanine",
+      "Sodium chloride",
+      "Water for injection (WFI)",
+      "Alanyl glutamine",
+      "Potassium chloride",
+      "Sucrose",
+      "Glucose",
+      "Proline",
+      "Gentamicin",
+      "Asparagine",
+      "Sodium dihydrogen phosphate",
+      "Human serum albumin",
+      "Aspartate",
+      "Serine",
+      "Hyaluronan",
+      "Magnesium sulfate",
+      "Sodium bicarbonate",
+      "Sodium hydroxide",
+      "Glutamate",
+      "Taurine",
+      "Sodium pyruvate",
+      "MOPS"
+    ]
+  },
+  {
+    "name": "RAPIDWARM™ OMNI",
+    "brand": "Vitrolife",
+    "image_url": "rapidwarm-omni.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPIDWARM™ OMNI",
+    "subtitle": "Vitrification Warming Medium",
+    "description": "This medium is designed to support vitrified embryos from oocyte to blastocyst stage during warming and maintain their viability.",
+    "specifications": {
+      "REF": "10124",
+      "Content": "4 x 5 mL",
+      "Intended Use": "Warming medium for vitrified oocyte-blastocyst stage embryos.",
+      "Description": "MOPS buffered medium containing cryoprotectants and human serum albumin.",
+      "Application": "Suitable for use after pre-equilibration at +37°C under ambient atmosphere.",
+      "Storage Conditions": "Dark, +2°C – +8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Gentamicin",
+      "Alanine",
+      "Potassium chloride",
+      "Hyaluronan",
+      "Alanyl glutamine",
+      "Proline",
+      "Human serum albumin",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Serine",
+      "Asparagine",
+      "Sucrose",
+      "MOPS",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Sodium hydroxide",
+      "Magnesium sulfate",
+      "Taurine",
+      "Sodium pyruvate",
+      "Glutamate",
+      "Sodium lactate",
+      "Glycine",
+      "Water for injection (WFI)"
+    ]
+  },
+  {
+    "name": "RAPIDVIT™ OMNI",
+    "brand": "Vitrolife",
+    "image_url": "rapidvit-omni.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPIDVIT™ OMNI",
+    "subtitle": "Vitrification Medium",
+    "description": "This medium is designed to support embryos from oocyte to blastocyst stage during vitrification and maintain their viability.",
+    "specifications": {
+      "REF": "10123",
+      "Content": "3 x 5 mL",
+      "Intended Use": "Vitrification medium for oocyte-blastocyst stage.",
+      "Description": "MOPS buffered medium containing cryoprotectants and human serum albumin.",
+      "Application": "Suitable for use after pre-equilibration at +37°C under ambient atmosphere.",
+      "Storage Conditions": "Dark, +2°C – +8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Ethylene glycol",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Alanyl glutamine",
+      "Proline",
+      "Hyaluronan",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Human serum albumin",
+      "Asparagine",
+      "Sucrose",
+      "Propanediol",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Serine",
+      "Magnesium sulfate",
+      "Taurine",
+      "MOPS",
+      "Glutamate",
+      "Sodium lactate",
+      "Sodium hydroxide",
+      "Glycine",
+      "Water for injection (WFI)",
+      "Sodium pyruvate"
+    ]
+  },
+  {
+    "name": "RAPIDVIT™ CLEAVE",
+    "brand": "Vitrolife",
+    "image_url": "rapidvit-cleave.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPIDVIT™ CLEAVE",
+    "subtitle": "Cleavage Stage Vitrification Medium",
+    "description": "This medium is designed to support cleavage stage embryos during vitrification and maintain their viability.",
+    "specifications": {
+      "REF": "10117",
+      "Content": "3 x 10 mL",
+      "Intended Use": "Vitrification medium for cleavage stage embryos.",
+      "Description": "MOPS buffered medium.",
+      "Application": "Suitable for use after pre-equilibration at +37°C.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2–8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Sodium pyruvate",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Alanyl glutamine",
+      "Proline",
+      "Ethylene glycol",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Ficoll",
+      "Asparagine",
+      "Serine",
+      "Propanediol",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Human serum albumin",
+      "Magnesium sulfate",
+      "Taurine",
+      "Hyaluronan",
+      "Glutamate",
+      "Sodium lactate",
+      "Sodium hydroxide",
+      "MOPS",
+      "Water for injection (WFI)",
+      "Sucrose",
+      "Glycine"
+    ]
+  },
+  {
+    "name": "RAPIDVIT™ BLAST",
+    "brand": "Vitrolife",
+    "image_url": "rapidvit-blast.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPIDVIT™ BLAST",
+    "subtitle": "Blastocyst Vitrification Medium",
+    "description": "This medium is designed to support blastocyst stage embryos during vitrification and maintain their viability.",
+    "specifications": {
+      "REF": "10119",
+      "Content": "3 x 10 mL",
+      "Intended Use": "Vitrification medium for blastocyst stage embryos",
+      "Description": "MOPS buffered medium",
+      "Application": "Suitable for use after pre-equilibration at +37°C.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2–8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Sodium chloride",
+      "Sucrose",
+      "Alanine",
+      "Potassium chloride",
+      "Gentamicin",
+      "Alanyl glutamine",
+      "Proline",
+      "Ethylene glycol",
+      "Glucose",
+      "Sodium dihydrogen phosphate",
+      "Ficoll",
+      "Asparagine",
+      "Serine",
+      "Propanediol",
+      "Aspartate",
+      "Sodium bicarbonate",
+      "Human serum albumin",
+      "Magnesium sulfate",
+      "Taurine",
+      "Hyaluronan",
+      "Glutamate",
+      "Sodium lactate",
+      "Sodium hydroxide",
+      "MOPS",
+      "Water for injection (WFI)",
+      "Sodium pyruvate",
+      "Glycine"
+    ]
+  },
+  {
+    "name": "RAPIDWARM BLAST™",
+    "brand": "Vitrolife",
+    "image_url": "rapidwarm-blast.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPID WARM BLAST™",
+    "subtitle": "Blastocyst Vitrification Warming Medium",
+    "description": "This medium is designed to support vitrified blastocyst stage embryos during warming and maintain their viability.",
+    "specifications": {
+      "REF": "10120",
+      "Content": "3 x 10 mL",
+      "Intended Use": "Warming medium for vitrified blastocyst stage embryos.",
+      "Description": "MOPS buffered medium.",
+      "Application": "Suitable for use after pre-equilibration at +37°C.",
+      "Shelf Life": "Minimum 5 weeks from date of dispatch. Please refer to the bottle label for expiration date.",
+      "Storage Conditions": "Dark, +2–8°C"
+    },
+    "composition": [
+      "Calcium chloride",
+      "Glycine",
+      "Sodium lactate",
+      "Alanine",
+      "Sodium chloride",
+      "Water for injection (WFI)",
+      "Alanyl glutamine",
+      "Potassium chloride",
+      "Sucrose",
+      "Glucose",
+      "Proline",
+      "Gentamicin",
+      "Asparagine",
+      "Sodium dihydrogen phosphate",
+      "Human serum albumin",
+      "Aspartate",
+      "Serine",
+      "Hyaluronan",
+      "Magnesium sulfate",
+      "Sodium bicarbonate",
+      "Sodium hydroxide",
+      "Glutamate",
+      "Taurine",
+      "Sodium pyruvate"
+    ]
+  },
+  {
+    "name": "CULTURE DISH 40 MM",
+    "brand": "",
+    "image_url": "culture-dish.png",
+    "product_url": "",
+    "url": "",
+    "title": "CULTURE DISH 40 MM",
+    "subtitle": "40 mm Culture Dish",
+    "description": "Our culture dishes, specially designed and approved for IVF, provide a reliable environment for your procedures. Ready to use. Stored at room temperature. Features a dedicated area for patient identification separate from the working area. Surface areas are designed specifically for embryo culture. Well edges are sloped to facilitate embryo imaging. The base surface is in contact with the heating plate, ensuring uniform temperature distribution. Designed for embryo culture.",
+    "specifications": {
+      "Content": "40 mm",
+      "Intended Use": "Culture dish for embryo culture",
+      "Description": "40 mm culture dish",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "CULTURE DISH 60 MM",
+    "brand": "",
+    "image_url": "culture-dish60.png",
+    "product_url": "",
+    "url": "",
+    "title": "CULTURE DISH 60 MM",
+    "subtitle": "60 mm Culture Dish",
+    "description": "Our culture dishes, specially designed and approved for IVF, provide a reliable environment for your procedures. Ready to use. Stored at room temperature. Features a dedicated area for patient identification separate from the working area. Surface areas are designed specifically for embryo culture. Well edges are sloped to facilitate embryo imaging. The base surface is in contact with the heating plate, ensuring uniform temperature distribution. Can be used for oocyte collection, fertilization, and embryo culture.",
+    "specifications": {
+      "Content": "60 mm",
+      "Intended Use": "Culture dish for oocyte collection, fertilization, and embryo culture",
+      "Description": "60 mm culture dish",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "CULTURE DISH 90 MM",
+    "brand": "",
+    "image_url": "collection-dish.png",
+    "product_url": "",
+    "url": "",
+    "title": "CULTURE DISH 90 MM",
+    "subtitle": "90 mm Culture Dish",
+    "description": "Our culture dishes, specially designed and approved for IVF, provide a reliable environment for your procedures. Ready to use. Stored at room temperature. Surface areas are designed specifically for embryo culture. Well edges are sloped to facilitate embryo imaging. The base surface is in contact with the heating plate, ensuring uniform temperature distribution. Designed for oocyte collection.",
+    "specifications": {
+      "Content": "90 mm",
+      "Intended Use": "Culture dish for oocyte collection",
+      "Description": "90 mm culture dish",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "CENTRIFUGE TUBES",
+    "brand": "",
+    "image_url": "centrifuge.png",
+    "product_url": "",
+    "url": "",
+    "title": "CENTRIFUGE TUBE",
+    "subtitle": "Centrifuge Tube",
+    "description": "Our centrifuge tube, specially designed and approved for IVF, provides a reliable environment for your procedures. Ready to use. Stored at room temperature. 15 mL centrifuge tube with screw cap. MEA tested.",
+    "specifications": {
+      "Content": "15 mL tube with screw cap",
+      "Intended Use": "Centrifuge tube for IVF procedures",
+      "Description": "Centrifuge tube",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "SEROLOGICAL PIPETTES",
+    "brand": "",
+    "image_url": "Serological-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "SEROLOGICAL PIPETTES",
+    "subtitle": "Serological Pipettes",
+    "description": "Our certified and quality-tested serological pipettes provide a safe environment for gametes and embryos. Features wide application range. Available in 1 mL, 2 mL, 5 mL, and 10 mL variants.",
+    "specifications": {
+      "Content": "1 mL, 2 mL, 5 mL, and 10 mL options",
+      "Intended Use": "Serological pipettes for IVF procedures",
+      "Description": "Serological pipette",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "PASTEUR PIPETTES",
+    "brand": "",
+    "image_url": "Pasteur-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "PASTEUR PIPETTES",
+    "subtitle": "Pasteur Pipettes",
+    "description": "Our certified and quality-tested Pasteur pipettes provide a safe environment for gametes and embryos. Available in 1 mL and 3 mL variants.",
+    "specifications": {
+      "Content": "1 mL and 3 mL options",
+      "Intended Use": "Pasteur pipettes for IVF procedures",
+      "Description": "Pasteur pipette",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "OOCYTE COLLECTION TUBE",
+    "brand": "",
+    "image_url": "oocyte-collection.png",
+    "product_url": "",
+    "url": "",
+    "title": "OOCYTE COLLECTION TUBE",
+    "subtitle": "Oocyte Collection Tube",
+    "description": "14 mL oocyte collection tube with two-position cap for air flow. MEA tested.",
+    "specifications": {
+      "Content": "14 mL tube with two-position cap",
+      "Intended Use": "Tube for oocyte collection",
+      "Description": "Oocyte collection tube",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "name": "SINGLE LUMEN™",
+    "brand": "",
+    "image_url": "single-lumen.png",
+    "product_url": "",
+    "url": "",
+    "title": "SINGLE LUMEN™",
+    "subtitle": "Single Lumen Oocyte Retrieval Needle",
+    "description": "Designed to optimize aspiration time, maximize control, and enhance patient comfort.",
+    "specifications": {
+      "Description": "Single lumen oocyte retrieval needle",
+      "Intended Use": "For aspiration of oocytes from ovarian follicles",
+      "Application": "For use with appropriate aspiration pump, collection tube, and aspiration pump tubing",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "DOUBLE LUMEN™",
+    "brand": "",
+    "image_url": "double-lumen.png",
+    "product_url": "",
+    "url": "",
+    "title": "DOUBLE LUMEN™",
+    "subtitle": "Double Lumen Oocyte Retrieval Needle",
+    "description": "Designed to optimize aspiration time, maximize control, and enhance patient comfort.",
+    "specifications": {
+      "Description": "Double lumen oocyte retrieval needle",
+      "Intended Use": "Designed for flushing and aspiration of oocytes from ovarian follicles",
+      "Application": "For use with appropriate aspiration pump, flushing syringe, collection tube, and aspiration pump tubing",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "SENSE™",
+    "brand": "",
+    "image_url": "SENSE-2.png",
+    "product_url": "",
+    "url": "",
+    "title": "SENSE™",
+    "subtitle": "Oocyte Retrieval Needle",
+    "description": "Designed to optimize aspiration time, maximize control, and enhance patient comfort.",
+    "specifications": {
+      "Description": "Oocyte retrieval needle",
+      "Intended Use": "Designed for flushing and/or aspiration of oocytes from ovarian follicles",
+      "Application": "For use with appropriate aspiration pump, collection tube, and aspiration pump tubing",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "VACUUM PUMP TUBING",
+    "brand": "",
+    "image_url": "aksesuar.png",
+    "product_url": "",
+    "url": "",
+    "title": "VACUUM PUMP TUBING",
+    "subtitle": "Aspiration Pump Tubing",
+    "description": "Aspiration Pump Tubing is designed for connection between the needle and aspiration pump during oocyte collection and serves as an extension.",
+    "specifications": {
+      "Features": "All aspiration pump tubing comes with a male luer lock connection at one end designed for needle connection.",
+      "Connection Options": [
+        "Male luer lock connection",
+        "Female luer lock connection",
+        "Open end"
+      ]
+    }
+  },
+  {
+    "name": "ULTRASOUND TRANSMISSION GEL",
+    "brand": "",
+    "image_url": "gxmedia.png",
+    "product_url": "",
+    "url": "",
+    "title": "ULTRASOUND TRANSMISSION GEL",
+    "subtitle": "Ultrasound Gel",
+    "description": "Vitrolife gel is the perfect combination of safety, performance, and comfort.",
+    "specifications": {
+      "Sterility": "Sterile",
+      "Package Content": "50 pieces of 20g",
+      "Packaging": "In a convenient storage box for quick use"
+    }
+  },
+  {
+    "name": "TRANSDUCER COVER",
+    "brand": "",
+    "image_url": "imaging-system-culture.jpeg",
+    "product_url": "",
+    "url": "",
+    "title": "TRANSDUCER COVER",
+    "subtitle": "Transducer Cover",
+    "description": "Transducer covers are used for sterilization and protection of the ultrasound probe.",
+    "specifications": {
+      "Features": [
+        "Individually wrapped",
+        "Latex-free",
+        "Made from polyethylene",
+        "Specially designed along their lengths to prevent accidental breakage"
+      ]
+    }
+  },
+  {
+    "name": "RAPID-I™ Vitrification System",
+    "brand": "Vitrolife",
+    "image_url": "the-rapid-i-vitrification-system.jpg",
+    "product_url": "",
+    "url": "",
+    "title": "RAPID-I™ Vitrification System",
+    "subtitle": "Closed system designed for time-saving, easy, and successful vitrification",
+    "description": "The Rapid-I™ Vitrification System provides a safe and effective solution for embryo vitrification. Its closed system design reduces contamination risk and enhances embryo safety.",
+    "specifications": {},
+    "accessories": [
+      {
+        "name": "SmartBox™",
+        "ref": "14408",
+        "description": "Liquid nitrogen container used with Rapid-I™"
+      },
+      {
+        "name": "Rapid-I™ Sealer",
+        "ref": "14414",
+        "description": "Ultrasonic sealer used to seal Rapid-I Kits"
+      },
+      {
+        "name": "Rapid-I™ Kit",
+        "ref": "14406",
+        "description": "Vitrification rod"
+      },
+      {
+        "name": "Rapid-I™ Cutter",
+        "ref": "14413",
+        "description": "Scissors used to open vitrification rod"
+      },
+      {
+        "name": "Rapid-I™ Forceps",
+        "ref": "14410",
+        "description": "Holding forceps used to retrieve Rapid-I rod after opening"
+      }
+    ]
+  },
+  {
+    "name": "ICSI DISH",
+    "brand": "",
+    "image_url": "icsi-kap.png",
+    "product_url": "",
+    "url": "",
+    "title": "ICSI DISH",
+    "subtitle": "ICSI Culture Dish",
+    "description": "Our culture dishes, specially designed and approved for IVF, provide a reliable environment for your procedures. Ready to use. Stored at room temperature. Features a dedicated area for patient identification separate from the working area. Surface areas are designed specifically for embryo culture. The base surface is in contact with the heating plate, ensuring uniform temperature distribution. Specially designed for use in ICSI procedures.",
+    "specifications": {
+      "Intended Use": "Special culture dish for ICSI procedures",
+      "Description": "ICSI culture dish",
+      "Storage Conditions": "Room temperature"
+    }
+  },
+  {
+    "id": "evaluation",
+    "name": "eva",
+    "brand": "",
+    "image_url": "degerlendirme.png",
+    "product_url": "",
+    "url": "",
+    "title": "EVALUATION TOOLS",
+    "subtitle": "",
+    "description": "Traditional embryo evaluation provides limited information about embryo development. Using time-lapse analysis, you can analyze high-quality videos of embryo development and easily record the information you need about each embryo to streamline evaluation. You can detect previously unseen embryo development patterns and events associated with clinical outcomes.",
+    "specifications": {},
+    "products": [
+      {
+        "name": "EmbryoViewer Software",
+        "title": "EmbryoViewer Software",
+        "description": "Software used for displaying, comparing, storing, and transferring images generated by the EmbryoScope Time-lapse incubator. With EmbryoViewer software, you can examine, annotate, and compare the development of selected embryos from the collected data. Incubator operating conditions are automatically stored with patient data and can be monitored in EmbryoViewer software for quality assurance."
+      },
+      {
+        "name": "KIDScore™ Decision Support Tool",
+        "title": "KIDScore™ Decision Support Tool",
+        "description": "KIDScore™ decision support tools assign an objective score to each embryo. Scores reflect implantation potential and provide consistent and effective support for embryo assessment."
+      },
+      {
+        "name": "KIDScore D3",
+        "title": "KIDScore D3",
+        "description": "Used when day 3 embryo transfer is preferred and when choosing between embryos that have reached the expected stage on day 3. KIDScore D3 assigns a morphokinetic score of 1-5 to your embryos. The score is a relative measure of the embryo's implantation potential."
+      },
+      {
+        "name": "KIDScore D5",
+        "title": "KIDScore D5",
+        "description": "Used when more quality blastocysts are available than planned for transfer and when deciding which embryos are suitable for biopsy or diagnosis. KIDScore D5 calculates a score between 1-9.9 for each embryo, considering the embryo's morphology and morphokinetic characteristics. The score reflects statistical implantation chance based on development information during the five-day culture period."
+      },
+      {
+        "name": "Guided Annotation",
+        "title": "Guided Annotation",
+        "description": "AI-based Guided Annotation enables quick, precise, and consistent analysis of embryo development based on your information requirements before embryo selection. It guides you through likely timings of developmental events such as cleavage timing, morphology assessment, and pronuclear checking."
+      }
+    ]
+  },
+  {
+    "name": "IMAGING SYSTEM CULTURE DISHES",
+    "brand": "",
+    "image_url": "imaging-system-culture.jpeg",
+    "product_url": "",
+    "url": "",
+    "title": "IMAGING SYSTEM CULTURE DISHES",
+    "subtitle": "",
+    "description": "Culture dishes specially designed for EmbryoScope and other time-lapse systems. These dishes optimize embryo culture and imaging processes.",
+    "specifications": {},
+    "products": [
+      {
+        "name": "pH Validation Dish",
+        "ref": "16452",
+        "image_url": "ph-validation-dish.jpeg",
+        "description": "Non-sterile dish with silicone lid used for equilibrating medium samples before performing pH measurements in EmbryoScope+, EmbryoScope 8, or CulturePro.",
+        "specifications": {
+          "Medium Usage": "2 x 180 µL medium, 1.6 mL oil overlay"
+        }
+      },
+      {
+        "name": "EmbryoSlide+ ic8 Dish",
+        "ref": "16454",
+        "size": "Dish Size (mm): 48 × 68",
+        "wells": "Number of Culture Wells: 8",
+        "image_url": "embryoslide-plus-ic8.jpeg",
+        "description": "Used for embryo culture in EmbryoScope+ and EmbryoScope 8 devices. Each EmbryoSlide+ ic8 dish contains 8 separate culture wells.",
+        "specifications": {
+          "Medium Usage": "210 µL medium, 1.2 mL oil overlay"
+        },
+        "additional_details": [
+          "8 embryos/dish, 8 or 15 culture dishes/incubator",
+          "Barcode Labeling",
+          "8 embryos held in separate culture wells",
+          "8x 20 µL culture medium per well",
+          "1.6 mL oil overlay",
+          "4 washing/rinsing wells, each containing 25 µL - 30 µL medium",
+          "Numbered wells"
+        ]
+      },
+      {
+        "name": "EmbryoSlide+® Culture Dish",
+        "ref": "16450",
+        "size": "Dish Size (mm): 49 × 68",
+        "wells": "Number of Culture Wells: 16",
+        "image_url": "embryoslide-culture-dish_2c2.jpeg",
+        "description": "Used for embryo culture in EmbryoScope+ and EmbryoScope 8 devices. Each EmbryoSlide+ culture dish contains 16 microwells for incubation of 16 embryos.",
+        "specifications": {
+          "Medium Usage": "2 x 25 µL medium, 1.4 mL oil overlay"
+        },
+        "additional_details": [
+          "16 embryos/dish, 8 or 15 culture dishes/incubator",
+          "Barcode Labeling",
+          "16 embryos held in separate culture wells in 2 reservoirs",
+          "2 x 180 µL medium",
+          "1.6 mL oil overlay",
+          "4 washing/rinsing wells, each containing 25 µL - 30 µL medium",
+          "Numbered wells"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "NEEDLE ACCESSORIES",
+    "brand": "Vitrolife",
+    "image_url": "aksesuar.png",
+    "product_url": "",
+    "url": "",
+    "title": "NEEDLE ACCESSORIES",
+    "subtitle": "",
+    "description": "",
+    "specifications": {},
+    "products": [
+      {
+        "name": "VACUUM PUMP TUBING",
+        "brand": "Vitrolife",
+        "image_url": "aksesuar.png",
+        "title": "VACUUM PUMP TUBING",
+        "subtitle": "Aspiration Pump Tubing",
+        "description": "Aspiration Pump Tubing is designed for connection between the needle and aspiration pump during oocyte collection and serves as an extension. All aspiration pump tubing comes with a male luer lock connection at one end designed for needle connection. The opposite end can be one of the following: Male luer lock connection, Female luer lock connection, or Open end"
+      },
+      {
+        "name": "ULTRASOUND TRANSMISSION GEL",
+        "brand": "Vitrolife",
+        "image_url": "aksesuar.png",
+        "title": "ULTRASOUND TRANSMISSION GEL",
+        "subtitle": "Ultrasound Transmission Gel",
+        "description": "Vitrolife gel is the perfect combination of safety, performance, and comfort. The gel is sterile and comes in a convenient storage box containing 50 pieces of 20g each for quick use."
+      },
+      {
+        "name": "TRANSDUCER COVER",
+        "brand": "Vitrolife",
+        "image_url": "aksesuar.png",
+        "title": "TRANSDUCER COVER",
+        "subtitle": "Transducer Cover",
+        "description": "Individually wrapped latex-free covers. Made from polyethylene and specially designed along their lengths to prevent accidental breakage."
+      }
+    ]
+  },
+  {
+    "name": "HATCHING PIPETTE™",
+    "brand": "",
+    "image_url": "hatching-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "HATCHING PIPETTE™",
+    "subtitle": "Hatching Pipette",
+    "description": "",
+    "specifications": {
+      "Description": "Pipette with straight and smooth tip",
+      "Intended Use": "For creating a hole in the zona pellucida for assisted hatching or embryo biopsy",
+      "Application": "For use with micromanipulator",
+      "Storage Conditions": "Store at room temperature"
+    }
+  },
+  {
+    "name": "PIPETTE ACCESSORIES",
+    "brand": "",
+    "image_url": "pipet-aksesuar.png",
+    "product_url": "",
+    "url": "",
+    "title": "PIPETTE ACCESSORIES",
+    "subtitle": "Pipette Accessories",
+    "description": "",
+    "specifications": {
+      "Intended Use": "For use with denudation and transfer pipettes"
+    },
+    "products": [
+      {
+        "name": "Pipette Holder",
+        "image_url": "pipet-aksesuar.png",
+        "description": "Used for securely holding and controlling pipettes"
+      },
+      {
+        "name": "Silicone Bulb",
+        "image_url": "pipet-aksesuar.png",
+        "description": "Used for precise fluid control"
+      },
+      {
+        "name": "Connection Pieces",
+        "image_url": "pipet-aksesuar.png",
+        "description": "Used to make different pipette types compatible with the system"
+      }
+    ]
+  }
+
+]
