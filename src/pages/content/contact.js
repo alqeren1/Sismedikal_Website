@@ -52,7 +52,7 @@ export default function About() {
               </thead>
               <tbody className="text-lg">
                 {/* Ankara Office */}
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900 xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.0")}
                   </td>
@@ -67,7 +67,7 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4">fikretaydin@sismed.com</td>
                 </tr>
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 pr-2 border-r-2 border-gray-300">
                     {t("contact.tablePositions.1")}
                   </td>
@@ -82,7 +82,7 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4">metingulec@sismed.com</td>
                 </tr>
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.2")}
                   </td>
@@ -97,7 +97,7 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4">yenertopa@sismed.com</td>
                 </tr>
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.3")}
                   </td>
@@ -112,7 +112,7 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4">hilal@sismed.com</td>
                 </tr>
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.4")}
                   </td>
@@ -127,7 +127,7 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4"></td>
                 </tr>
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.5")}
                   </td>
@@ -142,13 +142,13 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4">buketakkaya@sismed.com</td>
                 </tr>
-                <tr className="border-b-2 text-base xl:text-lg font-bold border-gray-300">
+                <tr className="border-b-2 text-gray-900 xl:text-lg font-bold border-gray-300">
                   <td className="px-4 py-4 text-center" colSpan="5">
                     {t("contact.tableTitles.2")} : (+90 312) 426 06 63 – 64 /
                     Faks : (+90 312) 426 74 01
                   </td>
                 </tr>
-                <tr className="border-b-2 font-bold text-base xl:text-lg border-gray-300">
+                <tr className="border-b-2 font-bold text-gray-900 xl:text-lg border-gray-300">
                   <td className="px-4 py-4 text-center" colSpan="5">
                     Cinnah Caddesi Gelibolu Sokak No:3/7 Kavaklıdere – Ankara /
                     Türkiye
@@ -187,7 +187,7 @@ export default function About() {
               </thead>
               <tbody className="text-lg">
                 {/* Ankara Office */}
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.2")}
                   </td>
@@ -202,7 +202,7 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4"> engingedik@sismed.com</td>
                 </tr>
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.4")}
                   </td>
@@ -217,7 +217,7 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4">sametakar@sismed.com</td>
                 </tr>
-                <tr className="border-b-2  text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2  text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 pr-2 border-r-2 border-gray-300">
                     {t("contact.tablePositions.4")}
                   </td>
@@ -232,7 +232,7 @@ export default function About() {
                   </td>
                   <td className="px-4 py-4"> ufuk@sismed.com</td>
                 </tr>
-                <tr className="border-b-2 text-base  xl:text-lg border-gray-300">
+                <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.5")}
                   </td>
@@ -248,13 +248,13 @@ export default function About() {
                   <td className="px-4 py-4"> saadetozen@sismed.com</td>
                 </tr>
 
-                <tr className="border-b-2 font-bold text-base xl:text-lg border-gray-300">
+                <tr className="border-b-2 font-bold text-gray-900 xl:text-lg border-gray-300">
                   <td className="px-4 py-4 text-center" colSpan="5">
                     {t("contact.tableTitles.2")} : (+90 216) 492 46 20 – 21 /
                     Faks : (+90 216) 492 46 42
                   </td>
                 </tr>
-                <tr className="border-b-2 font-bold text-base xl:text-lg border-gray-300">
+                <tr className="border-b-2 font-bold text-gray-900 xl:text-lg border-gray-300">
                   <td className="px-4 py-4 text-center" colSpan="5">
                     Murat Reis Mah. Selami Ali Efendi Cad. No:136/6 Üsküdar -
                     İSTANBUL
@@ -292,14 +292,14 @@ export default function About() {
                   <td className="px-0 py-4 border-r-2 pr-1 text-lg  xl:text-2xl font-bold text-gray-800 border-gray-300">
                     {t("contact.title3")}
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
+                  <td className="px-4 py-4 border-r-2 text-gray-900 xl:text-lg border-gray-300">
                     Murat Yalçın ŞEKER
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300">
+                  <td className="px-4 py-4 border-r-2 text-gray-900 xl:text-lg border-gray-300">
                     (+90 532) 228 24 77
                   </td>
-                  <td className="px-4 py-4 border-r-2 text-base xl:text-lg border-gray-300"></td>
-                  <td className="px-4 text-base xl:text-lg py-4">
+                  <td className="px-4 py-4 border-r-2 text-gray-900 xl:text-lg border-gray-300"></td>
+                  <td className="px-4 text-gray-900 xl:text-lg py-4">
                     murat@sismed.com
                   </td>
                 </tr>

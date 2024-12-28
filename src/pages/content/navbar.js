@@ -147,7 +147,7 @@ export default function Navbar() {
                 ].map((lang, index) => (
                   <div
                     key={index}
-                    className="flex items-center cursor-pointer px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg"
+                    className="flex items-center cursor-pointer px-4 py-2 text-gray-800 hover:bg-gray-100 hover:rounded-b-lg"
                     onClick={() => {
                       changeLanguage(lang.code); // Update language
                       setIsLanguageDropdownOpen(false); // Close dropdown
@@ -254,7 +254,7 @@ export default function Navbar() {
                   ].map((lang, index) => (
                     <div
                       key={index}
-                      className="flex items-center cursor-pointer px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg"
+                      className="flex items-center cursor-pointer px-4 py-2 text-gray-800 hover:bg-gray-100 hover:rounded-b-lg"
                       onClick={() => {
                         changeLanguage(lang.code); // Update language
                         setIsLanguageDropdownOpen(false); // Close dropdown

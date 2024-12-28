@@ -8,6 +8,7 @@ import i18n from "../i18n";
 import Script from "next/script";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -27,6 +28,15 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     <div>
+      {/* Global Metadata */}
+      <Head>
+        <title>Sismedikal</title>
+        <link rel="icon" type="image/png" href="/sis_icon.png" />
+        <meta
+          name="description"
+          content="IVF'de 25 yılı aşkın deneyimi ile, sektör lideri çözüm ortağınız."
+        />
+      </Head>
       {/* Google Analytics Scripts */}
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=G-22QZPYF57Y`}
