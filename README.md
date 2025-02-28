@@ -9,7 +9,7 @@ Sismedikal is a responsive website developed with React and Next.js for Turkey's
 
 ## Overview
 
-Commissioned by Sismedikal, this website was built to showcase their IVF products and services in a modern and user-friendly manner. Leveraging React and Next.js, the project emphasizes fast load times, SEO-friendly pages, and a smooth user experience across all devices.
+Commissioned by Sismedikal, this website was built to showcase their IVF products and services in a modern and user friendly manner. Leveraging React and Next.js, the project emphasizes fast load times, SEO-friendly pages, and a smooth user experience across all devices.
 
 ## Technologies Used
 
