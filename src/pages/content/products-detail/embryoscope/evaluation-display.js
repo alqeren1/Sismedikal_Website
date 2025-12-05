@@ -127,7 +127,7 @@ const GXDisplay = () => {
       {/* idascore*/}
       <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl overflow-hidden mt-36">
         <div className="p-8">
-          <div className="flex justify-between space-x-8 text-justify  items-center">
+          <div className="flex justify-between space-x-8 text-justify text-gray-700 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-2">
                 iDAScore
@@ -166,7 +166,7 @@ const GXDisplay = () => {
       {/* guided anno */}
       <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl overflow-hidden mt-8">
         <div className="p-8">
-          <div className="flex justify-between space-x-8 text-justify  items-center">
+          <div className="flex justify-between space-x-8 text-justify text-gray-700 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-2">
                 Guided Annotation
@@ -202,7 +202,7 @@ const GXDisplay = () => {
       {/* guided anno */}
       <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl overflow-hidden mt-8">
         <div className="p-8">
-          <div className="flex justify-between space-x-8 text-justify  items-center">
+          <div className="flex justify-between space-x-8 text-justify text-gray-700  items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-2">
                 KIDScore

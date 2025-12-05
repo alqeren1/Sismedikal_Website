@@ -243,7 +243,7 @@ const EmbryoGlueDisplay = () => {
         <h2 className="text-3xl text-center font-bold text-gray-900 mb-6 lg:mb-12">
           {t("embryoglue.t12")}
         </h2>
-        <div className="justfiy-center text-xl">
+        <div className="justfiy-center text-xl text-gray-700">
           <div className="w-full  flex justify-center">
             <p className="max-w-4xl text-justify ">{t("embryoglue.t13")}</p>{" "}
           </div>

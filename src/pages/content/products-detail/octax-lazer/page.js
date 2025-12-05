@@ -7,7 +7,7 @@ export default function Home() {
   const { t, i18n } = useTranslation();
   const products = [
     {
-      webpath: i18n.language === "en" ? "/octax-laser" : "/octax-lazer",
+      webpath: i18n.language === "tr" ? "/octax-lazer" : "/octax-laser",
       name: t("laser.p1"),
       brand: "Vitrolife",
       path: "octax-productimg.png",

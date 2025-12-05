@@ -26,7 +26,7 @@ export default function Home() {
     },
     {
       webpath:
-        i18n.language === "en" ? "/needle-accessories" : "/igne-aksesuarlari",
+        i18n.language === "tr" ? "/igne-aksesuarlari" : "/needle-accessories",
       name: t("oosit.p1"),
       brand: "Vitrolife",
       path: "aksesuar.png",

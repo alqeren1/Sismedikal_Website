@@ -51,7 +51,9 @@ export default function Navbar() {
   // Handle language change
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
-    setSelectedLanguage(lang === "en" ? "EN" : "TR");
+    setSelectedLanguage(
+      lang === "en" ? "EN" : lang === "ru" ? "RU" : lang === "uz" ? "UZ" : "TR"
+    );
   };
   // Prevent body scrolling when mobile menu is open
   useEffect(() => {
@@ -144,6 +146,8 @@ export default function Navbar() {
                 {[
                   { code: "tr", label: "TR", flag: "/turkey.png" },
                   { code: "en", label: "EN", flag: "/uk.png" },
+                  { code: "ru", label: "RU", flag: "/russia.png" },
+                  { code: "uz", label: "UZ", flag: "/uzbekistan.png" },
                 ].map((lang, index) => (
                   <div
                     key={index}
@@ -227,7 +231,7 @@ export default function Navbar() {
             ))}
           </div>
           {/* Language Switcher */}
-          <div className="relative flex xl:hidden w-full justify-end px-10 mt-4">
+          <div className="relative flex xl:hidden w-full justify-end px-10 mt-4 z-999">
             <div className="  relative">
               {" "}
               {/* Fixed width for button and modal */}
@@ -247,10 +251,12 @@ export default function Navbar() {
                 />
               </button>
               {isLanguageDropdownOpen && (
-                <div className="absolute top-full mt-[-1px] w-full bg-white border-l border-r border-b border-gray-200 shadow-lg rounded-b-lg">
+                <div className="absolute top-full mt-[-1px] w-full bg-white z-100 border-l border-r border-b border-gray-200 shadow-lg rounded-b-lg">
                   {[
                     { code: "tr", label: "TR", flag: "/turkey.png" },
                     { code: "en", label: "EN", flag: "/uk.png" },
+                    { code: "ru", label: "RU", flag: "/russia.png" },
+                    { code: "uz", label: "UZ", flag: "/uzbekistan.png" },
                   ].map((lang, index) => (
                     <div
                       key={index}
@@ -279,7 +285,7 @@ export default function Navbar() {
             href="https://www.vitrolife.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center absolute bottom-10 w-full px-4"
+            className="inline-flex items-center justify-center absolute bottom-10 w-full px-10 z-[-10]"
           >
             <img
               src="/vitrolife.svg"

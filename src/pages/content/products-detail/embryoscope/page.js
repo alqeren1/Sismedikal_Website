@@ -33,9 +33,9 @@ export default function Home() {
     },
     {
       webpath:
-        i18n.language === "en"
-          ? "/imaging-system-culture-dishes"
-          : "/goruntuleme-sistemi-kultur-kaplari",
+        i18n.language === "tr"
+          ? "/goruntuleme-sistemi-kultur-kaplari"
+          : "/imaging-system-culture-dishes",
       name: t("embryoscope.t5"),
       brand: "Vitrolife",
       path: "imaging-system-culture.jpeg",

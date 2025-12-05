@@ -109,7 +109,7 @@ export default function Protocols() {
                 <div key={index} className="mb-12">
                   {/* Subcategory Title */}
                   <h3 className="text-2xl md:text-3xl font-bold text-blue-900 mb-4">
-                    {subcategory.subcategory}
+                    {t("protocols.links")}
                   </h3>
 
                   {/* Links */}

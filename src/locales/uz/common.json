@@ -1,0 +1,430 @@
+{
+  "main": {
+    "highlight": "Sismedikal bilan IVF yo‘lingizni kashf eting",
+    "steps": [
+      "Yumurtaliklardan oosit olish",
+      "Spermani tayyorlash",
+      "Urug‘lantirish",
+      "Kultivatsiya qilish",
+      "Baholash",
+      "Embrion ko‘chirish",
+      "Kriokonservatsiya"
+    ],
+    "ewitness": {
+      "title": "eWitness Tizimi",
+      "details": [
+        "Butun ish jarayonini avtomatlashtirish",
+        "Barcha protseduralarni kuzatib borish",
+        "Bosma yorliqlarda shtrix-kodlar va RFID",
+        "Elektron ikki karra tekshirish"
+      ]
+    },
+    "octax": {
+      "title": "Octax lazer tizimlari",
+      "details": [
+        "Modulli va foydalanish uchun qulay",
+        "Yuqori unumdor lazerlar",
+        "Kengaytirilgan qo‘llash imkoniyatlari",
+        "Rivojlangan vizualizatsiya texnologiyalari"
+      ]
+    },
+    "embryoscope": {
+      "title1": "Embryoscope+",
+      "title2": "Time-lapse tizimi",
+      "details": [
+        "Embrion rivoji uchun maxsus yaratilgan",
+        "Time-lapse texnologiyasi",
+        "Uzluksiz va xavfsiz kuzatuv",
+        "Optimallashtirish uchun inkubator dizayni"
+      ]
+    }
+  },
+  "hero2": {
+    "title1": "Har bir bosqichda",
+    "title2": "Sismedikal siz bilan birga",
+    "contact": "Biz bilan bog‘laning",
+    "products": "Mahsulotlarni ko‘rish"
+  },
+  "navbar": {
+    "labels": [
+      "Biz haqimizda",
+      "Mahsulotlar",
+      "Hamkorlar",
+      "Protokollar",
+      "Kontaktlar",
+      "Bosh sahifa"
+    ]
+  },
+  "bottombar": {
+    "office": "Anqaradagi ofis",
+    "office2": "Istanbuldagi ofis"
+  },
+  "about": {
+    "tabs": [
+      "Bizning tariximiz",
+      "Bizning missiyamiz",
+      "Bizning qarashimiz"
+    ],
+    "content": [
+      "Sis Medikal Ltd. kompaniyasi Turkiyada IVF (EKO) sohasidagi **birinchi va ilg‘or kompaniya** hisoblanadi. EKO markazlari ehtiyojlarini qondirish maqsadida, u Turkiyada Vitrolife mahsulotlarining **rasmiy distribyutori** bo‘lib qoladi. Ushbu kompaniya **1994** yilda IVF sohasida faoliyat yuritadigan kasalxonalar va klinikalarga xizmat ko‘rsatish uchun tashkil etilgan. Sektor kengayishi bilan u Ankara va Istanbul shaharlaridagi ofislari orqali butun mamlakat bo‘ylab ko‘payib borayotgan EKO markazlariga xizmat ko‘rsatmoqda. Axloqiy tamoyillarga rioya qilib ko‘rsatiladigan xizmatlar va hamkor klinikalarga **“yechim sherigi”** yondashuvi tufayli Sis Medikal Ltd. qisqa vaqt ichida o‘z korporativ identifikatsiyasini mustahkamlagan va EKO sohasining ajralmas qismiga aylangan.",
+      "EKO sohasida bizning maqsadimiz – barcha hamkorlarimiz uchun **eng yuqori sifat standartlari**ni qo‘llagan holda, axloqiy qadriyatlarga amal qilgan tarzda innovatsion mahsulotlar va ajoyib xizmatlarni taklif etib, eng ishonchli yechim sherigi bo‘lishdir.",
+      "Biz sektor yetakchiligimizni barqaror innovatsiyalar bilan mustahkamlash, ish jarayonimizni sifat, ilmiy tamoyillar va axloq prinsiplari asosida qurish orqali mijozlarimizga eng yaxshi xizmatni ko‘rsatishni maqsad qilganmiz. Mahalliy va xalqaro darajada EKO sohasining rivojlanishida yetakchi, hurmatli va ishonchli brendga aylanishni maqsad qilamiz."
+    ],
+    "stats": [
+      "Faoliyat yillari",
+      "Hamkor klinikalar",
+      "Mahsulotlar xilma-xilligi"
+    ],
+    "quality": {
+      "title": "Sifat siyosatimiz",
+      "title1": "Yuqori sifat",
+      "title2": "Doimiy takomillashtirish",
+      "title3": "Mijozlarga yo‘naltirilganlik",
+      "con1": "Mijozlarimizga eng yuqori sifat standartlariga mos mahsulot va xizmatlarni taqdim etish orqali ularning ishonchini qozonish.",
+      "con2": "Jarayonlarimizni doimiy tahlil va takomillashtirish orqali xizmat sifatini oshirish.",
+      "con3": "Mijozlarimiz ehtiyojlarini chuqur tushunib, ularning kutilganidan ham ortiq yechimlar taklif etish."
+    }
+  },
+  "references": {
+    "title": "Hamkorlarimiz",
+    "title2": "Turkiya va Kipr bo‘ylab ishonchli hamkorlarimiz",
+    "search": "Shahar yoki shifoxona nomi bo‘yicha qidirish..."
+  },
+  "protocols": {
+    "title": "Protokollar",
+    "tab": "Foydali havolalar",
+    "links": "Reproduktiv tibbiyot va bepushtlik",
+    "con": [
+      "Spermani tayyorlash – suzib chiqish usuli (swim-up)",
+      "Spermani tayyorlash – zichlik gradienti bilan sentrifugadan o‘tkazish usuli",
+      "Oosit (tuxum hujayralari) olish",
+      "IKSI (ICSI)",
+      "Embrionlarni kultivatsiya qilish",
+      "Embrion ko‘chirish",
+      "Kriokonservatsiya – bo‘linish bosqichi (cleavage stage)",
+      "Kriokonservatsiya – blastosista bosqichi"
+    ]
+  },
+  "contact": {
+    "title": "Kontaktlar",
+    "title1": "Anqaradagi ofis",
+    "title2": "Istanbuldagi ofis",
+    "title3": "Adana hududi",
+    "tableTitles": [
+      "Lavozim",
+      "Ism Familiya",
+      "Telefon",
+      "Faks",
+      "Elektron pochta"
+    ],
+    "tablePositions": [
+      "Bosh direktor",
+      "Bosh buxgalter",
+      "Mahsulot menejeri",
+      "Texnik qo‘llab-quvvatlash mutaxassisi",
+      "Savdo bo‘yicha mutaxassis",
+      "Assistent"
+    ]
+  },
+  "products": {
+    "title": "Mahsulotlarimiz",
+    "title2": "Vitrolife’ning innovatsion yechimlari bilan klinik natijalarni yaxshilang",
+    "tabs": [
+      "VITROLIFE YECHIMLARI",
+      "VITROLIFE SARF MATERIALLARI",
+      "VITROLIFE QURILMALARI"
+    ],
+    "featurestitle": [
+      "Mahsulot sifati kafolati",
+      "Sertifikatlangan mahsulotlar",
+      "Klinik muvaffaqiyat",
+      "Mahsulot qo‘llab-quvvatlovi"
+    ],
+    "featurescon": [
+      "Vitrolife sifat standartlari",
+      "Xalqaro sifat sertifikatlari",
+      "Ishonchli klinik natijalar",
+      "Texnik yordam va trening"
+    ],
+    "tab1": [
+    "G-SERIYALI KULTIVATSIYA MUHITI",
+    "BOSHQA KULTIVATSIYA MUHITI",
+    "SPERMANI YUVISH VA MUZLATISH",
+    "OVOIL",
+    "MIKROMANIPULYATSIYA MUHITI",
+    "VITRIFIKATSIYA"
+  ],
+  "tab2": [
+    "OOSIT OLISH IGNALARI",
+    "MANIPULYATSIYA PIPETKALARI",
+    "VITROLIFE KULTIVATSIYA PLASTINKALARI"
+  ],
+  "tab3": [
+    "EMBRIOSKOP",
+    "OCTAX LAZER"
+  ]
+  },
+  "g-series": {
+    "t1": "G-SERIYALI KULTIVATSIYA MUHITI",
+    "t2": "Vitrolife’dan innovatsion kultivatsiya yechimlari"
+  },
+  "grid": {
+    "back": "Orqaga",
+    "more": "YANADA KO‘PROQ"
+  },
+  "otherculture": {
+    "t1": "BOSHQA KULTIVATSIYA MUHITI",
+    "t2": "Vitrolife’dan innovatsion kultivatsiya yechimlari"
+  },
+  "sperm": {
+    "t1": "Spermani yuvish va muzlatish"
+  },
+  "micromanupilation": {
+    "t1": "Mikromanipulyatsiya muhiti"
+  },
+  "vitri": {
+    "t1": "Vitrifikatsiya"
+  },
+  "oosit": {
+    "t1": "OOSİT COLLECTION NEEDLES",
+    "p1": "NEEDLE ACCESSORIES"
+  },
+  "pipette": {
+    "t1": "MANIPULATION PIPETTES",
+    "p": [
+      "ICSI Pipette",
+      "HOLDING Pipette",
+      "HANDLING Pipette",
+      "TRANSFER Pipette",
+      "PZD Pipette",
+      "BIOPSY Pipette",
+      "HATCHING Pipette",
+      "Pipette Accessories"
+    ]
+  },
+  "cultureDishes": {
+    "t1": "Vitrolife kultivatsiya plastinkalari"
+  },
+  "embryoscope": {
+    "t1": "Embrionlarni vizualizatsiya tizimlari",
+    "t2": "Embryoscope 8 vizualizatsiya tizimi",
+    "t3": "Embryoscope Flex vizualizatsiya tizimi",
+    "t4": "Baholash vositalari",
+    "t5": "Vizualizatsiya tizimi plastinkalari",
+    "t6": "Embryoscope +"
+  },
+  "laser": {
+    "t1": "OCTAX lazer va vizualizatsiya tizimi",
+    "p1": "OCTAX LASER"
+  },
+  "detailproduct": {
+    "composition": "Tarkibi",
+    "p1": "Xususiyatlar",
+    "p2": "Mahsulotlar",
+    "p3": "Tavsif",
+    "p4": "Pipetkalar seriyasi",
+    "p5": "Shpilli ICSI pipetkalar",
+    "p6": "Shpilsiz ICSI pipetkalar",
+    "p7": "Naychaning shakli",
+    "p8": "Naychaning toraygan qismi uchidan 500 mkm masofada joylashgan. Katta qulaylik uchun qisqa va o‘tkir qirralarga ega hamda qisqa shpili bor. Oositlarga zarar yetkazmaslik uchun toraygan qismi avval torayib, keyin kengayib boradigan tarzda yaratilgan.",
+    "p9": "Naychaning toraygan qismi uchidan 500 mkm masofada joylashgan. Katta qulaylik uchun qisqa va o‘tkir qirralarga ega hamda uzun shpili bor. Oositlarga zarar yetkazmaslik uchun toraygan qismi avval torayib, keyin kengayib boradigan tarzda yaratilgan.",
+    "p10": "Toraygan qismi uchidan 400 mkm masofada joylashgan. Qisqa qirraga va juda qisqa shpikka ega. Naychaning uch qismi bilan toraygan soha orasidagi masofa kichik bo‘lgani sababli, PVP sharoitida yanada mustahkam va qat’iy ish bajarish imkonini beradi.",
+    "p11": "Toraygan qismi uchidan 1000 mkm masofada joylashgan. Yopishgan devorlari tufayli yuklangan sperma ustidan yaxshiroq nazorat o‘rnatish imkonini beradi.",
+    "p12": "Toraygan qismi uchidan 400 mkm masofada joylashgan. O‘rtacha uzunlikdagi qirraga, qisqa toraygan joyga va parallel devorlarga ega.",
+    "p13": "Toraygan qismi uchidan 700 mkm masofada joylashgan. O‘rtacha uzunlikdagi qirraga, uzun toraygan joyga va parallel devorlarga ega.",
+    "p14": "Toraygan qismi uchidan 500 mkm masofada joylashgan. Spermatid ICSI uchun shpilli variant.",
+    "p15": "Ideal boshqaruv uchun ekomarkirovka",
+    "p16": "Innovatsion lazer o‘yma texnologiyasi yordamida yaratilgan bo‘lib, oosit olish jarayonida yuqori ko‘rinish imkonini ta’minlaydi.",
+    "p17": "Juda o‘tkir dizayn",
+    "p18": "Past kirish qarshiligini va yuqori aniqlikni ta’minlaydi. Ignaning uchi alohida o‘tkirligi, yuqori aniqligi va maksimal xavfsizligi bilan ajralib turadi. Qirra silliqlash kirish qarshiligini kamaytirsa, maxsus orqa silliqlash qiyshayishni oldini oladi."
+  },
+  "gx": {
+    "products": {
+      "mops": {
+        "desc": "MOPS buferli muhit bo‘lib, u inson zardobiy albumini, gentamitsin va antioksidantlarni o‘z ichiga oladi. Oositlar va embrionlarni normal atmosfera sharoitida ishlov berish va tayyorlash uchun mo‘ljallangan.",
+        "app": " +37°C haroratga keltirilgandan so‘ng foydalaniladi."
+      },
+      "ivf": {
+        "desc": "Bikarbonat asosidagi muhit bo‘lib, u inson zardobiy albumini, gentamitsin va antioksidantlarni o‘z ichiga oladi. Gametalarni tayyorlash va qayta ishlash, in vitro urug‘lantirish hamda intrauterin inseminatsiya uchun mo‘ljallangan.",
+        "app": "+37°C haroratga va 6% CO₂ga keltirilgandan so‘ng foydalaniladi."
+      },
+      "tl": {
+        "desc": "Bikarbonat asosidagi muhit bo‘lib, u gialuronan, inson zardobiy albumini, gentamitsin va antioksidantlarni o‘z ichiga oladi. Embrionlarni urug‘lantirishdan boshlab blastosista bosqichigacha va keyinchalik ko‘chirish uchun kultivatsiya qilish uchun mo‘ljallangan.",
+        "app": "+37°C haroratga va 6% CO₂ga keltirilgandan so‘ng foydalaniladi."
+      }
+    },
+    "research": [
+      "Asetil-L-karnitin, alfa-lipoik kislota va N-asetil-L-sistein kombinatsiyasi embrion rivoji uchun juda foydali ta’sir ko‘rsatadi.",
+      "Embrionlarning yashovchanligi oshadi.",
+      "Bu ta’sir 20% kislorod sharoitida kuchliroq, ammo 5% kislorodda ham kuzatiladi.",
+      "Uchala antioksidant ham gametalarni qayta ishlash muhiti, IVF muhiti va kultivatsiya muhitida bo‘lishi kerak.",
+      "Spermani tayyorlash, oosit olish va keyingi ICSI urinishida qo‘llansa, ICSI urug‘lantirish ko‘rsatkichlari yaxshilanadi.",
+      "35–40 yoshdagi ayollarda IVF jarayonida doimiy ishlatilganda homiladorlik ko‘rsatkichlari sezilarli darajada oshadi."
+    ],
+    "usage": [
+      "Normal atmosfera sharoitida +37°C haroratga keltirilgach foydalaning",
+      "Hech qachon CO₂ inkubatoriga qo‘ymang yoki oldindan CO₂ bilan muvozanatga keltirilgan moy bilan yopmang",
+      "Kumulus-oosit majmualarini tayyorlash, denudatsiya, ICSI va embrion biopsiyasi uchun qo‘llash mumkin",
+      "Moy qatlami bilan tayyorlangandan so‘ng 6 soatgacha ishlatish mumkin",
+      "Moysiz, namlanmagan muhitte 60 daqiqa davomida qo‘llash kerak",
+      "Oosit yoki embrionlar muhitte 30 daqiqadan ortiq turmasligi lozim"
+    ],
+    "t1": "Gx Muhiti",
+    "t2": "Gx-MOPS™ PLUS, Gx-IVF™ va Gx-TL™ uch antioksidant kombinatsiyasiga ega bo‘lib, Vitrolife muhitlarining eng so‘nggi avlodi sanaladi. Gametalar va embrionlarni ishlov berish, urug‘lantirish va kultivatsiya qilish jarayonida uch tomonlama antioksidant himoya embrion rivojiga nihoyatda ijobiy ta’sir ko‘rsatadi.",
+    "t3": "Qorong‘u joyda, +2 dan +8ºC gacha haroratda saqlang",
+    "t4": "Tavsif",
+    "t5": "Qo‘llash",
+    "t6": "Okislovchi stress – embrion rivojiga ta’siri",
+    "t7": "Gametalar va embrionlar okislovchi stressga juda sezgir. Tana tashqarisida ular tabiiy detoksifikatsiya tizimidan mahrum.",
+    "t8": "Bundan tashqari, IVF jarayonidagi manipulyatsiyalar quyidagi tashqi xavf omillari bilan bog‘liq:",
+    "t9": "Nofiziologik yuqori kislorod kontsentratsiyasi (faqat o‘zi ham zararli) butun kultivatsiya davomida yoki alohida protseduralar paytida",
+    "t10": "Aerob hujayra metabolizmi natijasida hosil bo‘ladigan reaktiv kislorod zarrachalari (ROS)",
+    "t11": "Plastik materiallar va moy qoplamasining sifati, bu ROS sintezining oshishiga olib kelishi mumkin",
+    "t12": "Keskin siljish kuchi, harorat tebranishlari va yorug‘lik ta’siri",
+    "t13": "Bu omillar embrionlarning rivojlanish qobiliyati va yashovchanligini pasaytirishi mumkin. Muhimi, bitta stressor ta’sir qilgan gameta yoki embrion keyingi qo‘shimcha yuklamalarga nisbatan sezuvchanroq bo‘lib qoladi, bu esa IVF davolashda kompleks himoya zarurligini ko‘rsatadi.",
+    "t14": "Qo‘llash bo‘yicha ko‘rsatmalar",
+    "t15": "Har bir LOT bo‘yicha test natijalari yetkazib beriladigan Sertifikatda keltiriladi. Mahsulot bilan bog‘liq har qanday jiddiy holat bo‘yicha foydalanuvchi va/yoki bemor ro‘yxatdan o‘tgan a’zo davlatning vakolatli organiga hamda ishlab chiqaruvchiga xabar berilishi kerak.",
+    "t16": "Xavfsizlik va klinik samaradorlik bo‘yicha umumiy ma’lumot www.vitrolife.com saytida mavjud",
+    "t17": "Hujjatlar",
+    "t18": "Komplektatsiya",
+    "t19": "Xavfsizlik ma’lumotlari",
+    "t20": "Tadqiqot natijalari"
+  },
+  "embryoglue": {
+    "products": {
+      "regular": {
+        "code": "10085",
+        "volume": "1 x 10 ml",
+        "desc": "Bikarbonat buferiga ega muhit bo‘lib, u gialuronan va rekombinant inson zardobiy albuminini o‘z ichiga oladi.",
+        "purpose": "Embrion ko‘chirish muhiti.",
+        "app": "+37°C haroratda va 6% CO2da tayyorlangandan so‘ng qo‘llanadi.",
+        "storage": "+2 dan +8°C gacha bo‘lgan qorong‘u joyda saqlang."
+      },
+      "patient": {
+        "code": "10168",
+        "volume": "5 x 1.5 ml",
+        "desc": "Bikarbonat buferiga ega muhit bo‘lib, u gialuronan va rekombinant inson zardobiy albuminini o‘z ichiga oladi.",
+        "purpose": "Embrion ko‘chirish muhiti.",
+        "app": "+37°C haroratda va 6% CO2da tayyorlangandan so‘ng qo‘llanadi.",
+        "storage": "+2 dan +8°C gacha bo‘lgan qorong‘u joyda saqlang."
+      }
+    },
+    "t1": "EmbryoGlue",
+    "t2": "Embrion ko‘chirish jarayonini yaxshilash uchun ilg‘or muhit. EmbryoGlue qo‘llash orqali klinik homiladorlik va tug‘ilish ko‘rsatkichlarini oshirish mumkinligi isbotlangan.",
+    "t3": "+2 dan +8°C gacha bo‘lgan qorong‘u joyda saqlang",
+    "t4": "Tavsif",
+    "t5": "Maqsad",
+    "t6": "Qo‘llash",
+    "t7": "Saqlash",
+    "t8": "EmbryoGlue nima?",
+    "t9": "EmbryoGlue — bu embrion ko‘chirish uchun maxsus ishlab chiqilgan muhit bo‘lib, implantatsiyani yaxshilashda samaradorligi isbotlangan yagona ko‘chirish muhiti. EmbryoGlue blastosista muhitiga boy asosga ega bo‘lib, tarkibida gialuronan miqdori yuqori bo‘lgan rekombinant albumin mavjud. EmbryoGlue’ni embrionning barcha rivojlanish bosqichlarida ko‘chirish uchun qo‘llash mumkin. EmbryoGlue’dan foydalanish klinik homiladorlik va tug‘ilish ko‘rsatkichlarini oshirishi mumkin.",
+    "t10": "EmbryoGlue muvaffaqiyatli ko‘chirish uchun",
+    "t11": "Embrion ko‘chirish — EKO davolashidagi eng muhim va nozik protseduralardan biridir. Gialuronan bilan boyitilgan EmbryoGlue® muhiti embrionning implantatsiyasini rag‘batlantirish maqsadida ishlab chiqilgan. Klinik ma’lumotlarga ko‘ra, EmbryoGlue kabi ko‘chirish muhitidan foydalanish embrion ko‘chirish muvaffaqiyatini ancha oshiradi. Bu muhit embrionning muvaffaqiyatli implantatsiyasiga yordam berishi va homiladorlik hamda tug‘ilish ko‘rsatkichlarini yaxshilashi isbotlangan.",
+    "t12": "EmbryoGlue samaradorligining isboti",
+    "t13": "2003 yilda EmbryoGlue paydo bo‘lganidan beri uning samaradorligi to‘g‘risida ko‘plab tadqiqotlar chop etilgan. 2010, 2014 va 2020 yillarda Cochrane Library tomonidan gialuronanning ko‘chirish muhitidagi roliga bag‘ishlangan uchta sharh e’lon qilingan.",
+    "t14": "Heymann va boshq. (2020 y.) muallifligidagi “Yordamchi reproduktiv texnologiyalarda embrion ko‘chirish muhitida gialuron kislotasi” deb nomlangan Cochrane sharhi quyidagi xulosaga keldi:",
+    "t15": "\"O‘rtacha sifatli dalillar shuni ko‘rsatadiki, embrion ko‘chirish muhitiga gialuron kislotasini yopishtiruvchi modda sifatida qo‘shish klinik homiladorlik va tug‘ilish ko‘rsatkichlarini yaxshilaydi.\"",
+    "t16": "Ba’zi tadqiqotlarda tushish (abort) ko‘rsatkichlari kamaygan, ammo umumiy tanlovda statistik ahamiyatga erishmagan. Ushbu sharhda 6704 nafar bemor ishtirok etgan 26 ta randomizatsiyalangan, prospektiv, nazorat qilinadigan tadqiqotlar o‘rganilgan. Embrion ko‘chirish jarayonida gialuronan miqdori yo juda past bo‘lgan yoki yuqori bo‘lgan (EmbryoGlue) muhitlar ishlatilgan.",
+    "t17": "EmbryoGlue qanday ishlaydi?",
+    "t18": "EmbryoGlue — bu gialuronan deb nomlanuvchi implantatsiyaga yordam beruvchi makromolekulani o‘z ichiga olgan ko‘chirish muhiti. Gialuronan follikulyar, tuxum yo‘li va bachadon suyuqliklaridagi asosiy glikozaminoglikan bo‘lib, ayol reproduktiv traktidagi yuqori viskoz muhitni ta’minlashda muhim hissa qo‘shadi. Implantatsiya boshlanadigan kunda gialuronan sintezi keskin ortadi, bu uning ushbu jarayon uchun naqadar muhimligini ko‘rsatadi.",
+    "t19": "EmbryoGlue’dan foydalanish oson",
+    "t20": "EmbryoGlue bilan ishlashda laboratoriya protseduralari va ko‘chirish jarayoniga e’tibor berish muhim. EmbryoGlue ko‘chirish muhiti sifatida yaxshi o‘rganilgan bo‘lib, boshqa mahsulotlarga qaraganda ko‘chirishni optimallashtirish bo‘yicha ko‘proq ma’lumotlarga ega. Ko‘chirish protokollari uchun plastinkani tayyorlash, embrionlarni muvozanatlashtirish va kateterni yuklash kabi omillar natijalarga ta’sir ko‘rsatishi mumkin.",
+    "t21": "3 muhim jihat",
+    "t22": "Osmolyarlik, pH va haroratni barqaror ushlab turish uchun foydalanish ko‘rsatmalariga rioya qiling. Quyida laboratoriya protseduralarining uchta muhim bosqichi keltirilgan. Klinika bo‘yicha yordam olish uchun Vitrolife vakilingizga murojaat qiling.",
+    "t23": "Plastinka hajmi",
+    "t24": "Embrionlarni muvozanatlashtirish",
+    "t25": "Kateterni yuklash",
+    "t26": "Hujjatlar",
+    "t27": "Komplektatsiya",
+    "t28": "Xavfsizlik ma’lumotlari",
+    "t29": "Qisqa protokollar",
+    "t30": "Ilmiy natijalar"
+  },
+  "ovoil": {
+    "products": {
+      "ovoil": {
+        "desc": "OVOIL — bu 100% parafin moyi bo‘lib, IVF va mikromanipulyatsiya jarayonlarida kultivatsiya muhitini yopish uchun mo‘ljallangan.",
+        "app": "Ma’lum maqsadga qarab, +37°C haroratga keltirilgach CO₂ inkubatorida yoki normal atmosfera sharoitida qo‘llash uchun mos."
+      },
+      "ovoilHeavy": {
+        "desc": "OVOIL HEAVY — bu yuqori yopishqoqlikka ega moy bo‘lib, boshqaruvni yaxshilash va embrionlarning yashovchanligini oshirishga xizmat qiladi.",
+        "app": "Ma’lum maqsadga qarab, +37°C haroratga keltirilgach CO₂ inkubatorida yoki normal atmosfera sharoitida qo‘llash uchun mos."
+      }
+    },
+    "storage": "+2 dan +8°C gacha bo‘lgan qorong‘u joyda saqlang. Transport qilish paytida harorat +8°Cdan yuqori bo‘lishi mumkin, ammo +25°Cdan oshmasligi va 7 kundan ortiq davom etmasligi lozim.",
+    "usage": "OVOIL™ mahsulotlari embrionlarga ishlov berish paytida kultivatsiya yuzasini yopish va barqaror muhitni ta’minlash uchun mo‘ljallangan. Ularni ishlatishdan oldin tavsiya etilgan harorat va atmosfera sharoitiga keltirish kerak.",
+    "choice": {
+      "title": "Tanlov o‘zingizda",
+      "desc": "OVOIL™ yengil parafin moyi bo‘lsa, OVOIL HEAVY™ — bu yuqori yopishqoqlikka ega sintetik parafin moyi. Ko‘pincha foydalanuvchilar OVOIL HEAVY™ni yengil moylarga qaraganda qulayroq deb hisoblashadi. Ikkala mahsulot ham zamonaviy IVF jarayonlari uchun ideal bo‘lib, sizga sifat va samaradorlikdan voz kechmasdan o‘z ehtiyojingizga mos moyni tanlash imkonini beradi."
+    },
+    "heavyDetails": {
+      "title": "OVOIL HEAVY — oddiy moy emas",
+      "desc": "OVOIL HEAVY — dunyodagi birinchi sintetik yo‘l bilan olingan parafin moyi. Aynan IVFning klinik amaliyoti uchun maxsus ishlab chiqilgan, ishlab chiqarilgan, sinovdan o‘tkazilgan va sertifikatlangan. Partiyalardagi barqaror sifat, yuqori yopishqoqlik va qat’iy testlar bilan OVOIL HEAVY embrion kulturalari xavfsizligini ta’minlash bilan birga, laboratoriyada qulay foydalanish imkonini beradi."
+    },
+    "documents": {
+      "packageInserts": "Komplektatsiya",
+      "safety": "Xavfsizlik ma’lumotlari",
+      "scientific": "Ilmiy ma’lumotlar"
+    },
+    "t1": "Foydalanish haqida ma’lumot",
+    "t2": "Kultivatsiya moyi",
+    "t3": "Probirkalar, quduqlar yoki tomchilardagi muhitni qoplash uchun ishlab chiqilgan OVOIL — yetarli yopishqoqlikka ega, yuqori darajada tozalangan yengil parafin moyi. OVOIL — 100% parafin moyi, OVOIL HEAVY esa sintetik yuqori yopishqoqlikka ega moy. Ikkalasi ham sinovdan o‘tgan, tanlab olingan xomashyo asosida qat’iy nazorat qilinadigan jarayon orqali ishlab chiqariladi.",
+    "t4": "Tanlov o‘zingizda",
+    "t5": "OVOIL™ — yengil parafin moyi, OVOIL HEAVY™ esa yuqori yopishqoqlikka ega sintetik parafin moyi bo‘lib, ba’zi foydalanuvchilar yengil moylarga qaraganda qulayroq deb hisoblashadi. Har kimning shaxsiy afzalliklari bor, ammo har ikkala variantni ham taklif qilamiz, shunda turli ehtiyojlarni qondira olamiz.",
+    "t6": "OVOIL va OVOIL HEAVY bir xil qat’iy sifat sinovlaridan o‘tkazilgan, bu ularni zamonaviy IVF protseduralari uchun ideal qiladi. Bu sizga, sifat yoki samaradorlikdan voz kechmasdan, o‘z ish uslubingizga mos keladigan moyni tanlash imkonini beradi.",
+    "t7": "OVOIL HEAVY — oddiy moy emas",
+    "t8": "OVOIL HEAVY — dunyodagi birinchi sintetik usulda olingan parafin moyi. IVF klinik amaliyoti uchun maxsus ishlab chiqilgan, ishlab chiqarilgan, sinovdan o‘tkazilgan va sertifikatlangan bo‘lib, yuqori yopishqoqlik va har bir partiyada barqaror sifat bilan sizning embrion kulturalaringiz xavfsizligini ta’minlaydi va laboratoriyada ish jarayonini engillashtiradi.",
+    "t9": ""
+  },
+  "gxmon": {
+    "back": "Orqaga",
+    "header": {
+      "title": "Baholash vositalari",
+      "desc": "Qaror qabul qilishni qo‘llab-quvvatlovchi ilg‘or vositalar bo‘lib, foydalanuvchilarga embrionning statistik yashovchanligiga asoslangan turli mezonlar orqali chuqur baho berishga yordam beradi."
+    },
+    "storageInfo": "Embrion tahlili uchun dasturiy vositalar",
+    "products": {
+      "idascore": {
+        "name": "iDAScore",
+        "desc": "AI yordamida avtomatlashtirilgan tahlil",
+        "linkText": "Ko‘proq bilish"
+      },
+      "guidedAnnotation": {
+        "name": "Guided Annotation",
+        "desc": "Ma’lumotlarni tahlil qilish",
+        "linkText": "Ko‘proq bilish"
+      },
+      "kidscore": {
+        "name": "KIDScore",
+        "desc": "Qaror qabul qilishda yordam",
+        "linkText": "Ko‘proq bilish"
+      }
+    },
+    "idascore": {
+      "title": "iDAScore",
+      "desc": "iDAScore chuqur o‘rganish texnologiyasidan foydalanib rivojlanayotgan embrionlarni to‘liq avtomatik tahlil qiladi. Bitta bosish orqali bemorning embrionlarini implantatsiya ehtimoliga ko‘ra ob’ektiv reytingga ega bo‘ling. Embrion baholashning kelajagi mana shu yerda boshlanadi.",
+      "aiTitle": "Sunsizlikni davolashda sun’iy intellekt",
+      "aiDesc": "IVF davolashda time-lapse texnologiyasi nafaqat embrion kultivatsiyasi va bahosini yaxshilash maydonini beradi, balki uning rivojlanish jarayonlarini chuqurroq tushunish imkonini ham yaratadi. Suratlardan AI orqali tahlil qilishdagi so‘nggi yangiliklar embrion bahosini yangi bosqichga olib chiqmoqda.",
+      "study": "Nashr etilgan randomizatsiyalangan nazoratli tadqiqot iDAScore odatiy qo‘lda baholashdan 10 baravar tezroq ishlashini va shu bilan birga o‘xshash klinik natijalarni ko‘rsatishini aniqlagan."
+    },
+    "guidedAnnotation": {
+      "title": "Guided Annotation",
+      "desc": "EmbryoViewer dasturiy ta’minotidagi qo‘shimcha vosita sifatida taklif etiladi va annotatsiya jarayonini optimallashtirishga qaratilgan. Bu yordamida siz EmbryoScope+, EmbryoScope 8 va EmbryoScope Flex qurilmalarida olingan embrionlarning rivojlanishini tahlil qilishingiz, izohlar kiritishingiz va ma’lumotlarni taqqoslashingiz mumkin. Xuddi shu EmbryoViewer dasturi uch xil inkubator turiga ishlashi mumkin. Inkubator ish sharoitlari bemor ma’lumotlari bilan birga avtomatik ravishda yozib boriladi va sifat nazorati uchun EmbryoViewer’da ko‘rsatilishi mumkin.",
+      "evaluationTitle": "Embrionlarni izchil baholash",
+      "evaluationDesc": "EmbryoScope time-lapse tizimi orqali olingan keng qamrovli tasvir ma’lumotlari yordamida har bir embrionning rivojlanish bosqichlarini batafsil kuzatish mumkin. Guided Annotation sizga har bir embrionning rivojlanish ma’lumotlarini aynan qaysi tur va hajmda to‘plashni tanlashga imkon beradi, bu sizga qaysi embrionlarni ko‘chirish yoki muzlatishga mosligini aniqlashda yordam beradi.",
+      "smartTools": "Aqlli dasturiy vositalar va AI ilovalari Guided Annotation’ni tez, samarali va aniq qiladi hamda avtomatlashtirish darajasini to‘liq nazorat qilishingizga imkon beradi. Ishonch darajasini baholash yuqori ishonchli kuzatuvlarni avtomatik annotatsiya qilishga imkon berib, ishonch past bo‘lgan kuzatuvlarga ustuvor e’tibor qaratadi."
+    },
+    "kidscore": {
+      "title": "KIDScore",
+      "desc": "KIDScore D3 & D5 dastlabki model bo‘lib, tanlab olish mezonlari o‘rniga tanlashdan qochish mezonlarini ishlatadi, bu sizga o‘z shaxsiy modellarni ishlab chiqish va joriy etish imkonini beradi. Guided Annotation va KIDScore embrionlarni izchil baholashga eng yaxshi yordam berish uchun birgalikda ishlaydi.",
+      "synergyTitle": "Guided Annotation va KIDScore",
+      "synergyDesc": "Guided Annotation va KIDScore embrionlarni baholash jarayonida izchillikni ta’minlash uchun uyg‘unlikda ishlaydi.",
+      "advantagesTitle": "KIDScore afzalliklari:",
+      "advantages": [
+        "Qaror qabul qilishni yaxshilaydi",
+        "Izchillikni oshiradi",
+        "Eng yaxshi natijalarga erishishga yordam beradi"
+      ]
+    }
+  }
+}

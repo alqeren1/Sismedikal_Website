@@ -14,10 +14,11 @@ import Arrowleft from "../../../svgs/arrow";
 import Arrowdown from "../../../svgs/arrowdown";
 import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
+
 const HeroSection = () => {
   const [sliderKey, setSliderKey] = useState(0); // Key for forcing re-initialization
   const router = useRouter();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const carouselImages = [
     "/hero_images/ewitness.jpg",
@@ -34,7 +35,13 @@ const HeroSection = () => {
       label: "EmbryoGlue",
       route: "/urunlerimiz/g-serisi-kultur-medyumlari/embryoglue",
     },
-    { label: "Octax Laser", route: "/urunlerimiz/octax-lazer/octax-lazer" },
+    {
+      label: "Octax Laser",
+      route:
+        i18n.language === "tr"
+          ? "/urunlerimiz/octax-lazer/octax-lazer"
+          : "/urunlerimiz/octax-lazer/octax-laser",
+    },
   ];
   const sliderSettings = {
     dots: true,

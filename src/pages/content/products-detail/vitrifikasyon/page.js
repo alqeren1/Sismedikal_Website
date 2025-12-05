@@ -44,12 +44,14 @@ export default function Home() {
     },
     {
       webpath:
-        i18n.language === "en"
-          ? "/rapid-i-vitrification-system"
-          : "/rapid-i-vitrifikasyon-sistemi",
+        i18n.language === "tr"
+          ? "/rapid-i-vitrifikasyon-sistemi"
+          : "/rapid-i-vitrification-system",
       name: t("embryoscope.t5"),
-      name: "RAPID-I™ VİTRİFİKASYON SİSTEMİ",
-      brand: "Vitrolife",
+      name:
+        i18n.language === "tr"
+          ? "RAPID-I™ VİTRİFİKASYON SİSTEMİ"
+          : "RAPID-I™ VITRIFICATION SYSTEM",
       path: "the-rapid-i-vitrification-system.jpg",
     },
   ];

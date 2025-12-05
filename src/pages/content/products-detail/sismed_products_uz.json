@@ -1,0 +1,1844 @@
+[
+  {
+    "name": "GX",
+    "id": "gx"
+  },
+  {
+    "name": "G-RINSE™",
+    "brand": "Vitrolife",
+    "image_url": "G-RINSE1.png",
+    "product_url": "http://www.sismed.com/g-rinse/",
+    "url": "http://www.sismed.com/g-rinse/",
+    "title": "G-RINSE™",
+    "subtitle": "Yuvish eritmasi",
+    "description": "Ushbu eritma barcha tegishli materiallarni yuvish, shuningdek, oosit (tuxum hujayralari) olish va embrion ko‘chirishdan oldin bachadon bo‘yin qismiga ishlov berish uchun mo‘ljallangan.",
+    "specifications": {
+      "REF": "10069",
+      "Content": "1 x 125 mL",
+      "Purpose": "Barcha kontaktda bo‘lgan materiallarni yuvish va bachadon bo‘yin qismiga ishlov berish uchun eritma. Kultivatsiya uchun mo‘ljallanmagan.",
+      "Definition": "Bikarbonat buferiga ega fiziologik eritma.",
+      "Application": "+37°C haroratga keltirilgandan so‘ng darhol ishlatishga tayyor.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Yaroqlilik muddati uchun iltimos, butilka yorlig‘ini tekshiring.",
+      "Storage Condition": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Gentamitsin",
+      "Magniy sulfat",
+      "Natriy bikarbonat",
+      "Inyeksiya uchun suv (WFI)",
+      "Kaliy xlorid",
+      "Natriy piruvat"
+    ]
+  },
+  {
+    "name": "G-IVF™ PLUS",
+    "brand": "Vitrolife",
+    "image_url": "givf1.png",
+    "product_url": "http://sismed.com/g-ivf-plus/",
+    "url": "http://sismed.com/g-ivf-plus/",
+    "title": "G-IVF™ PLUS",
+    "subtitle": "Urug‘lantirish muhiti",
+    "description": "Ushbu muhit erkak va ayol gametalarini tayyorlash hamda in vitro urug‘lantirish uchun mo‘ljallangan. Gameta funksiyasini qo‘llab-quvvatlovchi uglevodlar va aminokislotalarni o‘z ichiga oladi.",
+    "specifications": {
+      "REF": "10136",
+      "Content": "1 x 30 mL",
+      "Purpose": "Erkak va ayol gametalarini tayyorlash hamda in vitro urug‘lantirish uchun mo‘ljallangan muhit.",
+      "Definition": "Bikarbonat buferiga ega muhit.",
+      "Application": "+37°C harorat va 6% CO₂ sharoitida muvozanatlashtirilgandan so‘ng qo‘llash mumkin.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Iltimos, yaroqlilik muddatini butilka yorlig‘idan tekshiring.",
+      "Storage Condition": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Inyeksiya uchun suv (WFI)",
+      "Alanin",
+      "Kaliy xlorid",
+      "Natriy piruvat",
+      "Alanil glutamin",
+      "Prolin",
+      "Inson zardobiy albumini",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "EDTA",
+      "Asparagin",
+      "Serin",
+      "Gentamitsin",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Fruktoza",
+      "Magniy sulfat",
+      "Taurin",
+      "Natriy laktat",
+      "Glutamat",
+      "Natriy sitrat",
+      "Glyitsin"
+    ]
+  },
+  {
+    "name": "G-1™ PLUS",
+    "brand": "Vitrolife",
+    "image_url": "G120PLUS1.png",
+    "product_url": "http://sismed.com/g-1-v5-plus/",
+    "url": "http://sismed.com/g-1-v5-plus/",
+    "title": "G-1™ v5 PLUS",
+    "subtitle": "Bo‘linish (cleavage) bosqichi muhiti",
+    "description": "Ushbu muhit bo‘linish bosqichida, taxminan 8-hujayrali bosqichgacha bo‘lgan embrionlarni qo‘llab-quvvatlash uchun ishlab chiqilgan. U uglevodlar, aminokislotalar va embrionning ilk rivojini qo‘llab-quvvatlovchi boshqa komponentlarni o‘z ichiga oladi.",
+    "specifications": {
+      "REF": "10128",
+      "Content": "1 x 30 mL",
+      "Purpose": "Pronuklear bosqichdan boshlab embrionni 2-3 kungacha kultivatsiya qilish muhiti.",
+      "Definition": "Gialuronan va inson zardobiy albuminini o‘z ichiga olgan bikarbonat buferli muhit.",
+      "Application": "+37°C haroratda va 6% CO₂ muvozanatidan so‘ng ishlatish mumkin.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Butilka yorlig‘idan yaroqlilik muddatini tekshiring.",
+      "Storage Condition": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "EDTA",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanil glutamin",
+      "Prolin",
+      "Metionin",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Lipoy kislotasi",
+      "Asparagin",
+      "Serin",
+      "Gialuronan",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Inson zardobiy albumini",
+      "Magniy sulfat",
+      "Taurin",
+      "Natriy piruvat",
+      "Glutamat",
+      "Natriy laktat",
+      "Inyeksiya uchun suv (WFI)",
+      "Glyitsin",
+      "Natriy sitrat"
+    ]
+  },
+  {
+    "name": "EmbryoGlue®",
+    "id": "embryoglue",
+    "brand": "Vitrolife",
+    "image_url": "eglue1.png",
+    "product_url": "http://sismed.com/embryo-glue/",
+    "url": "http://sismed.com/embryo-glue/",
+    "title": "EmbryoGlue®",
+    "subtitle": "Implantatsiya darajasini oshirish va tug‘ilish ko‘rsatkichlarini yaxshilash uchun maxsus ishlab chiqilgan muhit.",
+    "description": "",
+    "specifications": {
+      "REF": "10085 / 10168",
+      "Content": "10 mL / 5×1.5 mL",
+      "Purpose": "Embrion ko‘chirish uchun mo‘ljallangan.",
+      "Definition": "Gialuronan va rekombinant inson zardobiy albuminini o‘z ichiga olgan bikarbonat buferli muhit.",
+      "Application": "+37°C haroratda va 6% CO₂ muvozanatidan so‘ng ishlatilishi kerak.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Iltimos, muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Condition": "Qorong‘u joyda, +2°C – +8°C haroratda saqlang"
+    },
+    "composition": []
+  },
+  {
+    "name": "G-MOPS™",
+    "brand": "Vitrolife",
+    "image_url": "G-MOPS1.png",
+    "product_url": "http://sismed.com/g-mops-2/",
+    "url": "http://sismed.com/g-mops-2/",
+    "title": "G-MOPS™",
+    "subtitle": "Manipulyatsiya muhiti",
+    "description": "Ushbu muhit normal atmosferada tuxum hujayralarini (oositlar) va embrionlarni qo‘llab-quvvatlash uchun mo‘ljallangan. Gameta va embrionlarni qo‘llab-quvvatlovchi uglevodlar va aminokislotalarni, shuningdek normal havo sharoitida to‘g‘ri pHni saqlashga yordam beradigan buferni o‘z ichiga oladi.",
+    "specifications": {
+      "REF": "10129",
+      "Content": "1 x 125 mL",
+      "Purpose": "Tuxum hujayralari va embrionlarni normal atmosfera sharoitida tashish va manipulyatsiya qilish uchun muhit.",
+      "Definition": "MOPS-buferli muhit.",
+      "Application": "+37°C haroratga keltirilgandan so‘ng normal atmosfera sharoitida qo‘llashga yaroqli.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Condition": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "EDTA",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanil glutamin",
+      "Prolin",
+      "Lipoy kislotasi",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Metionin",
+      "Asparagin",
+      "Serin",
+      "MOPS",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Natriy sitrat",
+      "Magniy sulfat",
+      "Taurin",
+      "Natriy piruvat",
+      "Glutamat",
+      "Natriy laktat",
+      "Inyeksiya uchun suv (WFI)",
+      "Glyitsin"
+    ]
+  },
+  {
+    "name": "G-GAMETE™",
+    "brand": "Vitrolife",
+    "image_url": "GGAMETE30202016_475X4921.png",
+    "product_url": "http://sismed.com/g-gamete/",
+    "url": "http://sismed.com/g-gamete/",
+    "title": "G-GAMETE™",
+    "subtitle": "Gameta tayyorlash muhiti",
+    "description": "G-GAMETE™ CO₂siz muhitda pH barqarorligini saqlash uchun mo‘ljallangan inkubatsiya qilish mumkin bo‘lgan muhitdir.",
+    "specifications": {
+      "REF": "10126",
+      "Content": "1 x 30 mL",
+      "Intended Use": "In vitro urug‘lantirish va mikromanipulyatsiya protseduralarida muhitni qoplash uchun mo‘ljallangan.",
+      "Description": "MOPS-buferli muhit.",
+      "Application": "+37°C haroratda va 6% CO₂ sharoitida oldindan muvozanatlangach ishlatilishi kerak.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Iltimos, butilka yorlig‘ini tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Natriy gidroksid",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanilal glutamin",
+      "Prolin",
+      "Inson zardobiy albumini",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "MOPS",
+      "Asparagin",
+      "Serin",
+      "Natriy piruvat",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Inyeksiya uchun suv (WFI)",
+      "Magniy sulfat",
+      "Taurin",
+      "Natriy laktat",
+      "Glutamat",
+      "Glyitsin"
+    ]
+  },
+  {
+    "name": "HSA-solution™",
+    "brand": "Vitrolife",
+    "image_url": "HSA1.png",
+    "product_url": "http://sismed.com/hsa-solution/",
+    "url": "http://sismed.com/hsa-solution/",
+    "title": "HSA-solution™",
+    "subtitle": "Inson zardobiy albumini eritmasi",
+    "description": "HSA barcha embrion kultivatsiya muhitlari uchun qo‘shimcha hisoblanadi. Uning tarkibida 100 mg/ml inson zardobiy albumini mavjud.",
+    "specifications": {
+      "REF": "10064",
+      "Content": "1 x 10 mL",
+      "Intended Use": "Gametalar va embrion muhitlariga qo‘shish uchun tayyorlangan inson zardobiy albumini (100 mg/ml) eritmasi.",
+      "Description": "Inson zardobiy albumini eritmasi (100 mg/ml).",
+      "Application": "Gameta va embrion muhitlariga qo‘shish uchun.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Iltimos, muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Inson zardobiy albumini",
+      "Inyeksiya uchun suv (WFI)"
+    ]
+  },
+  {
+    "name": "G-MOPS™ PLUS",
+    "brand": "Vitrolife",
+    "image_url": "G-MOPS20PLUS1.png",
+    "product_url": "http://sismed.com/g-mops-plus/",
+    "url": "http://sismed.com/g-mops-plus/",
+    "title": "G-MOPS™ PLUS",
+    "subtitle": "Transport muhiti",
+    "description": "G-MOPS™ PLUS tuxum hujayralari va embrionlarni qayta ishlash jarayonida ularni tashish va manipulyatsiya qilishni qo‘llab-quvvatlash uchun ishlab chiqilgan.",
+    "specifications": {
+      "REF": "10130",
+      "Content": "1 x 125 mL",
+      "Intended Use": "Atmosfera sharoitida tuxum hujayralari va embrionlarni tashish uchun muhit.",
+      "Description": "MOPS-buferli muhit.",
+      "Application": "+37°C haroratda va 6% CO₂ sharoitida oldindan muvozanatlangach, tuxum hujayralarini olish va gameta/embrion bilan ishlash uchun ishlatiladi.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Yaroqlilik muddatini butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "EDTA",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanilal glutamin",
+      "Prolin",
+      "Lipoy kislotasi",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Inson zardobiy albumini",
+      "Asparagin",
+      "Serin",
+      "Metionin",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Natriy sitrat",
+      "Magniy sulfat",
+      "Taurin",
+      "MOPS",
+      "Glutamat",
+      "Natriy laktat",
+      "Glyitsin",
+      "Inyeksiya uchun suv (WFI)",
+      "Natriy piruvat"
+    ]
+  },
+  {
+    "name": "G-TL™",
+    "brand": "Vitrolife",
+    "image_url": "G-TL_Product_page1.png",
+    "product_url": "http://sismed.com/g-tl-vitrolife/",
+    "url": "http://sismed.com/g-tl-vitrolife/",
+    "title": "G-TL™",
+    "subtitle": "Bir bosqichli (one-step) kultivatsiya muhiti",
+    "description": "G-TL™ uzluksiz kultivatsiya muhiti bo‘lib, time-lapse tasvirlash tizimlari uchun maxsus ishlab chiqilgan.",
+    "specifications": {
+      "REF": "10145",
+      "Content": "1 x 30 mL",
+      "Intended Use": "Urug‘lantirish bosqichidan blastosista bosqichigacha embrion kultivatsiyasi uchun.",
+      "Description": "Gialuronan va inson zardobiy albuminini o‘z ichiga olgan bikarbonat buferiga ega muhit.",
+      "Application": "+37°C harorat va 6% CO₂ sharoitida oldindan muvozanatlangandan so‘ng ishlatilishi kerak.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Iltimos, muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2°C – +8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Gistidin",
+      "Piridoksin",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Riboflavin",
+      "Alanilal glutamin",
+      "Prolin",
+      "Metionin",
+      "Treonin",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Fenilalanin",
+      "Tirozin",
+      "Asparagin",
+      "Serin",
+      "Gialuronan",
+      "Valin",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Arginin",
+      "Inyeksiya uchun suv (WFI)",
+      "Magniy sulfat",
+      "Tiamin",
+      "Kalsiy pantotenat",
+      "Inson zardobiy albumini",
+      "Glutamat",
+      "Natriy laktat",
+      "Sistein",
+      "Izoleytsin",
+      "Glyitsin",
+      "Triptofan",
+      "Leytsin",
+      "Natriy piruvat",
+      "Natriy sitrat"
+    ]
+  },
+  {
+    "name": "G-2™ PLUS",
+    "brand": "Vitrolife",
+    "image_url": "G220PLUS1.png",
+    "product_url": "http://sismed.com/g-2-v5-plus/",
+    "url": "http://sismed.com/g-2-v5-plus/",
+    "title": "G-2™ v5 PLUS",
+    "subtitle": "Blastosista rivojlanish muhiti",
+    "description": "Ushbu muhit 8-hujayrali bosqichdan blastosista bosqichigacha embrion rivojini qo‘llab-quvvatlash uchun ishlab chiqilgan. Unda rivojlangan bosqichdagi embrionlarni qo‘llab-quvvatlash uchun uglevodlar, aminokislotalar va boshqa integratorlar mavjud.",
+    "specifications": {
+      "REF": "10132",
+      "Content": "1 x 30 mL",
+      "Intended Use": "3-kundan blastosista bosqichigacha embrionlarni kultivatsiya qilish uchun.",
+      "Description": "Gialuronan o‘z ichiga olgan bikarbonat buferli muhit.",
+      "Application": "+37°C harorat va 6% CO₂ sharoitida oldindan muvozanatlashtirib foydalanish mumkin.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Iltimos, muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Gistidin",
+      "Piridoksin",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Riboflavin",
+      "Alanilal glutamin",
+      "Prolin",
+      "Metionin",
+      "Treonin",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Fenilalanin",
+      "Tirozin",
+      "Asparagin",
+      "Serin",
+      "Gialuronan",
+      "Valin",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Arginin",
+      "Inyeksiya uchun suv (WFI)",
+      "Magniy sulfat",
+      "Tiamin",
+      "Kalsiy pantotenat",
+      "Inson zardobiy albumini",
+      "Glutamat",
+      "Natriy laktat",
+      "Sistein",
+      "Izoleytsin",
+      "Glyitsin",
+      "Triptofan",
+      "Leytsin",
+      "Natriy piruvat",
+      "Natriy sitrat"
+    ]
+  },
+  {
+    "name": "G-IVF™",
+    "brand": "Vitrolife",
+    "image_url": "GIVF60202016_475X4921.png",
+    "product_url": "http://sismed.com/g-ivf/",
+    "url": "http://sismed.com/g-ivf/",
+    "title": "G-IVF™",
+    "subtitle": "Urug‘lantirish muhiti",
+    "description": "Ushbu muhit erkak va ayol gametalarini tayyorlash hamda in vitro urug‘lantirish uchun mo‘ljallangan. Unda erkak va ayol gametalarining funksiyasini qo‘llab-quvvatlovchi uglevodlar va aminokislotalar mavjud.",
+    "specifications": {
+      "REF": "10135",
+      "Content": "1 x 60 mL",
+      "Intended Use": "Erkak va ayol gametalarini tayyorlash hamda in vitro urug‘lantirish uchun.",
+      "Description": "Bikarbonat buferli muhit.",
+      "Application": "G-MM™ yoki HSA-solution™ qo‘shilgandan so‘ng +37°C haroratda va 6% CO₂ sharoitida oldindan muvozanatlashtirib foydalanish mumkin.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Butilka yorlig‘idan muddatni tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "EDTA",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanilal glutamin",
+      "Prolin",
+      "Fruktoza",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Natriy sitrat",
+      "Asparagin",
+      "Serin",
+      "Natriy piruvat",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Glyitsin",
+      "Magniy sulfat",
+      "Taurin",
+      "Inyeksiya uchun suv (WFI)",
+      "Glutamat",
+      "Natriy laktat"
+    ]
+  },
+  {
+    "name": "G-1™",
+    "brand": "Vitrolife",
+    "image_url": "G11.png",
+    "product_url": "http://sismed.com/g-1-v5/",
+    "url": "http://sismed.com/g-1-v5/",
+    "title": "G-1™ v5",
+    "subtitle": "Bo‘linish (cleavage) bosqichi muhiti",
+    "description": "Ushbu muhit bo‘linish bosqichida, 8-hujayrali bosqichgacha bo‘lgan embrionlarni qo‘llab-quvvatlash uchun mo‘ljallangan. Unda embrionning dastlabki rivojlanishini qo‘llab-quvvatlaydigan uglevodlar, aminokislotalar va boshqa integratorlar mavjud.",
+    "specifications": {
+      "REF": "10127",
+      "Content": "1 x 30 mL",
+      "Intended Use": "Pronuklear bosqichdan 2-3 kungacha embrion kultivatsiyasi uchun.",
+      "Description": "Gialuronan o‘z ichiga olgan bikarbonat buferli muhit.",
+      "Application": "G-MM™ yoki HSA-solution™ qo‘shilgach +37°C va 6% CO₂ sharoitida oldindan muvozanatlangandan so‘ng qo‘llash mumkin.",
+      "Shelf Life": "Yetkazib berilgan kundan boshlab kamida 5 hafta. Butilka yorlig‘idan muddatni tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "EDTA",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanilal glutamin",
+      "Prolin",
+      "Metionin",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Lipoy kislotasi",
+      "Asparagin",
+      "Serin",
+      "Gialuronan",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Natriy sitrat",
+      "Magniy sulfat",
+      "Taurin",
+      "Natriy piruvat",
+      "Glutamat",
+      "Natriy laktat",
+      "Inyeksiya uchun suv (WFI)",
+      "Glyitsin"
+    ]
+  },
+  {
+    "name": "G-2™",
+    "brand": "Vitrolife",
+    "image_url": "G21.png",
+    "product_url": "http://sismed.com/g-2-v5/",
+    "url": "http://sismed.com/g-2-v5/",
+    "title": "G-2™ v5",
+    "subtitle": "Blastosista rivojlanish muhiti",
+    "description": "Ushbu muhit 8-hujayrali bosqichdan boshlab blastosista bosqichigacha embrionlarni qo‘llab-quvvatlash uchun ishlab chiqilgan. Unda yuqori bosqichdagi embrion rivojini qo‘llab-quvvatlovchi uglevodlar, aminokislotalar va bog‘lanish komponentlari mavjud.",
+    "specifications": {
+      "REF": "10131",
+      "Content": "1 x 30 mL",
+      "Intended Use": "3-kundan blastosista bosqichigacha embrion kultivatsiyasi uchun muhit.",
+      "Description": "Gialuronan o‘z ichiga olgan bikarbonat buferli muhit.",
+      "Application": "+37°C va 6% CO₂ sharoitida muvozanatlangach va G-MM™ yoki HSA-solution™ qo‘shib foydalanish mumkin.",
+      "Shelf Life": "Jo‘natilgan kundan boshlab kamida 5 hafta. Yaroqlilik muddatini butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Gistidin",
+      "Piridoksin",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Riboflavin",
+      "Alanil glutamin",
+      "Prolin",
+      "Metionin",
+      "Treonin",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Fenilalanin",
+      "Tirozin",
+      "Asparagin",
+      "Serin",
+      "Gialuronan",
+      "Valin",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Arginin",
+      "Inyeksiya uchun suv (WFI)",
+      "Magniy sulfat",
+      "Tiamin",
+      "Kalsiy pantotenat",
+      "Izoleytsin",
+      "Glutamat",
+      "Natriy laktat",
+      "Sistin",
+      "Natriy piruvat",
+      "Glyitsin",
+      "Triptofan",
+      "Leytsin",
+      "Natriy sitrat"
+    ]
+  },
+  {
+    "name": "G-MM™",
+    "brand": "Vitrolife",
+    "image_url": "G-MM1.png",
+    "product_url": "http://sismed.com/g-mm/",
+    "url": "http://sismed.com/g-mm/",
+    "title": "G-MM™",
+    "subtitle": "Rekombinant inson zardobiy albumini eritmasi",
+    "description": "G-MM™ barcha embrion kultivatsiya muhitlari uchun qo‘shimcha hisoblanadi. Bu rekombinant inson zardobiy albuminining sitratli eritmasi bo‘lib, viruslar va prionlardan tozalangan ta’riflangan qo‘shimchadir.",
+    "specifications": {
+      "REF": "10038",
+      "Content": "1 x 10 mL",
+      "Intended Use": "Gameta va embrionlarla ishlashda yordamchi reproduktiv protseduralarda foydalanish uchun (50 mg/ml) rekombinant inson zardobiy albumini eritmasi. G-MM™ ushbu protseduralarda kultivatsiya muhitiga qo‘shimcha sifatida qo‘llanadi.",
+      "Description": "Rekombinant inson zardobiy albumini eritmasi (50 mg/ml).",
+      "Application": "Gameta va embrion muhitlariga qo‘shish uchun.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Yaroqlilik muddatini butilka yorlig‘idan ko‘ring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Rekombinant inson zardobiy albumini",
+      "Inyeksiya uchun suv (WFI)",
+      "Uch-natriy sitrat"
+    ]
+  },
+  {
+    "name": "G-PGD™",
+    "brand": "Vitrolife",
+    "image_url": "G-PGD1.png",
+    "product_url": "http://sismed.com/g-pgd/",
+    "url": "http://sismed.com/g-pgd/",
+    "title": "G-PGD™",
+    "subtitle": "Embrion biopsiyasi muhiti",
+    "description": "Embrion biopsiyasi uchun ishlab chiqilgan muhit.",
+    "specifications": {
+      "REF": "10074",
+      "Content": "1 x 10 mL",
+      "Intended Use": "Embrion biopsiyasi uchun muhit.",
+      "Description": "Kaltsiy va magniysiz MOPS-buferli muhit.",
+      "Application": "+37°C haroratda, normal atmosfera sharoitida oldindan muvozanatlashtirib, G-MM™ yoki HSA-solution™ qo‘shilgandan so‘ng qo‘llash mumkin.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Alanin",
+      "Glutamat",
+      "Natriy piruvat",
+      "Alanil glutamin",
+      "MOPS",
+      "Inyeksiya uchun suv (WFI)",
+      "Glyukoza",
+      "Glyitsin",
+      "Natriy laktat",
+      "Asparagin",
+      "Natriy xlorid",
+      "Natriy digidrofosfat",
+      "Aspartat",
+      "Kaliy xlorid",
+      "Serin",
+      "Gentamitsin",
+      "Prolin",
+      "Natriy bikarbonat"
+    ]
+  },
+  {
+    "name": "ASP™",
+    "brand": "Vitrolife",
+    "image_url": "ASP125.png",
+    "product_url": "",
+    "url": "",
+    "title": "ASP™",
+    "subtitle": "Oosit (tuxum hujayrasi) olish muhiti",
+    "description": "ASP™ oosit olish protseduralari uchun ishlab chiqilgan. Bikarbonat va HEPES bilan buferlangan modifikatsiyalangan HTF-muhiti bo‘lib, xona temperaturasida pH barqarorligini oshirishga yordam beradi. Follicular suyuqlikning ivishiga to‘sqinlik qilish uchun farmatsevtik darajadagi heparin va antibiotik sifatida farmatsevtik darajadagi gentamitsinni o‘z ichiga oladi.",
+    "specifications": {
+      "REF": "10100",
+      "Content": "1 x 125 mL",
+      "Intended Use": "Oositlarni (tuxum hujayralarini) olish va yuvish (follicle flushing) uchun.",
+      "Description": "Bikarbonat va HEPES bilan buferlangan muhit bo‘lib, heparin va gentamitsin o‘z ichiga oladi.",
+      "Application": "+37°C va 5% CO₂ sharoitida oldindan muvozanatlashtirilgandan so‘ng ishlatilishi kerak.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy laktat",
+      "Kaliy digidrofosfat",
+      "Geparin",
+      "Kaliy xlorid",
+      "EDTA",
+      "Glyukoza",
+      "Gentamitsin",
+      "Magniy sulfat",
+      "HEPES",
+      "Natriy bikarbonat",
+      "Natriy xlorid",
+      "Inyeksiya uchun suv (WFI)"
+    ]
+  },
+  {
+    "name": "IVF™",
+    "brand": "Vitrolife",
+    "image_url": "IVF3020.png",
+    "product_url": "",
+    "url": "",
+    "title": "IVF™-30",
+    "subtitle": "In Vitro urug‘lantirish va bo‘linish muhiti",
+    "description": "IVF™-30 urug‘lantirish, embrion kultivatsiyasi va embrion ko‘chirish uchun ishlab chiqilgan. U IVF-ET kulturasi muhitlari uchun past glyukoza, past fosfat prinsipiga muvofiq tuzilgan. Katta hajmli yoki moy qoplami ostida ham kultivatsiya qilish uchun ishlatish mumkin. 6-8 hujayrali bosqichgacha optimal sharoitlarni taqdim etadigan to‘liq muhitdir. IVF™-30 farmatsevtik darajadagi penitsillin G ni o‘z ichiga oladi, lekin fenol qizil bo‘yoqni o‘z ichiga olmaydi.",
+    "specifications": {
+      "REF": "10086",
+      "Content": "1 x 30 mL",
+      "Intended Use": "In vitro urug‘lantirish, embrion kultivatsiyasi va ko‘chirish uchun.",
+      "Description": "Inson zardobiy albuminini o‘z ichiga olgan bikarbonat buferli muhit.",
+      "Application": "+37°C va 5% CO₂ sharoitida oldindan muvozanatlangandan so‘ng ishlatilishi kerak.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "EDTA",
+      "Natriy piruvat",
+      "Kaliy xlorid",
+      "Inson zardobiy albumini",
+      "Glyukoza",
+      "Penitsillin G",
+      "Natriy bikarbonat",
+      "Magniy sulfat",
+      "Kaliy digidrofosfat",
+      "Inyeksiya uchun suv (WFI)",
+      "Natriy laktat"
+    ]
+  },
+  {
+    "name": "ICSI™",
+    "brand": "Vitrolife",
+    "image_url": "ICSI.png",
+    "product_url": "",
+    "url": "",
+    "title": "ICSI™",
+    "subtitle": "Spermani ushlash (capture) eritmasi",
+    "description": "ICSI™ - qalin (viskoz) transfer eritmasi bo‘lib, spermatozoidni immobilizatsiya qilish va uni oosit ichiga yuborishni osonlashtirish uchun ishlab chiqilgan. Tarkibida farmatsevtik darajadagi polivinilpirrolidon (PVP) mavjud. Antibiotiklarni o‘z ichiga olmaydi.",
+    "specifications": {
+      "REF": "10111",
+      "Content": "5 x 0.1 mL",
+      "Intended Use": "Intratsitoplazmatik spermatozoid yuborish (ICSI)dan oldin spermatozoidni immobilizatsiya qilish uchun.",
+      "Description": "PVP va rekombinant inson zardobiy albumini o‘z ichiga olgan qalin sperma eritmasi.",
+      "Application": "+20 ± 5°C haroratda oldindan muvozanatlashtirilgach ishlatilishi kerak. Kamida 10 ta protsedura uchun yetarli.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2–8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Kaliy digidrofosfat",
+      "EDTA",
+      "Natriy bikarbonat",
+      "Glyukoza",
+      "Natriy xlorid",
+      "Rekombinant inson zardobiy albumini",
+      "Natriy laktat",
+      "Polivinilpirrolidon (PVP)",
+      "Natriy piruvat",
+      "Kaliy xlorid",
+      "Inyeksiya uchun suv (WFI)"
+    ]
+  },
+  {
+    "name": "SPERMGRAD™ 30/125",
+    "brand": "Vitrolife",
+    "image_url": "spermgrad125.png",
+    "product_url": "",
+    "url": "",
+    "title": "SPERMGRAD™ 30/125",
+    "subtitle": "Spermani tayyorlash muhiti",
+    "description": "Ushbu muhit spermani yuvish va tozalash jarayonini qo‘llab-quvvatlash uchun ishlab chiqilgan. Spermatozoid funksiyasini qo‘llab-quvvatlovchi uglevodlarni o‘z ichiga oladi.",
+    "specifications": {
+      "REF": "10102 / 10099",
+      "Content": "30 mL / 125 mL",
+      "Intended Use": "Gradyent usuli orqali spermani ajratish uchun muhit.",
+      "Description": "Bikarbonat va HEPES bilan buferlangan, silan bilan qoplangan kolloid kremniy zarrachalarini o‘z ichiga olgan muhit.",
+      "Application": "G-MM™ yoki HSA-solution™ bilan boyitilgan G-IVF™ yoki SpermRinse™ qo‘shilgach foydalanish uchun mos.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2–8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Kaliy xlorid",
+      "Glyukoza",
+      "Natriy piruvat",
+      "HEPES",
+      "Inyeksiya uchun suv (WFI)",
+      "Magniy sulfat",
+      "Natriy bikarbonat",
+      "Monokaliy fosfat",
+      "Natriy xlorid",
+      "Silan bilan qoplangan kolloid kremniy zarrachalari",
+      "Natriy laktat"
+    ]
+  },
+  {
+    "name": "SPERMRINSE™",
+    "brand": "Vitrolife",
+    "image_url": "SpermRinse.png",
+    "product_url": "",
+    "url": "",
+    "title": "SPERM RINSE™-30",
+    "subtitle": "Spermani tayyorlash muhiti",
+    "description": "Spermani tayyorlashda foydalaniladigan muhit.",
+    "specifications": {
+      "REF": "10101",
+      "Content": "1 x 30 mL",
+      "Intended Use": "Spermani tayyorlash uchun muhit.",
+      "Description": "Inson zardobiy albuminini o‘z ichiga olgan bikarbonat va HEPES bilan buferlangan muhit.",
+      "Application": "+37°C va 5% CO₂ sharoitida oldindan muvozanatlashtirgandan so‘ng ishlatilishi kerak.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2–8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Kaliy xlorid",
+      "EDTA",
+      "Kaliy digidrofosfat",
+      "Gentamitsin",
+      "Natriy bikarbonat",
+      "Glyukoza",
+      "Natriy xlorid",
+      "HEPES",
+      "Natriy laktat",
+      "Inson zardobiy albumini",
+      "Natriy piruvat",
+      "Magniy sulfat",
+      "Inyeksiya uchun suv (WFI)"
+    ]
+  },
+  {
+    "name": "SPERMFREEZE SOLUTION™",
+    "brand": "Vitrolife",
+    "image_url": "SpermFreeze_Solution.png",
+    "product_url": "",
+    "url": "",
+    "title": "SPERM FREEZE SOLUTION™",
+    "subtitle": "Spermani kriokonservatsiya qilish muhiti",
+    "description": "Ushbu muhit spermatozoidning yashovchanligini maksimal darajada saqlab qolish va muzlatish jarayonidan so‘ng DNK yaxlitligi hamda funksiyasini saqlash uchun ishlab chiqilgan.",
+    "specifications": {
+      "REF": "10137",
+      "Content": "4 x 10 mL",
+      "Intended Use": "Inson spermasini kriokonservatsiya qilish uchun ishlatiladigan muhit.",
+      "Description": "MOPS buferiga ega bo‘lib, bikarbonat va inson zardobiy albuminini o‘z ichiga oladi.",
+      "Application": "+20°C ± 5°C normal atmosfera sharoitida oldindan muvozanatlashtirilgach foydalanish uchun mos.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2–8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Kaliy xlorid",
+      "Kimyoviy jihatdan aniqlangan lipid kontsentrati",
+      "Natriy gidroksid",
+      "Gentamitsin",
+      "Natriy bikarbonat",
+      "Glyukoza",
+      "Natriy xlorid",
+      "Glitserin",
+      "Natriy digidrofosfat",
+      "Glyitsin",
+      "Natriy laktat",
+      "Inson zardobiy albumini",
+      "Saxaroza",
+      "Magniy xlorid",
+      "Inyeksiya uchun suv (WFI)"
+    ]
+  },{
+    "name": "OVOIL™",
+    "id": "ovoil",
+    "brand": "Vitrolife",
+    "image_url": "ovoil-100.jpeg",
+    "product_url": "",
+    "url": "",
+    "title": "OVOIL™",
+    "subtitle": "Kultivatsiya moyi",
+    "description": "Kultivatsiya probirkalari, quduqlari yoki tomchilaridagi muhit yuzasini qoplash uchun ishlab chiqilgan. Bu tegishli yopishqoqlikka va yuqori tozalik darajasiga ega yengil parafin moyidir.",
+    "specifications": {
+      "REF": "10029",
+      "Content": "100 mL",
+      "Intended Use": "In vitro urug‘lantirish va mikromanipulyatsiya jarayonlarida muhitni yopish uchun mo‘ljallangan.",
+      "Description": "Steril yengil parafin moyi.",
+      "Application": "+37°C harorat va mo‘ljalga ko‘ra normal atmosfera sharoiti, 5% yoki 6% CO₂ bilan oldindan muvozanatlashtirilgandan so‘ng qo‘llash kerak.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Yaroqlilik muddati uchun butilka yorlig‘iga qarang.",
+      "Storage Conditions": "Qorong‘u joyda, +2-8°C haroratda saqlang"
+    },
+    "composition": [
+      "Yengil parafin moyi"
+    ]
+  },
+  {
+    "name": "HYASE™-10X",
+    "brand": "Vitrolife",
+    "image_url": "HYASE.png",
+    "product_url": "",
+    "url": "",
+    "title": "HYASE™-10X",
+    "subtitle": "Kontsentratsiyalangan gialuronidaza",
+    "description": "HYASE™-10X 10 baravar kontsentratsiyalangan bo‘lib, ICSI proseduralaridan oldin oositlarning denudatsiya jarayonida ishlatiladi. HYASE™-10X tarkibida gialuronidaza mavjud bo‘lib, denudatsiya paytida borosilikat shishadan tayyorlangan mos pipetka yordamida kumulus va korona qatlamlarini ajratishga yordam beradi. HYASE™-10X ni ishlatishdan avval G-OOCYTE™ / qo‘shimchali G-MOPS™ / GAMETE™-30 da suyultirish kerak. Prosedura natijasiga texnik tajriba ham, gialuronidaza kontsentratsiyasi ham muhim omil hisoblanadi. HYASE™-10X tarkibida farmatsevtik darajadagi penitsillin G mavjud.",
+    "specifications": {
+      "REF": "10017",
+      "Content": "5 x 1 mL",
+      "Intended Use": "Kumulus hujayralarini olib tashlash uchun.",
+      "Description": "Fiziologik tuzli bufer bo‘lib, gialuronidaza va inson zardobiy albuminini o‘z ichiga oladi.",
+      "Application": "1:10 nisbatda suyultirilgach ishlatilishi mumkin. HYASE™-10X tarkibida 800 IU/mL gialuronidaza mavjud.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Yaroqlilik muddati uchun butilka yorlig‘ini tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2-7°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Kaliy digidrofosfat",
+      "Inson zardobiy albumini",
+      "Natriy xlorid",
+      "Gialuronidaza",
+      "Dinatriy vodorodfosfat",
+      "Magniy sulfat",
+      "Inyeksiya uchun suv (WFI)",
+      "Penitsillin G",
+      "Kaliy xlorid"
+    ]
+  },
+  {
+    "name": "HANDLING PIPETTE™",
+    "brand": "",
+    "image_url": "transfer-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "DENUDATION PIPETTE™",
+    "subtitle": "Denudatsiya pipetkasi",
+    "description": "",
+    "specifications": {
+      "Description": "Balonchali, oldindan yig‘ilgan, to‘g‘ri va silliq uchi bo‘lgan pipetka",
+      "Intended Use": "Kumulus hujayra qatlamlarini olib tashlash, oositlar, embrionlar va blastosistalarni ko‘chirish yoki urug‘lantirishni tekshirish uchun qo‘llanadi",
+      "Application": "Silikon kauchuk baloncha bilan ta’minlangan pipetka ushlagich bilan ishlatish uchun mos",
+      "Storage Conditions": "+2 dan +30°C gacha bo‘lgan haroratda saqlang"
+    }
+  },
+  {
+    "name": "TRANSFER PIPETTE™",
+    "brand": "",
+    "image_url": "transfer-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "TRANSFER PIPETTE™",
+    "subtitle": "Transfer pipetkasi",
+    "description": "",
+    "specifications": {
+      "Description": "To‘g‘ri va silliq uchi bo‘lgan pipetka",
+      "Intended Use": "Oositlar, embrionlar va blastosistalarni ko‘chirish yoki urug‘lantirishni tekshirish uchun",
+      "Application": "Pipetka ushlagichi va silikon ballon bilan ishlatish uchun mo‘ljallangan",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "ICSI PIPETTE™",
+    "brand": "",
+    "image_url": "icsi-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "ICSI PIPETTE™",
+    "subtitle": "ICSI pipetkasi",
+    "description": "",
+    "specifications": {
+      "Description": "Uchi o‘tkir, shpikli yoki shpiliz, spermatozoid olish va ICSI jarayonida tuxum hujayrasiga kiritish uchun pipetka",
+      "Intended Use": "Bitta spermatozoidni so‘rib olish va tuxum hujayraga intratsitoplazmatik in’ektsiya qilish uchun",
+      "Application": "Mikromanipulyator bilan ishlatish uchun mo‘ljallangan",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "HOLDING PIPETTE™",
+    "brand": "",
+    "image_url": "holding-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "HOLDING PIPETTE™",
+    "subtitle": "Ushlash pipetkasi",
+    "description": "",
+    "specifications": {
+      "Description": "Charxlash ishlovi berilgan, yumaloq uchi bo‘lgan pipetka",
+      "Intended Use": "ICSI yoki boshqa mikromanipulyatsiya jarayonlari paytida oosit yoki embrionlarni ushlab turish uchun",
+      "Application": "Mikromanipulyator bilan ishlatish uchun",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "PZD PIPETTE™",
+    "brand": "",
+    "image_url": "pzd-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "PZD PIPETTE™",
+    "subtitle": "PZD pipetkasi",
+    "description": "",
+    "specifications": {
+      "Description": "Uchi o‘tkir pipetka",
+      "Intended Use": "Zona pellusida (tuxum qobig‘i)da kichik teshik hosil qilish uchun (assisted hatching yoki embrion biopsiyasi)",
+      "Application": "Mikromanipulyator bilan ishlatish uchun",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "BIOPSY PIPETTE™",
+    "brand": "",
+    "image_url": "biyopsi-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "BIOPSY PIPETTE™",
+    "subtitle": "Biopsiya pipetkasi",
+    "description": "",
+    "specifications": {
+      "Description": "To‘g‘ri va silliq uchi bo‘lgan pipetka",
+      "Intended Use": "Embrion biopsiyasi uchun",
+      "Application": "Mikromanipulyator bilan ishlatish uchun",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "MICRO-DROPLET DISH",
+    "brand": "",
+    "image_url": "micro-droplet.png",
+    "product_url": "",
+    "url": "",
+    "title": "MICRO-DROPLET DISH",
+    "subtitle": "Mikro-tomchi kultivatsiya plastinkasi",
+    "description": "Bizning EKO uchun maxsus ishlab chiqilgan va tasdiqlangan kultura plastinkalarimiz protseduralaringiz uchun ishonchli muhitni ta’minlaydi. Foydalanishga tayyor va xona haroratida saqlanadi. Mijoz identifikatsiyasi uchun ish sohasidan alohida maydon mavjud. Yuzalar embrion kultivatsiyasi uchun maxsus loyihalashtirilgan. Quduq chetlari embrion tasvirini olishni osonlashtirish uchun buralgan shaklda. Pastki qismi isitish plastinkasi bilan kontaktda bo‘lib, haroratning bir xil taqsimlanishini ta’minlaydi. 25-35 µL tomchilar uchun optimallashtirilgan 12 ta mikro-quduqdan iborat. Alfanumerik belgilash embrionlarni mikroskop ostida ham, tashqarisida ham aniqlashni osonlashtiradi.",
+    "specifications": {
+      "Content": "12 mikro quduq",
+      "Intended Use": "EKO protseduralari uchun kultura plastinkasi",
+      "Description": "Mikro-tomchi kultivatsiya plastinkasi",
+      "Application": "25-35 µL tomchilar uchun optimallashtirilgan",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "5-WELL DISH",
+    "brand": "",
+    "image_url": "5well.png",
+    "product_url": "",
+    "url": "",
+    "title": "5-WELL DISH",
+    "subtitle": "5-quduqli kultura plastinkasi",
+    "description": "Bizning EKO uchun maxsus ishlab chiqilgan va tasdiqlangan kultura plastinkalarimiz protseduralaringiz uchun ishonchli muhitni ta’minlaydi. Foydalanishga tayyor va xona haroratida saqlanadi. Mijoz identifikatsiyasi uchun ish sohasidan alohida maydon mavjud. Yuzalar embrion kultivatsiyasi uchun maxsus loyihalashtirilgan bo‘lib, quduq chetlari embrion tasvirini osonlashtirish uchun buralgan shaklga ega. Pastki qismi isitish plastinkasi bilan kontaktda bo‘lib, haroratni teng taqsimlaydi. 5 ta quduqdan iborat.",
+    "specifications": {
+      "Content": "5 quduq",
+      "Intended Use": "EKO protseduralari uchun kultura plastinkasi",
+      "Description": "5-quduqli kultura plastinkasi",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "CENTRE-WELL DISH",
+    "brand": "",
+    "image_url": "centre-well.png",
+    "product_url": "",
+    "url": "",
+    "title": "CENTRE-WELL DISH",
+    "subtitle": "Markaziy quduqli kultura plastinkasi",
+    "description": "Bizning EKO uchun maxsus ishlab chiqilgan va tasdiqlangan kultura plastinkalarimiz protseduralaringiz uchun ishonchli muhitni ta’minlaydi. Foydalanishga tayyor va xona haroratida saqlanadi. Mijoz identifikatsiyasi uchun ish sohasidan alohida maydon mavjud. Yuzalar embrion kultivatsiyasi uchun maxsus loyihalashtirilgan, quduq chetlari embrionni kuzatish uchun qulaylik beradigan buralgan shaklda. Pastki qismi isitish plastinkasi bilan kontaktda bo‘lib, haroratning bir xil taqsimlanishini ta’minlaydi. Fertilizatsiya, krioshuvd, embrion kultivatsiyasi va embrion ko‘chirish kabi ko‘p maqsadlarda qo‘llash mumkin. Oval shakldagi markaziy quduq embrionni joylashtirish va unga kirishni osonlashtiradi.",
+    "specifications": {
+      "Content": "Oval markaziy quduq",
+      "Intended Use": "Fertilizatsiya, krioshuvd, embrion kultivatsiyasi va embrion ko‘chirish kabi ko‘p maqsadli kultura plastinkasi",
+      "Description": "Markaziy quduqli kultura plastinkasi",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "OCTAX LASER",
+    "brand": "OCTAX",
+    "image_url": "octax-productimg.png",
+    "product_url": "",
+    "url": "",
+    "title": "OCTAX LASER & IMAGING SYSTEM",
+    "subtitle": "",
+    "description": "Octax shunchaki lazer emas; bu raqamli tasvirlash, tasvir tahlili va yordamchi reproduktiv texnologiyalarida ilg‘or amaliyotlar uchun mo‘ljallangan ko‘p maqsadli platformadir. Modulli va nihoyatda qulay ishlatiladigan Octax lazer va tasvir tizimlari zamonaviy IVF klinikalarining ehtiyojlarini qondirish uchun rivojlangan texnologik uskunalar va dasturiy vositalarni birlashtiradi. Statik Octax LaserShot va Dinamik Octax NaviLase yuqori sifatli tasvir bilan xavfsiz ishlash imkonini beradi. Ikkala lazer ham kalibrlashni yoki pilot lazer nurlarini talab qilmaydi. IVF protseduralaridagi barcha lazer amaliyotlari uchun ishlatilishi mumkin: embrion xetchingi, trofektoderma, blastomer va qutbiy tanachalar biopsiyasi, blastosista kollapsi, spermatozoidni immobilizatsiya qilish va spermatozoid hayotiyligini test qilish.",
+    "specifications": {},
+    "products": [
+      {
+        "name": "Dynamic Laser - Octax NaviLase",
+        "title": "Dynamic Laser - Octax NaviLase",
+        "image_url": "octax-productimg.png",
+        "description": "NaviLase bilan embrion harakatsiz turadi, lazer esa tanlangan nishon maydoniga yo‘naltiriladi. Siz to‘g‘ri yoki egri chiziq bo‘ylab bir nechta lazer zarbalarini amalga oshirishingiz mumkin. Egri chiziq bo‘ylab ko‘p zarba, to‘g‘ri chiziq bo‘ylab ko‘p zarba, ikki yoki uch karra zarbali kesim."
+      },
+      {
+        "name": "Static Laser - Octax LaserShot",
+        "title": "Static Laser - Octax LaserShot",
+        "image_url": "octax-productimg.png",
+        "description": "Octax LaserShot bilan lazer nishon maydoni doimiy bo‘ladi, embrion esa lazer nishon maydoniga nisbatan to‘g‘rilanadi."
+      }
+    ]
+  },
+  {
+    "name": "EMBRYOSCOPE +",
+    "brand": "",
+    "image_url": "embryoscope+.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE+ TIME-LAPSE SYSTEM",
+    "subtitle": "",
+    "description": "EmbryoScope+ embrionlar uchun xavfsiz va uzluksiz rivojlanish muhitini ta’minlaydi, homiladorlik ehtimoli eng yuqori bo‘lgan embrionlarni tanlash imkonini beradi. Ushbu texnologiya haqiqiy vaqt (real-time) formatida embrion hujayralarining bo‘linishini yozib olish va ko‘rish imkonini berib, hayotning boshlanish bosqichidan boshlab barcha rivojlanish bosqichlarini nazorat qilishni ta’minlaydi.",
+    "specifications": {
+      "Intended Use": "Tuxum yoki embrion rivoji uchun, tana haroratiga yaqin boshqariladigan harorat va CO₂ darajasini ta’minlash. EmbryoScope+ Time-lapse inkubatoridan foydalanish urug‘lantirishdan keyingi 120 soat (rivojlanishning 5-kuni) bilan cheklangan."
+    }
+  },
+  {
+    "name": "EMBRYOSCOPE 8",
+    "brand": "",
+    "image_url": "embryoscope8.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE 8",
+    "subtitle": "",
+    "description": "EmbryoScope 8 embrionlarni xavfsiz va uzluksiz rivojlanish muhitida saqlab, homiladorlik ehtimoli eng yuqori bo‘lgan embrionlarni tanlash imkonini beradi.",
+    "specifications": {
+      "Intended Use": "Tuxum yoki embrion rivoji uchun boshqariladigan harorat va CO₂ darajasini ta’minlash. EmbryoScope 8 inkubatoridan foydalanish urug‘lantirishdan keyin 120 soat (5-kun) bilan cheklangan."
+    }
+  },
+  {
+    "name": "EMBRYOSCOPE FLEX",
+    "brand": "",
+    "image_url": "embryoscope-flex.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE FLEX",
+    "subtitle": "",
+    "description": "EmbryoScope Flex embrionlarni xavfsiz va uzluksiz rivojlanish muhitida saqlash, homiladorlik ehtimoli eng yuqori bo‘lgan embrionlarni tanlash imkonini beradi.",
+    "specifications": {
+      "Intended Use": "Tuxum yoki embrion rivoji uchun boshqariladigan harorat va CO₂ darajasini ta’minlash. EmbryoScope Flex inkubatoridan foydalanish urug‘lantirishdan keyin 120 soat (5-kun) bilan cheklangan."
+    }
+  },
+  {
+    "name": "EMBRYOSCOPE TIME-LAPSE SYSTEM",
+    "brand": "Vitrolife",
+    "image_url": "EmbryoScope-system.png",
+    "product_url": "",
+    "url": "",
+    "title": "EMBRYOSCOPE TIME-LAPSE SYSTEM",
+    "subtitle": "",
+    "description": "EmbryoScope embrionlar rivojlanishi uchun xavfsiz va uzluksiz muhitni ta’minlab, eng yuqori homiladorlik ehtimoliga ega embrionlarni tanlashga yordam beradigan rivojlanish monitoringini imkonini beradi. Ushbu texnologiya haqiqiy vaqt formatida embrion hujayralarining bo‘linishini yozib olish va ko‘rish imkonini berib, hayotning ilk bosqichlaridan boshlab rivojlanishning barcha bosqichlarini kuzatish imkoniyatini taqdim etadi. Yozuvlar rivojlanishni xohlagan paytda batafsil tahlil qilish imkonini beradi. Tasvirlash jarayonida embrionlar qurilmadan olinmasligi bois, u tashqi omillardan himoyalangan xavfsiz muhitda bo‘ladi. Uch gazli inkubator CO2 va O2 kontsentratsiyasini minimal gaz sarfi bilan tez va aniq boshqarishni ta’minlaydi. Kichik inkubatsiya kameralari bemorlarni qo‘shish yoki olib tashlash paytida muhit sharoitlari o‘zgarishini minimallashtiradi. EmbryoScope bir vaqtning o‘zida 6 nafar bemorning 12 tadan embrioniga oid time-lapse videoni yozib olishi mumkin.",
+    "specifications": {
+      "Intended Use": "Tuxum yoki embrion rivoji uchun, tana haroratiga yaqin boshqariladigan harorat va CO₂ darajasini ta’minlash. EmbryoScope time-lapse inkubatoridan foydalanish urug‘lantirishdan keyin besh kun (120 soat) bilan cheklangan."
+    }
+  },
+  {
+    "name": "RAPIDWARM™ CLEAVE",
+    "brand": "Vitrolife",
+    "image_url": "rapidwarm-cleave.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPID WARM™ CLEAVE",
+    "subtitle": "Bo‘linish bosqichidagi (cleavage) vitrifikatsiyani eritish muhiti",
+    "description": "Ushbu muhit vitrifikatsiyalangan bo‘linish bosqichidagi embrionlarni eritish jarayonida qo‘llab-quvvatlab, ularning yashovchanligini saqlash uchun mo‘ljallangan.",
+    "specifications": {
+      "REF": "10118",
+      "Content": "4 x 10 mL",
+      "Intended Use": "Bo‘linish bosqichidagi vitrifikatsiyalangan embrionlarni eritish muhiti.",
+      "Description": "MOPS-buferli muhit.",
+      "Application": "+37°C haroratda oldindan muvozanatlashtirib qo‘llash uchun mos.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2–8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Glyitsin",
+      "Natriy laktat",
+      "Alanin",
+      "Natriy xlorid",
+      "Inyeksiya uchun suv (WFI)",
+      "Alanil glutamin",
+      "Kaliy xlorid",
+      "Saxaroza",
+      "Glyukoza",
+      "Prolin",
+      "Gentamitsin",
+      "Asparagin",
+      "Natriy digidrofosfat",
+      "Inson zardobiy albumini",
+      "Aspartat",
+      "Serin",
+      "Gialuronan",
+      "Magniy sulfat",
+      "Natriy bikarbonat",
+      "Natriy gidroksid",
+      "Glutamat",
+      "Taurin",
+      "Natriy piruvat",
+      "MOPS"
+    ]
+  },
+  {
+    "name": "RAPIDWARM™ OMNI",
+    "brand": "Vitrolife",
+    "image_url": "rapidwarm-omni.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPIDWARM™ OMNI",
+    "subtitle": "Vitrifikatsiyani eritish muhiti",
+    "description": "Ushbu muhit oositdan blastosista bosqichigacha bo‘lgan vitrifikatsiyalangan embrionlarni eritish paytida qo‘llab-quvvatlab, ularning yashovchanligini saqlash uchun mo‘ljallangan.",
+    "specifications": {
+      "REF": "10124",
+      "Content": "4 x 5 mL",
+      "Intended Use": "Vitrifikatsiyalangan oosit-blastosista bosqichidagi embrionlarni eritish muhiti.",
+      "Description": "MOPS-buferga ega bo‘lib, krios himoya vositalari va inson zardobiy albuminini o‘z ichiga oladi.",
+      "Application": "+37°C haroratda va normal atmosfera sharoitida oldindan muvozanatlashtirgach ishlatish uchun mos.",
+      "Storage Conditions": "Qorong‘u joyda, +2°C – +8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Gentamitsin",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gialuronan",
+      "Alanil glutamin",
+      "Prolin",
+      "Inson zardobiy albumini",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Serin",
+      "Asparagin",
+      "Saxaroza",
+      "MOPS",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Natriy gidroksid",
+      "Magniy sulfat",
+      "Taurin",
+      "Natriy piruvat",
+      "Glutamat",
+      "Natriy laktat",
+      "Glyitsin",
+      "Inyeksiya uchun suv (WFI)"
+    ]
+  },
+  {
+    "name": "RAPIDVIT™ OMNI",
+    "brand": "Vitrolife",
+    "image_url": "rapidvit-omni.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPIDVIT™ OMNI",
+    "subtitle": "Vitrifikatsiya muhiti",
+    "description": "Ushbu muhit oositdan blastosista bosqichigacha bo‘lgan embrionlarni vitrifikatsiya qilish paytida qo‘llab-quvvatlab, ularning yashovchanligini saqlash uchun mo‘ljallangan.",
+    "specifications": {
+      "REF": "10123",
+      "Content": "3 x 5 mL",
+      "Intended Use": "Oosit-blastosista bosqichi uchun vitrifikatsiya muhiti.",
+      "Description": "MOPS buferiga ega bo‘lib, krios himoya vositalari va inson zardobiy albuminini o‘z ichiga oladi.",
+      "Application": "+37°C harorat va normal atmosfera sharoitida oldindan muvozanatlangach ishlatish uchun mos.",
+      "Storage Conditions": "Qorong‘u joyda, +2°C – +8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Etilenglikol",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanil glutamin",
+      "Prolin",
+      "Gialuronan",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Inson zardobiy albumini",
+      "Asparagin",
+      "Saxaroza",
+      "Propandiol",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Serin",
+      "Magniy sulfat",
+      "Taurin",
+      "MOPS",
+      "Glutamat",
+      "Natriy laktat",
+      "Natriy gidroksid",
+      "Glyitsin",
+      "Inyeksiya uchun suv (WFI)",
+      "Natriy piruvat"
+    ]
+  },
+  {
+    "name": "RAPIDVIT™ CLEAVE",
+    "brand": "Vitrolife",
+    "image_url": "rapidvit-cleave.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPIDVIT™ CLEAVE",
+    "subtitle": "Bo‘linish (cleavage) bosqichi vitrifikatsiya muhiti",
+    "description": "Ushbu muhit bo‘linish bosqichidagi embrionlarni vitrifikatsiya qilish paytida qo‘llab-quvvatlab, ularning yashovchanligini saqlash uchun mo‘ljallangan.",
+    "specifications": {
+      "REF": "10117",
+      "Content": "3 x 10 mL",
+      "Intended Use": "Bo‘linish bosqichidagi embrionlar uchun vitrifikatsiya muhiti.",
+      "Description": "MOPS buferli muhit.",
+      "Application": "+37°C haroratga oldindan muvozanatlantirilgach ishlatish uchun mos.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2–8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Natriy piruvat",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanil glutamin",
+      "Prolin",
+      "Etilenglikol",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Fikoll",
+      "Asparagin",
+      "Serin",
+      "Propandiol",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Inson zardobiy albumini",
+      "Magniy sulfat",
+      "Taurin",
+      "Gialuronan",
+      "Glutamat",
+      "Natriy laktat",
+      "Natriy gidroksid",
+      "MOPS",
+      "Inyeksiya uchun suv (WFI)",
+      "Saxaroza",
+      "Glyitsin"
+    ]
+  },
+  {
+    "name": "RAPIDVIT™ BLAST",
+    "brand": "Vitrolife",
+    "image_url": "rapidvit-blast.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPIDVIT™ BLAST",
+    "subtitle": "Blastosista vitrifikatsiya muhiti",
+    "description": "Ushbu muhit blastosista bosqichidagi embrionlarni vitrifikatsiya qilish paytida qo‘llab-quvvatlab, ularning yashovchanligini saqlash uchun mo‘ljallangan.",
+    "specifications": {
+      "REF": "10119",
+      "Content": "3 x 10 mL",
+      "Intended Use": "Blastosista bosqichidagi embrionlarni vitrifikatsiya qilish muhiti",
+      "Description": "MOPS buferli muhit",
+      "Application": "+37°C haroratga oldindan muvozanatlantirilgach ishlatish uchun mos.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2–8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Natriy xlorid",
+      "Saxaroza",
+      "Alanin",
+      "Kaliy xlorid",
+      "Gentamitsin",
+      "Alanil glutamin",
+      "Prolin",
+      "Etilenglikol",
+      "Glyukoza",
+      "Natriy digidrofosfat",
+      "Fikoll",
+      "Asparagin",
+      "Serin",
+      "Propandiol",
+      "Aspartat",
+      "Natriy bikarbonat",
+      "Inson zardobiy albumini",
+      "Magniy sulfat",
+      "Taurin",
+      "Gialuronan",
+      "Glutamat",
+      "Natriy laktat",
+      "Natriy gidroksid",
+      "MOPS",
+      "Inyeksiya uchun suv (WFI)",
+      "Natriy piruvat",
+      "Glyitsin"
+    ]
+  },
+  {
+    "name": "RAPIDWARM BLAST™",
+    "brand": "Vitrolife",
+    "image_url": "rapidwarm-blast.png",
+    "product_url": "",
+    "url": "",
+    "title": "RAPID WARM BLAST™",
+    "subtitle": "Blastosista vitrifikatsiyani eritish muhiti",
+    "description": "Ushbu muhit vitrifikatsiyalangan blastosista bosqichidagi embrionlarni eritish paytida qo‘llab-quvvatlab, ularning yashovchanligini saqlash uchun mo‘ljallangan.",
+    "specifications": {
+      "REF": "10120",
+      "Content": "3 x 10 mL",
+      "Intended Use": "Blastosista bosqichidagi vitrifikatsiyalangan embrionlarni eritish muhiti.",
+      "Description": "MOPS buferli muhit.",
+      "Application": "+37°C haroratga oldindan muvozanatlangandan so‘ng ishlatish uchun mos.",
+      "Shelf Life": "Jo‘natish sanasidan boshlab kamida 5 hafta. Muddatni butilka yorlig‘idan tekshiring.",
+      "Storage Conditions": "Qorong‘u joyda, +2–8°C haroratda saqlang"
+    },
+    "composition": [
+      "Kalsiy xlorid",
+      "Glyitsin",
+      "Natriy laktat",
+      "Alanin",
+      "Natriy xlorid",
+      "Inyeksiya uchun suv (WFI)",
+      "Alanil glutamin",
+      "Kaliy xlorid",
+      "Saxaroza",
+      "Glyukoza",
+      "Prolin",
+      "Gentamitsin",
+      "Asparagin",
+      "Natriy digidrofosfat",
+      "Inson zardobiy albumini",
+      "Aspartat",
+      "Serin",
+      "Gialuronan",
+      "Magniy sulfat",
+      "Natriy bikarbonat",
+      "Natriy gidroksid",
+      "Glutamat",
+      "Taurin",
+      "Natriy piruvat"
+    ]
+  },
+  {
+    "name": "CULTURE DISH 40 MM",
+    "brand": "",
+    "image_url": "culture-dish.png",
+    "product_url": "",
+    "url": "",
+    "title": "CULTURE DISH 40 MM",
+    "subtitle": "40 mm kultura plastinkasi",
+    "description": "Bizning EKO uchun maxsus ishlab chiqilgan va tasdiqlangan kultura plastinkalarimiz protseduralaringiz uchun ishonchli muhitni ta’minlaydi. Foydalanishga tayyor. Xona haroratida saqlanadi. Ish sohasidan alohida bemor identifikatsiyasi maydoniga ega. Yuzalar embrion kultivatsiyasi uchun maxsus yaratilgan. Quduq chetlari embrionni tasvirga olishni osonlashtirish uchun buralgan shaklda. Pastki qismi isitish plastinkasi bilan kontaktda bo‘lib, haroratni teng taqsimlaydi. Embrion kultivatsiyasi uchun mo‘ljallangan.",
+    "specifications": {
+      "Content": "40 mm",
+      "Intended Use": "Embrion kultivatsiyasi uchun kultura plastinkasi",
+      "Description": "40 mm kultura plastinkasi",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "CULTURE DISH 60 MM",
+    "brand": "",
+    "image_url": "culture-dish60.png",
+    "product_url": "",
+    "url": "",
+    "title": "CULTURE DISH 60 MM",
+    "subtitle": "60 mm kultura plastinkasi",
+    "description": "Bizning EKO uchun maxsus ishlab chiqilgan va tasdiqlangan kultura plastinkalarimiz protseduralaringiz uchun ishonchli muhitni ta’minlaydi. Foydalanishga tayyor. Xona haroratida saqlanadi. Ish sohasidan alohida bemor identifikatsiyasi maydoniga ega. Yuzalar embrion kultivatsiyasi uchun maxsus yaratilgan bo‘lib, quduq chetlari embrion tasvirini olishni osonlashtirish uchun buralgan shaklga ega. Pastki qismi isitish plastinkasi bilan kontaktda, harorat teng taqsimlanadi. Oosit yig‘ish, urug‘lantirish va embrion kultivatsiyasi uchun ishlatilishi mumkin.",
+    "specifications": {
+      "Content": "60 mm",
+      "Intended Use": "Oosit yig‘ish, urug‘lantirish va embrion kultivatsiyasi uchun kultura plastinkasi",
+      "Description": "60 mm kultura plastinkasi",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "CULTURE DISH 90 MM",
+    "brand": "",
+    "image_url": "collection-dish.png",
+    "product_url": "",
+    "url": "",
+    "title": "CULTURE DISH 90 MM",
+    "subtitle": "90 mm kultura plastinkasi",
+    "description": "Bizning EKO uchun maxsus ishlab chiqilgan va tasdiqlangan kultura plastinkalarimiz protseduralaringiz uchun ishonchli muhitni ta’minlaydi. Foydalanishga tayyor va xona haroratida saqlanadi. Yuzalar embrion kultivatsiyasi uchun maxsus yaratilgan, quduq chetlari embrion tasvirini olishni osonlashtirish uchun buralgan. Pastki qismi isitish plastinkasi bilan kontaktda bo‘lib, haroratni teng taqsimlaydi. Oosit yig‘ish uchun mo‘ljallangan.",
+    "specifications": {
+      "Content": "90 mm",
+      "Intended Use": "Oosit yig‘ish uchun kultura plastinkasi",
+      "Description": "90 mm kultura plastinkasi",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "CENTRIFUGE TUBES",
+    "brand": "",
+    "image_url": "centrifuge.png",
+    "product_url": "",
+    "url": "",
+    "title": "CENTRIFUGE TUBE",
+    "subtitle": "Sentrafuga probirkasi",
+    "description": "Bizning EKO uchun maxsus ishlab chiqilgan va tasdiqlangan sentrifuga probirkamiz protseduralaringiz uchun ishonchli muhitni ta’minlaydi. Foydalanishga tayyor. Xona haroratida saqlanadi. 15 mL hajmdagi sentrifuga probirkasi, burama qopqoqli. MEA testidan o‘tkazilgan.",
+    "specifications": {
+      "Content": "15 mL burama qopqoqli probirka",
+      "Intended Use": "EKO protseduralari uchun sentrifuga probirkasi",
+      "Description": "Sentrifuga probirkasi",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "SEROLOGICAL PIPETTES",
+    "brand": "",
+    "image_url": "Serological-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "SEROLOGICAL PIPETTES",
+    "subtitle": "Serologik pipetkalar",
+    "description": "Bizning sertifikatlangan va sifat sinovlaridan o‘tgan serologik pipetkalarimiz gameta va embrionlar uchun xavfsiz muhit ta’minlaydi. Keng ko‘lamli qo‘llash imkoniyatiga ega. 1 mL, 2 mL, 5 mL va 10 mL hajmlarda mavjud.",
+    "specifications": {
+      "Content": "1 mL, 2 mL, 5 mL, va 10 mL variantlari",
+      "Intended Use": "EKO protseduralari uchun serologik pipetkalar",
+      "Description": "Serologik pipetka",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "PASTEUR PIPETTES",
+    "brand": "",
+    "image_url": "Pasteur-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "PASTEUR PIPETTES",
+    "subtitle": "Paster pipetkalar",
+    "description": "Bizning sertifikatlangan va sifat sinovlaridan o‘tgan Paster pipetkalarimiz gameta va embrionlar uchun xavfsiz muhit ta’minlaydi. 1 mL va 3 mL variantlarda mavjud.",
+    "specifications": {
+      "Content": "1 mL va 3 mL variantlari",
+      "Intended Use": "EKO protseduralari uchun Paster pipetkalar",
+      "Description": "Paster pipetka",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "OOCYTE COLLECTION TUBE",
+    "brand": "",
+    "image_url": "oocyte-collection.png",
+    "product_url": "",
+    "url": "",
+    "title": "OOCYTE COLLECTION TUBE",
+    "subtitle": "Oosit yig‘ish probirkasi",
+    "description": "14 mL hajmdagi oosit yig‘ish probirkasi, havo oqimi uchun ikki pozitsiyali qopqoqqa ega. MEA testidan o‘tkazilgan.",
+    "specifications": {
+      "Content": "14 mL probirka, ikki pozitsiyali qopqoqli",
+      "Intended Use": "Oosit yig‘ish uchun probirka",
+      "Description": "Oosit yig‘ish probirkasi",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "name": "SINGLE LUMEN™",
+    "brand": "",
+    "image_url": "single-lumen.png",
+    "product_url": "",
+    "url": "",
+    "title": "SINGLE LUMEN™",
+    "subtitle": "Yagona kanalga ega (Single Lumen) oosit olish ignasi",
+    "description": "Aspiratsiya vaqtini optimallashtirish, boshqaruvni maksimal darajada oshirish va bemorning qulayligini ta’minlash uchun ishlab chiqilgan.",
+    "specifications": {
+      "Description": "Yagona kanalga ega oosit olish ignasi",
+      "Intended Use": "Tuxumdon follikullaridan oositlarni so‘rib olish uchun",
+      "Application": "Mos aspiratsiya nasosi, yig‘ish probirkasi va aspiratsiya nasosi quvuri bilan ishlatish uchun",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "DOUBLE LUMEN™",
+    "brand": "",
+    "image_url": "double-lumen.png",
+    "product_url": "",
+    "url": "",
+    "title": "DOUBLE LUMEN™",
+    "subtitle": "Ikki kanalli (Double Lumen) oosit olish ignasi",
+    "description": "Aspiratsiya vaqtini optimallashtirish, boshqaruvni maksimal darajada oshirish va bemorning qulayligini ta’minlash uchun ishlab chiqilgan.",
+    "specifications": {
+      "Description": "Ikki kanalli oosit olish ignasi",
+      "Intended Use": "Tuxumdon follikullarini yuvish va oositlarni so‘rib olish uchun mo‘ljallangan",
+      "Application": "Mos aspiratsiya nasosi, yuvish shpritsi, yig‘ish probirkasi va aspiratsiya nasosi quvuri bilan ishlatish uchun",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "SENSE™",
+    "brand": "",
+    "image_url": "SENSE-2.png",
+    "product_url": "",
+    "url": "",
+    "title": "SENSE™",
+    "subtitle": "Oosit olish ignasi",
+    "description": "Aspiratsiya vaqtini optimallashtirish, boshqaruvni maksimal darajada oshirish va bemorning qulayligini ta’minlash uchun ishlab chiqilgan.",
+    "specifications": {
+      "Description": "Oosit olish ignasi",
+      "Intended Use": "Tuxumdon follikullaridan oositlarni yuvish va/yoki aspiratsiya qilish uchun mo‘ljallangan",
+      "Application": "Mos aspiratsiya nasosi, yig‘ish probirkasi va aspiratsiya nasosi quvuri bilan ishlatish uchun",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "VACUUM PUMP TUBING",
+    "brand": "",
+    "image_url": "aksesuar.png",
+    "product_url": "",
+    "url": "",
+    "title": "VACUUM PUMP TUBING",
+    "subtitle": "Aspiratsiya nasosi quvuri",
+    "description": "Aspiratsiya nasosi quvuri, oosit olish jarayonida igna va aspiratsiya nasosi o‘rtasida ulanishni ta’minlash uchun ishlab chiqilgan va cho‘zgich vazifasini bajaradi.",
+    "specifications": {
+      "Features": "Barcha aspiratsiya nasosi quvurlarida ignaga ulanish uchun mo‘ljallangan erkak luer lock ulanishi mavjud.",
+      "Connection Options": [
+        "Erkak luer lock ulanishi",
+        "Ayol luer lock ulanishi",
+        "Ochiq uch"
+      ]
+    }
+  },
+  {
+    "name": "ULTRASOUND TRANSMISSION GEL",
+    "brand": "",
+    "image_url": "gxmedia.png",
+    "product_url": "",
+    "url": "",
+    "title": "ULTRASOUND TRANSMISSION GEL",
+    "subtitle": "Ultratovush gel",
+    "description": "Vitrolife geli – xavfsizlik, samaradorlik va qulaylikning mukammal uyg‘unligi.",
+    "specifications": {
+      "Sterility": "Steril",
+      "Package Content": "Har biri 20 g dan 50 ta dona",
+      "Packaging": "Tez foydalanish uchun qulay saqlash qutisida"
+    }
+  },
+  {
+    "name": "TRANSDUCER COVER",
+    "brand": "",
+    "image_url": "imaging-system-culture.jpeg",
+    "product_url": "",
+    "url": "",
+    "title": "TRANSDUCER COVER",
+    "subtitle": "Transduser qoplamasi",
+    "description": "Transduser qoplamalari ultratovush zondini sterilizatsiya va himoya qilish uchun ishlatiladi.",
+    "specifications": {
+      "Features": [
+        "Alohida-alohida o‘ralgan",
+        "Latekssiz",
+        "Polietilendan tayyorlangan",
+        "Tasodifiy yirtilishni oldini olish uchun uzunligi bo‘ylab maxsus ishlab chiqilgan"
+      ]
+    }
+  },
+  {
+    "name": "RAPID-I™ Vitrification System",
+    "brand": "Vitrolife",
+    "image_url": "the-rapid-i-vitrification-system.jpg",
+    "product_url": "",
+    "url": "",
+    "title": "RAPID-I™ Vitrification System",
+    "subtitle": "Tez, oson va muvaffaqiyatli vitrifikatsiya qilish uchun yopiq tizim",
+    "description": "Rapid-I™ Vitrification System embrionlarni vitrifikatsiya qilish uchun xavfsiz va samarali yechim taklif etadi. Yopiq tizim dizayni ifloslanish xavfini kamaytirib, embrion xavfsizligini oshiradi.",
+    "specifications": {},
+    "accessories": [
+      {
+        "name": "SmartBox™",
+        "ref": "14408",
+        "description": "Rapid-I™ bilan foydalaniladigan suyuq azot konteyneri"
+      },
+      {
+        "name": "Rapid-I™ Sealer",
+        "ref": "14414",
+        "description": "Rapid-I to‘plamlarini yopish uchun ultratovush payvandlagich"
+      },
+      {
+        "name": "Rapid-I™ Kit",
+        "ref": "14406",
+        "description": "Vitrifikatsiya tayog‘i"
+      },
+      {
+        "name": "Rapid-I™ Cutter",
+        "ref": "14413",
+        "description": "Vitrifikatsiya tayog‘ini ochish uchun qaychi"
+      },
+      {
+        "name": "Rapid-I™ Forceps",
+        "ref": "14410",
+        "description": "Rapid-I tayog‘ini ochilgandan so‘ng uni olish uchun qisqich"
+      }
+    ]
+  },
+  {
+    "name": "ICSI DISH",
+    "brand": "",
+    "image_url": "icsi-kap.png",
+    "product_url": "",
+    "url": "",
+    "title": "ICSI DISH",
+    "subtitle": "ICSI kultura plastinkasi",
+    "description": "Bizning EKO uchun maxsus ishlab chiqilgan va tasdiqlangan kultura plastinkalarimiz protseduralaringiz uchun ishonchli muhitni ta’minlaydi. Foydalanishga tayyor. Xona haroratida saqlanadi. Ish sohasidan alohida bemor identifikatsiyasi maydoniga ega. Yuzalar embrion kultivatsiyasi uchun maxsus ishlab chiqilgan, tag qismi isitish plastinkasi bilan kontaktda bo‘lib, haroratni bir xil taqsimlaydi. ICSI protseduralarida qo‘llash uchun maxsus mo‘ljallangan.",
+    "specifications": {
+      "Intended Use": "ICSI protseduralari uchun maxsus kultura plastinkasi",
+      "Description": "ICSI kultura plastinkasi",
+      "Storage Conditions": "Xona haroratida"
+    }
+  },
+  {
+    "id": "evaluation",
+    "name": "eva",
+    "brand": "",
+    "image_url": "degerlendirme.png",
+    "product_url": "",
+    "url": "",
+    "title": "EVALUATION TOOLS",
+    "subtitle": "",
+    "description": "An’anaviy embrion baholash usuli embrion rivojlanishi haqida cheklangan ma’lumot beradi. Time-lapse tahlilidan foydalanib, embrion rivojlanishining yuqori sifatli videolarini o‘rganish va har bir embrion haqida kerakli ma’lumotlarni osongina qayd etib borish mumkin. Shu orqali embrion rivojlanishida ilgari kuzatilmagan holatlar va klinik natijalar bilan bog‘liq voqealarni aniqlashingiz mumkin.",
+    "specifications": {},
+    "products": [
+      {
+        "name": "EmbryoViewer Software",
+        "title": "EmbryoViewer dasturi",
+        "description": "EmbryoScope time-lapse inkubatori tomonidan olingan tasvirlarni ko‘rish, taqqoslash, saqlash va uzatish uchun ishlatiladigan dastur. EmbryoViewer orqali siz tanlangan embrionlarning rivojlanishini kuzatishingiz, izohlar kiritishingiz va taqqoslashingiz mumkin. Inkubator ish sharoitlari bemor ma’lumotlari bilan birga avtomatik ravishda saqlanadi va sifat nazorati uchun EmbryoViewer’da kuzatilishi mumkin."
+      },
+      {
+        "name": "KIDScore™ Decision Support Tool",
+        "title": "KIDScore™ qarorni qo‘llab-quvvatlash vositasi",
+        "description": "KIDScore™ qaror qabul qilish vositalari har bir embrionga ob’ektiv ball beradi. Ball embrionning implantatsiya potentsialini aks ettirib, embrion bahosida izchil va samarali yordam ko‘rsatadi."
+      },
+      {
+        "name": "KIDScore D3",
+        "title": "KIDScore D3",
+        "description": "3-kuni embrion ko‘chirish afzal ko‘riladigan va 3-kuni kutilgan bosqichga erishgan embrionlar orasida tanlov qilinadigan holatlarda ishlatiladi. KIDScore D3 embrionlaringizga 1 dan 5 gacha bo‘lgan morfokinetik ball beradi. Bu ball embrionning implantatsiya potentsialining nisbiy o‘lchovidir."
+      },
+      {
+        "name": "KIDScore D5",
+        "title": "KIDScore D5",
+        "description": "Rejalashtirilganidan ko‘proq sifatli blastosistalar mavjud bo‘lganda va qaysi embrionlar biopsiya yoki diagnostika uchun yaroqli ekanini aniqlashda foydalaniladi. KIDScore D5 embrionning morfologiyasi va morfokinetik xususiyatlarini hisobga olgan holda har bir embrion uchun 1 dan 9.9 gacha bo‘lgan ball hisoblaydi. Ushbu ball besh kunlik kultivatsiya davomidagi rivojlanish ma’lumotlariga asoslangan statistik implantatsiya ehtimolini aks ettiradi."
+      },
+      {
+        "name": "Guided Annotation",
+        "title": "Guided Annotation",
+        "description": "AI asosidagi Guided Annotation embrionlar rivojlanishini tez, aniq va izchil tahlil qilish imkonini beradi. U sizga embrion tanlashdan oldin zarur ma’lumot turlariga ko‘ra denudatsiya vaqtlari, morfologik baholash, pronuklear bosqichni tekshirish kabi rivojlanish hodisalari vaqtlari bo‘yicha yo‘l-yo‘riq ko‘rsatadi."
+      }
+    ]
+  },
+  {
+    "name": "IMAGING SYSTEM CULTURE DISHES",
+    "brand": "",
+    "image_url": "imaging-system-culture.jpeg",
+    "product_url": "",
+    "url": "",
+    "title": "IMAGING SYSTEM CULTURE DISHES",
+    "subtitle": "",
+    "description": "EmbryoScope va boshqa time-lapse tizimlar uchun maxsus ishlab chiqilgan kultura plastinkalari. Ushbu plastinkalar embrion kultivatsiyasi va tasvirlash jarayonlarini optimallashtiradi.",
+    "specifications": {},
+    "products": [
+      {
+        "name": "pH Validation Dish",
+        "ref": "16452",
+        "image_url": "ph-validation-dish.jpeg",
+        "description": "Steril bo‘lmagan, silikon qopqoqli plastinka bo‘lib, EmbryoScope+, EmbryoScope 8 yoki CulturePro’da pH o‘lchovlarini o‘tkazishdan oldin muhit namunalari muvozanatini ta’minlash uchun ishlatiladi.",
+        "specifications": {
+          "Medium Usage": "2 x 180 µL muhit, 1.6 mL moy qoplamasi"
+        }
+      },
+      {
+        "name": "EmbryoSlide+ ic8 Dish",
+        "ref": "16454",
+        "size": "Plastinka o‘lchami (mm): 48 × 68",
+        "wells": "Kultura quduqlari soni: 8",
+        "image_url": "embryoslide-plus-ic8.jpeg",
+        "description": "EmbryoScope+ va EmbryoScope 8 qurilmalarida embrion kultivatsiyasi uchun ishlatiladi. Har bir EmbryoSlide+ ic8 plastinkasi 8 ta alohida kultura quduqchalaridan iborat.",
+        "specifications": {
+          "Medium Usage": "210 µL muhit, 1.2 mL moy qoplamasi"
+        },
+        "additional_details": [
+          "Bir plastinkada 8 ta embrion, inkubatorda 8 yoki 15 plastinka",
+          "Shtrixkodlash",
+          "8 ta embrion alohida kultura quduqlarida saqlanadi",
+          "Har bir quduqqa 8 x 20 µL kultura muhiti",
+          "1.6 mL moy qoplamasi",
+          "Har birida 25–30 µL muhit bo‘lgan 4 ta yuvish qudug‘i",
+          "Quduqlar raqamlangan"
+        ]
+      },
+      {
+        "name": "EmbryoSlide+® Culture Dish",
+        "ref": "16450",
+        "size": "Plastinka o‘lchami (mm): 49 × 68",
+        "wells": "Kultura quduqlari soni: 16",
+        "image_url": "embryoslide-culture-dish_2c2.jpeg",
+        "description": "EmbryoScope+ va EmbryoScope 8 qurilmalarida embrion kultivatsiyasi uchun ishlatiladi. Har bir EmbryoSlide+ kultura plastinkasi 16 ta mikronaychalar (mikro-quduq)dan iborat bo‘lib, 16 ta embrion inkubatsiyasi uchun mo‘ljallangan.",
+        "specifications": {
+          "Medium Usage": "2 x 25 µL muhit, 1.4 mL moy qoplamasi"
+        },
+        "additional_details": [
+          "Bir plastinkada 16 ta embrion, inkubatorda 8 yoki 15 plastinka",
+          "Shtrixkodlash",
+          "16 ta embrion 2 ta rezervuarda alohida kultura quduqlarida saqlanadi",
+          "2 x 180 µL muhit",
+          "1.6 mL moy qoplamasi",
+          "Har birida 25–30 µL muhit bo‘lgan 4 ta yuvish qudug‘i",
+          "Quduqlar raqamlangan"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "NEEDLE ACCESSORIES",
+    "brand": "Vitrolife",
+    "image_url": "aksesuar.png",
+    "product_url": "",
+    "url": "",
+    "title": "NEEDLE ACCESSORIES",
+    "subtitle": "",
+    "description": "",
+    "specifications": {},
+    "products": [
+      {
+        "name": "VACUUM PUMP TUBING",
+        "brand": "Vitrolife",
+        "image_url": "aksesuar.png",
+        "title": "VACUUM PUMP TUBING",
+        "subtitle": "Aspiratsiya nasosi quvuri",
+        "description": "Aspiratsiya nasosi quvuri — oosit olish jarayonida igna va aspiratsiya nasosi o‘rtasida ulanishni ta’minlaydigan cho‘zgich. Barcha aspiratsiya nasosi quvurlarida ignaga ulanish uchun erkak luer lock biriktirma mavjud. Ikkinchi uchi quyidagilardan biri bo‘lishi mumkin: Erkak luer lock, Ayol luer lock yoki Ochiq uch."
+      },
+      {
+        "name": "ULTRASOUND TRANSMISSION GEL",
+        "brand": "Vitrolife",
+        "image_url": "aksesuar.png",
+        "title": "ULTRASOUND TRANSMISSION GEL",
+        "subtitle": "Ultratovush uzatish geli",
+        "description": "Vitrolife geli — xavfsizlik, samaradorlik va qulaylikning mukammal uyg‘unligi. Gel steril bo‘lib, har biri 20 g dan bo‘lgan 50 ta dona qulay qutida taqdim etiladi."
+      },
+      {
+        "name": "TRANSDUCER COVER",
+        "brand": "Vitrolife",
+        "image_url": "aksesuar.png",
+        "title": "TRANSDUCER COVER",
+        "subtitle": "Transduser qoplamasi",
+        "description": "Alohida o‘ralgan, latekssiz qoplamalar. Polietilendan ishlab chiqilgan va uzunligi bo‘ylab tasodifiy yirtilishni oldini olish uchun maxsus loyihalashtirilgan."
+      }
+    ]
+  },
+  {
+    "name": "HATCHING PIPETTE™",
+    "brand": "",
+    "image_url": "hatching-pipet.png",
+    "product_url": "",
+    "url": "",
+    "title": "HATCHING PIPETTE™",
+    "subtitle": "Xetching pipetkasi",
+    "description": "",
+    "specifications": {
+      "Description": "To‘g‘ri va silliq uchi bo‘lgan pipetka",
+      "Intended Use": "Assisted hatching yoki embrion biopsiyasi uchun zona pellusida teshik yaratish",
+      "Application": "Mikromanipulyator bilan ishlatish uchun",
+      "Storage Conditions": "Xona haroratida saqlang"
+    }
+  },
+  {
+    "name": "PIPETTE ACCESSORIES",
+    "brand": "",
+    "image_url": "pipet-aksesuar.png",
+    "product_url": "",
+    "url": "",
+    "title": "PIPETTE ACCESSORIES",
+    "subtitle": "Pipetka aksessuarlari",
+    "description": "",
+    "specifications": {
+      "Intended Use": "Denudatsiya va transfer pipetkalari bilan ishlatish uchun"
+    },
+    "products": [
+      {
+        "name": "Pipette Holder",
+        "image_url": "pipet-aksesuar.png",
+        "description": "Pipetkalarni mustahkam ushlab turish va boshqarish uchun mo‘ljallangan"
+      },
+      {
+        "name": "Silicone Bulb",
+        "image_url": "pipet-aksesuar.png",
+        "description": "Suyuqlikni aniq boshqarish uchun qo‘llanadi"
+      },
+      {
+        "name": "Connection Pieces",
+        "image_url": "pipet-aksesuar.png",
+        "description": "Turli tipdagi pipetkalarni tizimga moslashtirish uchun ishlatiladi"
+      }
+    ]
+  }
+]

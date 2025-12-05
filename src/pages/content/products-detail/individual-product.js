@@ -6,6 +6,8 @@ import EmbryoGlueDisplay from "./g-serisi-kultur-medyumlari/embryoglue-display-c
 import OVOILDisplay from "./ovoil/ovoil-component";
 import trProductsData from "./sismed_products.json";
 import enProductsData from "./sismed_products_en.json";
+import ruProductsData from "./sismed_products_ru.json";
+import uzProductsData from "./sismed_products_uz.json";
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/router";
@@ -55,7 +57,14 @@ const ProductDetail = () => {
   const { i18n, t } = useTranslation();
   const productId = pathname.split("/").pop();
   const previousPath = pathname.split("/").slice(0, -1).join("/");
-  const productsData = i18n.language === "en" ? enProductsData : trProductsData;
+  const productsData =
+    i18n.language === "en"
+      ? enProductsData
+      : i18n.language === "ru"
+      ? ruProductsData
+      : i18n.language === "uz"
+      ? uzProductsData
+      : trProductsData;
   // Track the previous language
   const prevLang = useRef(i18n.language);
   // Navigate back only when language actually changes
