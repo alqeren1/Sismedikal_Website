@@ -150,7 +150,7 @@ export default function About() {
                 </tr>
                 <tr className="border-b-2 font-bold text-gray-900 xl:text-lg border-gray-300">
                   <td className="px-4 py-4 text-center" colSpan="5">
-                    Cinnah Caddesi Gelibolu Sokak No:3/7 Kavaklıdere – Ankara /
+                    Büyükelçi Caddesi No:9 Barbaros Mah. Çankaya – Ankara /
                     Türkiye
                   </td>
                 </tr>

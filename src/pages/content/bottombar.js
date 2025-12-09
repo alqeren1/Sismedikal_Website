@@ -15,7 +15,7 @@ export default function Bottombar() {
       city: t("bottombar.office"),
       contact: "(0312) 426 0663 - Fax : (0312) 426 7401",
       email: "info@sismed.com",
-      address: "Cinnah Cad. Gelibolu Sk. No:3/7 Kavaklıdere - ANKARA",
+      address: "Büyükelçi Cad. No:9 Barbaros - ANKARA",
     },
     {
       city: t("bottombar.office2"),
