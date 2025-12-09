@@ -20,8 +20,8 @@ const Marker = dynamic(
 );
 
 export default function Intro3() {
-  const position = [39.89969615767547, 32.858369142483554];
-  const pinPosition = [39.89969615767547, 32.858369142483554];
+  const position = [39.907178, 32.86347];
+  const pinPosition = [39.907178, 32.86347];
   const { t } = useTranslation();
 
   const [isClient, setIsClient] = useState(false);
