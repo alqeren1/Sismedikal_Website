@@ -117,22 +117,22 @@ export default function About() {
                     {t("contact.tablePositions.4")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
-                    Serhat İŞLEYEN
+                    Onur AKDUMAN
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
-                    (+90 532) 580 26 00
+                    (+90 533) 211 93 30
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     (+90 312) 426 74 01
                   </td>
-                  <td className="px-4 py-4"></td>
+                  <td className="px-4 py-4">onur@sismed.com</td>
                 </tr>
                 <tr className="border-b-2 text-gray-900  xl:text-lg border-gray-300">
                   <td className="px-0 py-4 border-r-2 border-gray-300">
                     {t("contact.tablePositions.5")}
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
-                    Buket AKKAYA
+                    Hatice GEÇİT
                   </td>
                   <td className="px-4 py-4 border-r-2 border-gray-300">
                     (+90 312) 426 06 63 – 64
