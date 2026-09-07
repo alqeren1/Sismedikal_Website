@@ -34,7 +34,7 @@ export default function Intro3() {
       container: mapContainerRef.current,
       style: "https://tiles.openfreemap.org/styles/positron",
       center: position,
-      zoom: 18,
+      zoom: 17,
       attributionControl: false,
     });
 

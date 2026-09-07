@@ -38,7 +38,7 @@ export default function Intro3() {
       center: position,
 
       // ORIGINAL ZOOM
-      zoom: 18,
+      zoom: 17,
 
       // Add our own attribution control below
       attributionControl: false,
